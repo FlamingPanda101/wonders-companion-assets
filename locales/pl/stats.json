@@ -1,0 +1,302 @@
+{
+  "playerHistory": {
+    "title": "Statystyki Gracza",
+    "subtitle": "Analityka i Statystyki Pro",
+    "rankOverall": "Pozycja w Rankingu: #{{rank}}",
+    "wins": "Wygrane",
+    "games": "Gry",
+    "winRate": "Współczynnik Zwycięstw",
+    "avgScore": "Średni Wynik",
+    "scoringProfile": "Profil Punktowy",
+    "averagePointsCategory": "Średnie punkty według kategorii",
+    "recentPerformance": "Ostatnie Wyniki",
+    "scoreTrendLast10": "Trend punktowy z ostatnich 10 gier",
+    "playStyleDescription": "Archetypy: System analizuje Twój profil punktowy, aby przypisać Ci Klasę na podstawie Twoich wyników.",
+    "classLabel": "Archetyp",
+    "yourArchetypeIs": "Twój archetyp to: {{name}}",
+    "match": "Dopasowanie",
+    "unknown": "Nieznany",
+    "wonderMastery": "Mistrzostwo Cudów",
+    "sideAWinRate": "Współczynnik Wygranych Strona A",
+    "sideBWinRate": "Współczynnik Wygranych Strona B",
+    "wonderSideA": "Strona A",
+    "wonderSideB": "Strona B",
+    "you": "Ty",
+    "globalAvg": "Wszyscy",
+    "recommendedBoard": "Na podstawie Twoich wyników sugerujemy",
+    "sortByGames": "Liczba Gier",
+    "sortByWinRate": "Współczynnik Wygranych",
+    "rival": "Rywal",
+    "barelyAhead": "Średni wynik jest przed Tobą o <1>{{diff}} pkt</1>",
+    "barelyBelow": "Średni wynik jest za Tobą o <1>{{diff}} pkt</1>",
+    "scoreStalemate": "Statystyczny Remis (Średni wynik)",
+    "victim": "Twoja Ofiara",
+    "youBeatThem_one": "Pokonałeś ich 1 raz",
+    "youBeatThem_other": "Pokonałeś ich <1>{{count}}</1> razy",
+    "matchHistory": "Historia Spotkań",
+    "nemesis": "Nemezis",
+    "hasBeatenYou": "Pokonał Cię <1>{{losses}}</1> razy",
+    "victory": "Zwycięstwo!",
+    "won": "wygrana",
+    "searchPlayers": "Szukaj graczy...",
+    "noPlayersFound": "Nie znaleziono graczy",
+    "tryDifferentSearch": "Spróbuj innego terminu",
+    "playGamesToSeeStats": "Zagraj kilka gier, aby zobaczyć tutaj statystyki graczy!",
+    "achievements": "Osiągnięcia",
+    "score": "Wynik",
+    "progress": "Postęp",
+    "best": "Najlepszy",
+    "get": "POBIERZ",
+    "overall": "Ogólne",
+    "vs": "vs",
+    "badges": {
+      "beginner_luck": {
+        "title": "Szczęście Początkującego",
+        "description": "Wygraj swoją pierwszą grę w życiu"
+      },
+      "centurion": {
+        "title": "Centurion",
+        "description": "Zdobądź 100+ punktów w jednej grze",
+        "progressLabel": "{{current}}/100 maks. wynik"
+      },
+      "close_call": {
+        "title": "O Włos",
+        "description": "Wygraj grę o 2 punkty lub mniej"
+      },
+      "culture_icon": {
+        "title": "Ikona Kultury",
+        "description": "Zdobądź 40+ punktów w Budowlach Cywilnych"
+      },
+      "dark_side": {
+        "title": "Ciemna Strona",
+        "description": "Wygraj 5 gier używając Strony B Cudu",
+        "progressLabel": "{{current}}/5 wygranych"
+      },
+      "debt_collector": {
+        "title": "Windykator",
+        "description": "Wygraj grę posiadając 5+ żetonów Długu"
+      },
+      "dominator": {
+        "title": "Dominator",
+        "description": "Wygraj grę o 20 punktów lub więcej"
+      },
+      "globe_trotter": {
+        "title": "Obieżyświat",
+        "description": "Zagraj wszystkimi 7 podstawowymi cudami",
+        "progressLabel": "{{current}}/7 podstawowych cudów"
+      },
+      "grand_scientist": {
+        "title": "Wielki Naukowiec",
+        "description": "Zdobądź 50+ punktów w Nauce"
+      },
+      "guild_leader": {
+        "title": "Lider Gildii",
+        "description": "Zdobądź 30+ punktów w Gildiach"
+      },
+      "hoarder": {
+        "title": "Chomik",
+        "description": "Zakończ grę z 20+ Monetami"
+      },
+      "island_explorer": {
+        "title": "Eksplorator Wysp",
+        "description": "Odkryj 3+ wyspy w jednej grze"
+      },
+      "jack_of_all_trades": {
+        "title": "Człowiek Orkiestra",
+        "description": "Zdobądź > 8 punktów w 5+ kategoriach w jednej grze"
+      },
+      "leader_of_leaders": {
+        "title": "Lider Liderów",
+        "description": "Zdobądź 15+ punktów z kart Liderów"
+      },
+      "master_builder": {
+        "title": "Mistrz Budowy",
+        "description": "Ukończ wszystkie etapy swojego cudu"
+      },
+      "merchant_prince": {
+        "title": "Książę Kupców",
+        "description": "Zdobądź 20+ punktów w Budowlach Handlowych"
+      },
+      "naval_commander": {
+        "title": "Dowódca Marynarki",
+        "description": "Wygraj grę z maksymalną siłą morską"
+      },
+      "pacifist": {
+        "title": "Pacyfista",
+        "description": "Wygraj grę z ≤ 0 punktami militarnymi"
+      },
+      "participation_award": {
+        "title": "Nagroda za Uczestnictwo",
+        "description": "Zagraj 5 gier bez ani jednej wygranej"
+      },
+      "specialist": {
+        "title": "Specjalista",
+        "description": "Zdobądź > 35 punktów w jednej kategorii"
+      },
+      "speed_demon": {
+        "title": "Demon Prędkości",
+        "description": "Zakończ grę w mniej niż 20 minut"
+      },
+      "strategist": {
+        "title": "Strateg",
+        "description": "Utrzymaj 30% współczynnik wygranych (min. 10 gier)",
+        "progressLabel": "{{current}}%/30% wygranych"
+      },
+      "supreme_general": {
+        "title": "Naczelny Wódz",
+        "description": "Zdobądź 40+ punktów w Militariach"
+      },
+      "veteran": {
+        "title": "Weteran",
+        "description": "Zagraj 50 gier",
+        "progressLabel": "{{current}}/50 gier"
+      },
+      "wonder_master": {
+        "title": "Mistrz Cudów",
+        "description": "Wygraj 7 różnymi cudami",
+        "progressLabel": "{{current}}/7 wygranych"
+      },
+      "century_club": {
+        "title": "Klub Stulecia",
+        "description": "Zagraj 100 gier",
+        "progressLabel": "{{current}}/100 gier"
+      },
+      "iron_will": {
+        "title": "Żelazna Wola",
+        "description": "Wygraj 10 gier",
+        "progressLabel": "{{current}}/10 wygranych"
+      },
+      "social_butterfly": {
+        "title": "Towarzyski Motyl",
+        "description": "Zagraj przeciwko 10+ różnym przeciwnikom",
+        "progressLabel": "{{current}}/10 przeciwników"
+      },
+      "loyal_wonder": {
+        "title": "Lojalny Cud",
+        "description": "Zagraj tym samym cudem 10+ razy",
+        "progressLabel": "{{current}}/10 razy"
+      },
+      "double_agent": {
+        "title": "Podwójny Agent",
+        "description": "Wygraj obiema stronami (A i B) tego samego cudu"
+      },
+      "hat_trick": {
+        "title": "Hattrick",
+        "description": "Wygraj 3 gry z rzędu"
+      },
+      "full_house": {
+        "title": "Full",
+        "description": "Zagraj w grę z 7 graczami"
+      },
+      "balanced": {
+        "title": "Mistrz Balansu",
+        "description": "Zdobądź > 0 we wszystkich 7 podstawowych kategoriach w jednej grze"
+      }
+    }
+  },
+  "history": {
+    "title": "Historia Gier",
+    "empty": "Nie rozegrano jeszcze żadnych gier",
+    "date": "Data",
+    "winner": "Zwycięzca",
+    "players": "Gracze",
+    "viewDetails": "Zobacz Szczegóły",
+    "deleteGame": "Usuń Grę",
+    "confirmDelete": "Czy na pewno chcesz usunąć tę grę?",
+    "gamesPlayed": "Rozegrane Gry",
+    "averageScore": "Średni Wynik",
+    "highestScore": "Najwyższy Wynik",
+    "noGamesSaved": "Brak Zapisanych Gier",
+    "noMatchesFound": "Nie Znaleziono Gier",
+    "saveGamesMessage": "Zapisz swoje gry na stronie rankingu, aby zobaczyć je tutaj.",
+    "adjustFiltersMessage": "Spróbuj dostosować filtry dodatków, aby zobaczyć inne rekordy.",
+    "deleteRecord": "Usunąć rekord gry?",
+    "tip": "Wskazówka: Dotknij ikon plansz, aby zobaczyć pełne nazwy",
+    "tipShort": "Wskazówka: Dotknij ikon plansz",
+    "tipSeeFullNames": "aby zobaczyć pełne nazwy",
+    "sortedHighToLow": "--- Sortowanie: Od najwyższego ---",
+    "gameMoved": "Gra Przeniesiona!",
+    "gameMovedMessage": "Ten rekord gry pasuje do innego zestawu dodatków. Aby go zobaczyć, zmień filtr \"Tryb Gry\" u góry.",
+    "sortOptions": {
+      "mostRecent": "Najnowsze",
+      "totalScore": "Wynik Całkowity",
+      "military": "Konflikty Militarnego",
+      "treasury": "Skarbiec",
+      "wonder": "Cud",
+      "civilian": "Budowle Cywilne",
+      "scientific": "Budowle Naukowe",
+      "commercial": "Budowle Handlowe",
+      "guilds": "Gildie",
+      "debts": "Długi",
+      "naval": "Konflikty Morskie",
+      "islands": "Eksploracja Wysp",
+      "dockyard": "Plansza Stoczni"
+    },
+    "topScoreLabel": "Top {{category}}: {{score}}",
+    "copyCSVText": "Kopiuj Wyniki (Tekst CSV)",
+    "shareCSVFile": "Udostępnij Wyniki (Plik CSV)",
+    "team": "ZESPÓŁ",
+    "player": "GRACZ",
+    "winningTeam": "Zwycięski Zespół!",
+    "losingTeam": "Przegrany Zespół",
+    "vs": "vs"
+  },
+  "leaderboard": {
+    "title": "Ranking",
+    "allWonders": "Wszystkie Cuda",
+    "subtitle": "Najlepsze Wyniki Wszech Czasów",
+    "best": "Najlepszy",
+    "all": "Wszystko",
+    "bestScoresOnly": "Tylko Najlepsze Wyniki",
+    "allScores": "Wszystkie Wyniki",
+    "noRecordsFound": "Nie znaleziono rekordów",
+    "noRecordsMessage": "Zagraj w grę i zapisz wyniki, aby zapełnić ranking.",
+    "rank": "Pozycja",
+    "player": "Gracz",
+    "wins": "Wygrane",
+    "avgScore": "Średni Wynik",
+    "gamesPlayed": "Gry",
+    "winRate": "Współczynnik Wygranych"
+  },
+  "statistics": {
+    "title": "Statystyki Gry",
+    "overview": "Przegląd",
+    "totalGames": "Wszystkie Gry",
+    "totalPlayers": "Wszyscy Gracze",
+    "avgGameDuration": "Średni Czas Gry",
+    "mostUsedWonder": "Najczęściej Używany Cud",
+    "highestScoringCategory": "Najwyżej Punktowana Kategoria",
+    "mostPopularExpansion": "Najpopularniejszy Dodatek",
+    "avgWinningScore": "Średni Wynik Zwycięzcy",
+    "avgScore": "Średni Wynik",
+    "topWonder": "Najlepszy Cud",
+    "wins": "wygrane",
+    "plays": "rozgrywki",
+    "games": "gry",
+    "playerWinRate": "Współczynnik Wygranych Gracza",
+    "noPlayerData": "Brak danych graczy.",
+    "avgScoreByCategory": "Średni Wynik według Kategorii",
+    "winRateByWonder": "Współczynnik Wygranych według Cudów",
+    "mostPlayedWonders": "Najczęściej Rozgrywane Cuda",
+    "avgScoreByWonder": "Średni Wynik według Cudów",
+    "noGamesSide": "Brak rozegranych gier tą stroną.",
+    "all": "Wszystkie",
+    "sideA": "Strona A",
+    "sideB": "Strona B",
+    "statAwards": {
+      "highestScore": "Najwyższy Wynik",
+      "scientificGenius": "Geniusz Naukowy",
+      "civilianLeader": "Lider Cywilny",
+      "militaryWarlord": "Watażka",
+      "richestMerchant": "Najbogatszy Kupiec",
+      "guildMaster": "Mistrz Gildii",
+      "wonderArchitect": "Architekt Cudów",
+      "navalAdmiral": "Admirał Floty",
+      "islandExplorer": "Eksplorator Wysp",
+      "masterShipwright": "Mistrz Szkutnictwa",
+      "leaderOfLeaders": "Lider Liderów",
+      "urbanLegend": "Miejska Legenda",
+      "grandArchitect": "Wielki Architekt"
+    }
+  }
+}

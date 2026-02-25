@@ -1,0 +1,81 @@
+{
+    "privacyPolicy": {
+        "title": "Privacybeleid",
+        "lastUpdated": "Laatst bijgewerkt: 25 november 2025",
+        "intro": {
+            "title": "Inleiding",
+            "content": "Dit Privacybeleid beschrijft hoe de applicatie \"Wonders Companion\" (\"wij\", \"onze\" of \"ons\") omgaat met uw gegevens. Wij zetten ons in om uw privacy te beschermen."
+        },
+        "dataCollection": {
+            "title": "Gegevensverzameling en -opslag",
+            "noCollection": "Wij verzamelen, verzenden of bewaren geen persoonlijke informatie op externe servers.",
+            "localStorage": "Alle gegevens die in de applicatie worden ingevoerd, inclusief spelersnamen, scores en spelgeschiedenis, worden lokaal op uw apparaat opgeslagen met behulp van de lokale opslag van uw browser of de systeemeigen opslagmogelijkheden van het apparaat.",
+            "cloudBackupTitle": "Optionele Cloud Back-up",
+            "cloudBackupContent": "Wij kunnen een optionele functie aanbieden om uw spelgeschiedenis te back-uppen naar uw persoonlijke Google Drive of Google Storage. Als u ervoor kiest om deze functie te gebruiken:",
+            "cloudBackupList": [
+                "U wordt gevraagd om in te loggen met uw Google-account.",
+                "De applicatie heeft alleen toegang tot de specifieke bestanden die deze voor back-updoeleinden aanmaakt.",
+                "Uw gegevens blijven onder uw beheer in uw persoonlijke cloudopslag.",
+                "Wij hebben geen toegang tot uw Google-accountgegevens of enige andere gegevens in uw Google Drive."
+            ]
+        },
+        "thirdParty": {
+            "title": "Diensten van Derden",
+            "noTracking": "Deze applicatie maakt geen gebruik van analyses, trackingdiensten of advertentienetwerken van derden.",
+            "googleServices": "Als u zich aanmeldt voor de cloud back-upfunctie, zal de applicatie communiceren met de authenticatie- en opslagdiensten van Google, uitsluitend om de back-upfunctionaliteit te bieden. Raadpleeg het privacybeleid van Google voor meer informatie over hoe zij met uw gegevens omgaan."
+        },
+        "dataDeletion": {
+            "title": "Gegevensverwijdering",
+            "content": "Aangezien alle gegevens lokaal op uw apparaat worden opgeslagen, heeft u er volledige controle over. U kunt uw gegevens op elk gewenst moment wissen door:",
+            "methods": [
+                "De functies \"Geschiedenis Wissen\" of \"Reset\" te gebruiken binnen de applicatie-instellingen.",
+                "De cache en lokale opslag van uw browser te wissen.",
+                "De applicatie te verwijderen (indien geïnstalleerd als een native app)."
+            ]
+        },
+        "changes": {
+            "title": "Wijzigingen in dit Beleid",
+            "content": "Wij kunnen dit Privacybeleid van tijd tot tijd bijwerken. Eventuele wijzigingen worden in dit document opgenomen met een bijgewerkte \"Laatst bijgewerkt\"-datum."
+        },
+        "contact": {
+            "title": "Contact met Ons",
+            "content": "Als u vragen heeft over dit Privacybeleid, neem dan contact op met de ontwikkelaar."
+        }
+    },
+    "termsOfService": {
+        "title": "Servicevoorwaarden",
+        "lastUpdated": "Laatst bijgewerkt: {{date}}",
+        "sections": {
+            "1": {
+                "title": "1. Acceptatie van Voorwaarden",
+                "content": "Door de applicatie \"Wonders Companion\" te gebruiken, gaat u ermee akkoord gebonden te zijn aan deze Servicevoorwaarden. Als u niet akkoord gaat met deze voorwaarden, gebruik de applicatie dan niet."
+            },
+            "2": {
+                "title": "2. Beschrijving van Dienst",
+                "content": "De \"Wonders Companion\" is een digitaal hulpmiddel dat is ontworpen om spelers te helpen bij het berekenen en vastleggen van scores voor het bordspel \"7 Wonders\". Deze applicatie is een door fans gemaakte tool en is niet gelieerd aan de officiële uitgevers van 7 Wonders."
+            },
+            "3": {
+                "title": "3. Gebruikersgegevens en Privacy",
+                "content1": "Uw privacy is belangrijk voor ons. Raadpleeg ons <1>Privacybeleid</1> voor informatie over hoe wij met uw gegevens omgaan.",
+                "content2": "U bent verantwoordelijk voor het handhaven van de beveiliging van uw apparaat en alle gegevens die in de applicatie zijn opgeslagen. Als u de optionele Google Drive back-upfunctie gebruikt, bent u verantwoordelijk voor het handhaven van de beveiliging van uw Google-account."
+            },
+            "4": {
+                "title": "4. Intellectueel Eigendom",
+                "content1": "Alle spelnamen, artwork en thema's gerelateerd aan \"7 Wonders\" zijn intellectueel eigendom van hun respectievelijke eigenaren. Deze applicatie claimt geen eigendom van officiële game-assets.",
+                "content2": "De code en het ontwerp van de applicatie zijn eigendom van de ontwikkelaar. U mag de applicatie niet reproduceren, distribueren of afgeleide werken ervan maken zonder uitdrukkelijke toestemming."
+            },
+            "5": {
+                "title": "5. Beperking van Aansprakelijkheid",
+                "content": "Deze applicatie wordt geleverd \"zoals deze is\" zonder enige garanties. De ontwikkelaar is niet aansprakelijk voor enige directe, indirecte, incidentele of gevolgschade als gevolg van het gebruik of het onvermogen om de applicatie te gebruiken, inclusief gegevensverlies of printfouten."
+            },
+            "6": {
+                "title": "6. Wijzigingen in Voorwaarden",
+                "content": "Wij behouden ons het recht voor om deze Servicevoorwaarden op elk gewenst moment te wijzigen. Uw voortgezette gebruik van de applicatie na eventuele wijzigingen houdt in dat u de nieuwe voorwaarden accepteert."
+            },
+            "7": {
+                "title": "7. Contactinformatie",
+                "content": "Voor vragen over deze Servicevoorwaarden kunt u contact opnemen met de ontwikkelaar."
+            }
+        }
+    }
+}

@@ -1,0 +1,2296 @@
+{
+  "rules": {
+    "base": {
+      "hero": {
+        "badge": "基本ルール",
+        "title": "文明を築こう。",
+        "subtitle": "古代世界の七大都市の一つを導こう。資源を集め、交易路を開発し、軍事的な覇権を確立しましょう。"
+      },
+      "setup": {
+        "title": "準備",
+        "treasury": {
+          "title": "家計",
+          "text": "各プレイヤーは <strong>3コイン</strong> を持って開始します。"
+        },
+        "decks": {
+          "title": "世代カード",
+          "text": "プレイヤー人数に応じて、第I、II、III世代のカードを準備します（カードに3+などの記号があるもの）。"
+        },
+        "wonders": {
+          "title": "七不思議",
+          "text": "各プレイヤーに七不思議ボードを1枚ずつ配ります。A面かB面かを決めます。"
+        }
+      },
+      "gameFlow": {
+        "title": "ゲームの流れ",
+        "turnsTitle": "各世代 6ターン",
+        "turnsSubtitle": "各世代の開始時に、各プレイヤーに7枚のカードが配られます。",
+        "cardsDealt": "7枚配布",
+        "step1": {
+          "title": "1. カードを出す",
+          "text": "全員同時に、出すカードを1枚選びます。"
+        },
+        "step2": {
+          "title": "2. 公開とアクション",
+          "text": "カードを公開し、アクションを1つ実行します：",
+          "age1": "第I世代：左へ渡す",
+          "age2": "第II世代：右へ渡す",
+          "age3": "第III世代：左へ渡す"
+        },
+        "step3": {
+          "title": "3. 手札を渡す",
+          "text": "残りのカードを隣のプレイヤーに渡します。"
+        },
+        "note": "これを6枚のカードがプレイされるまで繰り返します。7枚目のカードは捨てられます。"
+      },
+      "actions": {
+        "title": "アクション",
+        "buildStructure": {
+          "title": "建造物を建てる",
+          "text": "カードに記載された資源コストを支払って建設します。",
+          "trading": "<strong>交易：</strong> 不足している資源は、隣人から1つにつき2コインで購入できます（商館を持っていない場合）。"
+        },
+        "buildWonder": {
+          "title": "七不思議を建造する",
+          "text": "選んだカードを裏向きにして七不思議ボードの下に差し込み、段階コストを支払います。カード自体の効果は無視されます。"
+        },
+        "discard": {
+          "title": "コインのために捨てる",
+          "text": "カードを裏向きにして捨て札置き場に置きます。",
+          "gain": "銀行から <strong>3コイン</strong> を受け取ります。"
+        }
+      },
+      "endOfAge": {
+        "title": "世代の終了：紛争",
+        "militaryTitle": "軍事紛争",
+        "comparison": "左右の隣人と軍事力（盾の数）を比較します。"
+      },
+      "scoring": {
+        "title": "最終得点計算",
+        "military": {
+          "title": "軍事紛争",
+          "text": "勝利得点から敗北チップを引いた合計。"
+        },
+        "treasury": {
+          "title": "家計",
+          "text": "手持ちの3コインにつき1勝利点。"
+        },
+        "wonder": {
+          "title": "七不思議",
+          "text": "完成させた七不思議の段階による点数。"
+        },
+        "civil": {
+          "title": "市民建造物",
+          "text": "青のカードに記載された勝利点の合計。"
+        },
+        "scientific": {
+          "title": "科学建造物",
+          "text": "同じ記号のセットと、3種類の異なる記号のセットによる点数。"
+        },
+        "commercial": {
+          "title": "商業建造物",
+          "text": "黄色の商業カードによる点数。"
+        },
+        "guilds": {
+          "title": "ギルド",
+          "text": "紫のギルドカードによる点数。"
+        }
+      },
+      "variants": {
+        "title": "バリアント",
+        "expert2p": {
+          "title": "2人プレイ用バリアント（エキスパート）",
+          "subtitle": "「中立都市」ボードが必要です。",
+          "freeCity": "<strong>中立都市：</strong> プレイヤーは交代で3つ目の都市である「中立都市」を操作します。",
+          "control": "<strong>操作：</strong> 軍事力（盾の数）が最も高いプレイヤーが、そのターンの中立都市を操作します。"
+        }
+      }
+    },
+    "leaders": {
+      "hero": {
+        "badge": "偉大なる精神",
+        "title": "知恵が時代を導く。",
+        "subtitle": "<strong>指導者 (Leaders)</strong> を雇用して、独自の恩恵を受け、戦略を導きましょう。"
+      },
+      "setup": {
+        "title": "準備",
+        "cards": {
+          "title": "指導者カード",
+          "text": "各プレイヤーに指導者カードを4枚ずつ配ります。"
+        },
+        "treasury": {
+          "title": "家計",
+          "text": "<strong>6コイン</strong> を持って開始します。"
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "指導者のドラフト",
+          "subtitle": "ゲーム開始時",
+          "text": "4枚の指導者カードをドラフトします。",
+          "pick1": "1枚選択",
+          "passRt": "右へ渡す",
+          "keep4": "4枚保持"
+        },
+        "gameplay": {
+          "title": "ゲームの流れ",
+          "recruitment": {
+            "title": "雇用フェイズ",
+            "text": "各世代の開始時：指導者を雇用、七不思議の建造、または売却します。",
+            "recruit": {
+              "title": "雇用",
+              "text": "コストを支払います。"
+            },
+            "wonder": {
+              "title": "七不思議",
+              "text": "指導者を使って段階を建造します。"
+            },
+            "sell": {
+              "title": "売却",
+              "text": "捨てて3コインを得ます。"
+            }
+          },
+          "turnsTitle": "ターン / 世代",
+          "cardsDealt": "7枚配布",
+          "step1": {
+            "title": "1. カードを出す",
+            "text": "通常通りプレイします。"
+          },
+          "step2": {
+            "title": "2. カードを渡す",
+            "text": "通常通り渡します。"
+          },
+          "step3": {
+            "title": "終了",
+            "text": "プレイを続けます。"
+          }
+        }
+      },
+      "scoring": {
+        "title": "得点計算",
+        "military": "軍事勝利点",
+        "treasury": "3コインにつき1点",
+        "wonder": "七不思議勝利点",
+        "civil": "市民建造物勝利点",
+        "scientific": "科学建造物勝利点",
+        "commercial": "商業建造物勝利点",
+        "guilds": "ギルド勝利点",
+        "leaders": {
+          "title": "指導者",
+          "text": "指導者カードによる勝利点"
+        }
+      },
+      "variants": {
+        "title": "バリアント",
+        "freeCity": {
+          "title": "チーム戦",
+          "leaders": "パートナーは隣同士に座ります。",
+          "play": "自由に戦略を相談できます。"
+        }
+      }
+    },
+    "cities": {
+      "hero": {
+        "badge": "影の支配者",
+        "title": "地下帝国が台頭する。",
+        "subtitle": "傭兵、泥棒、スパイが争いに加わります。<strong>シティーズ (Cities)</strong> は、攻撃的な相互作用と負債の要素を追加します。"
+      },
+      "setup": {
+        "title": "準備",
+        "cards": {
+          "title": "シティーズカード",
+          "text": "各世代のデッキに<strong>シティーズカード（黒のカード）</strong>を混ぜます（各プレイヤーにつき1枚）。各世代8枚のカードが配られます。"
+        },
+        "treasury": {
+          "title": "家計",
+          "text": "<strong>3コイン</strong> を持って開始します（通常通り）。"
+        }
+      },
+      "gameFlow": {
+        "title": "ゲームの流れ",
+        "turnsTitle": "ターン / 世代",
+        "cardsDealt": "8枚配布",
+        "step1": {
+          "title": "1. カードを出す",
+          "text": "通常通り建造、七不思議、または売却します。"
+        },
+        "step2": {
+          "title": "2. 解決",
+          "text": "カードの効果を直ちに解決します。"
+        },
+        "step3": {
+          "title": "3. 手札を渡す",
+          "text": "残りのカードを渡します。"
+        },
+        "note": "8枚配られるため、各世代で7回アクションを行います（基本ルールより1回多くなります）。"
+      },
+      "mechanics": {
+        "title": "新しい要素",
+        "debts": {
+          "title": "負債",
+          "text": "他プレイヤーによる金銭的な損失を支払えない場合、<strong>負債チップ</strong>（マイナス点）を受け取ります。"
+        },
+        "diplomacy": {
+          "title": "外交",
+          "text": "<strong>鳩のシンボル</strong>。外交チップを置くことで、次の軍事紛争フェイズをスキップして回避できます。"
+        }
+      },
+      "scoring": {
+        "title": "得点計算",
+        "military": "軍事勝利点",
+        "treasury": "3コインにつき1点",
+        "wonder": "七不思議勝利点",
+        "civil": "市民建造物勝利点",
+        "scientific": "科学建造物勝利点",
+        "commercial": "商業建造物勝利点",
+        "guilds": "ギルド勝利点",
+        "cities": {
+          "title": "シティーズ",
+          "text": "黒のカードによる勝利点"
+        },
+        "debt": {
+          "title": "負債",
+          "text": "ゲーム終了時に持っている負債チップの合計値を最終得点から引きます。"
+        }
+      },
+      "variants": {
+        "title": "バリアント",
+        "freeCity": {
+          "title": "チーム戦",
+          "subtitle": "2対2 または 3対3",
+          "play": "チームメイトは隣り合い、戦略を相談することができます。"
+        }
+      }
+    },
+    "armada": {
+      "hero": {
+        "badge": "海の覇者",
+        "title": "地平線を征服せよ。",
+        "subtitle": "艦隊を編成して探索、貿易、征服を行いましょう。<strong>アルマダ (Armada)</strong> は、海戦ボードと船の進展要素を追加します。"
+      },
+      "setup": {
+        "title": "海戦の準備",
+        "boards": {
+          "title": "海戦ボード",
+          "text": "各プレイヤーに <strong>海戦ボード (Dockyard)</strong> を1枚ずつ配ります。"
+        },
+        "ships": {
+          "title": "船",
+          "text": "赤、黄、青、緑の船をそれぞれの開始位置に置きます。"
+        },
+        "cards": {
+          "title": "アルマダカード",
+          "text": "各世代のデッキにアルマダカードを混ぜます（各プレイヤーにつき1枚）。"
+        }
+      },
+      "gameFlow": {
+        "title": "ゲームの流れ",
+        "turnsTitle": "ターン / 世代",
+        "cardsDealt": "8枚配布",
+        "step1": {
+          "title": "1. カードを出す",
+          "text": "建造物、七不思議、または売却のアクションを行います。"
+        },
+        "step2": {
+          "title": "2. 海戦アクション",
+          "text": "建造物を建てた場合、追加コストを支払うことで、そのカードと同じ色の船を前進させることができます。"
+        },
+        "step3": {
+          "title": "3. 手札を渡す",
+          "text": "残りのカードを渡します。"
+        }
+      },
+      "actions": {
+        "title": "海戦アクション",
+        "buildStructure": {
+          "title": "建造物を建てる",
+          "navalOpportunity": {
+            "title": "海戦の機会",
+            "text": "コストを支払うことで、対応する色の船を1スペース進めることができます。"
+          }
+        },
+        "buildWonder": {
+          "title": "七不思議を建造する",
+          "naval": "好きな色の船を1つ選んで前進させることができます（コストが必要）。"
+        },
+        "discard": {
+          "title": "売却",
+          "text": "3コインを得ます。このアクションでは船を動かすことはできません。"
+        }
+      },
+      "endOfAge": {
+        "title": "世代の終了",
+        "order": "地上戦の後に海戦を解決します。",
+        "groundWar": {
+          "title": "1. 地上紛争",
+          "text": "左右の隣人と盾の数を比較します。"
+        },
+        "navalWar": {
+          "title": "2. 海上紛争",
+          "text": "青の艦隊の数値を全プレイヤーと比較します。最下位のプレイヤーは敗北チップを受け取ります。"
+        }
+      },
+      "scoring": {
+        "title": "得点計算",
+        "military": {
+          "title": "地上軍事",
+          "text": "地上紛争による勝利点。"
+        },
+        "naval": {
+          "title": "海上軍事",
+          "text": "海上紛争（赤の艦隊）による勝利点。"
+        },
+        "treasury": {
+          "title": "家計",
+          "text": "3コインにつき1点。"
+        },
+        "wonder": "七不思議勝利点",
+        "civil": "市民建造物勝利点",
+        "scientific": "科学建造物勝利点",
+        "commercial": "商業建造物勝利点",
+        "guilds": "ギルド勝利点",
+        "islands": {
+          "title": "島々",
+          "text": "発見した島（緑・青の艦隊）による勝利点。"
+        },
+        "dockyard": {
+          "title": "海戦ボード",
+          "text": "船の位置による勝利点。"
+        }
+      },
+      "variants": {
+        "title": "バリアント",
+        "expert2p": {
+          "title": "2人用エキスパート",
+          "freeCity": "3人目の架空プレイヤーとして「中立都市」のルールを使用します。",
+          "play": "中立都市は海戦ボードを持ちません。"
+        }
+      }
+    },
+    "edifice": {
+      "hero": {
+        "badge": "偉大な建築家",
+        "title": "共に築くか、独り倒れるか。",
+        "subtitle": "<strong>大建造物 (Edifices)</strong> を共同で建設して報酬を得るか、無視して不利益を被るかを選択します。"
+      },
+      "setup": {
+        "title": "準備",
+        "cards": {
+          "title": "大建造物カード",
+          "text": "各世代につき1枚の大建造物カードを準備します。"
+        },
+        "pawns": {
+          "title": "参加ポーン",
+          "text": "各プレイヤーに参加ポーンを配布します。"
+        }
+      },
+      "gameFlow": {
+        "title": "ゲームの流れ",
+        "turnsTitle": "ターン / 世代",
+        "cardsDealt": "7枚配布",
+        "step1": {
+          "title": "1. カードを出す",
+          "text": "通常通りプレイします。"
+        },
+        "step2": {
+          "title": "2. 建造",
+          "text": "七不思議の段階を建造する際、大建造物の建設に参加することができます。"
+        },
+        "step3": {
+          "title": "3. 手札を渡す",
+          "text": "残りのカードを渡します。"
+        },
+        "note": "カード枚数は基本ルールと同じです。"
+      },
+      "actions": {
+        "title": "大建造物との相互作用",
+        "buildStructure": {
+          "title": "建造物を建てる",
+          "text": "基本ルールに従います。"
+        },
+        "buildWonder": {
+          "title": "七不思議を建造する",
+          "participation": {
+            "title": "参加",
+            "text": "七不思議を建造する際、大建造物の参加コストを支払うことで、ポーンを1つ置くことができます。1つの建物につき、1人1ポーンまでです。"
+          }
+        },
+        "discard": {
+          "title": "売却",
+          "text": "3コインを得ます。"
+        }
+      },
+      "endOfAge": {
+        "title": "世代の終了",
+        "order": "大建造物の判定後に軍事紛争を解決します。",
+        "edificeCheck": {
+          "title": "1. 大建造物の判定",
+          "text": "建設ポーンが埋まれば完成です。参加者は報酬を得ます。失敗した場合、不参加者は資源を失うかマイナス点を受けます。"
+        },
+        "groundWar": {
+          "title": "2. 軍事",
+          "text": "通常通り紛争を解決します。"
+        }
+      },
+      "scoring": {
+        "title": "得点計算",
+        "military": "軍事勝利点",
+        "treasury": "3コインにつき1点",
+        "wonder": "七不思議勝利点",
+        "civil": "市民建造物勝利点",
+        "scientific": "科学建造物勝利点",
+        "commercial": "商業建造物勝利点",
+        "guilds": "ギルド勝利点",
+        "edificeRewards": {
+          "title": "大建造物",
+          "text": "完成させた大建造物チップによる勝利点。"
+        }
+      }
+    },
+    "armada_cities": {
+      "hero": {
+        "badge": "海と影の帝国",
+        "title": "波を征服し、影から支配せよ。",
+        "subtitle": "<strong>アルマダ (Armada)</strong> による海上探索と、<strong>シティーズ (Cities)</strong> による攻撃的な外交が融合します。"
+      },
+      "setup": {
+        "title": "準備",
+        "treasury": {
+          "title": "家計",
+          "text": "<strong>3コイン</strong> を持って開始します（通常通り）。"
+        },
+        "armada": {
+          "title": "アルマダ",
+          "text": "海戦ボードを準備します。アルマダカードを世代デッキに混ぜます。<strong>手札は9枚です。</strong>"
+        },
+        "cities": {
+          "title": "シティーズ",
+          "text": "シティーズカードを世代デッキに混ぜます。"
+        }
+      },
+      "gameFlow": {
+        "title": "ゲームプレイ",
+        "turnsTitle": "ターン / 世代",
+        "cardsDealt": "9枚配布",
+        "step1": {
+          "title": "1. カードを出す",
+          "text": "9枚の手札から1枚選びます。"
+        },
+        "step2": {
+          "title": "2. 海戦アクション",
+          "text": "任意：色が一致する場合、船を前進させることができます。"
+        },
+        "step3": {
+          "title": "3. 手札を渡す",
+          "text": "残りのカードを渡します。"
+        }
+      },
+      "actions": {
+        "title": "アクション",
+        "buildStructure": {
+          "title": "建造物を建てる",
+          "navalOpportunity": {
+            "title": "海戦の機会",
+            "text": "カードの色がボードと一致する場合、コストを支払って船を進めることができます。"
+          }
+        },
+        "buildWonder": {
+          "title": "七不思議を建造する",
+          "text": "カードを使って七不思議の段階を建造します。<strong>海戦：</strong>対応する船を前進させます。"
+        },
+        "discard": {
+          "title": "売却",
+          "text": "<strong>3コイン</strong> を得る <span className=\"text-stone-400 mx-2\">|</span> <strong>黄色の船</strong> を進める（コスト無料）"
+        }
+      },
+      "mechanics": {
+        "title": "新しい要素",
+        "debtsDiplomacy": {
+          "title": "負債と外交",
+          "text": "<strong>負債：</strong>支払えない損失はマイナス点になります。<br/><strong>外交：</strong>地上紛争を回避します。"
+        },
+        "fleets": {
+          "title": "艦隊",
+          "text": "<strong>赤：</strong>海上軍事力。<br/><strong>緑：</strong>島々を探索。<br/><strong>青：</strong>勝利点。<br/><strong>黄：</strong>コインと課税。"
+        }
+      },
+      "endOfAge": {
+        "title": "世代の終了",
+        "order": "地上戦の後に海戦を解決します。",
+        "groundWar": {
+          "title": "1. 地上戦",
+          "text": "赤の盾を比較します（外交チップを確認）。"
+        },
+        "navalWar": {
+          "title": "2. 海戦",
+          "text": "全プレイヤーと艦隊の数値を比較します。"
+        }
+      },
+      "scoring": {
+        "title": "得点計算",
+        "military": {
+          "title": "軍事",
+          "text": "地上戦の勝利点。"
+        },
+        "naval": {
+          "title": "海戦",
+          "text": "海戦の勝利点。"
+        },
+        "treasury": {
+          "title": "家計",
+          "text": "コインによる勝利点。"
+        },
+        "wonder": {
+          "title": "七不思議",
+          "text": "七不思議の勝利点。"
+        },
+        "civil": {
+          "title": "市民",
+          "text": "青のカードの勝利点。"
+        },
+        "scientific": {
+          "title": "科学",
+          "text": "緑のカードの勝利点。"
+        },
+        "commercial": {
+          "title": "商業",
+          "text": "黄色のカードの勝利点。"
+        },
+        "guilds": {
+          "title": "ギルド",
+          "text": "紫のカードの勝利点。"
+        },
+        "cities": {
+          "title": "シティーズ",
+          "text": "黒のカードの勝利点。"
+        },
+        "debt": {
+          "title": "負債",
+          "text": "負債による減点。"
+        },
+        "islands": {
+          "title": "島々",
+          "text": "島による勝利点。"
+        },
+        "dockyard": {
+          "title": "海戦ボード",
+          "text": "ボード上の勝利点。"
+        }
+      },
+      "variants": {
+        "title": "バリアント",
+        "teamPlay": {
+          "title": "チーム戦",
+          "military": "チームメイト間での紛争はありません。",
+          "doubleTokens": "勝利時にダブルチップを獲得します。",
+          "naval": "海戦は個人ごとに解決します。"
+        }
+      }
+    },
+    "armada_cities_edifice": {
+      "hero": {
+        "badge": "全てを司る者",
+        "title": "建造し、征服し、共謀せよ。",
+        "subtitle": "<strong>アルマダ</strong>、<strong>シティーズ</strong>、<strong>大建造物 (Edifice)</strong> が組み合わさり、豊かで複雑な体験を提供します。"
+      },
+      "setup": {
+        "title": "準備",
+        "treasury": {
+          "title": "家計",
+          "text": "<strong>3コイン</strong> を持って開始します。"
+        },
+        "wonders": {
+          "title": "七不思議",
+          "text": "ボードを配ります。"
+        },
+        "armada": {
+          "title": "アルマダ",
+          "text": "ボードと船を準備します。手札は9枚です。"
+        },
+        "edifice": {
+          "title": "大建造物",
+          "text": "各世代に1つのプロジェクトを用意します。"
+        },
+        "cities": {
+          "title": "シティーズ",
+          "text": "シティーズカードをデッキに混ぜます。"
+        },
+        "islands": {
+          "title": "島々",
+          "text": "島のデッキを準備します。"
+        }
+      },
+      "gameFlow": {
+        "title": "ゲーム概要",
+        "overview": {
+          "title": "主な変更点",
+          "li1": "手札は <strong>9枚</strong> です。",
+          "li2": "各世代に <strong>大建造物 (Edifice)</strong> プロジェクトがあります。",
+          "li3": "<strong>シティーズ</strong> の負債と外交が適用されます。"
+        },
+        "turnsTitle": "ターン",
+        "step1": {
+          "title": "1. 選択",
+          "text": "カードを選びます。"
+        },
+        "step2": {
+          "title": "2. アクション",
+          "text": "カードをプレイします。"
+        },
+        "step3": {
+          "title": "3. 渡す",
+          "text": "手札を渡します。"
+        }
+      },
+      "actions": {
+        "title": "アクション",
+        "buildStructure": {
+          "title": "建造",
+          "text": "通常の建造ルールに従います。",
+          "chain": "<strong>連鎖：</strong>大建造物やシティーズのシンボルが無料建造を可能にします。",
+          "navalOpportunity": {
+            "title": "海戦の機会",
+            "text": "コストを支払い、対応する船を前進させます。"
+          }
+        },
+        "buildWonder": {
+          "title": "七不思議を建造する",
+          "text": "段階を建造します。",
+          "bonusTitle": "ボーナスアクション",
+          "naval": "<strong>海戦：</strong>船を前進させます（コスト支払い）。",
+          "edifice": "<strong>大建造物：</strong>建設に参加します（コスト支払い）。"
+        },
+        "discard": {
+          "title": "売却",
+          "text": "コインを得ます。",
+          "li1": "3コイン獲得",
+          "li2": "黄色の船を前進（無料）"
+        }
+      },
+      "mechanics": {
+        "title": "要素",
+        "fleets": {
+          "title": "艦隊",
+          "red": {
+            "title": "赤",
+            "effect": "海戦"
+          },
+          "yellow": {
+            "title": "黄",
+            "effect": "金貨・課税"
+          },
+          "blue": {
+            "title": "青",
+            "effect": "勝利点"
+          },
+          "green": {
+            "title": "緑",
+            "effect": "探索"
+          }
+        },
+        "edificeCities": {
+          "title": "大建造物とシティーズ",
+          "debtDiplomacy": {
+            "title": "負債と外交",
+            "text": "負債と戦争を管理します。"
+          },
+          "edificeResults": {
+            "title": "判定結果",
+            "text": "報酬または罰則。"
+          }
+        }
+      },
+      "endOfAge": {
+        "title": "世代の終了",
+        "order": "大建造物 -> 地上戦 -> 海戦",
+        "edifice": {
+          "title": "1. 大建造物",
+          "text": "完成したか確認します。"
+        },
+        "groundWar": {
+          "title": "2. 地上戦",
+          "text": "盾の数を比較します。"
+        },
+        "navalWar": {
+          "title": "3. 海戦",
+          "text": "艦隊の数値を比較します。"
+        }
+      },
+      "scoring": {
+        "title": "得点計算",
+        "military": {
+          "title": "軍事",
+          "text": "地上紛争の点数。"
+        },
+        "naval": {
+          "title": "海戦",
+          "text": "海戦の点数。"
+        },
+        "treasury": {
+          "title": "家計",
+          "text": "コインによる点数。"
+        },
+        "wonder": {
+          "title": "七不思議",
+          "text": "七不思議の点数。"
+        },
+        "civil": {
+          "title": "市民",
+          "text": "青のカードの点数。"
+        },
+        "scientific": {
+          "title": "科学",
+          "text": "緑のカードの点数。"
+        },
+        "commercial": {
+          "title": "商業",
+          "text": "黄色のカードの点数。"
+        },
+        "guilds": {
+          "title": "ギルド",
+          "text": "紫のカードの点数。"
+        },
+        "cities": {
+          "title": "シティーズ",
+          "text": "黒のカードの点数。"
+        },
+        "edifice": {
+          "title": "大建造物",
+          "text": "大建造物による点数。"
+        },
+        "debt": {
+          "title": "負債",
+          "text": "負債による減点。"
+        },
+        "islands": {
+          "title": "島々",
+          "text": "島による点数。"
+        },
+        "dockyard": {
+          "title": "海戦ボード",
+          "text": "ボード上の点数。"
+        }
+      },
+      "variants": {
+        "title": "バリアント",
+        "expert2p": {
+          "title": "2人用",
+          "subtitle": "エキスパートモードの変更点",
+          "li1": "中立都市が海戦に参加します。",
+          "li2": "中立都市が大建造物に参加できます。",
+          "li3": "中立都市は自身の参加コストを支払います。"
+        },
+        "teamPlay": {
+          "title": "チーム戦",
+          "subtitle": "協力ルール",
+          "li1": "チームメイト間での地上戦はありません。",
+          "li2": "海戦は個人ごとに行います。",
+          "li3": "チームメイトとカードについて相談できます。",
+          "li4": "大建造物への参加は個人ごとに行います。"
+        }
+      }
+    },
+    "armada_edifice": {
+      "hero": {
+        "badge": "海戦の建築家",
+        "title": "モニュメントを築き、海図を描け。",
+        "subtitle": "<strong>アルマダ</strong> と <strong>大建造物 (Edifice)</strong> が組み合わさり、壮大な建設と探索の競争が繰り広げられます。"
+      },
+      "setup": {
+        "title": "準備",
+        "treasury": {
+          "title": "家計",
+          "text": "<strong>3コイン</strong> を持って開始します。"
+        },
+        "armada": {
+          "title": "アルマダ",
+          "text": "ボードと船を準備します。手札は8枚です。"
+        },
+        "edifice": {
+          "title": "大建造物",
+          "text": "世代ごとに1つのプロジェクトを用意します。"
+        },
+        "islands": {
+          "title": "島々",
+          "text": "島のデッキ。"
+        }
+      },
+      "gameFlow": {
+        "title": "ゲームプレイ",
+        "turnsTitle": "ターン / 世代",
+        "cardsDealt": "8枚配布",
+        "step1": {
+          "title": "1. プレイ",
+          "text": "カードを選びます。"
+        },
+        "step2": {
+          "title": "2. アクション",
+          "text": "プレイと海戦アクション。"
+        },
+        "step3": {
+          "title": "3. 渡す",
+          "text": "残りのカードを渡します。"
+        }
+      },
+      "actions": {
+        "title": "アクション",
+        "buildStructure": {
+          "title": "建造",
+          "navalOpportunity": {
+            "title": "海戦の機会",
+            "text": "コストを支払い、船を前進させます。"
+          }
+        },
+        "buildWonder": {
+          "title": "七不思議を建造する",
+          "bonusTitle": "ボーナスアクション（どちらか1つ）",
+          "naval": "<strong>海戦：</strong>ボードの色を合わせます。",
+          "edifice": "<strong>大建造物：</strong>建設に参加します。"
+        },
+        "discard": {
+          "title": "売却",
+          "text": "<strong>3コイン</strong> を得る <span className=\"text-stone-400 mx-2\">|</span> <strong>黄色の船</strong> を進める（無料）"
+        }
+      },
+      "mechanics": {
+        "title": "要素",
+        "fleets": {
+          "title": "艦隊",
+          "red": {
+            "effect": "海上軍事力"
+          },
+          "green": {
+            "effect": "島々"
+          },
+          "blue": {
+            "effect": "勝利点"
+          },
+          "yellow": {
+            "effect": "コイン獲得"
+          }
+        },
+        "edificeRisks": {
+          "title": "大建造物のリスク",
+          "debts": {
+            "title": "罰則",
+            "text": "大建造物の建設に失敗すると、罰則を受けます。"
+          }
+        }
+      },
+      "endOfAge": {
+        "title": "世代の終了",
+        "order": "大建造物 -> 地上戦 -> 海戦",
+        "edifice": {
+          "title": "1. 大建造物",
+          "text": "完成したか確認します。"
+        },
+        "groundWar": {
+          "title": "2. 地上戦",
+          "text": "盾の数を比較します。"
+        },
+        "navalWar": {
+          "title": "3. 海戦",
+          "text": "艦隊の数値を比較します。"
+        }
+      },
+      "scoring": {
+        "title": "得点計算",
+        "military": {
+          "title": "軍事",
+          "text": "地上戦の点数。"
+        },
+        "naval": {
+          "title": "海戦",
+          "text": "海戦の点数。"
+        },
+        "treasury": {
+          "title": "家計",
+          "text": "コインによる点数。"
+        },
+        "wonder": {
+          "title": "七不思議",
+          "text": "七不思議の点数。"
+        },
+        "civil": {
+          "title": "市民",
+          "text": "青のカードの点数。"
+        },
+        "scientific": {
+          "title": "科学",
+          "text": "緑のカードの点数。"
+        },
+        "commercial": {
+          "title": "商業",
+          "text": "黄色のカードの点数。"
+        },
+        "guilds": {
+          "title": "ギルド",
+          "text": "紫のカードの点数。"
+        },
+        "edifice": {
+          "title": "大建造物",
+          "text": "大建造物による点数。"
+        },
+        "debt": {
+          "title": "負債",
+          "text": "負債による減点。"
+        },
+        "leaders": {
+          "title": "指導者",
+          "text": "指導者による点数。"
+        },
+        "islands": {
+          "title": "島々",
+          "text": "島による点数。"
+        },
+        "dockyard": {
+          "title": "海戦ボード",
+          "text": "ボード上の点数。"
+        }
+      },
+      "variants": {
+        "title": "バリアント",
+        "expert2p": {
+          "title": "2人用",
+          "li1": "中立都市が海戦と大建造物に参加します。",
+          "li2": "中立都市は自身のコストを支払います。"
+        },
+        "teamPlay": {
+          "title": "チーム戦",
+          "li1": "チームメイト間は平和状態です。",
+          "li2": "海戦は個別の扱いです。",
+          "li3": "大建造物は個別の扱いです。"
+        }
+      }
+    },
+    "armada_leaders_edifice": {
+      "hero": {
+        "badge": "万軍の指揮官",
+        "title": "導き、築き、航海せよ。",
+        "subtitle": "<strong>アルマダ</strong>、<strong>指導者</strong>、<strong>大建造物 (Edifice)</strong> が融合し、壮大な戦略パズルを生み出します。"
+      },
+      "setup": {
+        "title": "準備",
+        "treasury": {
+          "title": "家計",
+          "text": "<strong>6コイン</strong> を持って開始します。"
+        },
+        "leaders": {
+          "title": "指導者",
+          "text": "指導者を4枚配ります。"
+        },
+        "armada": {
+          "title": "アルマダ",
+          "text": "海戦ボードを準備します。手札は8枚です。"
+        },
+        "edifice": {
+          "title": "大建造物",
+          "text": "各世代に1つのプロジェクトを用意します。"
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "指導者のドラフト",
+          "subtitle": "準備段階",
+          "text": "4枚の指導者をドラフトします。",
+          "pick1": "1枚選択",
+          "passRt": "右へ渡す",
+          "keep4": "4枚保持"
+        },
+        "gameplay": {
+          "title": "ゲームプレイ",
+          "recruitment": {
+            "title": "雇用フェイズ",
+            "text": "指導者をプレイ（雇用、七不思議、または売却）します。",
+            "recruit": {
+              "title": "雇用",
+              "text": "コストを支払います。"
+            },
+            "wonder": {
+              "title": "七不思議",
+              "text": "七不思議を建造します。"
+            },
+            "sell": {
+              "title": "売却",
+              "text": "3コインを得ます。"
+            }
+          },
+          "turnsTitle": "ターン / 世代",
+          "cardsDealt": "8枚配布",
+          "step1": {
+            "title": "1. 選択",
+            "text": "カードを選びます。"
+          },
+          "step2": {
+            "title": "2. 海戦",
+            "text": "船を動かします。"
+          },
+          "step3": {
+            "title": "3. 渡す",
+            "text": "手札を渡します。"
+          }
+        }
+      },
+      "actions": {
+        "title": "アクション",
+        "buildStructure": {
+          "title": "建造",
+          "navalOpportunity": {
+            "title": "海戦の機会",
+            "text": "コストを支払い、船を前進させます。"
+          }
+        },
+        "buildWonder": {
+          "title": "七不思議を建造する",
+          "exclusive": "ボーナスアクションは「海戦アクション」または「大建造物への参加」の**どちらか一つのみ**選択できます。",
+          "naval": "<strong>海戦：</strong>海戦ボードに対応させます。",
+          "edifice": "<strong>大建造物：</strong>建設に参加します。"
+        }
+      },
+      "mechanics": {
+        "title": "要素",
+        "fleets": {
+          "title": "艦隊",
+          "red": {
+            "title": "赤",
+            "effect": "戦力"
+          },
+          "yellow": {
+            "title": "黄",
+            "effect": "金貨"
+          },
+          "blue": {
+            "title": "青",
+            "effect": "勝利点"
+          },
+          "green": {
+            "title": "緑",
+            "effect": "島々"
+          }
+        },
+        "edificeRisks": {
+          "title": "大建造物のリスク",
+          "debts": {
+            "title": "罰則",
+            "text": "建設の失敗は罰則を招きます。"
+          }
+        }
+      },
+      "endOfAge": {
+        "title": "世代の終了",
+        "order": "大建造物 -> 地上戦 -> 海戦",
+        "edifice": {
+          "title": "1. 大建造物",
+          "text": "完了を確認します。"
+        },
+        "groundWar": {
+          "title": "2. 地上戦",
+          "text": "赤の盾を比較します。"
+        },
+        "navalWar": {
+          "title": "3. 海戦",
+          "text": "艦隊の数値を比較します。"
+        }
+      },
+      "scoring": {
+        "title": "得点計算",
+        "military": {
+          "title": "軍事",
+          "text": "地上戦の点数。"
+        },
+        "naval": {
+          "title": "海戦",
+          "text": "海戦の点数。"
+        },
+        "treasury": {
+          "title": "家計",
+          "text": "コインによる点数。"
+        },
+        "wonder": {
+          "title": "七不思議",
+          "text": "七不思議の点数。"
+        },
+        "civil": {
+          "title": "市民",
+          "text": "青のカードの点数。"
+        },
+        "scientific": {
+          "title": "科学",
+          "text": "緑のカードの点数。"
+        },
+        "commercial": {
+          "title": "商業",
+          "text": "黄色のカードの点数。"
+        },
+        "guilds": {
+          "title": "ギルド",
+          "text": "紫のカードの点数。"
+        },
+        "edifice": {
+          "title": "大建造物",
+          "text": "大建造物による点数。"
+        },
+        "debt": {
+          "title": "負債",
+          "text": "負債による減点。"
+        },
+        "leaders": {
+          "title": "指導者",
+          "text": "指導者による点数。"
+        },
+        "islands": {
+          "title": "島々",
+          "text": "島による点数。"
+        },
+        "dockyard": {
+          "title": "海戦ボード",
+          "text": "ボード上の点数。"
+        }
+      },
+      "variants": {
+        "title": "バリアント",
+        "expert2p": {
+          "title": "2人用",
+          "li1": "中立都市が海戦と大建造物に参加します。",
+          "li2": "中立都市は自身のコストを支払います。"
+        },
+        "teamPlay": {
+          "title": "チーム戦",
+          "li1": "チームメイト間は平和状態です。",
+          "li2": "海戦は個別の扱いです。",
+          "li3": "大建造物は個別の扱いです。"
+        }
+      }
+    },
+    "armada_cities_leaders": {
+      "hero": {
+        "badge": "海と影の帝国",
+        "title": "波を統べ、宮廷を支配せよ。",
+        "subtitle": "<strong>アルマダ (Armada)</strong> の海上戦力、<strong>シティーズ (Cities)</strong> の政治的陰謀、そして <strong>指導者 (Leaders)</strong> の戦略的深みが融合します。"
+      },
+      "setup": {
+        "title": "準備",
+        "treasury": {
+          "title": "家計",
+          "text": "<strong>6コイン</strong> を持って開始します（シティーズ/指導者のルールが優先されます）。"
+        },
+        "leaders": {
+          "title": "指導者",
+          "text": "<strong>指導者カード4枚</strong> を配ります。"
+        },
+        "armada": {
+          "title": "アルマダ",
+          "text": "海戦ボードを準備します。アルマダカードを世代デッキに混ぜます。<strong>手札は8枚です。</strong>"
+        },
+        "cities": {
+          "title": "シティーズ",
+          "text": "黒のカードを世代デッキに混ぜます。<strong>最終的な手札は9枚になります。</strong>"
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "第1段階：指導者のドラフト",
+          "subtitle": "宮廷の編成",
+          "text": "第I世代の前に4枚の指導者をドラフトします（1枚選び、右へ渡す）。",
+          "pick1": "1枚選択",
+          "passRt": "右へ渡す",
+          "keep4": "4枚保持"
+        },
+        "gameplay": {
+          "title": "第2段階：ゲームプレイ",
+          "recruitment": {
+            "title": "世代の開始時：雇用フェイズ",
+            "text": "世代のカードが配られる前に、指導者を1人プレイします。",
+            "recruit": {
+              "title": "雇用",
+              "text": "コストを支払います。効果が有効になります。"
+            },
+            "wonder": {
+              "title": "七不思議",
+              "text": "七不思議の段階を建造します。"
+            },
+            "sell": {
+              "title": "売却",
+              "text": "3コインを得ます。"
+            }
+          },
+          "turnsTitle": "各世代 8ターン",
+          "step1": {
+            "title": "カードの選択",
+            "text": "手札は <strong>9枚</strong> です（基本7 + 黒1 + アルマダ1）。1枚を選びます。"
+          },
+          "step2": {
+            "title": "手札を渡す",
+            "text": "第I・III世代：左へ。第II世代：右へ。"
+          },
+          "step3": {
+            "title": "解決",
+            "text": "公開して解決します。"
+          }
+        }
+      },
+      "actions": {
+        "title": "アクションと連携",
+        "buildStructure": {
+          "title": "建造物を建てる",
+          "navalOpportunity": {
+            "title": "海戦の機会",
+            "text": "色がボードと一致する場合、コストを支払って船を進めることができます。"
+          }
+        },
+        "buildWonder": {
+          "title": "七不思議を建造する",
+          "naval": "<strong>海戦：</strong>連動した船のコストを支払います。"
+        }
+      },
+      "mechanics": {
+        "title": "拡張要素",
+        "debtsDiplomacy": {
+          "title": "負債と外交",
+          "text": "<strong>負債：</strong>未払いの損失1コインにつき-1点。<br /><strong>外交（鳩）：</strong>次の地上紛争から離脱します（隣人同士が戦います）。"
+        },
+        "armadaFleets": {
+          "title": "アルマダ艦隊",
+          "text": "<strong>島々：</strong>探索してボーナスを得ます。<br /><strong>艦隊：</strong>課税、勝利点、軍事力。"
+        }
+      },
+      "endOfAge": {
+        "title": "世代終了の解決",
+        "order": "厳格に以下の順序で解決します：",
+        "groundWar": {
+          "title": "1. 地上戦",
+          "text": "外交の確認後、赤の盾を比較します。"
+        },
+        "navalWar": {
+          "title": "2. 海戦",
+          "text": "全プレイヤーと青の艦隊を比較します。"
+        }
+      },
+      "scoring": {
+        "title": "得点計算",
+        "military": {
+          "title": "軍事紛争",
+          "text": "地上戦の勝利（＋）と敗北（－）。"
+        },
+        "naval": {
+          "title": "海上紛争",
+          "text": "海上戦の勝利（＋）と敗北（－）。"
+        },
+        "treasury": {
+          "title": "家計",
+          "text": "3コインにつき1点。"
+        },
+        "wonder": {
+          "title": "七不思議",
+          "text": "トラックの点数と差し込まれたカードの点数。"
+        },
+        "civil": {
+          "title": "市民建造物",
+          "text": "青のカードの合計。"
+        },
+        "scientific": {
+          "title": "科学",
+          "text": "セットによる点数。"
+        },
+        "commercial": {
+          "title": "商業",
+          "text": "黄色のカードの点数。"
+        },
+        "guilds": {
+          "title": "ギルド",
+          "text": "紫のカードの点数。"
+        },
+        "cities": {
+          "title": "シティーズカード",
+          "text": "黒のカードの点数。"
+        },
+        "debt": {
+          "title": "負債",
+          "text": "負債チップの合計。"
+        },
+        "leaders": {
+          "title": "指導者",
+          "text": "白のカードの基礎点とボーナス。"
+        },
+        "islands": {
+          "title": "島々",
+          "text": "島カードの点数。"
+        },
+        "dockyard": {
+          "title": "海戦ボード",
+          "text": "青の艦隊トラックによる勝利点。"
+        }
+      },
+      "variants": {
+        "title": "ゲームバリアント",
+        "expert2p": {
+          "title": "2人用エキスパート",
+          "freeCity": "<strong>中立都市：</strong>指導者は持ちません。",
+          "naval": "<strong>海戦：</strong>中立都市も参加します。",
+          "diplomacy": "<strong>外交：</strong>アクティブな隣人とだけ戦います。"
+        },
+        "teamPlay": {
+          "title": "チーム戦",
+          "conflict": "<strong>紛争：</strong>チームメイトとは地上戦を行いません。",
+          "doubleTokens": "<strong>ダブルチップ：</strong>勝利/敗北の両方が2倍になります。",
+          "naval": "<strong>海戦：</strong>個別に判定します。"
+        }
+      }
+    },
+    "armada_leaders": {
+      "hero": {
+        "badge": "司令官と船長",
+        "title": "列強を導き、新たな地平を目指せ。",
+        "subtitle": "<strong>アルマダ (Armada)</strong> による海上探索と、<strong>指導者 (Leaders)</strong> による戦略的リーダーシップが融合します。"
+      },
+      "setup": {
+        "title": "準備",
+        "treasury": {
+          "title": "家計",
+          "text": "<strong>6コイン</strong> を持って開始します（指導者ルールを優先）。"
+        },
+        "armada": {
+          "title": "アルマダ",
+          "text": "海戦ボードを準備します。アルマダカードをデッキに混ぜます（1プレイヤーにつき1枚）。<strong>手札は8枚です。</strong>"
+        },
+        "leaders": {
+          "title": "指導者",
+          "text": "<strong>指導者カード4枚</strong> を配ります。第III世代にギルドを混ぜます。"
+        },
+        "islands": {
+          "title": "島々",
+          "text": "島デッキ（レベル1, 2, 3）を準備します。"
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "第1段階：指導者のドラフト",
+          "subtitle": "宮廷の編成",
+          "text": "第I世代の前に4枚の指導者をドラフトします（1枚選び、右へ渡す）。",
+          "pick1": "1枚選択",
+          "passRt": "右へ渡す",
+          "keep4": "4枚保持"
+        },
+        "gameplay": {
+          "title": "第2段階：ゲームプレイ",
+          "recruitment": {
+            "title": "世代の開始時：雇用フェイズ",
+            "text": "世代カードが配られる前に、指導者を1人プレイします。",
+            "recruit": {
+              "title": "雇用",
+              "text": "コストを支払います。効果が有効になります。"
+            },
+            "wonder": {
+              "title": "七不思議",
+              "text": "七不思議の段階を建造します。"
+            },
+            "sell": {
+              "title": "売却",
+              "text": "3コインを得ます。"
+            }
+          },
+          "turnsTitle": "各世代 8ターン",
+          "cardsDealt": "8枚配布",
+          "step1": {
+            "title": "カードの選択",
+            "text": "手札は <strong>8枚</strong> です。1枚を選びます。"
+          },
+          "step2": {
+            "title": "手札を渡す",
+            "text": "第I・III世代：左へ。第II世代：右へ。"
+          },
+          "step3": {
+            "title": "解決",
+            "text": "公開して解決します。"
+          }
+        }
+      },
+      "actions": {
+        "title": "アクションと相互作用",
+        "buildStructure": {
+          "title": "建造物を建てる",
+          "navalOpportunity": {
+            "title": "海戦の機会",
+            "text": "色がボードと一致する場合、コストを支払って船を進めることができます。"
+          }
+        },
+        "buildWonder": {
+          "title": "七不思議を建造する",
+          "naval": "<strong>海戦：</strong>海戦ボードの開始スペースを確認し、その色の船のコストを支払います。"
+        },
+        "discard": {
+          "title": "売却",
+          "text": "<strong>3コイン</strong> を得る <span className=\"text-stone-400 mx-2\">|</span> <strong>黄色の船</strong> を進める（コスト無料）"
+        }
+      },
+      "endOfAge": {
+        "title": "世代終了の解決",
+        "order": "厳格に以下の順序で解決します：",
+        "groundWar": {
+          "title": "1. 地上戦",
+          "text": "左右の隣人と盾の数を比較します。"
+        },
+        "navalWar": {
+          "title": "2. 海戦",
+          "text": "全プレイヤーと青の艦隊を比較します。"
+        }
+      },
+      "scoring": {
+        "title": "得点計算",
+        "military": {
+          "title": "軍事紛争",
+          "text": "地上戦の勝利（＋）と敗北（－）。"
+        },
+        "naval": {
+          "title": "海上紛争",
+          "text": "海上戦の勝利（＋）と敗北（－）。"
+        },
+        "treasury": {
+          "title": "家計",
+          "text": "3コインにつき1点。"
+        },
+        "wonder": {
+          "title": "七不思議",
+          "text": "トラックの点数と完成段階の点数。"
+        },
+        "civil": {
+          "title": "市民建造物",
+          "text": "青のカードの合計。"
+        },
+        "scientific": {
+          "title": "科学",
+          "text": "セットによる点数。"
+        },
+        "commercial": {
+          "title": "商業",
+          "text": "黄色のカードの点数。"
+        },
+        "guilds": {
+          "title": "ギルド",
+          "text": "紫のカードの点数（1枚最大10点まで）。"
+        },
+        "leaders": {
+          "title": "指導者",
+          "text": "白のカードの基礎点とボーナス。"
+        },
+        "islands": {
+          "title": "島々",
+          "text": "島カードの価値。"
+        },
+        "dockyard": {
+          "title": "海戦ボード",
+          "text": "青の艦隊トラックによる点数。"
+        }
+      },
+      "variants": {
+        "title": "2人用エキスパートバリアント",
+        "freeCity": {
+          "title": "中立都市",
+          "leaders": "<strong>指導者：</strong>ドラフトされますが、中立都市は持ちません。",
+          "naval": "<strong>海戦：</strong>中立都市も参加します。",
+          "play": "<strong>プレイ：</strong>人間が中立都市の代わりに行動します。"
+        }
+      }
+    },
+    "cities_leaders": {
+      "hero": {
+        "badge": "影の支配者",
+        "title": "戦術的な天才、冷酷な外交。",
+        "subtitle": "<strong>シティーズ (Cities)</strong> 拡張は傭兵と外交の深みを追加し、<strong>指導者 (Leaders)</strong> は長期的な戦略計画を可能にします。"
+      },
+      "setup": {
+        "title": "拡張セットアップ",
+        "treasury": {
+          "title": "家計",
+          "text": "<strong>6コイン</strong> を持って開始します。"
+        },
+        "leaders": {
+          "title": "指導者",
+          "text": "各プレイヤーに <strong>指導者カード4枚</strong> を配ります。ドラフトは第I世代の前に行います。"
+        },
+        "cities": {
+          "title": "シティーズ",
+          "text": "各世代のデッキに <strong>シティーズカード（黒）</strong> を混ぜます（各プレイヤーにつき1枚）。"
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "指導者フェイズ",
+          "subtitle": "ドラフト",
+          "text": "開始時に4枚の指導者をドラフトします。",
+          "pick1": "1枚選択",
+          "passRt": "右へ渡す",
+          "keep4": "4枚保持"
+        },
+        "gameplay": {
+          "title": "各世代",
+          "recruitment": {
+            "title": "雇用（世代の開始時）",
+            "text": "各世代が始まる前に、指導者を1人採用します。",
+            "recruit": {
+              "title": "雇用",
+              "text": "コストを支払い指導者をプレイします。"
+            },
+            "wonder": {
+              "title": "七不思議",
+              "text": "指導者を使って七不思議の段階を建造します。"
+            },
+            "sell": {
+              "title": "売却",
+              "text": "指導者を捨てて3コインを得ます。"
+            }
+          },
+          "turnsTitle": "各世代のターン",
+          "cardsDealt": "8枚配布",
+          "step1": {
+            "title": "1. カードを出す",
+            "text": "建造、七不思議、または売却を選択します。"
+          },
+          "step2": {
+            "title": "2. 効果の解決",
+            "text": "負債、外交、その他の即時効果を解決します。"
+          },
+          "step3": {
+            "title": "3. 手札を渡す",
+            "text": "残りのカードを渡します。"
+          }
+        }
+      },
+      "actions": {
+        "title": "アクション",
+        "construct": {
+          "title": "建造",
+          "text": "コストを支払います。シティーズカードはコインを要求することが多いです。"
+        },
+        "buildWonder": {
+          "title": "七不思議を建造する",
+          "text": "カードを使用して段階を建造します。"
+        },
+        "discard": {
+          "title": "売却",
+          "text": "カードを捨てて <strong>3コイン</strong> を得ます。"
+        }
+      },
+      "mechanics": {
+        "title": "新しい要素",
+        "debtsDiplomacy": {
+          "title": "負債と外交",
+          "text": "シティーズカードは相手にコインを失わせる（または負債を負わせる）ことがあります。外交チップは次の戦争への参加を回避させます。"
+        }
+      },
+      "endOfAge": {
+        "title": "世代の終了",
+        "groundWar": {
+          "title": "軍事紛争",
+          "text": "通常の軍事解決を行います。外交チップは1回の紛争を回避した後に捨てられます。"
+        }
+      },
+      "scoring": {
+        "title": "得点計算",
+        "military": {
+          "title": "軍事",
+          "text": "赤のカードやチップによる点数。"
+        },
+        "treasury": {
+          "title": "家計",
+          "text": "3コインにつき1点。"
+        },
+        "wonder": {
+          "title": "七不思議",
+          "text": "七不思議による点数。"
+        },
+        "civil": {
+          "title": "市民",
+          "text": "青のカードによる点数。"
+        },
+        "scientific": {
+          "title": "科学",
+          "text": "緑のカードによる点数。"
+        },
+        "commercial": {
+          "title": "商業",
+          "text": "黄色のカードによる点数。"
+        },
+        "guilds": {
+          "title": "ギルド",
+          "text": "紫のカードによる点数。"
+        },
+        "cities": {
+          "title": "シティーズ",
+          "text": "黒のカードによる点数。"
+        },
+        "debt": {
+          "title": "負債",
+          "text": "未払いの負債による減点。"
+        },
+        "leaders": {
+          "title": "指導者",
+          "text": "白のカードによる点数。"
+        }
+      },
+      "variants": {
+        "title": "バリアント",
+        "freeCity": {
+          "title": "中立都市（チーム戦）",
+          "leaders": "通常通り指導者をドラフトします。",
+          "play": "チームで負債の負担を共有します。"
+        }
+      }
+    },
+    "cities_edifice": {
+      "hero": {
+        "badge": "影とモニュメント",
+        "title": "遺産を築き、陰謀を。 ",
+        "subtitle": "<strong>シティーズ (Cities)</strong> の闇の外交と、<strong>大建造物 (Edifice)</strong> の共同建設の壮大さが融合します。"
+      },
+      "setup": {
+        "title": "準備",
+        "treasury": {
+          "title": "家計",
+          "text": "<strong>6コイン</strong> を持って開始します（シティーズのルールを優先）。"
+        },
+        "cities": {
+          "title": "シティーズ",
+          "text": "黒のカードを各世代デッキに混ぜます（各プレイヤー1枚）。<strong>手札は8枚です。</strong>"
+        },
+        "edifice": {
+          "title": "大建造物",
+          "text": "各世代に1つのプロジェクトを用意します。参加ポーンを準備します。"
+        },
+        "tokens": {
+          "title": "チップ",
+          "text": "負債チップ（-1, -2, -3, -5）と外交鳩チップを準備します。"
+        }
+      },
+      "gameFlow": {
+        "title": "ゲームプレイ",
+        "turnsTitle": "各世代 8ターン",
+        "cardsDealt": "8枚配布",
+        "step1": {
+          "title": "カードの選択",
+          "text": "手札は <strong>8枚</strong> です。1枚を選びます。"
+        },
+        "step2": {
+          "title": "手札を渡す",
+          "text": "第I・III世代：左へ。第II世代：右へ。"
+        },
+        "step3": {
+          "title": "アクション",
+          "text": "公開してプレイします。"
+        }
+      },
+      "actions": {
+        "title": "アクションと相互作用",
+        "construct": {
+          "title": "建造物を建てる",
+          "text": "コストを支払います。特殊な建造物に注意してください。"
+        },
+        "buildWonder": {
+          "title": "七不思議を建造 ＋ 大建造物",
+          "participation": {
+            "title": "参加オプション",
+            "text": "プロジェクトカードに記載された参加コストを支払うことで、ポーンを受け取ることができます。"
+          }
+        },
+        "discard": {
+          "title": "売却",
+          "text": "<strong>3コイン</strong> を得ます。"
+        }
+      },
+      "mechanics": {
+        "title": "要素",
+        "debtsDiplomacy": {
+          "title": "負債と外交",
+          "text": "<strong>負債：</strong>未払いの損失1コインにつき-1点。<br /><strong>外交（鳩）：</strong>次の地上紛争を回避します（隣人同士が戦います）。"
+        },
+        "edificeResults": {
+          "title": "大建造物の判定",
+          "text": "<strong>完成：</strong>参加者に報酬。<br /><strong>失敗：</strong>不参加者に罰則（払えない場合は負債）。"
+        }
+      },
+      "endOfAge": {
+        "title": "世代終了の解決",
+        "order": "厳格に以下の順序で解決します：",
+        "edificeCheck": {
+          "title": "1. 大建造物の確認",
+          "text": "<strong>完成：</strong>報酬を獲得。<br /><strong>失敗：</strong>罰則を支払うか負債を負う。"
+        },
+        "groundWar": {
+          "title": "2. 地上戦",
+          "text": "外交を確認し、盾を比較します。"
+        }
+      },
+      "scoring": {
+        "title": "得点計算",
+        "military": {
+          "title": "軍事紛争",
+          "text": "地上戦の勝利（＋）と敗北（－）。"
+        },
+        "treasury": {
+          "title": "家計",
+          "text": "3コインにつき1点。"
+        },
+        "wonder": {
+          "title": "七不思議",
+          "text": "点数と完成段階の確認。"
+        },
+        "civil": {
+          "title": "市民",
+          "text": "青のカードの合計点。"
+        },
+        "scientific": {
+          "title": "科学",
+          "text": "セットによる点数。"
+        },
+        "commercial": {
+          "title": "商業",
+          "text": "黄色のカードの点数。"
+        },
+        "guilds": {
+          "title": "ギルド",
+          "text": "紫のカードの点数。"
+        },
+        "cities": {
+          "title": "シティーズ",
+          "text": "黒のカードの点数。"
+        },
+        "edifice": {
+          "title": "大建造物報酬",
+          "text": "完成したプロジェクトによる点数。"
+        },
+        "debt": {
+          "title": "負債",
+          "text": "負債の合計値を引く。"
+        },
+        "leaders": {
+          "title": "指導者",
+          "text": "白のカードによる点数。"
+        }
+      },
+      "variants": {
+        "title": "2人用エキスパートバリアント",
+        "freeCity": {
+          "title": "中立都市",
+          "draw": "<strong>ドロー：</strong>手札に加え、自身と中立都市のためにプレイします。",
+          "edifice": "<strong>大建造物：</strong>中立都市も参加可能です（操作プレイヤーが支払う）。",
+          "play": "<strong>プレイ：</strong>連鎖が必須です。資源を購入できます。"
+        }
+      }
+    },
+    "leaders_edifice": {
+      "hero": {
+        "badge": "統治者とモニュメント",
+        "title": "列強を導き、遺産を築け。",
+        "subtitle": "<strong>指導者 (Leaders)</strong> の戦略的深みと、<strong>大建造物 (Edifice)</strong> の共同建設が融合します。"
+      },
+      "setup": {
+        "title": "準備",
+        "treasury": {
+          "title": "家計",
+          "text": "<strong>6コイン</strong> を持って開始します（指導者ルールを優先）。"
+        },
+        "leaders": {
+          "title": "指導者",
+          "text": "<strong>指導者カード4枚</strong> を配ります。第III世代にギルドを混ぜます。"
+        },
+        "edifice": {
+          "title": "大建造物",
+          "text": "各世代に1つのプロジェクトを用意します。参加ポーンを準備します。"
+        },
+        "tokens": {
+          "title": "チップ",
+          "text": "失敗時の負債チップ（-2, -3, -5）を準備します。"
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "第1段階：指導者のドラフト",
+          "subtitle": "宮廷の編成",
+          "text": "第I世代の前に4枚の指導者をドラフトします（1枚選び、右へ渡す）。",
+          "pick1": "1枚選択",
+          "passRt": "右へ渡す",
+          "keep4": "4枚保持"
+        },
+        "gameplay": {
+          "title": "第2段階：ゲームプレイ",
+          "recruitment": {
+            "title": "世代の開始時：雇用フェイズ",
+            "text": "カードが配られる前に指導者をプレイします。",
+            "recruit": {
+              "title": "雇用",
+              "text": "コストを支払い効果を有効にします。"
+            },
+            "wonder": {
+              "title": "七不思議",
+              "text": "七不思議の段階を建造します。"
+            },
+            "sell": {
+              "title": "売却",
+              "text": "3コインを得ます。"
+            }
+          },
+          "turnsTitle": "各世代 6ターン",
+          "cardsDealt": "7枚配布",
+          "step1": {
+            "title": "カードの選択",
+            "text": "手札は <strong>7枚</strong> です。1枚を選びます。"
+          },
+          "step2": {
+            "title": "手札を渡す",
+            "text": "第I・III世代：左へ。第II世代：右へ。"
+          },
+          "step3": {
+            "title": "アクション",
+            "text": "公開して解決します。"
+          },
+          "note": "※6ターン目に、1枚をプレイし、7枚目は裏向きで捨てます。"
+        }
+      },
+      "actions": {
+        "title": "アクションと相互作用",
+        "construct": {
+          "title": "建造物を建てる",
+          "text": "コスト（資源/コイン）を支払います。隣人と交易できます。"
+        },
+        "buildWonder": {
+          "title": "七不思議を建造 ＋ 大建造物",
+          "participation": {
+            "title": "参加オプション",
+            "text": "プロジェクトカードに記載された参加コストを支払ってポーンを受け取ります。"
+          }
+        },
+        "discard": {
+          "title": "売却",
+          "text": "<strong>3コイン</strong> を得ます。"
+        }
+      },
+      "endOfAge": {
+        "title": "世代終了の解決",
+        "order": "厳格に以下の順序で解決します：",
+        "edificeCheck": {
+          "title": "1. 大建造物の確認",
+          "text": "<strong>完成：</strong>報酬を獲得。<br /><strong>失敗：</strong>罰則を支払うか負債を負う。"
+        },
+        "groundWar": {
+          "title": "2. 地上戦",
+          "text": "左右の隣人と盾を比較します。"
+        }
+      },
+      "scoring": {
+        "title": "得点計算",
+        "military": {
+          "title": "軍事紛争",
+          "text": "地上紛争の勝利（＋）と敗北（－）。"
+        },
+        "treasury": {
+          "title": "家計",
+          "text": "3コインにつき1点。"
+        },
+        "wonder": {
+          "title": "七不思議",
+          "text": "点数と完成段階の確認。"
+        },
+        "civil": {
+          "title": "市民",
+          "text": "青のカードの合計点。"
+        },
+        "scientific": {
+          "title": "科学",
+          "text": "セットによる点数。"
+        },
+        "commercial": {
+          "title": "商業",
+          "text": "黄色のカードの点数。"
+        },
+        "guilds": {
+          "title": "ギルド",
+          "text": "紫のカードの点数。"
+        },
+        "edificeRewards": {
+          "title": "大建造物報酬",
+          "text": "完成したプロジェクトによる点数。"
+        },
+        "debt": {
+          "title": "負債",
+          "text": "負債の合計値を引く。"
+        },
+        "leaders": {
+          "title": "指導者",
+          "text": "白のカードによる点数。"
+        }
+      },
+      "variants": {
+        "title": "2人用エキスパートバリアント",
+        "freeCity": {
+          "title": "中立都市",
+          "leaders": "<strong>指導者：</strong>ドラフトされますが、中立都市は持ちません。",
+          "edifice": "<strong>大建造物：</strong>中立都市も参加可能です（操作プレイヤーが支払う）。",
+          "play": "<strong>プレイ：</strong>連鎖が必須です。資源を購入できます。"
+        }
+      }
+    },
+    "cities_leaders_edifice": {
+      "hero": {
+        "badge": "陰謀の達人",
+        "title": "影から導き、永遠を築け。",
+        "subtitle": "<strong>シティーズ (Cities)</strong> の政治的駆け引き、<strong>指導者 (Leaders)</strong> の戦略的深み、そして <strong>大建造物 (Edifice)</strong> の共同プロジェクトが融合します。"
+      },
+      "setup": {
+        "title": "複合セットアップ",
+        "treasury": {
+          "title": "家計",
+          "text": "全プレイヤーは <strong>6コイン</strong> を持って開始します。"
+        },
+        "leaders": {
+          "title": "指導者",
+          "text": "各プレイヤーに <strong>指導者カード4枚</strong> を配ります。開始時にドラフトします。"
+        },
+        "cities": {
+          "title": "シティーズ",
+          "text": "各世代のデッキに <strong>シティーズカード</strong> を混ぜます（人数分）。"
+        },
+        "edifice": {
+          "title": "大建造物",
+          "text": "ボード上に世代ごと（I, II, III）のプロジェクトカードを1枚置きます。"
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "指導者フェイズ",
+          "subtitle": "指導者のドラフト",
+          "text": "ゲーム開始時、第I世代の前に行います。",
+          "pick1": "1枚選択",
+          "passRt": "右へ渡す",
+          "keep4": "4枚保持"
+        },
+        "gameplay": {
+          "title": "各世代",
+          "recruitment": {
+            "title": "雇用フェイズ",
+            "text": "各世代の開始時（カード配布前）に指導者を1人採用します：",
+            "recruit": {
+              "title": "雇用",
+              "text": "コストを支払って指導者をプレイします。"
+            },
+            "wonder": {
+              "title": "七不思議",
+              "text": "指導者を使用して七不思議の段階を建造します。"
+            },
+            "sell": {
+              "title": "売却",
+              "text": "指導者を捨てて3コインを得ます。"
+            }
+          },
+          "turnsTitle": "各世代のターン",
+          "cardsDealt": "8枚配布",
+          "step1": {
+            "title": "1. カードを出す",
+            "text": "建造物を建てる、七不思議を建造する、または売却してコインを得るアクションを行います。"
+          },
+          "step2": {
+            "title": "2. 大建造物の確認",
+            "text": "七不思議/大建造物を建造する場合、参加を検討します。"
+          },
+          "step3": {
+            "title": "3. 手札を渡す",
+            "text": "残りのカードを次のプレイヤーに渡します。"
+          }
+        }
+      },
+      "actions": {
+        "title": "アクションと相互作用",
+        "construct": {
+          "title": "建造物を建てる",
+          "text": "コスト（コイン/資源）を支払って建設します。"
+        },
+        "buildWonder": {
+          "title": "七不思議 ＋ 大建造物",
+          "participation": {
+            "title": "参加",
+            "text": "七不思議を建造する際、大建造物のコストを支払って参加ポーンを得ることができます。"
+          }
+        },
+        "discard": {
+          "title": "売却",
+          "text": "カードを捨てて <strong>3コイン</strong>（＋ボーナス）を得ます。"
+        }
+      },
+      "mechanics": {
+        "title": "拡張要素",
+        "debtsDiplomacy": {
+          "title": "負債と外交",
+          "text": "<strong>負債：</strong>コインを失うか負債チップ（マイナス点）を受け取ります。<br/><strong>外交：</strong>この世代の軍事紛争を回避します。"
+        },
+        "edificeResults": {
+          "title": "大建造物の結果",
+          "text": "<strong>完成：</strong>全参加者が報酬を得ます。<br/><strong>未完成：</strong>全不参加者が罰則を支払います。"
+        }
+      },
+      "endOfAge": {
+        "title": "世代終了の順序",
+        "order": "以下の順序で解決します：",
+        "edificeCheck": {
+          "title": "1. 大建造物の確認",
+          "text": "大建造物が完成したか（ポーンが埋まったか）を確認します。<br/>報酬または罰則を適用します。"
+        },
+        "groundWar": {
+          "title": "2. 軍事紛争",
+          "text": "隣人と盾を比較します。外交チップがあれば適用します。"
+        }
+      },
+      "scoring": {
+        "title": "最終得点計算",
+        "military": {
+          "title": "軍事",
+          "text": "勝利チップの合計から敗北チップの合計を引きます。"
+        },
+        "treasury": {
+          "title": "家計",
+          "text": "3コインにつき1点。"
+        },
+        "wonder": {
+          "title": "七不思議",
+          "text": "完成させた段階による点数。"
+        },
+        "civil": {
+          "title": "市民",
+          "text": "青のカードによる点数。"
+        },
+        "scientific": {
+          "title": "科学",
+          "text": "同じ記号のセットと異なる3種のセットによる点数。"
+        },
+        "commercial": {
+          "title": "商業",
+          "text": "黄色のカードによる点数。"
+        },
+        "guilds": {
+          "title": "ギルド",
+          "text": "紫のカードによる点数。"
+        },
+        "cities": {
+          "title": "シティーズ",
+          "text": "黒のカードによる点数。"
+        },
+        "edificeRewards": {
+          "title": "大建造物",
+          "text": "完成したプロジェクトによる点数。"
+        },
+        "debt": {
+          "title": "負債",
+          "text": "負債チップ1つごとに減点。"
+        },
+        "leaders": {
+          "title": "指導者",
+          "text": "白の指導者カードによる点数。"
+        }
+      },
+      "variants": {
+        "title": "バリアント",
+        "freeCity": {
+          "title": "中立都市（チーム戦）",
+          "leaders": "通常通り指導者をドラフトします。",
+          "edifice": "大建造物への参加は個人ごとです。",
+          "draw": "2枚引き、1枚を保持。チームルールの適用を意味します。",
+          "play": "チームメイトはカードを見せ合い、戦略を相談できます。"
+        }
+      }
+    },
+    "zenith": {
+      "hero": {
+        "badge": "究極の挑戦",
+        "title": "ゼニス (Zenith): 究極のセットアップ",
+        "subtitle": "全ての拡張を融合した体験：<strong>指導者</strong>、<strong>シティーズ</strong>、<strong>アルマダ</strong>、そして <strong>大建造物 (Edifice)</strong>。"
+      },
+      "setup": {
+        "title": "究極のセットアップ",
+        "treasury": {
+          "title": "家計",
+          "text": "各プレイヤーは <strong>6コイン</strong> を持って開始します。"
+        },
+        "boards": {
+          "title": "海戦ボード",
+          "text": "各プレイヤーは海戦ボードと4隻の船を受け取ります。"
+        },
+        "edifice": {
+          "title": "大建造物",
+          "text": "各世代に1枚の大建造物カードを置きます。参加ポーンを配布します。"
+        },
+        "cities": {
+          "title": "シティーズ",
+          "text": "各世代のデッキに黒のカードを混ぜます（各プレイヤー1枚）。"
+        },
+        "leaders": {
+          "title": "指導者",
+          "text": "指導者カードをシャッフルし、各プレイヤーに4枚配ります。開始時にドラフトします。"
+        },
+        "islands": {
+          "title": "島々",
+          "text": "3つの島デッキをボードの近くに置きます。"
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "ドラフトフェイズ",
+          "subtitle": "指導者の選択",
+          "text": "第I世代の前に、4枚の指導者をドラフトします。",
+          "pick1": "1枚選択",
+          "passRt": "右へ渡す",
+          "keep4": "4枚保持"
+        },
+        "gameplay": {
+          "title": "ゲームの見どころ",
+          "recruitment": {
+            "title": "雇用",
+            "text": "各世代の開始時：指導者を1人プレイします。",
+            "recruit": {
+              "title": "雇用",
+              "text": "コストを支払ってプレイします。"
+            },
+            "wonder": {
+              "title": "七不思議",
+              "text": "指導者を使って段階を建造します。"
+            },
+            "sell": {
+              "title": "売却",
+              "text": "捨てて3コインを得ます。"
+            }
+          },
+          "turnsTitle": "ターン / 世代",
+          "cardsDealt": "各プレイヤーに9枚配布",
+          "step1": {
+            "title": "1. カードの選択",
+            "text": "9枚から1枚選びます。解決は全員同時です。"
+          },
+          "step2": {
+            "title": "2. アクション",
+            "text": "建造、七不思議、または売却。建造した場合、海戦アクションを行えます。"
+          },
+          "step3": {
+            "title": "3. 渡す",
+            "text": "残りのカードを渡します（各世代で8枚のカードをプレイします）。"
+          }
+        }
+      },
+      "actions": {
+        "title": "アクション",
+        "construct": {
+          "title": "建造物を建てる",
+          "navalOpportunity": {
+            "title": "海上建設",
+            "text": "色がボードと一致する場合、コストを支払って船を前進させることができます。"
+          }
+        },
+        "buildWonder": {
+          "title": "七不思議を建造する",
+          "participation": {
+            "title": "大建造物への参加",
+            "text": "七不思議を建造する際、コストを支払って現在の大建造物プロジェクトに参加できます。"
+          },
+          "naval": {
+            "title": "海上建設",
+            "text": "建造した段階の色に対応する船を前進させます。"
+          }
+        },
+        "discard": {
+          "title": "売却",
+          "text": "<strong>3コイン</strong> を獲得し、<strong>黄色の船</strong> を1スペース進めます（無料）。"
+        }
+      },
+      "mechanics": {
+        "title": "主要な要素",
+        "debtsDiplomacy": {
+          "title": "負債と外交",
+          "text": "<strong>シティーズ：</strong>金銭的損失を管理し、外交チップで紛争を回避します。"
+        },
+        "edificeResults": {
+          "title": "大建造物プロジェクト",
+          "text": "<strong>大建造物：</strong>共同でプロジェクトを完遂させます。失敗すると不参加者に罰則があります。"
+        },
+        "armadaFleets": {
+          "title": "海上探検",
+          "text": "<strong>アルマダ：</strong>4隻の船を進めて、戦力、金貨を獲得し、島々を探索します。"
+        }
+      },
+      "endOfAge": {
+        "title": "世代終了の解決",
+        "order": "解決順序：大建造物 -> 地上戦 -> 海戦。",
+        "edificeCheck": {
+          "title": "1. 大建造物",
+          "text": "プロジェクトの完了を確認し、報酬または罰則を適用します。"
+        },
+        "groundWar": {
+          "title": "2. 地上戦",
+          "text": "隣人と赤の盾を比較します（外交が有効な場合を除く）。"
+        },
+        "navalWar": {
+          "title": "3. 海戦",
+          "text": "全プレイヤーと青の戦力を比較します。"
+        }
+      },
+      "scoring": {
+        "title": "最終得点計算",
+        "military": {
+          "title": "軍事",
+          "text": "地上紛争の点数。"
+        },
+        "naval": {
+          "title": "海戦",
+          "text": "海上紛争の点数。"
+        },
+        "treasury": {
+          "title": "家計",
+          "text": "3コインにつき1点。"
+        },
+        "wonder": {
+          "title": "七不思議",
+          "text": "七不思議の段階による点数。"
+        },
+        "civil": {
+          "title": "市民",
+          "text": "青のカードによる点数。"
+        },
+        "scientific": {
+          "title": "科学",
+          "text": "セットと記号の種類による点数。"
+        },
+        "commercial": {
+          "title": "商業",
+          "text": "黄色のカードによる点数。"
+        },
+        "guilds": {
+          "title": "ギルド",
+          "text": "紫のカードによる点数。"
+        },
+        "leaders": {
+          "title": "指導者",
+          "text": "指導者カードによる点数。"
+        },
+        "cities": {
+          "title": "シティーズ",
+          "text": "黒のカードによる点数。"
+        },
+        "edificeRewards": {
+          "title": "大建造物",
+          "text": "プロジェクトチップによる点数。"
+        },
+        "islands": {
+          "title": "島々",
+          "text": "探索カードによる点数。"
+        },
+        "dockyard": {
+          "title": "海戦ボード",
+          "text": "船の位置による点数。"
+        },
+        "debt": {
+          "title": "負債",
+          "text": "負債チップによる減点。"
+        }
+      }
+    },
+    "fallback": {
+      "title": "拡張を選択してください",
+      "text": "上でプレイする拡張セットを選択すると、その組み合わせに応じたルールと得点計算方法が表示されます。"
+    }
+  }
+}

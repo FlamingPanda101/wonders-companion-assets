@@ -1,0 +1,81 @@
+{
+    "privacyPolicy": {
+        "title": "Datenschutzerklärung",
+        "lastUpdated": "Zuletzt aktualisiert: 25. November 2025",
+        "intro": {
+            "title": "Einleitung",
+            "content": "Diese Datenschutzerklärung beschreibt, wie die Anwendung \"Wonders Companion\" (\"wir\", \"unser\" oder \"uns\") mit Ihren Daten umgeht. Wir setzen uns für den Schutz Ihrer Privatsphäre ein."
+        },
+        "dataCollection": {
+            "title": "Datenerfassung und -speicherung",
+            "noCollection": "Wir erfassen, übertragen oder speichern keine personenbezogenen Informationen auf externen Servern.",
+            "localStorage": "Alle in die Anwendung eingegebenen Daten, einschließlich Spielernamen, Punktzahlen und Spielverlauf, werden lokal auf Ihrem Gerät unter Verwendung des lokalen Speichers Ihres Browsers oder der nativen Speicherfunktionen des Geräts gespeichert.",
+            "cloudBackupTitle": "Optionales Cloud-Backup",
+            "cloudBackupContent": "Wir bieten möglicherweise eine optionale Funktion an, um Ihren Spielverlauf in Ihrem persönlichen Google Drive oder Google Storage zu sichern. Wenn Sie diese Funktion nutzen möchten:",
+            "cloudBackupList": [
+                "Sie werden gebeten, sich mit Ihrem Google-Konto anzumelden.",
+                "Die Anwendung greift nur auf die spezifischen Dateien zu, die sie zu Sicherungszwecken erstellt.",
+                "Ihre Daten bleiben unter Ihrer Kontrolle in Ihrem persönlichen Cloud-Speicher.",
+                "Wir haben keinen Zugriff auf Ihre Google-Konto-Zugangsdaten oder andere Daten in Ihrem Google Drive."
+            ]
+        },
+        "thirdParty": {
+            "title": "Dienste von Drittanbietern",
+            "noTracking": "Diese Anwendung verwendet keine Analysedienste, Tracking-Dienste oder Werbenetzwerke von Drittanbietern.",
+            "googleServices": "Wenn Sie sich für die Cloud-Backup-Funktion entscheiden, interagiert die Anwendung ausschließlich zum Zweck der Bereitstellung der Sicherungsfunktionalität mit den Authentifizungs- und Speicherdiensten von Google. Bitte informieren Sie sich in der Datenschutzerklärung von Google darüber, wie diese mit Ihren Daten umgehen."
+        },
+        "dataDeletion": {
+            "title": "Datenlöschung",
+            "content": "Da alle Daten lokal auf Ihrem Gerät gespeichert sind, haben Sie die volle Kontrolle darüber. Sie können Ihre Daten jederzeit löschen, indem Sie:",
+            "methods": [
+                "Die Funktionen \"Verlauf löschen\" oder \"Zurücksetzen\" in den App-Einstellungen verwenden.",
+                "Den Cache und den lokalen Speicher Ihres Browsers löschen.",
+                "Die Anwendung deinstallieren (falls als native App installiert)."
+            ]
+        },
+        "changes": {
+            "title": "Änderungen an dieser Richtlinie",
+            "content": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Alle Änderungen werden in diesem Dokument mit einem aktualisierten Datum für \"Zuletzt aktualisiert\" reflektiert."
+        },
+        "contact": {
+            "title": "Kontaktieren Sie uns",
+            "content": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, wenden Sie sich bitte an den Entwickler."
+        }
+    },
+    "termsOfService": {
+        "title": "Nutzungsbedingungen",
+        "lastUpdated": "Zuletzt aktualisiert: {{date}}",
+        "sections": {
+            "1": {
+                "title": "1. Annahme der Bedingungen",
+                "content": "Durch die Nutzung der Anwendung \"Wonders Companion\" erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie diesen Bedingungen nicht zustimmen, nutzen Sie die Anwendung bitte nicht."
+            },
+            "2": {
+                "title": "2. Beschreibung des Dienstes",
+                "content": "\"Wonders Companion\" ist ein digitales Hilfsprogramm, das Spielern hilft, Punkte für das Brettspiel \"7 Wonders\" zu berechnen und aufzuzeichnen. Diese Anwendung ist ein von Fans erstellter Tool und steht in keiner Verbindung zu den offiziellen Herausgebern von 7 Wonders."
+            },
+            "3": {
+                "title": "3. Nutzerdaten und Datenschutz",
+                "content1": "Ihr Datenschutz ist uns wichtig. Informationen zum Umgang mit Ihren Daten finden Sie in unserer <1>Datenschutzerklärung</1>.",
+                "content2": "Sie sind für die Sicherheit Ihres Geräts und aller in der Anwendung gespeicherten Daten verantwortlich. Wenn Sie die optionale Google Drive-Backup-Funktion nutzen, sind Sie für die Sicherheit Ihres Google-Kontos verantwortlich."
+            },
+            "4": {
+                "title": "4. Geistiges Eigentum",
+                "content1": "Alle Spielnamen, Grafiken und Themen im Zusammenhang mit \"7 Wonders\" sind geistiges Eigentum ihrer jeweiligen Eigentümer. Diese Anwendung erhebt keinen Anspruch auf Eigentum an offiziellen Spielinhalten.",
+                "content2": "Der Anwendungscode und das Design sind Eigentum des Entwicklers. Sie dürfen diese Anwendung ohne ausdrückliche Genehmigung nicht reproduzieren, verbreiten oder abgeleitete Werke davon erstellen."
+            },
+            "5": {
+                "title": "5. Haftungsbeschränkung",
+                "content": "Diese Anwendung wird \"wie besehen\" ohne jegliche Gewährleistung zur Verfügung gestellt. Der Entwickler haftet nicht für direkte, indirekte, zufällige oder Folgeschäden, die aus der Nutzung oder der Unfähigkeit zur Nutzung der Anwendung resultieren, einschließlich Datenverlust oder Wertungsfehlern."
+            },
+            "6": {
+                "title": "6. Änderungen der Bedingungen",
+                "content": "Wir behalten uns das Recht vor, diese Nutzungsbedingungen jederzeit zu ändern. Ihre fortgesetzte Nutzung der Anwendung nach Änderungen stellt Ihre Zustimmung zu den neuen Bedingungen dar."
+            },
+            "7": {
+                "title": "7. Kontaktinformationen",
+                "content": "Bei Fragen zu diesen Nutzungsbedingungen wenden Sie sich bitte an den Entwickler."
+            }
+        }
+    }
+}

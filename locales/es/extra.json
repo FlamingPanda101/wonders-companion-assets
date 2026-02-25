@@ -1,0 +1,257 @@
+{
+  "edifice": {
+    "setup": {
+      "title": "I. Preparación e Integración",
+      "q1": "¿Cómo cambia el flujo del juego con Edificios?",
+      "a1": "Se añade un **Proyecto de Edificio** común para cada Era. Los jugadores cooperan para construirlo."
+    },
+    "q2": "¿Cómo preparo los Edificios?",
+    "a2_p1": "Separa las cartas de Edificio por Era (I, II, III).",
+    "a2_li1": "Roba al azar un Edificio para cada Era.",
+    "a2_li2": "Coloca las **Fichas de Participación** sobre el Edificio según el número de jugadores menos uno.",
+    "a2_li3": "Coloca las fichas de Recompensa (cara arriba) y las fichas de Deuda (cara abajo) cerca.",
+    "a2_li4": "Mueve el marcador de proyecto al final de cada Era.",
+    "q3": "¿Es esta expansión compatible con 2 jugadores?",
+    "a3": "**Sí.** *Edificio* introduce reglas específicas para la variante experta de 2 jugadores.",
+    "participation": {
+      "title": "II. Participación en el Proyecto",
+      "q1": "¿Cómo participo en la construcción de un Edificio?",
+      "a1_p1": "Para participar, debes estar **construyendo una etapa de tu Maravilla**.",
+      "a1_p2": "Al construir la etapa, pagas el coste adicional indicado en la carta de Edificio actual y tomas una ficha de **Participación**.",
+      "a1_note": "Aviso: Solo puedes participar una vez por Edificio.",
+      "q2": "¿Puedo participar si construyo una estructura normal?",
+      "a2": "**No.** Solo cuando construyes una etapa de Maravilla.",
+      "q3": "¿Puedo participar si construyo mi Maravilla gratis (ej. vía Gran Muralla)?",
+      "a3_p1": "**Sí.** La etapa de Maravilla puede ser gratis, pero el coste de participación en el Edificio **siempre** debe pagarse.",
+      "a3_note": "Nota: Si usas una habilidad para construir la Maravilla gratis, solo te ahorras el coste de la etapa, no el del Edificio.",
+      "q4": "¿Qué pasa si se agotan las fichas de Participación?",
+      "a4": "Ya nadie más puede participar en ese Edificio durante esa Era.",
+      "q5": "¿Puedo mirar las fichas de Recompensa antes de participar?",
+      "a5": "**Sí.** Las fichas de recompensa están boca arriba."
+    },
+    "completion": {
+      "title": "III. Finalización y Consecuencias",
+      "q1": "¿Cuándo se comprueba si el Edificio se ha completado?",
+      "a1_p1": "Al final de cada Era, antes del Conflicto Militar.",
+      "a1_p2": "Si **todas** las fichas de Participación han sido retiradas, el Edificio está **completado**.",
+      "q2": "¿Qué pasa si el Edificio se completa con éxito?",
+      "a2_p1": "Todos los participantes reciben una **Ficha de Recompensa**.",
+      "a2_li1": "Los participantes descartan su ficha de Participación.",
+      "a2_li2": "Los no participantes no reciben nada, pero no son penalizados.",
+      "q3": "¿Qué pasa si el Edificio falla?",
+      "a3_p1": "Los participantes pierden su ficha de Participación (sin recompensa). Los **no participantes** sufren una penalización.",
+      "a3_note": "La penalización puede ser perder monedas, PV o incluso estructuras.",
+      "q4": "¿Puedo elegir pagar la penalización de Deuda si no puedo pagar las monedas?",
+      "a4": "Sí. Si fallas un Edificio y no puedes pagar las monedas exigidas, toma fichas de Deuda."
+    },
+    "wonders": {
+      "title": "IV. Maravillas (Ur y Cartago)",
+      "q1": "¿Aclara los efectos de las nuevas Maravillas?",
+      "a1_li1": "**Ur:** Interactúa directamente con los Edificios, permitiendo participaciones extra o recompensas mayores.",
+      "a1_li2": "**Cartago:** Sus etapas otorgan recursos o fuerza militar, útiles para financiar proyectos."
+    },
+    "scoring": {
+      "title": "V. Puntuación Final",
+      "q1": "¿Cuál es el orden de puntuación con Edificios?",
+      "a1_p1": "Se sigue el orden estándar añadiendo los Edificios al final.",
+      "a1_p2": "El orden oficial es:",
+      "q2": "¿Las fichas de Edificio cuentan para otros efectos?",
+      "a2": "**No.** Las fichas de recompensa de Edificio otorgan PV directos o beneficios inmediatos, pero la ficha en sí no es una \"carta\". No cuentan para Líderes dque puntúan por cartas moradas, por ejemplo.",
+      "q3": "¿Son las fichas de Deuda lo mismo que las de la expansión Ciudades?",
+      "a3": "Sí. Son funcionalmente idénticas y se restan de tu puntuación final.",
+      "q4": "¿Qué pasa si hay un empate?",
+      "a4": "Se usa la regla estándar: el jugador con más monedas en su tesoro gana el desempate."
+    }
+  },
+  "rankings": {
+    "title": "Clasificación",
+    "rankByTeam": "Clasificación por Equipo",
+    "rankByPlayer": "Clasificación por Jugador",
+    "teamTie": "¡Empate de Equipos!",
+    "tieGame": "¡Empate!",
+    "teamVictory": "¡Victoria del Equipo {{team}}!",
+    "theVictors": "Los Vencedores",
+    "theVictor": "El Vencedor",
+    "noScoresYet": "Aún no hay puntuaciones",
+    "enterScoresMessage": "¡Introduce las puntuaciones en la hoja de juego para ver la clasificación aquí!",
+    "teamWinner": "EQUIPO GANADOR",
+    "winner": "GANADOR",
+    "saveGame": "Guardar Partida",
+    "saveGameResults": "Guardar Resultados",
+    "gameSaved": "¡Partida Guardada!",
+    "resultsSaved": "Resultados Guardados",
+    "shareResults": "Compartir Resultados",
+    "shareResultsText": "Compartir Resultados (Texto)",
+    "shareResultsCSV": "Compartir Resultados (CSV)",
+    "sharedToClipboard": "¡Compartido en el portapapeles!",
+    "copiedToClipboard": "¡Copiado al portapapeles!",
+    "copyCSVText": "Copiar Texto CSV",
+    "shareCSVFile": "Compartir Archivo CSV",
+    "allWonders": "Todas las Maravillas",
+    "copyFileText": "COPIAR TEXTO DEL ARCHIVO",
+    "textCopied": "¡Texto Copiado!",
+    "shareTitle": "Resultados de Wonders Companion",
+    "shareText": "¡Aquí están los resultados de nuestra partida!",
+    "shareDialogTitle": "Compartir Resultados",
+    "saveValidationMessage": "Para guardar la partida, completa la información de configuración que falta. Haz clic en el icono de configuración arriba a la derecha.",
+    "coinTieBreakerDisclaimer": "Para un desempate preciso, cambia la puntuación del Tesoro a 'Monedas' en Ajustes.",
+    "winnerDecidedByCoins": "El ganador se decide por monedas debido a un empate en puntos.",
+    "csvImportTip": "Consejo: ¡Este texto o archivo CSV se puede importar en la aplicación de otro usuario en Ajustes!",
+    "viewHistorySettings": "Puedes consultar tu historial de partidas en Ajustes.",
+    "classicGrid": "Cuadrícula Clásica",
+    "personalizedCards": "Tarjetas Personalizadas"
+  },
+  "hallOfFame": {
+    "title": "Salón de la Fama",
+    "empty": "Salón de la Fama Vacío",
+    "noRecords": "No se encontraron registros para las expansiones seleccionadas.",
+    "noData": "Sin Datos",
+    "supremeSovereign": "El Soberano Supremo",
+    "warlord": "El Señor de la Guerra",
+    "admiral": "El Almirante",
+    "madScientist": "El Científico Loco",
+    "philosopher": "El Filósofo",
+    "wonderArchitect": "El Arquitecto de Maravillas",
+    "tycoon": "El Magnate",
+    "guildmaster": "El Maestro de Gremios",
+    "hoardingDragon": "El Dragón Acaparador",
+    "hopelessDebtor": "El Deudor Desesperado",
+    "islandExplorer": "El Explorador de Islas",
+    "shipwright": "El Constructor Naval",
+    "veteran": "El Veterano",
+    "veteranSubtitle": "(Más partidas jugadas)",
+    "strategist": "El Estratega",
+    "strategistSubtitle": "(Promedio de puntuación más alto)"
+  },
+  "gameModes": {
+    "title": "MODOS DE JUEGO",
+    "gameMode": "modo de juego",
+    "showAllRecords": "Mostrar todos los registros",
+    "unlockAllWonders": "Desbloquear todas las maravillas",
+    "armada": "Armada",
+    "cities": "Cities",
+    "edifice": "Edifice",
+    "leaders": "Leaders",
+    "teamplay": "Juego en Equipo",
+    "expansionmaps": "Mapas de Expansión",
+    "purchasePrompt": "$2 USD para desbloquear las cuatro expansiones",
+    "breakTheRules": "Rompe las reglas",
+    "breakTheRulesDesc1": "7 Wonders está diseñado para hasta 7 jugadores, pero esta aplicación elimina esos límites. Puedes añadir tantos jugadores como quieras, seleccionar cualquier combinación de expansiones e incluso jugar con maravillas duplicadas.",
+    "breakTheRulesDesc2": "¡La lógica de puntuación sigue siendo sólida para cualquier número de jugadores, pero prepárate para partidas caóticas (y emocionantes) si llevas los límites al extremo!",
+    "note": "Nota: Ciertas combinaciones de expansiones pueden requerir espacio adicional en la mesa y pueden aumentar significativamente el tiempo de juego.",
+    "gotIt": "¡Entendido!",
+    "gamesHidden": "ALGUNAS PARTIDAS OCULTAS",
+    "hiddenGamesMessage_one": "{{count}} partida oculta del Salón de la Fama, Clasificación, Historial, Estadísticas e Historial de Partidas porque incluye una expansión que no has comprado.",
+    "hiddenGamesMessage_other": "{{count}} partidas ocultas del Salón de la Fama, Clasificación, Historial, Estadísticas e Historial de Partidas porque incluyen expansiones que no has comprado.",
+    "hiddenGamesPurchaseLink_one": "Compra las expansiones para acceder a la partida oculta",
+    "hiddenGamesPurchaseLink_other": "Compra las expansiones para acceder a las partidas ocultas",
+    "hiddenGamesMessageLong": "{{count}} partidas en tu historial no coinciden con los filtros del modo de juego actual.",
+    "armadaDesc": "Conflictos navales y exploración de islas. Incluye tableros navales para cada jugador.",
+    "citiesDesc": "Deuda entre ciudades e interacción en las sombras. Añade las nuevas cartas 'negras' de ciudad.",
+    "edificeDesc": "Proyectos comunales que los jugadores construyen juntos para obtener recompensas o penalizaciones globales.",
+    "leadersDesc": "Recluta figuras históricas poderosas para guiar la estrategia de tu civilización.",
+    "teamPlayDesc": "Juega en equipos para compartir puntuaciones y coordinar estrategias.",
+    "unlockAllWondersDesc": "Habilita todas las maravillas de cada expansión independientemente de los modos seleccionados.",
+    "modes": {
+      "base": {
+        "name": "Juego Base",
+        "description": "La experiencia clásica. Céntrate en tu ciudad y tus vecinos inmediatos."
+      },
+      "leadersMode": {
+        "name": "Expansión Leaders",
+        "description": "Recluta figuras influyentes para guiar el crecimiento de tu civilización."
+      },
+      "citiesMode": {
+        "name": "Expansión Cities",
+        "description": "Tratos turbios y mayor interacción con las nuevas cartas negras."
+      },
+      "armadaMode": {
+        "name": "Expansión Armada",
+        "description": "Lánzate a alta mar con pistas navales y exploración de islas."
+      },
+      "edificeMode": {
+        "name": "Expansión Edifice",
+        "description": "Colaborad en proyectos comunales para obtener recompensas o penalizaciones globales."
+      },
+      "zenith": {
+        "name": "La Colección Zenith",
+        "description": "Todas las expansiones activas. La prueba definitiva de estrategia antigua."
+      },
+      "diplomatic": {
+        "name": "La Corte Diplomática",
+        "description": "Líderes poderosos se encuentran en las calles de la metrópolis."
+      },
+      "sovereign": {
+        "name": "Océanos Soberanos",
+        "description": "Grandes líderes conquistan los mares con flotas poderosas."
+      },
+      "monumental": {
+        "name": "Gobernantes Monumentales",
+        "description": "Figuras legendarias colaboran en enormes estructuras comunales."
+      },
+      "navalTrade": {
+        "name": "Rutas de Comercio Naval",
+        "description": "Ciudades mercantiles y poder naval dominan el comercio antiguo."
+      },
+      "metropolitan": {
+        "name": "Maravillas Metropolitanas",
+        "description": "Ciudades densas que reúnen recursos para grandes Edifices comunales."
+      },
+      "coastal": {
+        "name": "Hitos Costeros",
+        "description": "Proyectos de construcción colaborativos a lo largo de costas estratégicas."
+      },
+      "imperial": {
+        "name": "El Triunvirato Imperial",
+        "description": "Leaders, Cities y Armada. Alta interacción, guerra naval y reclutamiento."
+      },
+      "masterArchitects": {
+        "name": "Los Maestros Arquitectos",
+        "description": "Leaders, Cities y Edifice. Enfoque en el reclutamiento y la construcción colaborativa."
+      },
+      "royalArchitects": {
+        "name": "Los Arquitectos Reales",
+        "description": "Leaders, Armada y Edifice. Líderes legendarios expandiendo el mar y las estructuras."
+      },
+      "coalition": {
+        "name": "La Coalición del Poder",
+        "description": "Cities, Armada y Edifice. Estrategia pura, guerra y construcción."
+      },
+      "custom": {
+        "name": "Mazo de Expansiones Personalizado",
+        "description": "{{count}} expansiones seleccionadas.",
+        "single": "1 expansión seleccionada."
+      }
+    }
+  },
+  "app": {
+    "validationError": "No se puede guardar la partida. Asegúrate de que todos los jugadores tengan un nombre personalizado, una maravilla y un lado seleccionado:",
+    "missingName": "Jugador {{id}}: Falta el nombre",
+    "missingWonder": "Jugador {{id}}: Falta la maravilla",
+    "missingSide": "Jugador {{id}}: Falta el lado",
+    "swapP": "Intercambiar J{{id}}",
+    "backupSuccess": "¡Copia de seguridad completada con éxito!",
+    "backupFailed": "Error al guardar la copia de seguridad en Google Drive: {{error}}",
+    "restoreConfirm": "Esto fusionará los datos de Google Drive con tus datos locales, evitando duplicados. ¿Continuar?",
+    "restoreFailed": "Error al restaurar desde Drive: {{error}}",
+    "restoreSuccess": "¡Restauración completada con éxito!",
+    "googleDriveDisconnected": "Google Drive desconectado. ¿Iniciar sesión para reanudar la copia de seguridad?",
+    "purchase": {
+      "nativeTitle": "¿Iniciar prueba gratuita?",
+      "webTitle": "¿Desbloquear expansiones?",
+      "nativeMessage": "Desbloquea las 4 expansiones (Leaders, Cities, Armada, Edifice) con una prueba gratuita de 7 días, luego una compra única.",
+      "webMessage": "¿Actualizar a la 'Versión Pro - Cuatro Expansiones' (Leaders, Cities, Armada, Edifice) por un pago único de $2.00?",
+      "nativeConfirm": "Iniciar Prueba",
+      "webConfirm": "Desbloquear Todo ($2.00)"
+    }
+  },
+  "timer": {
+    "start": "Iniciar",
+    "pause": "Pausa",
+    "resume": "Reanudar",
+    "fullScreen": "Pantalla Completa",
+    "closeFullScreen": "Cerrar Pantalla Completa",
+    "switchToRotating": "Cambiar a Modo Giratorio",
+    "switchToSingle": "Cambiar a Modo Individual"
+  }
+}

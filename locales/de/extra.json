@@ -1,0 +1,194 @@
+{
+    "rankings": {
+        "title": "Rangliste",
+        "rankByTeam": "Nach Team rangieren",
+        "rankByPlayer": "Nach Spieler rangieren",
+        "teamTie": "Unentschieden zwischen Teams!",
+        "tieGame": "Unentschieden!",
+        "teamVictory": "Sieg für Team {{team}}!",
+        "theVictors": "Die Sieger",
+        "theVictor": "Der Sieger",
+        "noScoresYet": "Noch keine Ergebnisse",
+        "enterScoresMessage": "Gib die Ergebnisse im Spielblatt ein, um hier die Rangliste zu sehen!",
+        "teamWinner": "TEAM-SIEGER",
+        "winner": "SIEGER",
+        "saveGame": "Spiel speichern",
+        "saveGameResults": "Spielergebnisse speichern",
+        "gameSaved": "Spiel gespeichert!",
+        "resultsSaved": "Ergebnisse gespeichert",
+        "shareResults": "Ergebnisse teilen",
+        "shareResultsText": "Ergebnisse teilen (Text)",
+        "shareResultsCSV": "Ergebnisse teilen (CSV)",
+        "sharedToClipboard": "In die Zwischenablage kopiert!",
+        "copiedToClipboard": "Kopiert!",
+        "copyCSVText": "CSV-Text kopieren",
+        "shareCSVFile": "CSV-Datei teilen",
+        "allWonders": "Alle Weltwunder",
+        "copyFileText": "DATEITEXT KOPIEREN",
+        "textCopied": "Text kopiert!",
+        "shareTitle": "Wonders Companion Spielergebnisse",
+        "shareText": "Hier sind die Ergebnisse unserer Partie!",
+        "shareDialogTitle": "Ergebnisse teilen",
+        "saveValidationMessage": "Um das Spiel zu speichern, vervollständige die fehlenden Setup-Informationen. Klicke auf das Setup-Symbol oben rechts.",
+        "coinTieBreakerDisclaimer": "Für einen genauen Tie-Break schalte die Schatzpiz-Wertung in den Einstellungen auf 'Münzen' um.",
+        "winnerDecidedByCoins": "Der Sieger wurde bei Punktegleichstand durch die Anzahl der Münzen ermittelt.",
+        "csvImportTip": "Tipp: Dieser Text oder diese CSV-Datei kann in der App eines anderen Benutzers in den Einstellungen importiert werden!",
+        "viewHistorySettings": "Du kannst deinen Spielverlauf in den Einstellungen einsehen.",
+        "classicGrid": "Klassisches Raster",
+        "personalizedCards": "Personalisierte Karten"
+    },
+    "hallOfFame": {
+        "title": "Ruhmeshalle",
+        "empty": "Ruhmeshalle leer",
+        "noRecords": "Keine Datensätze für die ausgewählten Erweiterungen gefunden.",
+        "noData": "Keine Daten",
+        "supremeSovereign": "Der oberste Herrscher",
+        "warlord": "Der Kriegsherr",
+        "admiral": "Der Admiral",
+        "madScientist": "Der verrückte Wissenschaftler",
+        "philosopher": "Der Philosoph",
+        "wonderArchitect": "Der Wunderarchitekt",
+        "totalArchitect": "Der Baumeister",
+        "tycoon": "Der Tycoon",
+        "guildmaster": "Der Gildenmeister",
+        "hoardingDragon": "Der hortende Drache",
+        "hopelessDebtor": "Der hoffnungslose Schuldner",
+        "islandExplorer": "Der Inselforscher",
+        "shipwright": "Der Schiffsbauer",
+        "veteran": "Der Veteran",
+        "veteranSubtitle": "(Meiste gespielte Spiele)",
+        "strategist": "Der Strategie-Experte",
+        "strategistSubtitle": "(Höchster Spieledurchschnitt)"
+    },
+    "gameModes": {
+        "title": "SPIELMODI",
+        "gameMode": "Spielmodus",
+        "showAllRecords": "Alle Datensätze anzeigen",
+        "unlockAllWonders": "Alle Wunder freischalten",
+        "armada": "Armada",
+        "cities": "Cities",
+        "edifice": "Edifice",
+        "leaders": "Leaders",
+        "teamplay": "Teamspiel",
+        "expansionmaps": "Erweiterungskarten",
+        "purchasePrompt": "2 USD um alle vier Erweiterungen freizuschalten",
+        "breakTheRules": "Regeln brechen",
+        "breakTheRulesDesc1": "7 Wonders ist für bis zu 7 Spieler konzipiert, aber diese App entfernt diese Grenzen. Du kannst beliebig viele Spieler hinzufügen, jede Kombination von Erweiterungen wählen und sogar mit doppelten Wundern spielen.",
+        "breakTheRulesDesc2": "Die Wertungslogik bleibt für alle Spielerzahlen korrekt, aber sei auf chaotische (und spannende) Spiele gefasst, wenn du die Grenzen ausreizst!",
+        "note": "Hinweis: Bestimmte Erweiterungskombinationen erfordern möglicherweise zusätzlichen Platz am Tisch und können die Spielzeit erheblich verlängern.",
+        "gotIt": "Verstanden!",
+        "gamesHidden": "EINIGE SPIELE AUSGEBLENDET",
+        "hiddenGamesMessage_one": "{{count}} Spiel wird in der Ruhmeshalle, Rangliste, Spielerhistorie, Spielstatistik und dem Spielverlauf ausgeblendet, da es eine Erweiterung enthält, die du nicht erworben hast.",
+        "hiddenGamesMessage_other": "{{count}} Spiele werden in der Ruhmeshalle, Rangliste, Spielerhistorie, Spielstatistik und dem Spielverlauf ausgeblendet, da sie Erweiterungen enthalten, die du nicht erworben hast.",
+        "hiddenGamesPurchaseLink_one": "Erwirb die Erweiterungen, um auf das versteckte Spiel zuzugreifen",
+        "hiddenGamesPurchaseLink_other": "Erwirb die Erweiterungen, um auf die versteckten Spiele zuzugreifen",
+        "hiddenGamesMessageLong": "{{count}} Spiele in deinem Verlauf entsprechen nicht den aktuellen Spielmodus-Filtern.",
+        "armadaDesc": "Seekonflikte und Inselforschung. Enthält Werft-Tableaus für jeden Spieler.",
+        "citiesDesc": "Zwischenstädtische Schulden und schattige Interaktion. Fügt neue 'schwarze' Städtekarten hinzu.",
+        "edificeDesc": "Gemeinschaftsprojekte, die Spieler gemeinsam bauen für Belohnungen oder globale Strafen.",
+        "leadersDesc": "Rekrutiere mächtige historische Persönlichkeiten, um die Strategie deiner Zivilisation zu leiten.",
+        "teamPlayDesc": "Spiele in Teams, um Punkte zusammenzulegen und Strategien zu koordinieren.",
+        "unlockAllWondersDesc": "Aktiviere alle Wunder aus jeder Erweiterung, unabhängig von den gewählten Modi.",
+        "modes": {
+            "base": {
+                "name": "Grundspiel",
+                "description": "Die klassische Erfahrung. Konzentriere dich auf deine Stadt und deine unmittelbaren Nachbarn."
+            },
+            "leadersMode": {
+                "name": "Leaders Erweiterung",
+                "description": "Rekrutiere einflussreiche Persönlichkeiten, um das Wachstum deiner Zivilisation zu leiten."
+            },
+            "citiesMode": {
+                "name": "Cities Erweiterung",
+                "description": "Zwielichtige Geschäfte und erhöhte Interaktion mit neuen schwarzen Karten."
+            },
+            "armadaMode": {
+                "name": "Armada Erweiterung",
+                "description": "Begib dich auf hohe See mit Schiffstableaus und Inselforschung."
+            },
+            "edificeMode": {
+                "name": "Edifice Erweiterung",
+                "description": "Arbeitet gemeinsam an Gemeinschaftsprojekten für Belohnungen oder globale Strafen."
+            },
+            "zenith": {
+                "name": "Die Zenith-Kollektion",
+                "description": "Alle Erweiterungen aktiv. Der ultimative Test für antike Strategie."
+            },
+            "diplomatic": {
+                "name": "Der diplomatische Hof",
+                "description": "Mächtige Anführer treffen auf die rauen Straßen der Metropole."
+            },
+            "sovereign": {
+                "name": "Souveräne Ozeane",
+                "description": "Große Anführer erobern die Meere mit mächtigen Flotten."
+            },
+            "monumental": {
+                "name": "Monumentale Herrscher",
+                "description": "Legendäre Figuren arbeiten an massiven Gemeinschaftsbauwerken zusammen."
+            },
+            "navalTrade": {
+                "name": "Seehandelsrouten",
+                "description": "Handelsstädte und Seemacht dominieren den antiken Handel."
+            },
+            "metropolitan": {
+                "name": "Metropolitane Wunder",
+                "description": "Dichte Städte legen Ressourcen für große Gemeinschaftsbauten zusammen."
+            },
+            "coastal": {
+                "name": "Küstenmonumente",
+                "description": "Kollaborative Bauprojekte entlang der strategischen Küstenlinien."
+            },
+            "imperial": {
+                "name": "Das kaiserliche Triumvirat",
+                "description": "Leaders, Cities und Armada. Hohe Interaktion, Seekriegsführung und Rekrutierung."
+            },
+            "masterArchitects": {
+                "name": "Die Meisterarchitekten",
+                "description": "Leaders, Cities und Edifice. Fokus auf Rekrutierung und gemeinschaftliches Bauen."
+            },
+            "royalArchitects": {
+                "name": "Die königlichen Architekten",
+                "description": "Leaders, Armada und Edifice. Legendäre Anführer erweitern Meer und Bauwerk."
+            },
+            "coalition": {
+                "name": "Die Koalition der Macht",
+                "description": "Cities, Armada und Edifice. Reine Strategie, Kriegsführung und Bauwesen."
+            },
+            "custom": {
+                "name": "Benutzerdefiniertes Erweiterungsdeck",
+                "description": "{{count}} Erweiterungen ausgewählt.",
+                "single": "1 Erweiterung ausgewählt."
+            }
+        }
+    },
+    "app": {
+        "validationError": "Spiel kann nicht gespeichert werden. Bitte stelle sicher, dass alle Spieler einen Namen, ein Wunder und eine Seite ausgewählt haben:",
+        "missingName": "Spieler {{id}}: Name fehlt",
+        "missingWonder": "Spieler {{id}}: Wunder fehlt",
+        "missingSide": "Spieler {{id}}: Seite fehlt",
+        "swapP": "Tausche S{{id}}",
+        "backupSuccess": "Sicherung erfolgreich abgeschlossen!",
+        "backupFailed": "Sicherung auf Google Drive fehlgeschlagen: {{error}}",
+        "restoreConfirm": "Dies wird Daten von Google Drive mit deinen lokalen Daten zusammenführen und Duplikate vermeiden. Fortfahren?",
+        "restoreFailed": "Wiederherstellung von Drive fehlgeschlagen: {{error}}",
+        "restoreSuccess": "Wiederherstellung erfolgreich abgeschlossen!",
+        "googleDriveDisconnected": "Google Drive getrennt. Anmelden, um Sicherung fortzusetzen?",
+        "purchase": {
+            "nativeTitle": "Kostenlose Testversion starten?",
+            "webTitle": "Erweiterungen freischalten?",
+            "nativeMessage": "Schalte alle 4 Erweiterungen (Leaders, Cities, Armada, Edifice) mit einer 7-tägigen kostenlosen Testversion frei, danach Einmalkauf.",
+            "webMessage": "Auf 'Pro-Version - Vier Erweiterungen' (Leaders, Cities, Armada, Edifice) für eine einmalige Gebühr von 2,00 $ upgraden?",
+            "nativeConfirm": "Testversion starten",
+            "webConfirm": "Alle freischalten (2,00 $)"
+        }
+    },
+    "timer": {
+        "start": "Start",
+        "pause": "Pause",
+        "resume": "Fortsetzen",
+        "fullScreen": "Vollbild",
+        "closeFullScreen": "Vollbild schließen",
+        "switchToRotating": "In den Rotationsmodus wechseln",
+        "switchToSingle": "In den Einzelmodus wechseln"
+    }
+}

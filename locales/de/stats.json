@@ -1,0 +1,302 @@
+{
+  "playerHistory": {
+    "title": "Spielerstatistiken",
+    "best": "Beste",
+    "subtitle": "Pro-Analysen & Statistiken",
+    "rankOverall": "Rangliste: #{{rank}}",
+    "wins": "Siege",
+    "games": "Spiele",
+    "winRate": "Siegquote",
+    "avgScore": "Durchschnitt",
+    "scoringProfile": "Punktprofil",
+    "averagePointsCategory": "Durchschnittliche Punkte pro Kategorie",
+    "recentPerformance": "Aktuelle Leistung",
+    "scoreTrendLast10": "Punktetrend der letzten 10 Spiele",
+    "playStyleDescription": "Archetypen: Das System analysiert Ihr Punktprofil, um Ihnen basierend auf Ihrer Leistung eine Klasse zuzuweisen.",
+    "classLabel": "Archetyp",
+    "yourArchetypeIs": "Dein Archetyp ist: {{name}}",
+    "match": "Übereinstimmung",
+    "unknown": "Unbekannt",
+    "wonderMastery": "Weltwunder-Meisterschaft",
+    "sideAWinRate": "Siegquote Seite A",
+    "sideBWinRate": "Siegquote Seite B",
+    "wonderSideA": "Seite A",
+    "wonderSideB": "Seite B",
+    "you": "Du",
+    "globalAvg": "Alle",
+    "recommendedBoard": "Basierend auf deinen Daten empfehlen wir",
+    "sortByGames": "Anzahl Spiele",
+    "sortByWinRate": "Siegquote",
+    "rival": "Rivale",
+    "barelyAhead": "Durchschnitt ist <1>{{diff}} Pkt</1> vor dir",
+    "barelyBelow": "Durchschnitt ist <1>{{diff}} Pkt</1> hinter dir",
+    "scoreStalemate": "Statistisches Unentschieden (Durchschnitt)",
+    "victim": "Dein Opfer",
+    "youBeatThem_one": "Du hast <1>1</1> Mal gewonnen",
+    "youBeatThem_other": "Du hast <1>{{count}}</1> Mal gewonnen",
+    "matchHistory": "Matchverlauf",
+    "nemesis": "Erzfeind",
+    "hasBeatenYou": "Hat dich <1>{{losses}}</1> Mal besiegt",
+    "victory": "Sieg!",
+    "won": "hat gewonnen",
+    "searchPlayers": "Spieler suchen...",
+    "noPlayersFound": "Keine Spieler gefunden",
+    "tryDifferentSearch": "Versuche einen anderen Suchbegriff",
+    "playGamesToSeeStats": "Spiele ein paar Runden, um hier Statistiken zu sehen!",
+    "achievements": "Erfolge",
+    "score": "Punkte",
+    "progress": "Fortschritt",
+    "get": "HOLEN",
+    "overall": "Gesamt",
+    "vs": "vs",
+    "badges": {
+      "beginner_luck": {
+        "title": "Anfängerglück",
+        "description": "Gewinne dein allererstes Spiel"
+      },
+      "centurion": {
+        "title": "Zenturio",
+        "description": "Erreiche 100+ Punkte in einem Spiel",
+        "progressLabel": "{{current}}/100 Max. Punkte"
+      },
+      "close_call": {
+        "title": "Knappe Kiste",
+        "description": "Gewinne ein Spiel mit 2 oder weniger Punkten Vorsprung"
+      },
+      "culture_icon": {
+        "title": "Kulturikone",
+        "description": "Erreiche 40+ Punkte durch Profanbauten"
+      },
+      "dark_side": {
+        "title": "Dunkle Seite",
+        "description": "Gewinne 5 Spiele mit Weltwunder-Seite B",
+        "progressLabel": "{{current}}/5 Siege"
+      },
+      "debt_collector": {
+        "title": "Schuldeneintreiber",
+        "description": "Gewinne ein Spiel mit 5+ Schuldenmarkern"
+      },
+      "dominator": {
+        "title": "Dominator",
+        "description": "Gewinne ein Spiel mit 20 oder mehr Punkten Vorsprung"
+      },
+      "globe_trotter": {
+        "title": "Weltenbummler",
+        "description": "Spiele mit allen 7 Basis-Weltwundern",
+        "progressLabel": "{{current}}/7 Basis-Wunder"
+      },
+      "grand_scientist": {
+        "title": "Großer Wissenschaftler",
+        "description": "Erreiche 50+ Punkte durch Forschung"
+      },
+      "guild_leader": {
+        "title": "Gildenmeister",
+        "description": "Erreiche 30+ Punkte durch Gilden"
+      },
+      "hoarder": {
+        "title": "Der Horter",
+        "description": "Beende ein Spiel mit 20+ Münzen"
+      },
+      "island_explorer": {
+        "title": "Insel-Entdecker",
+        "description": "Entdecke 3+ Inseln in einem Spiel"
+      },
+      "jack_of_all_trades": {
+        "title": "Tausendsassa",
+        "description": "Erreiche > 8 Punkte in 5+ Kategorien in einem Spiel"
+      },
+      "leader_of_leaders": {
+        "title": "Anführer der Anführer",
+        "description": "Erreiche 15+ Punkte durch Anführer"
+      },
+      "master_builder": {
+        "title": "Baumeister",
+        "description": "Errichte alle Stufen deines Weltwunders"
+      },
+      "merchant_prince": {
+        "title": "Handelsfürst",
+        "description": "Erreiche 20+ Punkte durch Handelsbauten"
+      },
+      "naval_commander": {
+        "title": "Flottenadmiral",
+        "description": "Gewinne ein Spiel mit maximaler Flottenstärke"
+      },
+      "pacifist": {
+        "title": "Pazifist",
+        "description": "Gewinne ein Spiel mit ≤ 0 Militärpunkten"
+      },
+      "participation_award": {
+        "title": "Teilnehmerpreis",
+        "description": "Spiele 5 Spiele ohne Sieg"
+      },
+      "specialist": {
+        "title": "Spezialist",
+        "description": "Erreiche > 35 Punkte in einer einzelnen Kategorie"
+      },
+      "speed_demon": {
+        "title": "Geschwindigkeitsrausch",
+        "description": "Beende ein Spiel in unter 20 Minuten"
+      },
+      "strategist": {
+        "title": "Stratege",
+        "description": "Halte eine Siegquote von 30% (mind. 10 Spiele)",
+        "progressLabel": "{{current}}%/30% Siegquote"
+      },
+      "supreme_general": {
+        "title": "Oberbefehlshaber",
+        "description": "Erreiche 40+ Punkte im Militär"
+      },
+      "veteran": {
+        "title": "Veteran",
+        "description": "Spiele 50 Spiele",
+        "progressLabel": "{{current}}/50 Spiele"
+      },
+      "wonder_master": {
+        "title": "Wunder-Meister",
+        "description": "Gewinne mit 7 verschiedenen Weltwundern",
+        "progressLabel": "{{current}}/7 Wunder gewonnen"
+      },
+      "century_club": {
+        "title": "Hunderter-Club",
+        "description": "Spiele 100 Spiele",
+        "progressLabel": "{{current}}/100 Spiele"
+      },
+      "iron_will": {
+        "title": "Eiserner Wille",
+        "description": "Gewinne 10 Spiele",
+        "progressLabel": "{{current}}/10 Siege"
+      },
+      "social_butterfly": {
+        "title": "Gesellschaftslöwe",
+        "description": "Spiele gegen 10+ verschiedene Gegner",
+        "progressLabel": "{{current}}/10 Gegner"
+      },
+      "loyal_wonder": {
+        "title": "Loyales Wunder",
+        "description": "Spiele das gleiche Wunder 10+ Mal",
+        "progressLabel": "{{current}}/10 Spiele"
+      },
+      "double_agent": {
+        "title": "Doppelagent",
+        "description": "Gewinne mit beiden Seiten (A und B) desselben Wunders"
+      },
+      "hat_trick": {
+        "title": "Hattrick",
+        "description": "Gewinne 3 Spiele hintereinander"
+      },
+      "full_house": {
+        "title": "Full House",
+        "description": "Spiele eine Runde mit 7 Spielern"
+      },
+      "balanced": {
+        "title": "Meister der Balance",
+        "description": "Erreiche > 0 in allen 7 Basiskategorien in einem Spiel"
+      }
+    }
+  },
+  "history": {
+    "title": "Spielverlauf",
+    "empty": "Noch keine Spiele gespielt",
+    "date": "Datum",
+    "winner": "Sieger",
+    "players": "Spieler",
+    "viewDetails": "Details ansehen",
+    "deleteGame": "Spiel löschen",
+    "confirmDelete": "Bist du sicher, dass du dieses Spiel löschen möchtest?",
+    "gamesPlayed": "Gespielte Spiele",
+    "averageScore": "Durchschnitt",
+    "highestScore": "Höchstpunktzahl",
+    "noGamesSaved": "Keine Spiele gespeichert",
+    "noMatchesFound": "Keine Treffer gefunden",
+    "saveGamesMessage": "Speichere deine Spiele auf der Ranglistenseite, um sie hier zu sehen.",
+    "adjustFiltersMessage": "Versuche, die Erweiterungsauswahl anzupassen, um andere Datensätze zu sehen.",
+    "deleteRecord": "Eintrag löschen?",
+    "tip": "Tipp: Tippe auf Board-Icons, um die vollständigen Namen zu sehen",
+    "tipShort": "Tipp: Tippe auf Icons wie",
+    "tipSeeFullNames": "für volle Namen",
+    "sortedHighToLow": "--- Sortiert: Hoch nach Niedrig ---",
+    "gameMoved": "Spiel verschoben!",
+    "gameMovedMessage": "Dieser Datensatz gehört zu einem anderen Erweiterungsset. Ändere den \"Spielmodus\"-Filter oben, um ihn zu sehen.",
+    "sortOptions": {
+      "mostRecent": "Neueste",
+      "totalScore": "Gesamtpunkte",
+      "military": "Militär",
+      "treasury": "Schatzkammer",
+      "wonder": "Weltwunder",
+      "civilian": "Profanbauten",
+      "scientific": "Forschungsbauten",
+      "commercial": "Handelsbauten",
+      "guilds": "Gilden",
+      "debts": "Schulden",
+      "naval": "Flottenkämpfe",
+      "islands": "Insel-Entdeckung",
+      "dockyard": "Werft-Tableau"
+    },
+    "topScoreLabel": "Top {{category}}: {{score}}",
+    "copyCSVText": "Ergebnisse kopieren (CSV Text)",
+    "shareCSVFile": "Ergebnisse teilen (CSV Datei)",
+    "team": "TEAM",
+    "player": "SPIELER",
+    "winningTeam": "Gewinnerteam!",
+    "losingTeam": "Verliererteam",
+    "vs": "vs"
+  },
+  "leaderboard": {
+    "title": "Bestenliste",
+    "allWonders": "Alle Wunder",
+    "subtitle": "Allzeit-Bestwerte",
+    "best": "Beste",
+    "all": "Alle",
+    "bestScoresOnly": "Nur Bestmarken",
+    "allScores": "Alle Punktwerte",
+    "noRecordsFound": "Keine Einträge gefunden",
+    "noRecordsMessage": "Spiele eine Runde und speichere die Ergebnisse, um die Bestenliste zu füllen.",
+    "rank": "Rang",
+    "player": "Spieler",
+    "wins": "Siege",
+    "avgScore": "Durchschnitt",
+    "gamesPlayed": "Spiele",
+    "winRate": "Siegquote"
+  },
+  "statistics": {
+    "title": "Spielstatistiken",
+    "overview": "Übersicht",
+    "totalGames": "Spiele gesamt",
+    "totalPlayers": "Spieler gesamt",
+    "avgGameDuration": "Durchschn. Spieldauer",
+    "mostUsedWonder": "Häufigstes Wunder",
+    "highestScoringCategory": "Lukrativste Kategorie",
+    "mostPopularExpansion": "Beliebteste Erweiterung",
+    "avgWinningScore": "Durchschn. Siegerpunktzahl",
+    "avgScore": "Durchschnitt",
+    "topWonder": "Bestes Wunder",
+    "wins": "Siege",
+    "plays": "Partien",
+    "games": "Spiele",
+    "playerWinRate": "Siegquote des Spielers",
+    "noPlayerData": "Noch keine Spielerdaten.",
+    "avgScoreByCategory": "Durchschnittspunkte nach Kategorie",
+    "winRateByWonder": "Siegquote nach Wunder",
+    "mostPlayedWonders": "Meistgespielte Wunder",
+    "avgScoreByWonder": "Durchschnittspunkte nach Wunder",
+    "noGamesSide": "Noch keine Spiele mit dieser Seite.",
+    "all": "Alle",
+    "sideA": "Seite A",
+    "sideB": "Seite B",
+    "statAwards": {
+      "highestScore": "Höchstpunktzahl",
+      "scientificGenius": "Wissenschaftsgenie",
+      "civilianLeader": "Ziviler Anführer",
+      "militaryWarlord": "Kriegsherr",
+      "richestMerchant": "Reichster Händler",
+      "guildMaster": "Gildenmeister",
+      "wonderArchitect": "Weltwunder-Architekt",
+      "navalAdmiral": "Flottenadmiral",
+      "islandExplorer": "Insel-Entdecker",
+      "masterShipwright": "Meisterschiffbauer",
+      "leaderOfLeaders": "Anführer der Anführer",
+      "urbanLegend": "Stadtlegende",
+      "grandArchitect": "Großarchitekt"
+    }
+  }
+}

@@ -1,0 +1,2295 @@
+{
+  "rules": {
+    "base": {
+      "hero": {
+        "badge": "Basisregels",
+        "title": "Bouw een Beschaving.",
+        "subtitle": "Leid een van de 7 grote steden van de Oude Wereld. Verzamel grondstoffen, ontwikkel handelsroutes en bevestig je militaire suprematie."
+      },
+      "setup": {
+        "title": "Voorbereiding",
+        "treasury": {
+          "title": "Schatkist",
+          "text": "Elke speler begint met <strong>3 Munten</strong>."
+        },
+        "decks": {
+          "title": "Tijdperk-kaarten",
+          "text": "Bereid de kaarten voor Tijdperk I, II en III voor op basis van het aantal spelers (3+ symbool op de kaarten)."
+        },
+        "wonders": {
+          "title": "Wonderen",
+          "text": "Geef elke speler een Wonderbord. Bepaal kant A of B."
+        }
+      },
+      "gameFlow": {
+        "title": "Spelverloop",
+        "turnsTitle": "6 Beurten / Tijdperk",
+        "turnsSubtitle": "In elk Tijdperk krijgt elke speler 7 kaarten.",
+        "cardsDealt": "7 Kaarten Gedeeld",
+        "step1": {
+          "title": "1. Een Kaart Spelen",
+          "text": "Kies tegelijkertijd 1 kaart om te spelen."
+        },
+        "step2": {
+          "title": "2. Onthullen & Actie",
+          "text": "Onthul de kaarten en voer een actie uit:"
+        },
+        "step3": {
+          "title": "3. Hand Doorgeven",
+          "text": "Geef de resterende kaarten door aan de volgende speler."
+        },
+        "age1": "Tijdperk I: Links doorgeven",
+        "age2": "Tijdperk II: Rechts doorgeven",
+        "age3": "Tijdperk III: Links doorgeven",
+        "note": "Herhaal dit tot er 6 kaarten zijn gespeeld. De 7e kaart wordt afgelegd."
+      },
+      "actions": {
+        "title": "Acties",
+        "buildStructure": {
+          "title": "Gebouw Bouwen",
+          "text": "Betaal de kosten in grondstoffen die op de kaart staan om het te bouwen.",
+          "trading": "<strong>Handelen:</strong> Koop ontbrekende grondstoffen van buren voor 2 munten per stuk (tenzij je een handelspost hebt)."
+        },
+        "buildWonder": {
+          "title": "Wonderfase Bouwen",
+          "text": "Schuif de kaart onder je Wonderbord en betaal de kosten van de fase. Het effect van de kaart wordt genegeerd."
+        },
+        "discard": {
+          "title": "Afleggen voor Munten",
+          "text": "Leg de kaart met de afbeelding naar beneden op de aflegstapel.",
+          "gain": "Ontvang <strong>3 Munten</strong> van de bank."
+        }
+      },
+      "endOfAge": {
+        "title": "Einde van het Tijdperk: Militair Conflict",
+        "militaryTitle": "Militair Conflict",
+        "comparison": "Vergelijk je militaire schilden met die van je linker- en rechterburen."
+      },
+      "scoring": {
+        "title": "Eindscore",
+        "military": {
+          "title": "Militaire Conflicten",
+          "text": "Punten van overwinningsfiches minus nederlaagfiches."
+        },
+        "treasury": {
+          "title": "Schatkist",
+          "text": "1 Punt voor elke 3 munten in je schatkist."
+        },
+        "wonder": {
+          "title": "Wonder",
+          "text": "Punten van voltooide wonderfases."
+        },
+        "civil": {
+          "title": "Burgerlijke Gebouwen",
+          "text": "Som van de overwinningspunten op blauwe kaarten."
+        },
+        "scientific": {
+          "title": "Wetenschappelijke Gebouwen",
+          "text": "Punten voor sets van identieke symbolen en sets van 3 verschillende symbolen."
+        },
+        "commercial": {
+          "title": "Handelsgebouwen",
+          "text": "Punten van gele handelsgebouwen."
+        },
+        "guilds": {
+          "title": "Gilden",
+          "text": "Punten van paarse gildekaarten."
+        }
+      }
+    },
+    "leaders": {
+      "hero": {
+        "badge": "Grote Geesten",
+        "title": "Wijsheid leidt het tijdperk.",
+        "subtitle": "Recruit <strong>Leiders</strong> om unieke voordelen te verkrijgen en je strategie te sturen."
+      },
+      "setup": {
+        "title": "Voorbereiding",
+        "cards": {
+          "title": "Leiderkaarten",
+          "text": "Geef 4 Leiders aan elke speler."
+        },
+        "treasury": {
+          "title": "Schatkist",
+          "text": "Begin met <strong>6 Munten</strong>."
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "Leiders Draften",
+          "subtitle": "Begin van het spel",
+          "text": "Draft 4 Leiders.",
+          "pick1": "Kies 1",
+          "passRt": "Geef Rechts",
+          "keep4": "Houd 4"
+        },
+        "gameplay": {
+          "title": "Spelverloop",
+          "recruitment": {
+            "title": "Recruteringsfase",
+            "text": "Begin van elk Tijdperk: Recruteer, Bouw Wonder of Verkoop een Leider.",
+            "recruit": {
+              "title": "Recruteren",
+              "text": "Betaal de kosten."
+            },
+            "wonder": {
+              "title": "Wonder",
+              "text": "Gebruik Leider om fase te bouwen."
+            },
+            "sell": {
+              "title": "Verkopen",
+              "text": "Leg af voor 3 munten."
+            }
+          },
+          "turnsTitle": "Beurten / Tijdperk",
+          "cardsDealt": "7 Kaarten Gedeeld",
+          "step1": {
+            "title": "1. Kaart Spelen",
+            "text": "Standaard spel."
+          },
+          "step2": {
+            "title": "2. Doorgeven",
+            "text": "Standaard doorgeven."
+          },
+          "step3": {
+            "title": "3. Einde",
+            "text": "Spel gaat verder."
+          }
+        }
+      },
+      "scoring": {
+        "title": "Scorend",
+        "military": "Militaire Punten",
+        "treasury": "1 Punt / 3 munten",
+        "wonder": "Wonder Punten",
+        "civil": "Burgerlijke Punten",
+        "scientific": "Wetenschappelijke Punten",
+        "commercial": "Commerciële Punten",
+        "guilds": "Gilde Punten",
+        "leaders": {
+          "title": "Leiders",
+          "text": "Punten van Leiderkaarten."
+        }
+      },
+      "variants": {
+        "title": "Varianten",
+        "freeCity": {
+          "title": "Teamspel",
+          "leaders": "Partners zitten bij elkaar.",
+          "play": "Bespreek strategie vrijuit."
+        }
+      }
+    },
+    "cities": {
+      "hero": {
+        "badge": "Meesters van de Schaduw",
+        "title": "Ondergrondse imperia verrijzen.",
+        "subtitle": "Huurlingen, dieven en spionnen betreden het strijdtoneel. <strong>Cities</strong> voegt agressieve interactie en schulden toe."
+      },
+      "setup": {
+        "title": "Voorbereiding",
+        "cards": {
+          "title": "Cities Kaarten",
+          "text": "Schud <strong>Cities kaarten</strong> in elk Tijdperk-deck (1 per speler). 8 kaarten per speler/Tijdperk."
+        },
+        "treasury": {
+          "title": "Schatkist",
+          "text": "Begin met <strong>3 Munten</strong> (Standaard)."
+        }
+      },
+      "gameFlow": {
+        "title": "Spelverloop",
+        "turnsTitle": "Beurten / Tijdperk",
+        "cardsDealt": "8 Kaarten Gedeeld",
+        "step1": {
+          "title": "1. Kaart Spelen",
+          "text": "Bouwen, Wonder of Afleggen."
+        },
+        "step2": {
+          "title": "2. Resolutie",
+          "text": "Los kaarteffecten direct op."
+        },
+        "step3": {
+          "title": "3. Doorgeven",
+          "text": "Geef overgebleven kaarten door."
+        },
+        "note": "Aangezien er 8 kaarten worden gedeeld, speel je 7 kaarten per Tijdperk (één meer dan het basisspel)."
+      },
+      "mechanics": {
+        "title": "Mechanieken",
+        "debts": {
+          "title": "Schulden",
+          "text": "Als je monetaire verliezen veroorzaakt door anderen niet kunt betalen, neem dan <strong>Schuldfiches</strong> (-Punten)."
+        },
+        "diplomacy": {
+          "title": "Diplomatie",
+          "text": "<strong>Duif symbool</strong>. Plaats een diplomatie-fiche om de volgende Militaire Conflict-fase over te slaan."
+        }
+      },
+      "scoring": {
+        "title": "Scorend",
+        "military": "Militaire Punten",
+        "treasury": "1 Punt / 3 munten",
+        "wonder": "Wonder Punten",
+        "civil": "Burgerlijke Punten",
+        "scientific": "Wetenschappelijke Punten",
+        "commercial": "Commerciële Punten",
+        "guilds": "Gilde Punten",
+        "cities": {
+          "title": "Cities",
+          "text": "Punten van Zwarte kaarten."
+        },
+        "debt": {
+          "title": "Schuld",
+          "text": "Trek punten af voor Schuldfiches aan het einde van het spel."
+        }
+      },
+      "variants": {
+        "title": "Varianten",
+        "freeCity": {
+          "title": "Teamspel",
+          "subtitle": "2 vs 2 of 3 vs 3",
+          "play": "Teamgenoten zitten naast elkaar en kunnen strategieën bespreken."
+        }
+      }
+    },
+    "armada": {
+      "hero": {
+        "badge": "Meesters van de Zeeën",
+        "title": "Verover de horizon.",
+        "subtitle": "Bouw een vloot om te verkennen, te handelen en te veroveren. <strong>Armada</strong> voegt een zeebord en schip-progressie toe."
+      },
+      "setup": {
+        "title": "Maritieme Voorbereiding",
+        "boards": {
+          "title": "Werven",
+          "text": "Elke speler krijgt een <strong>Maritiem Bord</strong> (Werf)."
+        },
+        "ships": {
+          "title": "Schepen",
+          "text": "Plaats Rode, Gele, Blauwe en Groene schepen op de startvakken."
+        },
+        "cards": {
+          "title": "Armada Kaarten",
+          "text": "Schud Armada kaarten in de Tijdperk-decks (1 per speler)."
+        }
+      },
+      "gameFlow": {
+        "title": "Spelverloop",
+        "turnsTitle": "Beurten / Tijdperk",
+        "cardsDealt": "8 Kaarten Gedeeld",
+        "step1": {
+          "title": "1. Kaart Spelen",
+          "text": "Gebouw Bouwen/Wonder/Afleggen."
+        },
+        "step2": {
+          "title": "2. Maritieme Actie",
+          "text": "Als je een kaart hebt gebouwd, mag je kosten betalen om het bijbehorende gekleurde schip te verplaatsen."
+        },
+        "step3": {
+          "title": "3. Doorgeven",
+          "text": "Geef handen door."
+        }
+      },
+      "actions": {
+        "title": "Maritieme Acties",
+        "buildStructure": {
+          "title": "Gebouw Bouwen",
+          "navalOpportunity": {
+            "title": "Maritieme Mogelijkheid",
+            "text": "Kan kosten betalen om bijbehorend schip 1 vak te verplaatsen."
+          }
+        },
+        "buildWonder": {
+          "title": "Wonder Bouwen",
+          "naval": "Kies een kleur schip om te verplaatsen (betaal kosten)."
+        },
+        "discard": {
+          "title": "Afleggen",
+          "text": "Ontvang 3 munten. Geen maritieme verplaatsing toegestaan."
+        }
+      },
+      "endOfAge": {
+        "title": "Einde van het Tijdperk",
+        "order": "Los eerst Grondoorlog op en dan Maritieme Oorlog.",
+        "groundWar": {
+          "title": "1. Grondconflict",
+          "text": "Vergelijk Rode schilden met buren."
+        },
+        "navalWar": {
+          "title": "2. Maritiem Conflict",
+          "text": "Vergelijk Blauwe vlootsterkte met ALLE spelers. Zwakste spelers nemen malus-fiches."
+        }
+      },
+      "scoring": {
+        "title": "Scorend",
+        "military": {
+          "title": "Grondmilitair",
+          "text": "Punten van grondconflicten."
+        },
+        "naval": {
+          "title": "Maritiem Militair",
+          "text": "Punten van maritieme conflicten (Rode vloot)."
+        },
+        "treasury": {
+          "title": "Schatkist",
+          "text": "1 Punt / 3 munten."
+        },
+        "wonder": "Wonder Punten",
+        "civil": "Burgerlijke Punten",
+        "scientific": "Wetenschappelijke Punten",
+        "commercial": "Commerciële Punten",
+        "guilds": "Gilde Punten",
+        "islands": {
+          "title": "Eilanden",
+          "text": "Punten van ontdekte eilanden (Groene/Blauwe vloten)."
+        },
+        "dockyard": {
+          "title": "Werf",
+          "text": "Punten van schipsposities."
+        }
+      },
+      "variants": {
+        "title": "Varianten",
+        "expert2p": {
+          "title": "2-Speler Expert",
+          "freeCity": "Gebruik Vrije Stad-regels voor 3e neutrale speler.",
+          "play": "Neutrale speler heeft geen maritiem bord."
+        }
+      }
+    },
+    "edifice": {
+      "hero": {
+        "badge": "Grote Architecten",
+        "title": "Bouw samen of val alleen.",
+        "subtitle": "Werk samen aan <strong>Bouwwerken</strong> voor beloningen, of negeer ze op eigen risico."
+      },
+      "setup": {
+        "title": "Voorbereiding",
+        "cards": {
+          "title": "Bouwwerk Kaarten",
+          "text": "Eén Bouwwerk per Tijdperk."
+        },
+        "pawns": {
+          "title": "Deelname-pionnen",
+          "text": "Verdeel pionnen onder elke speler."
+        }
+      },
+      "gameFlow": {
+        "title": "Spelverloop",
+        "turnsTitle": "Beurten / Tijdperk",
+        "cardsDealt": "7 Kaarten Gedeeld",
+        "step1": {
+          "title": "1. Kaart Spelen",
+          "text": "Standaard spel."
+        },
+        "step2": {
+          "title": "2. Bouwen",
+          "text": "Als je een Wonderfase bouwt, kun je deelnemen aan het Bouwwerk."
+        },
+        "step3": {
+          "title": "3. Doorgeven",
+          "text": "Geef handen door."
+        },
+        "note": "Standaard aantal kaarten."
+      },
+      "actions": {
+        "title": "Bouwwerk Interacties",
+        "buildStructure": {
+          "title": "Gebouw Bouwen",
+          "text": "Standaard regels."
+        },
+        "buildWonder": {
+          "title": "Wonder Bouwen",
+          "participation": {
+            "title": "Deelname",
+            "text": "Wanneer je een Wonderfase bouwt, betaal de Bouwwerks-kosten om een pion op het Bouwwerk te plaatsen. Limiet 1 pion per Bouwwerk."
+          }
+        },
+        "discard": {
+          "title": "Afleggen",
+          "text": "Ontvang 3 munten."
+        }
+      },
+      "endOfAge": {
+        "title": "Einde van het Tijdperk",
+        "order": "Los eerst Bouwwerk op en dan Militair.",
+        "edificeCheck": {
+          "title": "1. Bouwwerk Controle",
+          "text": "Als het Bouwwerk vol is (of genoeg spelers hebben deelgenomen), is het voltooid. Deelnemers krijgen beloningen. Indien mislukt, verliezen niet-deelnemers grondstoffen/punten."
+        },
+        "groundWar": {
+          "title": "2. Militair",
+          "text": "Standaard oorlog."
+        }
+      },
+      "scoring": {
+        "title": "Scorend",
+        "military": "Militaire Punten",
+        "treasury": "1 Punt / 3 munten",
+        "wonder": "Wonder Punten",
+        "civil": "Burgerlijke Punten",
+        "scientific": "Wetenschappelijke Punten",
+        "commercial": "Commerciële Punten",
+        "guilds": "Gilde Punten",
+        "edificeRewards": {
+          "title": "Bouwwerk",
+          "text": "Punten van voltooide Bouwwerks-fiches."
+        }
+      }
+    },
+    "armada_cities": {
+      "hero": {
+        "badge": "Rijken van Zee & Schaduw",
+        "title": "Verover de golven, heers vanuit de schaduw.",
+        "subtitle": "De maritieme verkenning van <strong>Armada</strong> ontmoet de agressieve diplomatie van <strong>Cities</strong>."
+      },
+      "setup": {
+        "title": "Voorbereiding",
+        "treasury": {
+          "title": "Schatkist",
+          "text": "Begin met <strong>3 Munten</strong> (Standaard)."
+        },
+        "armada": {
+          "title": "Armada",
+          "text": "Plaats Werfbord. Schud Armada kaarten in Tijdperk-decks. <strong>Deel 9 kaarten/hand uit.</strong>"
+        },
+        "cities": {
+          "title": "Cities",
+          "text": "Schud Cities kaarten in Tijdperk-decks."
+        }
+      },
+      "gameFlow": {
+        "title": "Spelverloop",
+        "turnsTitle": "Beurten / Tijdperk",
+        "cardsDealt": "9 Kaarten Gedeeld",
+        "step1": {
+          "title": "1. Kaart Spelen",
+          "text": "Kies 1 kaart uit hand van 9."
+        },
+        "step2": {
+          "title": "2. Maritieme Actie",
+          "text": "Optioneel: Verplaats schip als kleuren overeenkomen."
+        },
+        "step3": {
+          "title": "3. Doorgeven",
+          "text": "Geef overgebleven kaarten door."
+        }
+      },
+      "actions": {
+        "title": "Acties",
+        "buildStructure": {
+          "title": "Gebouw Bouwen",
+          "navalOpportunity": {
+            "title": "Maritieme Mogelijkheid",
+            "text": "Als kaart overeenkomt met Werfkleur, betaal kosten om schip te verplaatsen."
+          }
+        },
+        "buildWonder": {
+          "title": "Wonder Bouwen",
+          "text": "Gebruik kaart om Wonderfase te bouwen. <strong>Maritiem:</strong> Verplaats bijbehorend schip."
+        },
+        "discard": {
+          "title": "Afleggen",
+          "text": "Ontvang <strong>3 Munten</strong> <span className=\"text-stone-400 mx-2\">|</span> Verplaats <strong>Geel Schip</strong> (Gratis)"
+        }
+      },
+      "mechanics": {
+        "title": "Mechanieken",
+        "debtsDiplomacy": {
+          "title": "Schulden & Diplomatie",
+          "text": "<strong>Schuld:</strong> -Punten voor onbetaalde verliezen.<br/><strong>Diplomatie:</strong> Sla grondconflict over."
+        },
+        "fleets": {
+          "title": "Vloten",
+          "text": "<strong>Rood:</strong> Maritieme Sterkte.<br/><strong>Groen:</strong> Eilanden Verkennen.<br/><strong>Blauw:</strong> Punten.<br/><strong>Geel:</strong> Munten/Belastingen."
+        }
+      },
+      "endOfAge": {
+        "title": "Einde van het Tijdperk",
+        "order": "Grondoorlog -> Maritieme Oorlog.",
+        "groundWar": {
+          "title": "1. Grondoorlog",
+          "text": "Vergelijk Rode Schilden (check Diplomatie)."
+        },
+        "navalWar": {
+          "title": "2. Maritieme Oorlog",
+          "text": "Vergelijk Vlootsterkte met ALLE spelers."
+        }
+      },
+      "scoring": {
+        "title": "Scorend",
+        "military": {
+          "title": "Militair",
+          "text": "Grond Punten."
+        },
+        "naval": {
+          "title": "Maritiem",
+          "text": "Maritieme Punten."
+        },
+        "treasury": {
+          "title": "Schatkist",
+          "text": "Munten Punten."
+        },
+        "wonder": {
+          "title": "Wonder",
+          "text": "Wonder Punten."
+        },
+        "civil": {
+          "title": "Burgerlijk",
+          "text": "Blauwe Punten."
+        },
+        "scientific": {
+          "title": "Wetenschappelijk",
+          "text": "Groene Punten."
+        },
+        "commercial": {
+          "title": "Commercieel",
+          "text": "Gele Punten."
+        },
+        "guilds": {
+          "title": "Gilden",
+          "text": "Paarse Punten."
+        },
+        "cities": {
+          "title": "Cities",
+          "text": "Zwarte Punten."
+        },
+        "debt": {
+          "title": "Schuld",
+          "text": "Schuldstraf."
+        },
+        "islands": {
+          "title": "Eilanden",
+          "text": "Eiland Punten."
+        },
+        "dockyard": {
+          "title": "Werf",
+          "text": "Werf Punten."
+        }
+      },
+      "variants": {
+        "title": "Varianten",
+        "teamPlay": {
+          "title": "Teamspel",
+          "military": "Geen conflict tussen teamgenoten.",
+          "doubleTokens": "Dubbele fiches voor overwinningen.",
+          "naval": "Maritieme conflicten zijn individueel."
+        }
+      }
+    },
+    "armada_cities_edifice": {
+      "hero": {
+        "badge": "Meesters van Alles",
+        "title": "Bouw, Verover, Smeed Plannen.",
+        "subtitle": "<strong>Armada</strong>, <strong>Cities</strong> en <strong>Edifice</strong> combineren tot een rijke, complexe ervaring."
+      },
+      "setup": {
+        "title": "Voorbereiding",
+        "treasury": {
+          "title": "Schatkist",
+          "text": "Begin met <strong>3 Munten</strong>."
+        },
+        "wonders": {
+          "title": "Wonderen",
+          "text": "Deel Wonderen uit."
+        },
+        "armada": {
+          "title": "Armada",
+          "text": "Werven & Schepen. 9 kaarten/hand."
+        },
+        "edifice": {
+          "title": "Bouwwerk",
+          "text": "1 Project per Tijdperk."
+        },
+        "cities": {
+          "title": "Cities",
+          "text": "Cities kaarten in decks."
+        },
+        "islands": {
+          "title": "Eilanden",
+          "text": "Eiland-decks klaarleggen."
+        }
+      },
+      "gameFlow": {
+        "title": "Speloverzicht",
+        "overview": {
+          "title": "Belangrijkste Wijzigingen",
+          "li1": "<strong>9 Kaarten</strong> per hand.",
+          "li2": "<strong>Bouwwerk</strong> projecten elk Tijdperk.",
+          "li3": "<strong>Cities</strong> schulden & diplomatie zijn van toepassing."
+        },
+        "turnsTitle": "Beurten",
+        "step1": {
+          "title": "1. Kiezen",
+          "text": "Selecteer kaart."
+        },
+        "step2": {
+          "title": "2. Actie",
+          "text": "Speel kaart."
+        },
+        "step3": {
+          "title": "3. Doorgeven",
+          "text": "Geef hand door."
+        }
+      },
+      "actions": {
+        "title": "Acties",
+        "buildStructure": {
+          "title": "Bouwen",
+          "text": "Standaard bouwregels.",
+          "chain": "<strong>Ketens:</strong> Bouwwerk & Cities symbolen maken gratis bouw mogelijk.",
+          "navalOpportunity": {
+            "title": "Maritieme Mogelijkheid",
+            "text": "Betaal om bijbehorend schip te verplaatsen."
+          }
+        },
+        "buildWonder": {
+          "title": "Wonder Bouwen",
+          "text": "Bouw fase.",
+          "bonusTitle": "BONUS ACTIE",
+          "naval": "<strong>Maritiem:</strong> Verplaats schip (Betaal kosten).",
+          "edifice": "<strong>Bouwwerk:</strong> Neem deel (Betaal kosten)."
+        },
+        "discard": {
+          "title": "Afleggen",
+          "text": "Ontvang munten.",
+          "li1": "3 Munten",
+          "li2": "Verplaats Geel Schip (Gratis)"
+        }
+      },
+      "mechanics": {
+        "title": "Mechanieken",
+        "fleets": {
+          "title": "Vloten",
+          "red": {
+            "title": "Rood",
+            "effect": "Maritieme Oorlog"
+          },
+          "yellow": {
+            "title": "Geel",
+            "effect": "Goud/Belasting"
+          },
+          "blue": {
+            "title": "Blauw",
+            "effect": "Punten"
+          },
+          "green": {
+            "title": "Groen",
+            "effect": "Verkennen"
+          }
+        },
+        "edificeCities": {
+          "title": "Bouwwerk & Cities",
+          "debtDiplomacy": {
+            "title": "Schuld & Diplomatie",
+            "text": "Beheer schulden en oorlogen."
+          },
+          "edificeResults": {
+            "title": "Bouwwerk Resultaten",
+            "text": "Beloningen of Straffen."
+          }
+        }
+      },
+      "endOfAge": {
+        "title": "Einde van het Tijdperk",
+        "order": "Bouwwerk -> Grondoorlog -> Maritieme Oorlog",
+        "edifice": {
+          "title": "1. Bouwwerk",
+          "text": "Check voltooiing."
+        },
+        "groundWar": {
+          "title": "2. Grondoorlog",
+          "text": "Vergelijk Rode Schilden."
+        },
+        "navalWar": {
+          "title": "3. Maritieme Oorlog",
+          "text": "Vergelijk Vlootsterkte."
+        }
+      },
+      "scoring": {
+        "title": "Scorend",
+        "military": {
+          "title": "Militair",
+          "text": "Grond Punten."
+        },
+        "naval": {
+          "title": "Maritiem",
+          "text": "Maritieme Punten."
+        },
+        "treasury": {
+          "title": "Schatkist",
+          "text": "Munten Punten."
+        },
+        "wonder": {
+          "title": "Wonder",
+          "text": "Wonder Punten."
+        },
+        "civil": {
+          "title": "Burgerlijk",
+          "text": "Blauwe Punten."
+        },
+        "scientific": {
+          "title": "Wetenschappelijk",
+          "text": "Groene Punten."
+        },
+        "commercial": {
+          "title": "Commercieel",
+          "text": "Gele Punten."
+        },
+        "guilds": {
+          "title": "Gilden",
+          "text": "Paarse Punten."
+        },
+        "cities": {
+          "title": "Cities",
+          "text": "Zwarte Punten."
+        },
+        "edifice": {
+          "title": "Bouwwerk",
+          "text": "Bouwwerk Punten."
+        },
+        "debt": {
+          "title": "Schuld",
+          "text": "Schuldstraf."
+        },
+        "islands": {
+          "title": "Eilanden",
+          "text": "Eiland Punten."
+        },
+        "dockyard": {
+          "title": "Werf",
+          "text": "Werf Punten."
+        }
+      },
+      "variants": {
+        "title": "Varianten",
+        "expert2p": {
+          "title": "2-Speler",
+          "subtitle": "Expert Modus Wijzigingen",
+          "li1": "Vrije Stad neemt deel aan Maritieme Oorlog.",
+          "li2": "Vrije Stad KAN deelnemen aan Bouwwerk.",
+          "li3": "Vrije Stad betaalt voor eigen Deelname."
+        },
+        "teamPlay": {
+          "title": "Teamspel",
+          "subtitle": "Coöperatieve Regels",
+          "li1": "Geen Grondoorlog tussen teamgenoten.",
+          "li2": "Maritieme Oorlog is individueel.",
+          "li3": "Teamgenoten kunnen kaarten bespreken.",
+          "li4": "Deelname aan Bouwwerk is individueel."
+        }
+      }
+    },
+    "armada_edifice": {
+      "hero": {
+        "badge": "Maritieme Architecten",
+        "title": "Bouw monumenten, verken de zeeën.",
+        "subtitle": "<strong>Armada</strong> en <strong>Edifice</strong> combineren tot een grootse bouw- en verkenningsrace."
+      },
+      "setup": {
+        "title": "Voorbereiding",
+        "treasury": {
+          "title": "Schatkist",
+          "text": "Begin met <strong>3 Munten</strong>."
+        },
+        "armada": {
+          "title": "Armada",
+          "text": "Werven & Schepen. 8 kaarten/hand."
+        },
+        "edifice": {
+          "title": "Bouwwerk",
+          "text": "1 Project per Tijdperk."
+        },
+        "islands": {
+          "title": "Eilanden",
+          "text": "Eiland-decks."
+        }
+      },
+      "gameFlow": {
+        "title": "Spelverloop",
+        "turnsTitle": "Beurten / Tijdperk",
+        "cardsDealt": "8 Kaarten Gedeeld",
+        "step1": {
+          "title": "1. Spelen",
+          "text": "Kies kaart."
+        },
+        "step2": {
+          "title": "2. Actie",
+          "text": "Speel & Maritieme Actie."
+        },
+        "step3": {
+          "title": "3. Doorgeven",
+          "text": "Geef hand door."
+        }
+      },
+      "actions": {
+        "title": "Acties",
+        "buildStructure": {
+          "title": "Bouwen",
+          "navalOpportunity": {
+            "title": "Maritieme Mogelijkheid",
+            "text": "Betaal om schip te verplaatsen."
+          }
+        },
+        "buildWonder": {
+          "title": "Wonder Bouwen",
+          "bonusTitle": "BONUS ACTIE (KIES ÉÉN)",
+          "naval": "<strong>Maritiem:</strong> Komt overeen met Werfkleur.",
+          "edifice": "<strong>Bouwwerk:</strong> Neem deel."
+        },
+        "discard": {
+          "title": "Afleggen",
+          "text": "Ontvang <strong>3 Munten</strong> <span className=\"text-stone-400 mx-2\">|</span> Verplaats <strong>Geel Schip</strong> (Gratis)"
+        }
+      },
+      "mechanics": {
+        "title": "Mechanieken",
+        "fleets": {
+          "title": "Vloten",
+          "red": {
+            "effect": "Maritieme Sterkte"
+          },
+          "green": {
+            "effect": "Eilanden"
+          },
+          "blue": {
+            "effect": "Punten"
+          },
+          "yellow": {
+            "effect": "Munten"
+          }
+        },
+        "edificeRisks": {
+          "title": "Bouwwerk Risico's",
+          "debts": {
+            "title": "Straffen",
+            "text": "Niet voltooien van Bouwwerk resulteert in straf."
+          }
+        }
+      },
+      "endOfAge": {
+        "title": "Einde van het Tijdperk",
+        "order": "Bouwwerk -> Grond -> Maritiem",
+        "edifice": {
+          "title": "1. Bouwwerk",
+          "text": "Check voltooiing."
+        },
+        "groundWar": {
+          "title": "2. Grondoorlog",
+          "text": "Vergelijk Rode Schilden."
+        },
+        "navalWar": {
+          "title": "3. Maritieme Oorlog",
+          "text": "Vergelijk Vlootsterkte."
+        }
+      },
+      "scoring": {
+        "title": "Scorend",
+        "military": {
+          "title": "Militair",
+          "text": "Grond Punten."
+        },
+        "naval": {
+          "title": "Maritiem",
+          "text": "Maritieme Punten."
+        },
+        "treasury": {
+          "title": "Schatkist",
+          "text": "Munten Punten."
+        },
+        "wonder": {
+          "title": "Wonder",
+          "text": "Wonder Punten."
+        },
+        "civil": {
+          "title": "Burgerlijk",
+          "text": "Blauwe Punten."
+        },
+        "scientific": {
+          "title": "Wetenschappelijk",
+          "text": "Groene Punten."
+        },
+        "commercial": {
+          "title": "Commercieel",
+          "text": "Gele Punten."
+        },
+        "guilds": {
+          "title": "Gilden",
+          "text": "Paarse Punten."
+        },
+        "edifice": {
+          "title": "Bouwwerk",
+          "text": "Bouwwerk Punten."
+        },
+        "debt": {
+          "title": "Schuld",
+          "text": "Schuldstraf."
+        },
+        "leaders": {
+          "title": "Leiders",
+          "text": "Leiders Punten."
+        },
+        "islands": {
+          "title": "Eilanden",
+          "text": "Eiland Punten."
+        },
+        "dockyard": {
+          "title": "Werf",
+          "text": "Werf Punten."
+        }
+      },
+      "variants": {
+        "title": "Varianten",
+        "expert2p": {
+          "title": "2-Speler",
+          "li1": "Vrije Stad speelt Maritiem en Bouwwerk.",
+          "li2": "Vrije Stad betaalt eigen kosten."
+        },
+        "teamPlay": {
+          "title": "Teamspel",
+          "li1": "Vrede tussen teamgenoten.",
+          "li2": "Individueel Maritiem.",
+          "li3": "Individueel Bouwwerk."
+        }
+      }
+    },
+    "armada_leaders_edifice": {
+      "hero": {
+        "badge": "Bevelhebbers van Alles",
+        "title": "Leid, Bouw, Vaar.",
+        "subtitle": "<strong>Armada</strong>, <strong>Leaders</strong> en <strong>Edifice</strong> creëren een enorme strategische puzzel."
+      },
+      "setup": {
+        "title": "Voorbereiding",
+        "treasury": {
+          "title": "Schatkist",
+          "text": "Begin met <strong>6 Munten</strong>."
+        },
+        "leaders": {
+          "title": "Leiders",
+          "text": "Deel 4 Leiders uit."
+        },
+        "armada": {
+          "title": "Armada",
+          "text": "Werven. 8 kaarten/hand."
+        },
+        "edifice": {
+          "title": "Bouwwerk",
+          "text": "1 Project per Tijdperk."
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "Leider Draft",
+          "subtitle": "Voorbereiding",
+          "text": "Draft 4 Leiders.",
+          "pick1": "Kies 1",
+          "passRt": "Geef Rechts",
+          "keep4": "Houd 4"
+        },
+        "gameplay": {
+          "title": "Spelverloop",
+          "recruitment": {
+            "title": "Recrutering",
+            "text": "Speel Leider (Recruteren, Wonder, Verkopen).",
+            "recruit": {
+              "title": "Recruteren",
+              "text": "Betaal kosten."
+            },
+            "wonder": {
+              "title": "Wonder",
+              "text": "Bouw Wonder."
+            },
+            "sell": {
+              "title": "Verkopen",
+              "text": "3 Munten."
+            }
+          },
+          "turnsTitle": "Beurten / Tijdperk",
+          "cardsDealt": "8 Kaarten Gedeeld",
+          "step1": {
+            "title": "1. Kiezen",
+            "text": "Kies kaart."
+          },
+          "step2": {
+            "title": "2. Maritiem",
+            "text": "Verplaats schip."
+          },
+          "step3": {
+            "title": "3. Doorgeven",
+            "text": "Geef hand door."
+          }
+        }
+      },
+      "actions": {
+        "title": "Acties",
+        "buildStructure": {
+          "title": "Bouwen",
+          "navalOpportunity": {
+            "title": "Maritieme Mogelijkheid",
+            "text": "Betaal om schip te verplaatsen."
+          }
+        },
+        "buildWonder": {
+          "title": "Wonder Bouwen",
+          "exclusive": "Kies SLECHTS ÉÉN bonusactie (Maritiem OF Bouwwerk)",
+          "naval": "<strong>Maritiem:</strong> Komt overeen met Werf.",
+          "edifice": "<strong>Bouwwerk:</strong> Neem deel."
+        }
+      },
+      "mechanics": {
+        "title": "Mechanieken",
+        "fleets": {
+          "title": "Vloten",
+          "red": {
+            "title": "Rood",
+            "effect": "Oorlog"
+          },
+          "yellow": {
+            "title": "Geel",
+            "effect": "Goud"
+          },
+          "blue": {
+            "title": "Blauw",
+            "effect": "Punten"
+          },
+          "green": {
+            "title": "Groen",
+            "effect": "Eilanden"
+          }
+        },
+        "edificeRisks": {
+          "title": "Bouwwerk Risico's",
+          "debts": {
+            "title": "Straf",
+            "text": "Mislukking leidt tot straf."
+          }
+        }
+      },
+      "endOfAge": {
+        "title": "Einde van het Tijdperk",
+        "order": "Bouwwerk -> Grond -> Maritiem",
+        "edifice": {
+          "title": "1. Bouwwerk",
+          "text": "Check voltooiing."
+        },
+        "groundWar": {
+          "title": "2. Grondoorlog",
+          "text": "Rode Schilden."
+        },
+        "navalWar": {
+          "title": "3. Maritieme Oorlog",
+          "text": "Vlootsterkte."
+        }
+      },
+      "scoring": {
+        "title": "Scorend",
+        "military": {
+          "title": "Militair",
+          "text": "Grond Punten."
+        },
+        "naval": {
+          "title": "Maritiem",
+          "text": "Maritieme Punten."
+        },
+        "treasury": {
+          "title": "Schatkist",
+          "text": "Munten Punten."
+        },
+        "wonder": {
+          "title": "Wonder",
+          "text": "Wonder Punten."
+        },
+        "civil": {
+          "title": "Burgerlijk",
+          "text": "Blauwe Punten."
+        },
+        "scientific": {
+          "title": "Wetenschappelijk",
+          "text": "Groene Punten."
+        },
+        "commercial": {
+          "title": "Commercieel",
+          "text": "Gele Punten."
+        },
+        "guilds": {
+          "title": "Gilden",
+          "text": "Paarse Punten."
+        },
+        "edifice": {
+          "title": "Bouwwerk",
+          "text": "Bouwwerk Punten."
+        },
+        "debt": {
+          "title": "Schuld",
+          "text": "Schuldstraf."
+        },
+        "leaders": {
+          "title": "Leiders",
+          "text": "Leider Punten."
+        },
+        "islands": {
+          "title": "Eilanden",
+          "text": "Eiland Punten."
+        },
+        "dockyard": {
+          "title": "Werf",
+          "text": "Werf Punten."
+        }
+      },
+      "variants": {
+        "title": "Varianten",
+        "expert2p": {
+          "title": "2-Speler",
+          "li1": "Vrije Stad speelt Maritiem en Bouwwerk.",
+          "li2": "Vrije Stad betaalt eigen kosten."
+        },
+        "teamPlay": {
+          "title": "Teamspel",
+          "li1": "Vrede tussen teamgenoten.",
+          "li2": "Individueel Maritiem.",
+          "li3": "Individueel Bouwwerk."
+        }
+      }
+    },
+    "armada_cities_leaders": {
+      "hero": {
+        "badge": "Rijken van Zee & Schaduw",
+        "title": "Voer het bevel over de golven, heers over het hof.",
+        "subtitle": "De maritieme macht van <strong>Armada</strong> ontmoet de politieke intrige van <strong>Cities</strong> en de strategische diepgang van <strong>Leaders</strong>."
+      },
+      "setup": {
+        "title": "Voorbereiding",
+        "treasury": {
+          "title": "Schatkist",
+          "text": "Begin met <strong>6 Munten</strong> (Cities/Leaders-waarde overschrijft Basisregel van 3)."
+        },
+        "leaders": {
+          "title": "Leiders",
+          "text": "Deel <strong>4 Leiderkaarten</strong> uit."
+        },
+        "armada": {
+          "title": "Armada",
+          "text": "Plaats Werf. Schud Armada kaarten in Tijdperk-decks (1 per speler). <strong>Deel 8 kaarten/hand uit.</strong>"
+        },
+        "cities": {
+          "title": "Cities",
+          "text": "Schud Zwarte kaarten in Tijdperk-decks (1 per speler). <strong>Uiteindelijke handgrootte: 9 kaarten.</strong>"
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "Fase 1: Leider Draft",
+          "subtitle": "Stel je Hof samen",
+          "text": "Draft vóór Tijdperk I 4 Leiders. (Kies 1, Geef Rechts).",
+          "pick1": "Kies 1",
+          "passRt": "Geef Rechts",
+          "keep4": "Houd 4"
+        },
+        "gameplay": {
+          "title": "Fase 2: Spelverloop",
+          "recruitment": {
+            "title": "Begin van Tijdperk: Recrutering",
+            "text": "Speel 1 Leider voordat Age-kaarten worden gedeeld.",
+            "recruit": {
+              "title": "Recruteren",
+              "text": "Betaal kosten. Effect Actief."
+            },
+            "wonder": {
+              "title": "Wonder",
+              "text": "Bouw Wonderfase."
+            },
+            "sell": {
+              "title": "Verkopen",
+              "text": "Ontvang 3 Munten."
+            }
+          },
+          "turnsTitle": "De 8 Beurten",
+          "step1": {
+            "title": "Kies Kaart",
+            "text": "Handgrootte is <strong>9 kaarten</strong> (7 Basis + 1 City + 1 Armada). Kies er een."
+          },
+          "step2": {
+            "title": "Hand Doorgeven",
+            "text": "Tijdperk I & III: Links. Tijdperk II: Rechts."
+          },
+          "step3": {
+            "title": "Actie",
+            "text": "Onthul en speel."
+          }
+        }
+      },
+      "actions": {
+        "title": "Acties & Combo's",
+        "buildStructure": {
+          "title": "Gebouw Bouwen",
+          "navalOpportunity": {
+            "title": "Maritieme Mogelijkheid",
+            "text": "Als kaart overeenkomt met Werfkleur (Rood/Geel/Blauw/Groen), mag je kosten betalen om schip te verplaatsen."
+          }
+        },
+        "buildWonder": {
+          "title": "Wonderfase Bouwen",
+          "naval": "<strong>Maritiem:</strong> Betaal kosten voor Wonder-gekoppeld schip."
+        }
+      },
+      "mechanics": {
+        "title": "Uitbreidingsmechanieken",
+        "debtsDiplomacy": {
+          "title": "Schulden & Diplomatie",
+          "text": "<strong>Schuld:</strong> -1 Punt per onbetaalde munt.<br /><strong>Diplomatie (Duif):</strong> Trek je terug uit het volgende Grondconflict (Buren vechten tegen elkaar)."
+        },
+        "armadaFleets": {
+          "title": "Armada Vloten",
+          "text": "<strong>Eilanden:</strong> Verken voor bonussen.<br /><strong>Vloten:</strong> Belasting, Punten, Sterkte."
+        }
+      },
+      "endOfAge": {
+        "title": "Einde van Tijdperk Resolutie",
+        "order": "Los op in deze strikte volgorde:",
+        "groundWar": {
+          "title": "1. Grondoorlog",
+          "text": "Diplomatie Controle? Vergelijk Rode Schilden."
+        },
+        "navalWar": {
+          "title": "2. Maritieme Oorlog",
+          "text": "Vergelijk Blauwe Sterkte met ALLE spelers."
+        }
+      },
+      "scoring": {
+        "title": "Scorend",
+        "military": {
+          "title": "Militaire Conflicten",
+          "text": "Grondoverwinning (+) en Nederlaag (-)"
+        },
+        "naval": {
+          "title": "Maritieme Conflicten",
+          "text": "Maritieme Overwinning (+) en Nederlaag (-)"
+        },
+        "treasury": {
+          "title": "Schatkist",
+          "text": "1 Punt per 3 munten"
+        },
+        "wonder": {
+          "title": "Wonder",
+          "text": "Spoor punten op + Kaarten eronder"
+        },
+        "civil": {
+          "title": "Burgerlijke Gebouwen",
+          "text": "Som van Blauwe kaarten"
+        },
+        "scientific": {
+          "title": "Wetenschappelijk",
+          "text": "Sets (Gelijke², Verschillende x7)"
+        },
+        "commercial": {
+          "title": "Commercieel",
+          "text": "Gele kaartwaarden"
+        },
+        "guilds": {
+          "title": "Gilden",
+          "text": "Paarse kaarten"
+        },
+        "cities": {
+          "title": "Cities Kaarten",
+          "text": "Zwarte kaartwaarden"
+        },
+        "debt": {
+          "title": "Schulden",
+          "text": "Trek totale Schuldwaarde af"
+        },
+        "leaders": {
+          "title": "Leiders",
+          "text": "Witte kaartwaarden + Bonussen"
+        },
+        "islands": {
+          "title": "Eilanden",
+          "text": "Eilandkaartwaarden"
+        },
+        "dockyard": {
+          "title": "Werf",
+          "text": "Blauwe vlootspoor Punten"
+        }
+      },
+      "variants": {
+        "title": "Spelvarianten",
+        "expert2p": {
+          "title": "2-Speler Expert",
+          "freeCity": "<strong>Vrije Stad:</strong> Geen Leiders.",
+          "naval": "<strong>Maritiem:</strong> Vrije Stad neemt deel.",
+          "diplomacy": "<strong>Diplomatie:</strong> Vecht alleen tegen actieve buur."
+        },
+        "teamPlay": {
+          "title": "Teamspel",
+          "conflict": "<strong>Conflict:</strong> Geen grondoorlog met teamgenoot.",
+          "doubleTokens": "<strong>Dubbele Fiches:</strong> 2x Overwinning/Nederlaag.",
+          "naval": "<strong>Maritiem:</strong> Individueel."
+        }
+      }
+    },
+    "armada_leaders": {
+      "hero": {
+        "badge": "Bevelhebbers & Kapiteins",
+        "title": "Leid naties, verken nieuwe horizonten.",
+        "subtitle": "De maritieme verkenning van <strong>Armada</strong> ontmoet het strategisch leiderschap van <strong>Leaders</strong>."
+      },
+      "setup": {
+        "title": "Voorbereiding",
+        "treasury": {
+          "title": "Schatkist",
+          "text": "Begin met <strong>6 Munten</strong> (Leaders overschrijft Basis)."
+        },
+        "armada": {
+          "title": "Armada",
+          "text": "Plaats Werf. Schud Armada kaarten in Tijdperk-decks (1 per speler). <strong>Deel 8 kaarten/hand uit.</strong>"
+        },
+        "leaders": {
+          "title": "Leiders",
+          "text": "Deel <strong>4 Leiderkaarten</strong> uit. Schud Gilden in Age III."
+        },
+        "islands": {
+          "title": "Eilanden",
+          "text": "Bereid Eiland-decks voor (Niveau 1, 2, 3)."
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "Fase 1: Leider Draft",
+          "subtitle": "Stel je Hof samen",
+          "text": "Draft vóór Tijdperk I 4 Leiders. (Kies 1, Geef Rechts).",
+          "pick1": "Kies 1",
+          "passRt": "Geef Rechts",
+          "keep4": "Houd 4"
+        },
+        "gameplay": {
+          "title": "Fase 2: Spelverloop",
+          "recruitment": {
+            "title": "Begin van Tijdperk: Recrutering",
+            "text": "Speel 1 Leider voordat Age-kaarten worden gedeeld.",
+            "recruit": {
+              "title": "Recruteren",
+              "text": "Betaal kosten. Effect Actief."
+            },
+            "wonder": {
+              "title": "Wonder",
+              "text": "Bouw Wonderfase."
+            },
+            "sell": {
+              "title": "Verkopen",
+              "text": "Ontvang 3 Munten."
+            }
+          },
+          "turnsTitle": "De 8 Beurten",
+          "cardsDealt": "8 Kaarten Gedeeld",
+          "step1": {
+            "title": "Kies Kaart",
+            "text": "Handgrootte is <strong>8 kaarten</strong>. Kies er een."
+          },
+          "step2": {
+            "title": "Hand Doorgeven",
+            "text": "Tijdperk I & III: Links. Tijdperk II: Rechts."
+          },
+          "step3": {
+            "title": "Actie",
+            "text": "Onthul en speel."
+          }
+        }
+      },
+      "actions": {
+        "title": "Acties & Interactie",
+        "buildStructure": {
+          "title": "Gebouw Bouwen",
+          "navalOpportunity": {
+            "title": "Maritieme Mogelijkheid",
+            "text": "Als kaart overeenkomt met Werfkleur, betaal kosten om schip te verplaatsen."
+          }
+        },
+        "buildWonder": {
+          "title": "Wonderfase Bouwen",
+          "naval": "<strong>Maritiem:</strong> Check Werf \"Start\" vak. Betaal kosten voor DIE kleur schip."
+        },
+        "discard": {
+          "title": "Afleggen",
+          "text": "Ontvang <strong>3 Munten</strong> <span className=\"text-stone-400 mx-2\">|</span> Verplaats <strong>Geel Schip</strong> (Gratis)"
+        }
+      },
+      "endOfAge": {
+        "title": "Einde van Tijdperk Resolutie",
+        "order": "Los op in deze strikte volgorde:",
+        "groundWar": {
+          "title": "1. Grondoorlog",
+          "text": "Vergelijk Rode Schilden tegen Buren."
+        },
+        "navalWar": {
+          "title": "2. Maritieme Oorlog",
+          "text": "Vergelijk Blauwe Sterkte met ALLE spelers."
+        }
+      },
+      "scoring": {
+        "title": "Scorend",
+        "military": {
+          "title": "Militaire Conflicten",
+          "text": "Grondoverwinning (+) en Nederlaag (-)"
+        },
+        "naval": {
+          "title": "Maritieme Conflicten",
+          "text": "Maritieme Overwinning (+) en Nederlaag (-)"
+        },
+        "treasury": {
+          "title": "Schatkist",
+          "text": "1 Punt per 3 munten"
+        },
+        "wonder": {
+          "title": "Wonder",
+          "text": "Spoor punten op + Voltooide fasen"
+        },
+        "civil": {
+          "title": "Burgerlijke Gebouwen",
+          "text": "Som van Blauwe kaarten"
+        },
+        "scientific": {
+          "title": "Wetenschappelijk",
+          "text": "Sets (Gelijke², Verschillende x7)"
+        },
+        "commercial": {
+          "title": "Commercieel",
+          "text": "Gele kaartwaarden"
+        },
+        "guilds": {
+          "title": "Gilden",
+          "text": "Paarse kaarten (Max 10 Punten/kaart)"
+        },
+        "leaders": {
+          "title": "Leiders",
+          "text": "Witte kaartwaarden + Bonussen"
+        },
+        "islands": {
+          "title": "Eilanden",
+          "text": "Eilandkaartwaarden"
+        },
+        "dockyard": {
+          "title": "Werf",
+          "text": "Blauwe vlootspoor Punten"
+        }
+      },
+      "variants": {
+        "title": "2-Speler Expert Variant",
+        "freeCity": {
+          "title": "De Vrije Stad",
+          "leaders": "<strong>Leiders:</strong> Gedraft door spelers. Vrije Stad krijgt GEEN.",
+          "naval": "<strong>Maritiem:</strong> Vrije Stad neemt deel.",
+          "play": "<strong>Spel:</strong> Mensen spelen voor Vrije Stad."
+        }
+      }
+    },
+    "cities_edifice": {
+      "hero": {
+        "badge": "Schaduwen & Monumenten",
+        "title": "Bouw mysteries, navigeer intrige.",
+        "subtitle": "De duistere diplomatie van <strong>Cities</strong> ontmoet de gezamenlijke grootsheid van <strong>Edifice</strong>."
+      },
+      "setup": {
+        "title": "Voorbereiding",
+        "treasury": {
+          "title": "Schatkist",
+          "text": "Begin met <strong>6 Munten</strong> (Cities overschrijft Basis)."
+        },
+        "cities": {
+          "title": "Cities",
+          "text": "Schud Zwarte kaarten in Tijdperk-decks (1 per speler). <strong>Deel 8 kaarten/hand uit.</strong>"
+        },
+        "edifice": {
+          "title": "Bouwwerk",
+          "text": "Plaats 1 Project/Tijdperk. Voeg Deelname-pionnen toe (minder dan spelers)."
+        },
+        "tokens": {
+          "title": "Fiches",
+          "text": "Bereid Schuldfiches op (-1, -2, -3, -5) en Diplomatie-duiven."
+        }
+      },
+      "gameFlow": {
+        "title": "Spelverloop",
+        "turnsTitle": "De 8 Beurten",
+        "cardsDealt": "8 Kaarten Gedeeld",
+        "step1": {
+          "title": "Kies Kaart",
+          "text": "Handgrootte is <strong>8 kaarten</strong>. Kies er een."
+        },
+        "step2": {
+          "title": "Hand Doorgeven",
+          "text": "Tijdperk I & III: Links. Tijdperk II: Rechts."
+        },
+        "step3": {
+          "title": "Actie",
+          "text": "Onthul en speel."
+        }
+      },
+      "actions": {
+        "title": "Acties & Interactie",
+        "construct": {
+          "title": "Gebouw Bouwen",
+          "text": "Betaal kosten. Let op unieke gebouwen."
+        },
+        "buildWonder": {
+          "title": "Wonderfase Bouwen + Bouwwerk",
+          "participation": {
+            "title": "Deelname Optie",
+            "text": "Betaal Deelnamekosten vermeld op Bouwwerkkaart om een pion te nemen."
+          }
+        },
+        "discard": {
+          "title": "Afleggen",
+          "text": "Ontvang <strong>3 Munten</strong>."
+        }
+      },
+      "mechanics": {
+        "title": "Uitbreidingsmechanieken",
+        "debtsDiplomacy": {
+          "title": "Schulden & Diplomatie",
+          "text": "<strong>Schuld:</strong> -1 Punt per onbetaalde munt.<br /><strong>Diplomatie (Duif):</strong> Trek je terug uit het volgende Grondconflict (Buren vechten tegen elkaar)."
+        },
+        "edificeResults": {
+          "title": "Bouwwerk Resultaten",
+          "text": "<strong>Gebouwd:</strong> Beloningen voor pionnen.<br /><strong>Mislukt:</strong> Straf als GEEN pion (Schuld als niet kan betalen)."
+        }
+      },
+      "endOfAge": {
+        "title": "Einde van Tijdperk Resolutie",
+        "order": "Los op in deze strikte volgorde:",
+        "edificeCheck": {
+          "title": "1. Bouwwerk Controle",
+          "text": "<strong>Voltooid:</strong> Ontvang Beloning.<br /><strong>Mislukt:</strong> Betaal Straf of neem Schuld."
+        },
+        "groundWar": {
+          "title": "2. Grondoorlog",
+          "text": "Diplomatie Controle? Vergelijk Schilden."
+        }
+      },
+      "scoring": {
+        "title": "Scorend",
+        "military": {
+          "title": "Militaire Conflicten",
+          "text": "Grondoverwinning (+) en Nederlaag (-)"
+        },
+        "treasury": {
+          "title": "Schatkist",
+          "text": "1 Punt per 3 munten"
+        },
+        "wonder": {
+          "title": "Wonder",
+          "text": "Spoor punten op + Voltooide fasen"
+        },
+        "civil": {
+          "title": "Burgerlijke Gebouwen",
+          "text": "Som van Blauwe kaarten"
+        },
+        "scientific": {
+          "title": "Wetenschappelijk",
+          "text": "Sets (Gelijke², Verschillende x7)"
+        },
+        "commercial": {
+          "title": "Commercieel",
+          "text": "Gele kaartwaarden"
+        },
+        "guilds": {
+          "title": "Gilden",
+          "text": "Paarse kaarten"
+        },
+        "cities": {
+          "title": "Cities Kaarten",
+          "text": "Zwarte kaartwaarden"
+        },
+        "edifice": {
+          "title": "Bouwwerk Beloningen",
+          "text": "Punten van voltooide projecten"
+        },
+        "debt": {
+          "title": "Schulden",
+          "text": "Trek totale Schuldwaarde af"
+        },
+        "leaders": {
+          "title": "Leiders",
+          "text": "Witte kaartwaarden + Bonussen"
+        }
+      },
+      "variants": {
+        "title": "2-Speler Expert Variant",
+        "freeCity": {
+          "title": "De Vrije Stad",
+          "draw": "<strong>Trek:</strong> Voeg toe aan hand, speel dan voor jezelf + Vrije Stad.",
+          "edifice": "<strong>Bouwwerk:</strong> Vrije Stad KAN deelnemen (beheerder betaalt).",
+          "play": "<strong>Spel:</strong> Moet ketenen. Kan Grondstoffen kopen."
+        }
+      }
+    },
+    "leaders_edifice": {
+      "hero": {
+        "badge": "Heersers & Monumenten",
+        "title": "Leid naties, bouw mysteries.",
+        "subtitle": "De strategische diepgang van <strong>Leaders</strong> ontmoet de gemeenschappelijke grootsheid van <strong>Edifice</strong>."
+      },
+      "setup": {
+        "title": "Voorbereiding",
+        "treasury": {
+          "title": "Schatkist",
+          "text": "Begin met <strong>6 Munten</strong> (Leaders overschrijft Basis)."
+        },
+        "leaders": {
+          "title": "Leiders",
+          "text": "Deel <strong>4 Leiderkaarten</strong> uit. Schud Gilden in Age III."
+        },
+        "edifice": {
+          "title": "Bouwwerk",
+          "text": "Plaats 1 Project/Tijdperk. Voeg Deelname-pionnen toe (minder dan spelers)."
+        },
+        "tokens": {
+          "title": "Fiches",
+          "text": "Bereid Schuldfiches voor (-2, -3, -5) voor mislukte Bouwwerken."
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "Fase 1: Leider Draft",
+          "subtitle": "Stel je Hof samen",
+          "text": "Draft vóór Tijdperk I 4 Leiders. (Kies 1, Geef Rechts).",
+          "pick1": "Kies 1",
+          "passRt": "Geef Rechts",
+          "keep4": "Houd 4"
+        },
+        "gameplay": {
+          "title": "Fase 2: Spelverloop",
+          "recruitment": {
+            "title": "Begin van Tijdperk: Recrutering",
+            "text": "Speel 1 Leider voordat Age-kaarten worden gedeeld.",
+            "recruit": {
+              "title": "Recruteren",
+              "text": "Betaal kosten. Effect Actief."
+            },
+            "wonder": {
+              "title": "Wonder",
+              "text": "Bouw Wonderfase."
+            },
+            "sell": {
+              "title": "Verkopen",
+              "text": "Ontvang 3 Munten."
+            }
+          },
+          "turnsTitle": "De 6 Beurten",
+          "cardsDealt": "7 Kaarten Gedeeld",
+          "step1": {
+            "title": "Kies Kaart",
+            "text": "Handgrootte is <strong>7 kaarten</strong>. Kies er een."
+          },
+          "step2": {
+            "title": "Hand Doorgeven",
+            "text": "Tijdperk I & III: Links. Tijdperk II: Rechts."
+          },
+          "step3": {
+            "title": "Actie",
+            "text": "Onthul en speel."
+          },
+          "note": "*Tijdens de 6e beurt, speel één kaart en leg de 7e gedekt af."
+        }
+      },
+      "actions": {
+        "title": "Acties & Interactie",
+        "construct": {
+          "title": "Gebouw Bouwen",
+          "text": "Betaal kosten (Grondstoffen/Munten). Handel met buren."
+        },
+        "buildWonder": {
+          "title": "Wonderfase Bouwen + Bouwwerk",
+          "participation": {
+            "title": "Deelname Optie",
+            "text": "Betaal Deelnamekosten vermeld op Bouwwerkkaart om een pion te nemen."
+          }
+        },
+        "discard": {
+          "title": "Afleggen",
+          "text": "Ontvang <strong>3 Munten</strong>."
+        }
+      },
+      "endOfAge": {
+        "title": "Einde van Tijdperk Resolutie",
+        "order": "Los op in deze strikte volgorde:",
+        "edificeCheck": {
+          "title": "1. Bouwwerk Controle",
+          "text": "<strong>Voltooid:</strong> Ontvang Beloning.<br /><strong>Mislukt:</strong> Betaal Straf of neem Schuld."
+        },
+        "groundWar": {
+          "title": "2. Grondoorlog",
+          "text": "Vergelijk Rode Schilden tegen Buren."
+        }
+      },
+      "scoring": {
+        "title": "Scorend",
+        "military": {
+          "title": "Militaire Conflicten",
+          "text": "Grondoverwinning (+) en Nederlaag (-)"
+        },
+        "treasury": {
+          "title": "Schatkist",
+          "text": "1 Punt per 3 munten"
+        },
+        "wonder": {
+          "title": "Wonder",
+          "text": "Spoor punten op + Voltooide fasen"
+        },
+        "civil": {
+          "title": "Burgerlijke Gebouwen",
+          "text": "Som van Blauwe kaarten"
+        },
+        "scientific": {
+          "title": "Wetenschappelijk",
+          "text": "Sets (Gelijke², Verschillende x7)"
+        },
+        "commercial": {
+          "title": "Commercieel",
+          "text": "Gele kaartwaarden"
+        },
+        "guilds": {
+          "title": "Gilden",
+          "text": "Paarse kaarten"
+        },
+        "edificeRewards": {
+          "title": "Bouwwerk Beloningen",
+          "text": "Punten van voltooide projecten"
+        },
+        "debt": {
+          "title": "Schulden",
+          "text": "Trek totale Schuldwaarde af"
+        },
+        "leaders": {
+          "title": "Leiders",
+          "text": "Witte kaartwaarden + Bonussen"
+        }
+      },
+      "variants": {
+        "title": "2-Speler Expert Variant",
+        "freeCity": {
+          "title": "De Vrije Stad",
+          "leaders": "<strong>Leiders:</strong> Gedraft door spelers. Vrije Stad krijgt GEEN.",
+          "edifice": "<strong>Bouwwerk:</strong> Vrije Stad KAN deelnemen (beheerder betaalt).",
+          "play": "<strong>Spel:</strong> Moet ketenen. Kan Grondstoffen kopen."
+        }
+      }
+    },
+    "cities_leaders_edifice": {
+      "hero": {
+        "badge": "Meesters van Intrige",
+        "title": "Leid vanuit de schaduw, bouw voor de eeuwigheid.",
+        "subtitle": "De politieke manoeuvrering van <strong>Cities</strong> ontmoet de strategische diepgang van <strong>Leaders</strong> en de gezamenlijke projecten van <strong>Edifice</strong>."
+      },
+      "setup": {
+        "title": "Gecombineerde Voorbereiding",
+        "treasury": {
+          "title": "Schatkist",
+          "text": "Alle spelers beginnen met <strong>6 Munten</strong>."
+        },
+        "leaders": {
+          "title": "Leiders",
+          "text": "Deel <strong>4 Leiders</strong> uit aan elke speler. Draft deze aan het begin van het spel."
+        },
+        "cities": {
+          "title": "Cities",
+          "text": "Schud <strong>Cities kaarten</strong> in elk Tijdperk-deck (aantal spelers = kaarten toegevoegd)."
+        },
+        "edifice": {
+          "title": "Bouwwerk",
+          "text": "Plaats 1 Bouwwerkkaart per Tijdperk (I, II, III) op het bord."
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "Leiderfase",
+          "subtitle": "Leiders Draften",
+          "text": "Aan het begin van het spel, vóór Tijdperk I.",
+          "pick1": "Kies 1",
+          "passRt": "Geef Rechts",
+          "keep4": "Houd 4"
+        },
+        "gameplay": {
+          "title": "De Tijdperken",
+          "recruitment": {
+            "title": "Recruteringsfase",
+            "text": "Aan het begin van elk Tijdperk (vóór het delen van kaarten), recruteer één Leider:",
+            "recruit": {
+              "title": "Recruteren",
+              "text": "Betaal kosten om een Leider te spelen."
+            },
+            "wonder": {
+              "title": "Wonder Bouwen",
+              "text": "Gebruik Leider om een Wonderfase te bouwen."
+            },
+            "sell": {
+              "title": "Verkopen",
+              "text": "Leg Leider af voor 3 munten."
+            }
+          },
+          "turnsTitle": "Beurten / Tijdperk",
+          "cardsDealt": "8 Kaarten Gedeeld",
+          "step1": {
+            "title": "1. Kaart Spelen",
+            "text": "Gebouw Bouwen, Wonderfase Bouwen, of Afleggen voor Munten."
+          },
+          "step2": {
+            "title": "2. Bouwwerk Controle",
+            "text": "Als je een Wonderfase/Bouwwerk bouwt, overweeg deelname aan het Bouwwerk."
+          },
+          "step3": {
+            "title": "3. Doorgeven",
+            "text": "Geef overgebleven kaarten door aan de volgende speler."
+          }
+        }
+      },
+      "actions": {
+        "title": "Acties & Interacties",
+        "construct": {
+          "title": "City/Gebouw Bouwen",
+          "text": "Betaal kosten (munten/grondstoffen) om kaarten te bouwen."
+        },
+        "buildWonder": {
+          "title": "Wonder / Bouwwerk Bouwen",
+          "participation": {
+            "title": "Deelname",
+            "text": "Wanneer je een Wonderfase bouwt, betaal de Bouwwerks-kosten om een deelname-pion te verkrijgen."
+          }
+        },
+        "discard": {
+          "title": "Afleggen voor Munten",
+          "text": "Leg een kaart af om <strong>3 Munten</strong> te ontvangen (plus bonussen)."
+        }
+      },
+      "mechanics": {
+        "title": "Uitbreidingsmechanieken",
+        "debtsDiplomacy": {
+          "title": "Schulden & Diplomatie",
+          "text": "<strong>Schuld:</strong> Verlies munten of neem schuldfiches (-Punten).<br/><strong>Diplomatie:</strong> Vermijd militaire conflicten dit Tijdperk."
+        },
+        "edificeResults": {
+          "title": "Bouwwerk Resultaten",
+          "text": "<strong>Voltooid:</strong> Alle deelnemers ontvangen beloningen.<br/><strong>Onvoltooid:</strong> Alle niet-deelnemers betalen een straf."
+        }
+      },
+      "endOfAge": {
+        "title": "Einde van Tijdperk Reeks",
+        "order": "Los op in deze volgorde:",
+        "edificeCheck": {
+          "title": "1. Bouwwerk Controle",
+          "text": "Controleer of het Bouwwerk voltooid is (pionnen gevuld).<br/>Verdeel beloningen of straffen."
+        },
+        "groundWar": {
+          "title": "2. Militair Conflict",
+          "text": "Vergelijk schilden met buren. Pas Diplomatie-fiches toe."
+        }
+      },
+      "scoring": {
+        "title": "Eindscore",
+        "military": {
+          "title": "Militair",
+          "text": "Som van Overwinningsfiches minus Nederlaagfiches."
+        },
+        "treasury": {
+          "title": "Schatkist",
+          "text": "1 Punt voor elke 3 munten."
+        },
+        "wonder": {
+          "title": "Wonder",
+          "text": "Punten van voltooide Wonderfasen."
+        },
+        "civil": {
+          "title": "Burgerlijk",
+          "text": "Punten van Blauwe kaarten."
+        },
+        "scientific": {
+          "title": "Wetenschappelijk",
+          "text": "Sets van identieke symbolen en sets van 3 verschillende symbolen."
+        },
+        "commercial": {
+          "title": "Commercieel",
+          "text": "Punten van Gele kaarten."
+        },
+        "guilds": {
+          "title": "Gilden",
+          "text": "Punten van Paarse kaarten."
+        },
+        "cities": {
+          "title": "Cities",
+          "text": "Punten van Zwarte kaarten."
+        },
+        "edificeRewards": {
+          "title": "Bouwwerk",
+          "text": "Punten van voltooide Bouwwerk-fiches."
+        },
+        "debt": {
+          "title": "Schulden",
+          "text": "Trek punten af voor elk Schuldfiche."
+        },
+        "leaders": {
+          "title": "Leiders",
+          "text": "Punten van Witte Leiderkaarten."
+        }
+      },
+      "variants": {
+        "title": "Varianten",
+        "freeCity": {
+          "title": "Vrije Stad (Teamspel)",
+          "leaders": "Leiders worden normaal gedraft.",
+          "edifice": "Deelname aan Bouwwerk is individueel.",
+          "draw": "Trek 2 kaarten, houd 1, speel volgens teamregels.",
+          "play": "Teamgenoten kunnen kaarten laten zien en strategie bespreken."
+        }
+      }
+    },
+    "cities_leaders": {
+      "hero": {
+        "badge": "Schaduwheersers",
+        "title": "Tactisch genie, meedogenloze diplomatie.",
+        "subtitle": "De <strong>Cities</strong> uitbreiding voegt huurlingen en diplomatieke diepgang toe, terwijl <strong>Leaders</strong> strategische langetermijnplanning mogelijk maakt."
+      },
+      "setup": {
+        "title": "Uitgebreide Voorbereiding",
+        "treasury": {
+          "title": "Schatkist",
+          "text": "Begin met <strong>6 Munten</strong>."
+        },
+        "leaders": {
+          "title": "Leiders",
+          "text": "Deel <strong>4 Leiders</strong> uit aan elke speler. Draftfase vindt plaats vóór Tijdperk I."
+        },
+        "cities": {
+          "title": "Cities",
+          "text": "Schud <strong>Cities kaarten</strong> in elk Tijdperk-deck (1 per speler)."
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "Leiderfase",
+          "subtitle": "Draften",
+          "text": "Draft 4 Leiders aan het begin."
+        },
+        "gameplay": {
+          "title": "De Tijdperken",
+          "recruitment": {
+            "title": "Recrutering (Begin van Tijdperk)",
+            "text": "Vóór elk Tijdperk, recruteer een Leider.",
+            "recruit": {
+              "title": "Recruteren",
+              "text": "Betaal kosten om Leider te spelen."
+            },
+            "wonder": {
+              "title": "Wonder",
+              "text": "Bouw Wonderfase met Leider."
+            },
+            "sell": {
+              "title": "Verkopen",
+              "text": "Leg Leider af voor 3 munten."
+            }
+          },
+          "turnsTitle": "Beurten / Tijdperk",
+          "cardsDealt": "8 Kaarten Gedeeld",
+          "step1": {
+            "title": "1. Kaart Spelen",
+            "text": "Bouwen, Wonder of Afleggen."
+          },
+          "step2": {
+            "title": "2. Effecten Oplossen",
+            "text": "Los schulden, diplomatie of andere directe effecten op."
+          },
+          "step3": {
+            "title": "3. Doorgeven",
+            "text": "Geef overgebleven kaarten door."
+          }
+        }
+      },
+      "actions": {
+        "title": "Acties",
+        "construct": {
+          "title": "Bouwen",
+          "text": "Betaal kosten. Cities kaarten kosten vaak munten."
+        },
+        "buildWonder": {
+          "title": "Wonder Bouwen",
+          "text": "Gebruik een kaart om een Wonderfase te bouwen."
+        },
+        "discard": {
+          "title": "Afleggen",
+          "text": "Leg af voor <strong>3 Munten</strong>."
+        }
+      },
+      "mechanics": {
+        "title": "Nieuwe Mechanieken",
+        "debtsDiplomacy": {
+          "title": "Schulden & Diplomatie",
+          "text": "City kaarten kunnen ervoor zorgen dat tegenstanders munten verliezen (of Schuld nemen). Diplomatie-fiches voorkomen deelname aan de volgende oorlog."
+        }
+      },
+      "endOfAge": {
+        "title": "Einde van het Tijdperk",
+        "groundWar": {
+          "title": "Militair Conflict",
+          "text": "Standaard militaire resolutie. Diplomatie-fiches worden afgelegd na het vermijden van één conflict."
+        }
+      },
+      "scoring": {
+        "title": "Scorend",
+        "military": {
+          "title": "Militair",
+          "text": "Punten van rode kaarten/fiches."
+        },
+        "treasury": {
+          "title": "Schatkist",
+          "text": "1 Punt / 3 munten."
+        },
+        "wonder": {
+          "title": "Wonder",
+          "text": "Wonder Punten."
+        },
+        "civil": {
+          "title": "Burgerlijk",
+          "text": "Blauwe kaart Punten."
+        },
+        "scientific": {
+          "title": "Wetenschappelijk",
+          "text": "Groene kaart Punten."
+        },
+        "commercial": {
+          "title": "Commercieel",
+          "text": "Gele kaart Punten."
+        },
+        "guilds": {
+          "title": "Gilden",
+          "text": "Paarse kaart Punten."
+        },
+        "cities": {
+          "title": "Cities",
+          "text": "Zwarte kaart Punten."
+        },
+        "debt": {
+          "title": "Schuld",
+          "text": "Minpunten voor onbetaalde schulden."
+        },
+        "leaders": {
+          "title": "Leiders",
+          "text": "Witte kaart Punten."
+        }
+      },
+      "variants": {
+        "title": "Varianten",
+        "freeCity": {
+          "title": "Vrije Steden (Team)",
+          "leaders": "Draft Leiders normaal.",
+          "play": "Teams delen de schuldenlast."
+        }
+      }
+    },
+    "zenith": {
+      "hero": {
+        "badge": "Ultieme Uitdaging",
+        "title": "Zenith: De Ultieme Voorbereiding",
+        "subtitle": "Ervaar alle uitbreidingen gecombineerd: <strong>Leaders</strong>, <strong>Cities</strong>, <strong>Armada</strong> en <strong>Edifice</strong>."
+      },
+      "setup": {
+        "title": "Ultieme Voorbereiding",
+        "treasury": {
+          "title": "Schatkist",
+          "text": "Elke speler begint met <strong>6 Munten</strong>."
+        },
+        "boards": {
+          "title": "Werven",
+          "text": "Elke speler ontvangt een Maritiem bord (Werf) and 4 schepen."
+        },
+        "edifice": {
+          "title": "Bouwwerken",
+          "text": "Plaats 1 Bouwwerkkaart per Tijdperk. Verdeel deelname-pionnen."
+        },
+        "cities": {
+          "title": "Cities",
+          "text": "Schud Cities kaarten in elk Tijdperk-deck (1 per speler)."
+        },
+        "leaders": {
+          "title": "Leiders",
+          "text": "Schud Leiders and deel er 4 uit aan elke speler. Draft deze aan het begin."
+        },
+        "islands": {
+          "title": "Eilanden",
+          "text": "Plaats de 3 Eiland-decks bij het bord."
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "Draftfase",
+          "subtitle": "Leider Selectie",
+          "text": "Vóór Tijdperk I, draft 4 Leiders.",
+          "pick1": "Kies 1",
+          "passRt": "Geef Rechts",
+          "keep4": "Houd 4"
+        },
+        "gameplay": {
+          "title": "Hoogtepunten Spelverloop",
+          "recruitment": {
+            "title": "Recrutering",
+            "text": "Begin van elk Tijdperk: Speel 1 Leider.",
+            "recruit": {
+              "title": "Recruteren",
+              "text": "Betaal kosten om te spelen."
+            },
+            "wonder": {
+              "title": "Wonder",
+              "text": "Bouw fase met Leider."
+            },
+            "sell": {
+              "title": "Verkopen",
+              "text": "Leg af voor 3 munten."
+            }
+          },
+          "turnsTitle": "Beurten / Tijdperk",
+          "cardsDealt": "9 kaarten gedeeld / speler",
+          "step1": {
+            "title": "1. Kaart Kiezen",
+            "text": "Kies 1 kaart uit 9. Resolutie is gelijktijdig."
+          },
+          "step2": {
+            "title": "2. Actie",
+            "text": "Bouwen, Wonder of Afleggen. Indien je bouwt, mag je een Maritieme actie ondernemen."
+          },
+          "step3": {
+            "title": "3. Doorgeven",
+            "text": "Geef overgebleven kaarten door (8 kaarten gespeeld per Tijdperk)."
+          }
+        }
+      },
+      "actions": {
+        "title": "Acties",
+        "construct": {
+          "title": "Gebouw Bouwen",
+          "navalOpportunity": {
+            "title": "Maritieme Bouw",
+            "text": "Als kaart overeenkomt met Werfkleur, betaal kosten om bijbehorend schip te verplaatsen."
+          }
+        },
+        "buildWonder": {
+          "title": "Wonderfase Bouwen",
+          "participation": {
+            "title": "Bouwwerk Deelname",
+            "text": "Wanneer je een Wonderfase bouwt, mag je betalen om deel te nemen aan het huidige Bouwwerk."
+          },
+          "naval": {
+            "title": "Maritieme Bouw",
+            "text": "Verplaats het schip dat overeenkomt met de kleur van de gebouwde fase."
+          }
+        },
+        "discard": {
+          "title": "Afleggen",
+          "text": "Ontvang <strong>3 Munten</strong> en verplaats je <strong>Gele Schip</strong> 1 vak (gratis)."
+        }
+      },
+      "mechanics": {
+        "title": "Belangrijkste Mechanieken",
+        "debtsDiplomacy": {
+          "title": "Schulden & Diplomatie",
+          "text": "<strong>Cities:</strong> Beheer monetaire verliezen en sla conflicten over met Diplomatie-fiches."
+        },
+        "edificeResults": {
+          "title": "Bouwwerk Projecten",
+          "text": "<strong>Bouwwerk:</strong> Werk samen om projecten te voltooien. Mislukking leidt tot straffen voor niet-deelnemers."
+        },
+        "armadaFleets": {
+          "title": "Maritieme Verkenning",
+          "text": "<strong>Armada:</strong> Verplaats je 4 schepen om kracht en goud te winnen en eilanden te verkennen."
+        }
+      },
+      "endOfAge": {
+        "title": "Einde van Tijdperk Resolutie",
+        "order": "Strikte volgorde: Bouwwerk -> Grondoorlog -> Maritieme Oorlog.",
+        "edificeCheck": {
+          "title": "1. Bouwwerk",
+          "text": "Check projectvoltooiing. Verdeel beloningen of straffen."
+        },
+        "groundWar": {
+          "title": "2. Grondoorlog",
+          "text": "Vergelijk Rode schilden met buren (tenzij Diplomatie actief is)."
+        },
+        "navalWar": {
+          "title": "3. Maritieme Oorlog",
+          "text": "Vergelijk Blauwe sterkte tegen alle spelers."
+        }
+      },
+      "scoring": {
+        "title": "Eindscore",
+        "military": {
+          "title": "Militair",
+          "text": "Grondconflict punten."
+        },
+        "naval": {
+          "title": "Maritiem",
+          "text": "Maritieme conflict punten."
+        },
+        "treasury": {
+          "title": "Schatkist",
+          "text": "1 Punt per 3 munten."
+        },
+        "wonder": {
+          "title": "Wonder",
+          "text": "Punten van Wonderfasen."
+        },
+        "civil": {
+          "title": "Burgerlijk",
+          "text": "Punten van Blauwe kaarten."
+        },
+        "scientific": {
+          "title": "Wetenschappelijk",
+          "text": "Scoor sets en identieke symbolen."
+        },
+        "commercial": {
+          "title": "Commercieel",
+          "text": "Punten van Gele kaarten."
+        },
+        "guilds": {
+          "title": "Gilden",
+          "text": "Punten van Paarse kaarten."
+        },
+        "leaders": {
+          "title": "Leiders",
+          "text": "Punten van Leiderkaarten."
+        },
+        "cities": {
+          "title": "Cities",
+          "text": "Punten van Zwarte kaarten."
+        },
+        "edificeRewards": {
+          "title": "Bouwwerken",
+          "text": "Punten van projectchips."
+        },
+        "islands": {
+          "title": "Eilanden",
+          "text": "Punten van verkenningskaarten."
+        },
+        "dockyard": {
+          "title": "Werf",
+          "text": "Punten van schipsposities."
+        },
+        "debt": {
+          "title": "Schulden",
+          "text": "Trek punten van schuldstraf af."
+        }
+      }
+    },
+    "fallback": {
+      "title": "Selecteer Uitbreidingen",
+      "text": "Selecteer hierboven de uitbreidingen waarmee je speelt om de specifieke regels en interacties voor die combinatie te zien."
+    }
+  },
+  "rules.base.gameFlow.step2.age1": "Era I: Passeren naar links",
+  "rules.base.gameFlow.step2.age2": "Era II: Passeren naar rechts",
+  "rules.base.gameFlow.step2.age3": "Era III: Passeren naar links",
+  "rules.base.variants.title": "Varianten",
+  "rules.base.variants.expert2p.title": "Variant voor 2 Spelers (Expert)",
+  "rules.base.variants.expert2p.subtitle": "Vereist het bord van de Vrije Stad.",
+  "rules.base.variants.expert2p.freeCity": "<strong>Vrije Stad:</strong> Spelers besturen om de beurt een neutrale 3e stad.",
+  "rules.base.variants.expert2p.control": "<strong>Besturing:</strong> De speler wiens kaart de hoogste militaire sterkte heeft, bestuurt de Vrije Stad voor die beurt.",
+  "rules.cities_leaders.phases.draft.pick1": "Kies 1",
+  "rules.cities_leaders.phases.draft.passRt": "Geef Rechts Door",
+  "rules.cities_leaders.phases.draft.keep4": "Houd er 4"
+}

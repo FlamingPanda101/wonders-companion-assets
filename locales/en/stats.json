@@ -1,0 +1,301 @@
+{
+    "playerHistory": {
+        "title": "Player Statistics",
+        "subtitle": "Pro Analytics & Stats",
+        "rankOverall": "Leaderboard Rank: #{{rank}}",
+        "wins": "Wins",
+        "games": "Games",
+        "winRate": "Win Rate",
+        "avgScore": "Avg Score",
+        "scoringProfile": "Scoring Profile",
+        "averagePointsCategory": "Average points per category breakdown",
+        "recentPerformance": "Recent Performance",
+        "scoreTrendLast10": "Score trend over last 10 games",
+        "playStyleDescription": "Archetypes: The system analyzes your scoring profile to assign you a Class based on your performance.",
+        "classLabel": "Archetype",
+        "yourArchetypeIs": "Your archetype is: {{name}}",
+        "match": "Match",
+        "unknown": "Unknown",
+        "wonderMastery": "Wonder Mastery",
+        "sideAWinRate": "Side A Win Rate",
+        "sideBWinRate": "Side B Win Rate",
+        "wonderSideA": "Side A",
+        "wonderSideB": "Side B",
+        "you": "You",
+        "globalAvg": "Everyone",
+        "recommendedBoard": "Based on your record, we suggest",
+        "sortByGames": "Game Count",
+        "sortByWinRate": "Win Rate",
+        "rival": "Rival",
+        "barelyAhead": "Avg score is ahead of you by <1>{{diff}} pts</1>",
+        "barelyBelow": "Avg score is behind you by <1>{{diff}} pts</1>",
+        "scoreStalemate": "Statistical Stalemate (Avg score)",
+        "victim": "Your Victim",
+        "youBeatThem_one": "You beat them <1>1</1> time",
+        "youBeatThem_other": "You beat them <1>{{count}}</1> times",
+        "matchHistory": "Match History",
+        "nemesis": "Nemesis",
+        "hasBeatenYou": "Has beaten you <1>{{losses}}</1> times",
+        "victory": "Victory!",
+        "won": "won",
+        "searchPlayers": "Search players...",
+        "noPlayersFound": "No Players Found",
+        "tryDifferentSearch": "Try a different search term",
+        "playGamesToSeeStats": "Play some games to see player statistics here!",
+        "achievements": "Achievements",
+        "score": "Score",
+        "progress": "Progress",
+        "best": "Best",
+        "get": "GET",
+        "overall": "Overall",
+        "vs": "vs",
+        "badges": {
+            "beginner_luck": {
+                "title": "Beginner's Luck",
+                "description": "Win your first game ever played"
+            },
+            "centurion": {
+                "title": "Centurion",
+                "description": "Score 100+ points in a single game",
+                "progressLabel": "{{current}}/100 max score"
+            },
+            "close_call": {
+                "title": "Close Call",
+                "description": "Win a game by 2 points or less"
+            },
+            "culture_icon": {
+                "title": "Cultural Icon",
+                "description": "Score 30+ points in Civilian Structures"
+            },
+            "dark_side": {
+                "title": "Dark Side",
+                "description": "Win 5 games using Wonder Side B",
+                "progressLabel": "{{current}}/5 wins"
+            },
+            "debt_collector": {
+                "title": "Debt Collector",
+                "description": "Win a game while holding 5+ Debt tokens"
+            },
+            "dominator": {
+                "title": "Dominator",
+                "description": "Win a game by 20 points or more"
+            },
+            "globe_trotter": {
+                "title": "Globe Trotter",
+                "description": "Play with all 7 base wonders",
+                "progressLabel": "{{current}}/7 base wonders"
+            },
+            "grand_scientist": {
+                "title": "Grand Scientist",
+                "description": "Score 50+ points in Science"
+            },
+            "guild_leader": {
+                "title": "Guild Leader",
+                "description": "Score 30+ points in Guilds"
+            },
+            "hoarder": {
+                "title": "The Hoarder",
+                "description": "Finish a game with 20+ Coins"
+            },
+            "island_explorer": {
+                "title": "Island Explorer",
+                "description": "Explore 3+ Islands in a single game"
+            },
+            "jack_of_all_trades": {
+                "title": "Jack of All Trades",
+                "description": "Score at least 8 points in 7 categories in a game"
+            },
+            "leader_of_leaders": {
+                "title": "Leader of Leaders",
+                "description": "Score 15+ points from Leaders cards"
+            },
+            "master_builder": {
+                "title": "Master Builder",
+                "description": "Construct all stages of your wonder"
+            },
+            "merchant_prince": {
+                "title": "Merchant Prince",
+                "description": "Score 20+ points in Commercial Structures"
+            },
+            "naval_commander": {
+                "title": "Naval Commander",
+                "description": "Win a game with max Naval strength"
+            },
+            "pacifist": {
+                "title": "Pacifist",
+                "description": "Win a game with ≤ 0 Military points"
+            },
+            "participation_award": {
+                "title": "Participation Award",
+                "description": "Play 5 games without securing a win"
+            },
+            "specialist": {
+                "title": "Specialist",
+                "description": "Score > 35 points in a single category"
+            },
+            "speed_demon": {
+                "title": "Speed Demon",
+                "description": "Finish a game in under 20 minutes"
+            },
+            "strategist": {
+                "title": "Strategist",
+                "description": "Win 3 of your last 10 games"
+            },
+            "supreme_general": {
+                "title": "Supreme General",
+                "description": "Score 18+ points in Military"
+            },
+            "veteran": {
+                "title": "Veteran",
+                "description": "Play 50 games",
+                "progressLabel": "{{current}}/50 games"
+            },
+            "wonder_master": {
+                "title": "Wonder Master",
+                "description": "Win with 7 different wonders",
+                "progressLabel": "{{current}}/7 wonders won"
+            },
+            "century_club": {
+                "title": "Century Club",
+                "description": "Play 100 games",
+                "progressLabel": "{{current}}/100 games"
+            },
+            "iron_will": {
+                "title": "Iron Will",
+                "description": "Win 10 games",
+                "progressLabel": "{{current}}/10 wins"
+            },
+            "social_butterfly": {
+                "title": "Social Butterfly",
+                "description": "Play against 10+ different opponents",
+                "progressLabel": "{{current}}/10 opponents"
+            },
+            "loyal_wonder": {
+                "title": "Loyal Wonder",
+                "description": "Play the same wonder 10+ times",
+                "progressLabel": "{{current}}/10 plays"
+            },
+            "double_agent": {
+                "title": "Double Agent",
+                "description": "Win with both Side A and Side B of the same wonder"
+            },
+            "hat_trick": {
+                "title": "Hat Trick",
+                "description": "Win 3 games in a row"
+            },
+            "full_house": {
+                "title": "Full House",
+                "description": "Play a game with 7 players"
+            },
+            "balanced": {
+                "title": "Balanced Master",
+                "description": "Score points in all 14 categories in a single game"
+            }
+        }
+    },
+    "history": {
+        "title": "Game History",
+        "empty": "No games played yet",
+        "date": "Date",
+        "winner": "Winner",
+        "players": "Players",
+        "viewDetails": "View Details",
+        "deleteGame": "Delete Game",
+        "confirmDelete": "Are you sure you want to delete this game?",
+        "gamesPlayed": "Games Played",
+        "averageScore": "Average Score",
+        "highestScore": "Highest Score",
+        "noGamesSaved": "No Games Saved",
+        "noMatchesFound": "No Matches Found",
+        "saveGamesMessage": "Save your games from the Rankings page to see them here.",
+        "adjustFiltersMessage": "Try adjusting your expansion selection to see different records.",
+        "deleteRecord": "Delete Game Record?",
+        "tip": "Tip: Tap board icons like to see full names",
+        "tipShort": "Tip: Tap board icons like",
+        "tipSeeFullNames": "to see full names",
+        "sortedHighToLow": "--- Sorted: High to Low ---",
+        "gameMoved": "Game Moved!",
+        "gameMovedMessage": "This game record satisfies a different expansion set. To see it, change your \"Game Mode\" filter at the top.",
+        "sortOptions": {
+            "mostRecent": "Most Recent",
+            "totalScore": "Total Score",
+            "military": "Military Conflicts",
+            "treasury": "Treasury Contents",
+            "wonder": "Wonder",
+            "civilian": "Civilian Structures",
+            "scientific": "Scientific Structures",
+            "commercial": "Commercial Structures",
+            "guilds": "Guilds",
+            "debts": "Debts",
+            "naval": "Naval Conflicts",
+            "islands": "Island Exploration",
+            "dockyard": "Dockyard Board"
+        },
+        "topScoreLabel": "Top {{category}}: {{score}}",
+        "copyCSVText": "Copy Results (CSV Text)",
+        "shareCSVFile": "Share Results (CSV File)",
+        "team": "TEAM",
+        "player": "PLAYER",
+        "winningTeam": "Winning Team!",
+        "losingTeam": "Losing Team",
+        "vs": "vs"
+    },
+    "leaderboard": {
+        "title": "Leaderboard",
+        "allWonders": "All Wonders",
+        "subtitle": "All-Time Best Scores",
+        "best": "Best",
+        "all": "All",
+        "bestScoresOnly": "Best Scores Only",
+        "allScores": "All Scores",
+        "noRecordsFound": "No Records Found",
+        "noRecordsMessage": "Play a game and save the results to populate the leaderboard.",
+        "rank": "Rank",
+        "player": "Player",
+        "wins": "Wins",
+        "avgScore": "Avg Score",
+        "gamesPlayed": "Games",
+        "winRate": "Win Rate"
+    },
+    "statistics": {
+        "title": "Game Statistics",
+        "overview": "Overview",
+        "totalGames": "Total Games",
+        "totalPlayers": "Total Players",
+        "avgGameDuration": "Avg Game Duration",
+        "mostUsedWonder": "Most Used Wonder",
+        "highestScoringCategory": "Highest Scoring Category",
+        "mostPopularExpansion": "Most Popular Expansion",
+        "avgWinningScore": "Avg Winning Score",
+        "avgScore": "Avg Score",
+        "topWonder": "Top Wonder",
+        "wins": "wins",
+        "plays": "plays",
+        "games": "games",
+        "playerWinRate": "Player Win Rate",
+        "noPlayerData": "No player data yet.",
+        "avgScoreByCategory": "Average Score by Category",
+        "winRateByWonder": "Win Rate by Wonder",
+        "mostPlayedWonders": "Most Played Wonders",
+        "avgScoreByWonder": "Average Score by Wonder",
+        "noGamesSide": "No games played with this side yet.",
+        "all": "All",
+        "sideA": "Side A",
+        "sideB": "Side B",
+        "statAwards": {
+            "highestScore": "Highest Score",
+            "scientificGenius": "Scientific Genius",
+            "civilianLeader": "Civilian Leader",
+            "militaryWarlord": "Military Warlord",
+            "richestMerchant": "Richest Merchant",
+            "guildMaster": "Guild Master",
+            "wonderArchitect": "Wonder Architect",
+            "navalAdmiral": "Naval Admiral",
+            "islandExplorer": "Island Explorer",
+            "masterShipwright": "Master Shipwright",
+            "leaderOfLeaders": "Leader of Leaders",
+            "urbanLegend": "Urban Legend",
+            "grandArchitect": "Grand Architect"
+        }
+    }
+}

@@ -1,0 +1,302 @@
+{
+  "playerHistory": {
+    "title": "Spelerrange",
+    "subtitle": "Pro Analytics & Stats",
+    "rankOverall": "Ranglijstpositie: #{{rank}}",
+    "wins": "Overwinningen",
+    "games": "Spellen",
+    "winRate": "Winrate",
+    "avgScore": "Gem. Score",
+    "scoringProfile": "Scoreprofiel",
+    "averagePointsCategory": "Gemiddelde punten per categorie",
+    "recentPerformance": "Recente Prestaties",
+    "scoreTrendLast10": "Scoreverloop over laatste 10 spellen",
+    "playStyleDescription": "Archetypes: Het systeem analyseert je scoreprofiel om je een Klasse toe te wijzen op basis van je prestaties.",
+    "classLabel": "Archetype",
+    "yourArchetypeIs": "Je archetype is: {{name}}",
+    "match": "Match",
+    "unknown": "Onbekend",
+    "wonderMastery": "Wereldwonder Beheersing",
+    "sideAWinRate": "Side A Winrate",
+    "sideBWinRate": "Side B Winrate",
+    "wonderSideA": "Side A",
+    "wonderSideB": "Side B",
+    "you": "Jij",
+    "globalAvg": "Iedereen",
+    "recommendedBoard": "Op basis van je resultaten raden we aan",
+    "sortByGames": "Aantal Spellen",
+    "sortByWinRate": "Winrate",
+    "rival": "Rivaal",
+    "barelyAhead": "Gemiddelde score is <1>{{diff}} pnt</1> op je voor",
+    "barelyBelow": "Gemiddelde score is <1>{{diff}} pnt</1> op je achter",
+    "scoreStalemate": "Statistische Patstelling (Gem. score)",
+    "victim": "Jouw Slachtoffer",
+    "youBeatThem_one": "Je hebt 1 keer van hen gewonnen",
+    "youBeatThem_other": "Je hebt {{count}} keer van hen gewonnen",
+    "matchHistory": "Wedstrijdgeschiedenis",
+    "nemesis": "Aartsvijand",
+    "hasBeatenYou": "Heeft {{losses}} keer van je gewonnen",
+    "victory": "Overwinning!",
+    "won": "gewonnen",
+    "searchPlayers": "Spelers zoeken...",
+    "noPlayersFound": "Geen spelers gevonden",
+    "tryDifferentSearch": "Probeer een andere zoekterm",
+    "playGamesToSeeStats": "Speel een paar spellen om hier statistieken te zien!",
+    "achievements": "Prestaties",
+    "score": "Score",
+    "progress": "Voortgang",
+    "best": "Best",
+    "get": "ONTVAL",
+    "overall": "Algemeen",
+    "vs": "vs",
+    "badges": {
+      "beginner_luck": {
+        "title": "Beginnersgeluk",
+        "description": "Win je allereerste spel ooit"
+      },
+      "centurion": {
+        "title": "Centurion",
+        "description": "Scoor 100+ punten in een enkel spel",
+        "progressLabel": "{{current}}/100 max score"
+      },
+      "close_call": {
+        "title": "Nipperdje",
+        "description": "Win een spel met 2 punten verschil of minder"
+      },
+      "culture_icon": {
+        "title": "Cultureel Icoon",
+        "description": "Scoor 40+ punten in Burgerlijke Gebouwen"
+      },
+      "dark_side": {
+        "title": "Dark Side",
+        "description": "Win 5 spellen met Wonder Side B",
+        "progressLabel": "{{current}}/5 overwinningen"
+      },
+      "debt_collector": {
+        "title": "Schuldeiser",
+        "description": "Win een spel terwijl je 5+ Schuldfiches hebt"
+      },
+      "dominator": {
+        "title": "Dominator",
+        "description": "Win een spel met 20 punten verschil of meer"
+      },
+      "globe_trotter": {
+        "title": "Wereldreiziger",
+        "description": "Speel met alle 7 basiswonderen",
+        "progressLabel": "{{current}}/7 basiswonderen"
+      },
+      "grand_scientist": {
+        "title": "Groot Wetenschapper",
+        "description": "Scoor 50+ punten in Wetenschap"
+      },
+      "guild_leader": {
+        "title": "Gildemeester",
+        "description": "Scoor 30+ punten in Gilden"
+      },
+      "hoarder": {
+        "title": "De Hamster",
+        "description": "Eindig een spel met 20+ Munten"
+      },
+      "island_explorer": {
+        "title": "Eilandenverkinner",
+        "description": "Verken 3+ eilanden in een enkel spel"
+      },
+      "jack_of_all_trades": {
+        "title": "Duizendpoot",
+        "description": "Scoor > 8 punten in 5+ categorieën in een spel"
+      },
+      "leader_of_leaders": {
+        "title": "Leider der Leiders",
+        "description": "Scoor 15+ punten van Leiders-kaarten"
+      },
+      "master_builder": {
+        "title": "Meesterbouwer",
+        "description": "Bouw alle fasen van je wereldwonder"
+      },
+      "merchant_prince": {
+        "title": "Koopman-Prins",
+        "description": "Scoor 20+ punten in Commerciële Gebouwen"
+      },
+      "naval_commander": {
+        "title": "Vlootvoogd",
+        "description": "Win een spel met maximale vlootsterkte"
+      },
+      "pacifist": {
+        "title": "Pacifist",
+        "description": "Win een spel met ≤ 0 Militaire punten"
+      },
+      "participation_award": {
+        "title": "Deelnemersprijs",
+        "description": "Speel 5 spellen zonder te winnen"
+      },
+      "specialist": {
+        "title": "Specialist",
+        "description": "Scoor > 35 punten in een enkele categorie"
+      },
+      "speed_demon": {
+        "title": "Snelheidsduivel",
+        "description": "Beëindig een spel in minder dan 20 minuten"
+      },
+      "strategist": {
+        "title": "Strateeg",
+        "description": "Behoud een winrate van 30% (min. 10 spellen)",
+        "progressLabel": "{{current}}%/30% winrate"
+      },
+      "supreme_general": {
+        "title": "Opperbevelhebber",
+        "description": "Scoor 40+ punten in Militair"
+      },
+      "veteran": {
+        "title": "Veteraan",
+        "description": "Speel 50 spellen",
+        "progressLabel": "{{current}}/50 spellen"
+      },
+      "wonder_master": {
+        "title": "Wondermeester",
+        "description": "Win met 7 verschillende wonderen",
+        "progressLabel": "{{current}}/7 wonderen gewonnen"
+      },
+      "century_club": {
+        "title": "Eeuwfeest Club",
+        "description": "Speel 100 spellen",
+        "progressLabel": "{{current}}/100 spellen"
+      },
+      "iron_will": {
+        "title": "IJzeren Wil",
+        "description": "Win 10 spellen",
+        "progressLabel": "{{current}}/10 overwinningen"
+      },
+      "social_butterfly": {
+        "title": "Sociale Vlinder",
+        "description": "Speel tegen 10+ verschillende tegenstanders",
+        "progressLabel": "{{current}}/10 tegenstanders"
+      },
+      "loyal_wonder": {
+        "title": "Loyaal Wonder",
+        "description": "Speel 10+ keer met hetzelfde wonder",
+        "progressLabel": "{{current}}/10 keer"
+      },
+      "double_agent": {
+        "title": "Dubbelagent",
+        "description": "Win met zowel Side A als Side B van hetzelfde wonder"
+      },
+      "hat_trick": {
+        "title": "Hattrick",
+        "description": "Win 3 spellen op rij"
+      },
+      "full_house": {
+        "title": "Full House",
+        "description": "Speel een spel met 7 spelers"
+      },
+      "balanced": {
+        "title": "Balansmeester",
+        "description": "Scoor > 0 in alle 7 basiscategorieën in een enkel spel"
+      }
+    }
+  },
+  "history": {
+    "title": "Spelgeschiedenis",
+    "empty": "Nog geen spellen gespeeld",
+    "date": "Datum",
+    "winner": "Winnaar",
+    "players": "Spelers",
+    "viewDetails": "Details Bekijken",
+    "deleteGame": "Spel Verwijderen",
+    "confirmDelete": "Weet je zeker dat je dit spel wilt verwijderen?",
+    "gamesPlayed": "Spellen Gespeeld",
+    "averageScore": "Gemiddelde Score",
+    "highestScore": "Hoogste Score",
+    "noGamesSaved": "Geen Spellen Opgeslagen",
+    "noMatchesFound": "Geen Wedstrijden Gevonden",
+    "saveGamesMessage": "Sla je spellen op vanaf de Ranglijst-pagina om ze hier te zien.",
+    "adjustFiltersMessage": "Probeer je expansieselectie aan te passen om andere records te zien.",
+    "deleteRecord": "Spelrecord verwijderen?",
+    "tip": "Tip: Tik op board-iconen zoals om volledige namen te zien",
+    "tipShort": "Tip: Tik op board-iconen zoals",
+    "tipSeeFullNames": "om volledige namen te zien",
+    "sortedHighToLow": "--- Gesorteerd: Hoog naar Laag ---",
+    "gameMoved": "Spel Verplaatst!",
+    "gameMovedMessage": "Dit spelrecord voldoet aan een andere expansieset. Verander je \"Game Mode\" filter bovenaan om het te zien.",
+    "sortOptions": {
+      "mostRecent": "Meest Recent",
+      "totalScore": "Totale Score",
+      "military": "Militaire Conflicten",
+      "treasury": "Schatkist",
+      "wonder": "Wonder",
+      "civilian": "Burgerlijke Gebouwen",
+      "scientific": "Wetenschappelijke Gebouwen",
+      "commercial": "Commerciële Gebouwen",
+      "guilds": "Gilden",
+      "debts": "Schulden",
+      "naval": "Navale Conflicten",
+      "islands": "Eilandverkenning",
+      "dockyard": "Werft-bord"
+    },
+    "topScoreLabel": "Top {{category}}: {{score}}",
+    "copyCSVText": "Kopieer Resultaten (CSV Tekst)",
+    "shareCSVFile": "Deel Resultaten (CSV Bestand)",
+    "team": "TEAM",
+    "player": "SPELER",
+    "winningTeam": "Winnend Team!",
+    "losingTeam": "Verliezend Team",
+    "vs": "vs"
+  },
+  "leaderboard": {
+    "title": "Ranglijst",
+    "allWonders": "Alle Wonderen",
+    "subtitle": "All-Time Beste Scores",
+    "best": "Best",
+    "all": "Alle",
+    "bestScoresOnly": "Alleen Beste Scores",
+    "allScores": "Alle Scores",
+    "noRecordsFound": "Geen Records Gevonden",
+    "noRecordsMessage": "Speel een spel en sla de resultaten op om de ranglijst te vullen.",
+    "rank": "Rang",
+    "player": "Speler",
+    "wins": "Wins",
+    "avgScore": "Gem. Score",
+    "gamesPlayed": "Spellen",
+    "winRate": "Winrate"
+  },
+  "statistics": {
+    "title": "Spelstatistieken",
+    "overview": "Overzicht",
+    "totalGames": "Totaal Aantal Spellen",
+    "totalPlayers": "Totaal Aantal Spelers",
+    "avgGameDuration": "Gemiddelde Spelduur",
+    "mostUsedWonder": "Meest Gebruikte Wonder",
+    "highestScoringCategory": "Hoogst Scorende Categorie",
+    "mostPopularExpansion": "Populairste Expansie",
+    "avgWinningScore": "Gemiddelde Winnende Score",
+    "avgScore": "Gemiddelde Score",
+    "topWonder": "Beste Wonder",
+    "wins": "wins",
+    "plays": "plays",
+    "games": "spellen",
+    "playerWinRate": "Speler Winrate",
+    "noPlayerData": "Nog geen spelergegevens.",
+    "avgScoreByCategory": "Gemiddelde Score per Categorie",
+    "winRateByWonder": "Winrate per Wonder",
+    "mostPlayedWonders": "Meest Gespeelde Wonderen",
+    "avgScoreByWonder": "Gemiddelde Score per Wonder",
+    "noGamesSide": "Nog geen spellen gespeeld met deze zijde.",
+    "all": "Alle",
+    "sideA": "Side A",
+    "sideB": "Side B",
+    "statAwards": {
+      "highestScore": "Hoogste Score",
+      "scientificGenius": "Wetenschappelijk Genie",
+      "civilianLeader": "Burgerlijke Leider",
+      "militaryWarlord": "Krijgsheer",
+      "richestMerchant": "Rijkste Koopman",
+      "guildMaster": "Gildemeester",
+      "wonderArchitect": "Wonderarchitect",
+      "navalAdmiral": "Navale Admiraal",
+      "islandExplorer": "Eilandenverkenner",
+      "masterShipwright": "Meester-scheepsbouwer",
+      "leaderOfLeaders": "Leider der Leiders",
+      "urbanLegend": "Mijthe in de Stad",
+      "grandArchitect": "Grootarchitect"
+    }
+  }
+}

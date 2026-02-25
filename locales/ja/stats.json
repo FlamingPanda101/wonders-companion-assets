@@ -1,0 +1,302 @@
+{
+  "playerHistory": {
+    "title": "プレイヤー統計",
+    "subtitle": "プロ分析＆統計",
+    "rankOverall": "ランキング順位: #{{rank}}",
+    "wins": "勝利数",
+    "games": "対戦数",
+    "winRate": "勝率",
+    "avgScore": "平均スコア",
+    "scoringProfile": "スコアリングプロファイル",
+    "averagePointsCategory": "カテゴリー別平均得点内訳",
+    "recentPerformance": "最近のパフォーマンス",
+    "scoreTrendLast10": "過去10ゲームのスコア傾向",
+    "playStyleDescription": "アーキタイプ：システムがあなたの得点傾向を分析し、パフォーマンスに基づいてクラスを割り当てます。",
+    "classLabel": "アーキタイプ",
+    "yourArchetypeIs": "あなたのアーキタイプは：{{name}}",
+    "match": "一致度",
+    "unknown": "不明",
+    "wonderMastery": "七不思議習熟度",
+    "sideAWinRate": "A面勝率",
+    "sideBWinRate": "B面勝率",
+    "wonderSideA": "A面",
+    "wonderSideB": "B面",
+    "you": "あなた",
+    "globalAvg": "全員",
+    "recommendedBoard": "実績に基づいたおすすめ：",
+    "sortByGames": "対戦数順",
+    "sortByWinRate": "勝率順",
+    "rival": "ライバル",
+    "barelyAhead": "平均スコアがあなたより <1>{{diff}} 点</1> リードしています",
+    "barelyBelow": "平均スコアがあなたより <1>{{diff}} 点</1> 低いです",
+    "scoreStalemate": "統計的膠着状態（平均スコア）",
+    "victim": "あなたのカモ",
+    "youBeatThem_one": "1回勝利しました",
+    "youBeatThem_other": "{{count}}回勝利しました",
+    "matchHistory": "対戦履歴",
+    "nemesis": "天敵",
+    "hasBeatenYou": "{{losses}}回敗北しました",
+    "victory": "勝利！",
+    "won": "の勝利",
+    "searchPlayers": "プレイヤーを検索...",
+    "noPlayersFound": "プレイヤーが見つかりませんでした",
+    "tryDifferentSearch": "別のキーワードで試してください",
+    "playGamesToSeeStats": "ゲームをプレイして統計を表示しましょう！",
+    "achievements": "実績",
+    "score": "得点",
+    "progress": "進捗",
+    "best": "ベスト",
+    "get": "獲得",
+    "overall": "全体",
+    "vs": "vs",
+    "badges": {
+      "beginner_luck": {
+        "title": "ビギナーズラック",
+        "description": "最初のプレイで勝利する"
+      },
+      "centurion": {
+        "title": "センチュリオン",
+        "description": "1ゲームで100点以上獲得する",
+        "progressLabel": "{{current}}/100 最高スコア"
+      },
+      "close_call": {
+        "title": "接戦の覇者",
+        "description": "2点差以下で勝利する"
+      },
+      "culture_icon": {
+        "title": "文化の象徴",
+        "description": "市民建造物で40点以上獲得する"
+      },
+      "dark_side": {
+        "title": "ダークサイド",
+        "description": "B面を使用して5勝する",
+        "progressLabel": "{{current}}/5 勝"
+      },
+      "debt_collector": {
+        "title": "借金取り",
+        "description": "負債トークン5枚以上を持って勝利する"
+      },
+      "dominator": {
+        "title": "圧倒的勝者",
+        "description": "20点差以上をつけて勝利する"
+      },
+      "globe_trotter": {
+        "title": "世界旅行者",
+        "description": "基本の7つの不思議すべてでプレイする",
+        "progressLabel": "{{current}}/7 基本の七不思議"
+      },
+      "grand_scientist": {
+        "title": "偉大な科学者",
+        "description": "科学建造物で50点以上獲得する"
+      },
+      "guild_leader": {
+        "title": "ギルドリーダー",
+        "description": "ギルドで30点以上獲得する"
+      },
+      "hoarder": {
+        "title": "蓄財家",
+        "description": "20コイン以上持ってゲームを終了する"
+      },
+      "island_explorer": {
+        "title": "島嶼探検家",
+        "description": "1ゲームで3つ以上の島を探検する"
+      },
+      "jack_of_all_trades": {
+        "title": "万能プレイヤー",
+        "description": "1ゲームの5つ以上のカテゴリーで8点以上獲得する"
+      },
+      "leader_of_leaders": {
+        "title": "指導者のなかの指導者",
+        "description": "指導者カードから15点以上獲得する"
+      },
+      "master_builder": {
+        "title": "マスタービルダー",
+        "description": "七不思議の全段階を建造する"
+      },
+      "merchant_prince": {
+        "title": "豪商",
+        "description": "商業建造物で20点以上獲得する"
+      },
+      "naval_commander": {
+        "title": "海軍提督",
+        "description": "海軍力を最大にして勝利する"
+      },
+      "pacifist": {
+        "title": "平和主義者",
+        "description": "軍事点0以下で勝利する"
+      },
+      "participation_award": {
+        "title": "参加賞",
+        "description": "勝利なしで5ゲームプレイする"
+      },
+      "specialist": {
+        "title": "スペシャリスト",
+        "description": "単一カテゴリーで35点より多く獲得する"
+      },
+      "speed_demon": {
+        "title": "スピードスター",
+        "description": "20分未満でゲームを終了する"
+      },
+      "strategist": {
+        "title": "戦略家",
+        "description": "勝率30%以上を維持する（最低10ゲーム）",
+        "progressLabel": "{{current}}%/30% 勝率"
+      },
+      "supreme_general": {
+        "title": "最高司令官",
+        "description": "軍事兵舎で40点以上獲得する"
+      },
+      "veteran": {
+        "title": "ベテラン",
+        "description": "50ゲームプレイする",
+        "progressLabel": "{{current}}/50 ゲーム"
+      },
+      "wonder_master": {
+        "title": "七不思議の達人",
+        "description": "7種類の異なる七不思議で勝利する",
+        "progressLabel": "{{current}}/7勝"
+      },
+      "century_club": {
+        "title": "センチュリークラブ",
+        "description": "100ゲームプレイする",
+        "progressLabel": "{{current}}/100 ゲーム"
+      },
+      "iron_will": {
+        "title": "鉄の意志",
+        "description": "10勝する",
+        "progressLabel": "{{current}}/10 勝"
+      },
+      "social_butterfly": {
+        "title": "社交家",
+        "description": "10人以上の異なる相手と対戦する",
+        "progressLabel": "{{current}}/10人"
+      },
+      "loyal_wonder": {
+        "title": "忠誠の不思議",
+        "description": "同じ七不思議で10回以上プレイする",
+        "progressLabel": "{{current}}/10 プレイ"
+      },
+      "double_agent": {
+        "title": "ダブルエージェント",
+        "description": "同じ七不思議のA面とB面両方で勝利する"
+      },
+      "hat_trick": {
+        "title": "ハットトリック",
+        "description": "3連勝する"
+      },
+      "full_house": {
+        "title": "フルハウス",
+        "description": "7人フルプレイヤーでゲームをプレイする"
+      },
+      "balanced": {
+        "title": "調和の達人",
+        "description": "1ゲームで基本7カテゴリーすべてで得点（0点より多い）する"
+      }
+    }
+  },
+  "history": {
+    "title": "対戦履歴",
+    "empty": "まだプレイされたゲームはありません",
+    "date": "日付",
+    "winner": "勝者",
+    "players": "プレイヤー",
+    "viewDetails": "詳細を表示",
+    "deleteGame": "ゲームを削除",
+    "confirmDelete": "このゲーム記録を削除してもよろしいですか？",
+    "gamesPlayed": "プレイ数",
+    "averageScore": "平均スコア",
+    "highestScore": "最高スコア",
+    "noGamesSaved": "保存されたゲームはありません",
+    "noMatchesFound": "一致するゲームが見つかりませんでした",
+    "saveGamesMessage": "ランキングページからゲームを保存して、ここに表示させましょう。",
+    "adjustFiltersMessage": "拡張セットの選択を調整して別の記録を表示してみてください。",
+    "deleteRecord": "ゲーム記録を削除しますか？",
+    "tip": "ヒント：ボードアイコンをタップするとフルネームが表示されます",
+    "tipShort": "ヒント：アイコンをタップ",
+    "tipSeeFullNames": "でフルネーム表示",
+    "sortedHighToLow": "--- ソート：高得点順 ---",
+    "gameMoved": "ゲームが移動しました！",
+    "gameMovedMessage": "このゲーム記録は別の拡張セット構成に該当します。表示するには、上部の「ゲームモード」フィルターを変更してください。",
+    "sortOptions": {
+      "mostRecent": "最新順",
+      "totalScore": "合計点",
+      "military": "軍事紛争",
+      "treasury": "財庫",
+      "wonder": "七不思議",
+      "civilian": "市民建造物",
+      "scientific": "科学建造物",
+      "commercial": "商業建造物",
+      "guilds": "ギルド",
+      "debts": "負債",
+      "naval": "海軍紛争",
+      "islands": "島嶼探検",
+      "dockyard": "造船所ボード"
+    },
+    "topScoreLabel": "最高 {{category}}: {{score}}",
+    "copyCSVText": "結果をコピー (CSVテキスト)",
+    "shareCSVFile": "結果を共有 (CSVファイル)",
+    "team": "チーム",
+    "player": "プレイヤー",
+    "winningTeam": "勝利チーム！",
+    "losingTeam": "敗北チーム",
+    "vs": "vs"
+  },
+  "leaderboard": {
+    "title": "リーダーボード",
+    "allWonders": "すべての不思議",
+    "subtitle": "歴代最高スコア",
+    "best": "ベスト",
+    "all": "すべて",
+    "bestScoresOnly": "ベストスコアのみ",
+    "allScores": "すべてのスコア",
+    "noRecordsFound": "記録が見つかりませんでした",
+    "noRecordsMessage": "ゲームをプレイし、結果を保存してリーダーボードに入力してください。",
+    "rank": "順位",
+    "player": "プレイヤー",
+    "wins": "勝利数",
+    "avgScore": "平均スコア",
+    "gamesPlayed": "対戦数",
+    "winRate": "勝率"
+  },
+  "statistics": {
+    "title": "ゲーム統計",
+    "overview": "概要",
+    "totalGames": "総ゲーム数",
+    "totalPlayers": "総プレイヤー数",
+    "avgGameDuration": "平均プレイ時間",
+    "mostUsedWonder": "最多使用の不思議",
+    "highestScoringCategory": "最高得点カテゴリー",
+    "mostPopularExpansion": "一番人気の拡張",
+    "avgWinningScore": "平均勝利スコア",
+    "avgScore": "平均スコア",
+    "topWonder": "トップの不思議",
+    "wins": "勝",
+    "plays": "回プレイ",
+    "games": "ゲーム",
+    "playerWinRate": "プレイヤー勝率",
+    "noPlayerData": "プレイヤーデータがまだありません。",
+    "avgScoreByCategory": "カテゴリー別平均スコア",
+    "winRateByWonder": "不思議別勝率",
+    "mostPlayedWonders": "最多プレイの不思議",
+    "avgScoreByWonder": "不思議別平均スコア",
+    "noGamesSide": "この面でのプレイ履歴がまだありません。",
+    "all": "すべて",
+    "sideA": "A面",
+    "sideB": "B面",
+    "statAwards": {
+      "highestScore": "最高スコア",
+      "scientificGenius": "科学の天才",
+      "civilianLeader": "市民の指導者",
+      "militaryWarlord": "軍事の覇者",
+      "richestMerchant": "富豪商人",
+      "guildMaster": "ギルドマスター",
+      "wonderArchitect": "驚異の建築家",
+      "navalAdmiral": "海軍提督",
+      "islandExplorer": "島嶼探検家",
+      "masterShipwright": "造船の名工",
+      "leaderOfLeaders": "指導者のなかの指導者",
+      "urbanLegend": "都市伝説",
+      "grandArchitect": "大建築家"
+    }
+  }
+}

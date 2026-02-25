@@ -1,0 +1,194 @@
+{
+  "rankings": {
+    "title": "排名",
+    "rankByTeam": "按团队排名",
+    "rankByPlayer": "按玩家排名",
+    "teamTie": "团队平局！",
+    "tieGame": "平局！",
+    "teamVictory": "团队 {{team}} 获胜！",
+    "theVictors": "获胜者 (团队)",
+    "theVictor": "获胜者",
+    "noScoresYet": "暂无分数",
+    "enterScoresMessage": "在积分表中输入分数以在此处查看排名！",
+    "teamWinner": "获胜团队",
+    "winner": "获胜者",
+    "saveGame": "保存游戏",
+    "saveGameResults": "保存结果",
+    "gameSaved": "游戏已保存！",
+    "resultsSaved": "结果已保存",
+    "shareResults": "分享结果",
+    "shareResultsText": "分享结果 (文本)",
+    "shareResultsCSV": "分享结果 (CSV)",
+    "sharedToClipboard": "已分享到剪贴板！",
+    "copiedToClipboard": "已复制到剪贴板！",
+    "copyCSVText": "复制 CSV 文本",
+    "shareCSVFile": "分享 CSV 文件",
+    "allWonders": "所有奇迹",
+    "copyFileText": "复制文件文本",
+    "textCopied": "文本已复制！",
+    "shareTitle": "7 Wonders 积分榜结果",
+    "shareText": "这是我们的游戏结果！",
+    "shareDialogTitle": "分享结果",
+    "saveValidationMessage": "要保存游戏，请填写缺失的设置信息。点击右上角的设置图标。",
+    "coinTieBreakerDisclaimer": "如需准确的平局决胜，请在设置中将金库评分设定为“钱币”。",
+    "winnerDecidedByCoins": "由于分数持平，获胜者由钱币数量决定。",
+    "csvImportTip": "提示：此文本或 CSV 文件可以通过设置导入到其他用户的应用程序中！",
+    "viewHistorySettings": "您可以在设置中查看您的游戏历史。",
+    "classicGrid": "经典网格",
+    "personalizedCards": "个性化卡片"
+  },
+  "hallOfFame": {
+    "title": "名人堂",
+    "empty": "名人堂为空",
+    "noRecords": "未找到所选扩展的记录。",
+    "noData": "暂无数据",
+    "supremeSovereign": "至高君主",
+    "warlord": "战争领主",
+    "admiral": "海军上将",
+    "madScientist": "疯狂科学家",
+    "philosopher": "哲学家",
+    "wonderArchitect": "奇迹建筑师",
+    "totalArchitect": "首席建造师",
+    "tycoon": "大亨",
+    "guildmaster": "行会会长",
+    "hoardingDragon": "囤积狂龙",
+    "hopelessDebtor": "绝望的债务人",
+    "islandExplorer": "岛屿探险家",
+    "shipwright": "造船匠",
+    "veteran": "老兵",
+    "veteranSubtitle": "(游戏次数最多)",
+    "strategist": "战略家",
+    "strategistSubtitle": "(最高平均分)"
+  },
+  "gameModes": {
+    "title": "游戏模式",
+    "gameMode": "游戏模式",
+    "showAllRecords": "显示所有记录",
+    "unlockAllWonders": "解锁所有奇迹",
+    "armada": "舰队 (Armada)",
+    "cities": "城市 (Cities)",
+    "edifice": "大厦 (Edifice)",
+    "leaders": "领袖 (Leaders)",
+    "teamplay": "团队模式",
+    "expansionmaps": "扩展地图",
+    "purchasePrompt": "支付 2 美元解锁全部四个扩展",
+    "breakTheRules": "打破规则",
+    "breakTheRulesDesc1": "《七大奇迹》原本设计为最多 7 人游戏，但本应用移除了这些限制。您可以添加任意数量的玩家，选择任何扩展组合，甚至使用相同的奇迹进行游戏。",
+    "breakTheRulesDesc2": "计分逻辑对于任何玩家数量都是准确的，但如果您挑战极限，请做好迎接混乱（且刺激）的游戏体验的准备！",
+    "note": "注意：某些扩展组合可能需要更大的桌面空间并显著增加游戏时间。",
+    "gotIt": "明白了！",
+    "gamesHidden": "部分游戏已隐藏",
+    "hiddenGamesMessage_one": "由于包含您尚未购买的扩展，名人堂、排名、历史和统计数据中已隐藏 {{count}} 场游戏。",
+    "hiddenGamesMessage_other": "由于包含您尚未购买的扩展，名人堂、排名、历史和统计数据中已隐藏 {{count}} 场游戏。",
+    "hiddenGamesPurchaseLink_one": "购买扩展以访问隐藏的游戏",
+    "hiddenGamesPurchaseLink_other": "购买扩展以访问隐藏的游戏",
+    "hiddenGamesMessageLong": "您历史记录中的 {{count}} 场游戏不符合当前的模式过滤器。",
+    "armadaDesc": "海上冲突与岛屿探索。为每位玩家添加海军版图。",
+    "citiesDesc": "城市债务与影子互动。添加了全新的“黑色”卡牌。",
+    "edificeDesc": "玩家共同建设的公共项目，可获得奖励或全球惩罚。",
+    "leadersDesc": "招募强大的历史人物来引导您文明的战略。",
+    "teamPlayDesc": "以团队形式进行游戏，累计分数并协调战略。",
+    "unlockAllWondersDesc": "启用每个扩展的所有奇迹，无论选择何种模式。",
+    "modes": {
+      "base": {
+        "name": "基础版",
+        "description": "经典体验。专注于您的城市及其邻居。"
+      },
+      "leadersMode": {
+        "name": "领袖扩展",
+        "description": "招募有影响力的人物来引导您文明的成长。"
+      },
+      "citiesMode": {
+        "name": "城市扩展",
+        "description": "暗中交易及通过新的黑色卡牌增加互动。"
+      },
+      "armadaMode": {
+        "name": "舰队扩展",
+        "description": "通过海军版图和岛屿探索开启航海时代。"
+      },
+      "edificeMode": {
+        "name": "大厦扩展",
+        "description": "共同建造公共项目以获得奖励，或因未参与而承担惩罚。"
+      },
+      "zenith": {
+        "name": "Zenith 全集",
+        "description": "启用所有扩展。对古代战略的终极考验。"
+      },
+      "diplomatic": {
+        "name": "外交法庭",
+        "description": "伟大的领袖在繁华大都市的阴暗街道上相遇。"
+      },
+      "sovereign": {
+        "name": "主权海洋",
+        "description": "伟大的领袖们率领强大的舰队征服海洋。"
+      },
+      "monumental": {
+        "name": "纪念碑统治者",
+        "description": "传奇人物合作建造宏伟的公共建筑。"
+      },
+      "navalTrade": {
+        "name": "海军贸易路线",
+        "description": "商业城市和海军力量主宰着古代贸易。"
+      },
+      "metropolitan": {
+        "name": "大都市奇迹",
+        "description": "繁密的城市汇集资源，建造宏伟的公共大厦。"
+      },
+      "coastal": {
+        "name": "海岸地标",
+        "description": "在战略海岸线上进行的合作建造项目。"
+      },
+      "imperial": {
+        "name": "帝国三巨头",
+        "description": "领袖、城市和舰队。高互动、海战与招募。"
+      },
+      "masterArchitects": {
+        "name": "建筑大师",
+        "description": "领袖、城市和大厦。专注于招募和合作建造。"
+      },
+      "royalArchitects": {
+        "name": "皇家建筑师",
+        "description": "领袖、舰队和大厦。传奇领袖扩张海洋与建筑。"
+      },
+      "coalition": {
+        "name": "力量联盟",
+        "description": "城市、舰队和大厦。纯粹的策略、战争与建造。"
+      },
+      "custom": {
+        "name": "自定义扩展组合",
+        "description": "已选择 {{count}} 个扩展。",
+        "single": "已选择 1 个扩展。"
+      }
+    }
+  },
+  "app": {
+    "validationError": "无法保存游戏。请确保所有玩家都已选择姓名、奇迹和侧面：",
+    "missingName": "玩家 {{id}}：缺少姓名",
+    "missingWonder": "玩家 {{id}}：缺少奇迹",
+    "missingSide": "玩家 {{id}}：缺少侧面",
+    "swapP": "交换 P{{id}}",
+    "backupSuccess": "备份成功完成！",
+    "backupFailed": "无法保存备份到 Google Drive：{{error}}",
+    "restoreConfirm": "这将把 Google Drive 的数据与您的本地数据合并，并避免重复。是否继续？",
+    "restoreFailed": "从 Drive 恢复失败：{{error}}",
+    "restoreSuccess": "恢复成功完成！",
+    "googleDriveDisconnected": "Google Drive 已断开。登录以恢复备份？",
+    "purchase": {
+      "nativeTitle": "开始免费试用？",
+      "webTitle": "解锁扩展？",
+      "nativeMessage": "解锁全部 4 个扩展（Leaders, Cities, Armada, Edifice），可享受 7 天免费试用，之后仅需一次性购买。",
+      "webMessage": "以 2.00 美元的一次性价格升级到“专业版 - 四个扩展”？\n\n（由于您目前在浏览器中，这只是一个模拟）",
+      "nativeConfirm": "开始试用",
+      "webConfirm": "解锁全部 ($2.00)"
+    }
+  },
+  "timer": {
+    "start": "开始",
+    "pause": "暂停",
+    "resume": "恢复",
+    "fullScreen": "全屏",
+    "closeFullScreen": "退出全屏",
+    "switchToRotating": "切换到轮换模式",
+    "switchToSingle": "切换到单一模式"
+  }
+}

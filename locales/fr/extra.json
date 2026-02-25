@@ -1,0 +1,194 @@
+{
+    "rankings": {
+        "title": "Classement",
+        "rankByTeam": "Classer par Équipe",
+        "rankByPlayer": "Classer par Joueur",
+        "teamTie": "Égalité entre Équipes !",
+        "tieGame": "Égalité !",
+        "teamVictory": "Victoire de l'Équipe {{team}} !",
+        "theVictors": "Les Vainqueurs",
+        "theVictor": "Le Vainqueur",
+        "noScoresYet": "Aucun score pour le moment",
+        "enterScoresMessage": "Saisissez les scores dans la feuille de match pour voir le classement ici !",
+        "teamWinner": "ÉQUIPE GAGNANTE",
+        "winner": "GAGNANT",
+        "saveGame": "Enregistrer la partie",
+        "saveGameResults": "Enregistrer les résultats",
+        "gameSaved": "Partie enregistrée !",
+        "resultsSaved": "Résultats enregistrés",
+        "shareResults": "Partager les résultats",
+        "shareResultsText": "Partager les résultats (Texte)",
+        "shareResultsCSV": "Partager les résultats (CSV)",
+        "sharedToClipboard": "Partagé dans le presse-papiers !",
+        "copiedToClipboard": "Copié dans le presse-papiers !",
+        "copyCSVText": "Copier le texte CSV",
+        "shareCSVFile": "Partager le fichier CSV",
+        "allWonders": "Toutes les Merveilles",
+        "copyFileText": "COPIER LE TEXTE DU FICHIER",
+        "textCopied": "Texte copié !",
+        "shareTitle": "Résultats 7 Wonders Scoreboard",
+        "shareText": "Voici les résultats de notre partie !",
+        "shareDialogTitle": "Partager les résultats",
+        "saveValidationMessage": "Pour enregistrer la partie, complétez les informations de configuration manquantes. Cliquez sur l'icône de configuration en haut à droite.",
+        "coinTieBreakerDisclaimer": "Pour un départage précis, réglez le score du Trésor sur 'Pièces' dans les Paramètres.",
+        "winnerDecidedByCoins": "Le gagnant a été désigné par le nombre de pièces en raison d'une égalité de points.",
+        "csvImportTip": "Conseil : Ce texte ou fichier CSV peut être importé dans l'application d'un autre utilisateur via les Paramètres !",
+        "viewHistorySettings": "Vous pouvez consulter votre historique de jeu dans les Paramètres.",
+        "classicGrid": "Grille Classique",
+        "personalizedCards": "Cartes Personnalisées"
+    },
+    "hallOfFame": {
+        "title": "Temple de la Renommée",
+        "empty": "Temple de la Renommée vide",
+        "noRecords": "Aucun record trouvé pour les extensions sélectionnées.",
+        "noData": "Pas de données",
+        "supremeSovereign": "Le Souverain Suprême",
+        "warlord": "Le Seigneur de Guerre",
+        "admiral": "L'Amiral",
+        "madScientist": "Le Savant Fou",
+        "philosopher": "Le Philosophe",
+        "wonderArchitect": "L'Architecte des Merveilles",
+        "totalArchitect": "Le Maître Bâtisseur",
+        "tycoon": "Le Magnat",
+        "guildmaster": "Le Maître de Guilde",
+        "hoardingDragon": "Le Dragon Thésauriseur",
+        "hopelessDebtor": "L'Endetté Désespéré",
+        "islandExplorer": "L'Explorateur d'Îles",
+        "shipwright": "Le Constructeur Naval",
+        "veteran": "Le Vétéran",
+        "veteranSubtitle": "(Plus grand nombre de parties)",
+        "strategist": "Le Stratège",
+        "strategistSubtitle": "(Meilleure moyenne de score)"
+    },
+    "gameModes": {
+        "title": "MODES DE JEU",
+        "gameMode": "mode de jeu",
+        "showAllRecords": "Afficher tous les records",
+        "unlockAllWonders": "Débloquer toutes les Merveilles",
+        "armada": "Armada",
+        "cities": "Cités",
+        "edifice": "Édifice",
+        "leaders": "Leaders",
+        "teamplay": "Jeu en Équipe",
+        "expansionmaps": "Cartes d'Extension",
+        "purchasePrompt": "2 USD pour débloquer les quatre extensions",
+        "breakTheRules": "Enfreindre les règles",
+        "breakTheRulesDesc1": "7 Wonders est conçu pour jusqu'à 7 joueurs, mais cette application supprime ces limites. Vous pouvez ajouter autant de joueurs que vous le souhaitez, sélectionner n'importe quelle combinaison d'extensions, et même jouer avec des merveilles identiques.",
+        "breakTheRulesDesc2": "La logique de score reste solide pour tous les nombres de joueurs, mais préparez-vous à des parties chaotiques (et passionnantes) si vous repoussez les limites !",
+        "note": "Note : Certaines combinaisons d'extensions peuvent nécessiter plus d'espace sur la table et augmenter considérablement le temps de jeu.",
+        "gotIt": "Compris !",
+        "gamesHidden": "CERTAINES PARTIES MASQUÉES",
+        "hiddenGamesMessage_one": "{{count}} partie est masquée du Temple de la Renommée, du Classement, de l'Historique et des Statistiques car elle inclut une extension que vous n'avez pas achetée.",
+        "hiddenGamesMessage_other": "{{count}} parties sont masquées du Temple de la Renommée, du Classement, de l'Historique et des Statistiques car elles incluent des extensions que vous n'avez pas achetées.",
+        "hiddenGamesPurchaseLink_one": "Achetez les extensions pour accéder à la partie masquée",
+        "hiddenGamesPurchaseLink_other": "Achetez les extensions pour accéder aux parties masquées",
+        "hiddenGamesMessageLong": "{{count}} parties de votre historique ne correspondent pas aux filtres de mode de jeu actuels.",
+        "armadaDesc": "Conflits navals et exploration d'îles. Inclut des plateaux maritimes pour chaque joueur.",
+        "citiesDesc": "Dettes inter-cités et interactions de l'ombre. Ajoute les nouvelles cartes 'Noires'.",
+        "edificeDesc": "Projets communautaires que les joueurs construisent ensemble pour des récompenses ou des pénalités globales.",
+        "leadersDesc": "Recrutez de puissantes figures historiques pour guider la stratégie de votre civilisation.",
+        "teamPlayDesc": "Jouez en équipe pour cumuler les scores et coordonner les stratégies.",
+        "unlockAllWondersDesc": "Enable all wonders from every expansion regardless of selected modes.",
+        "modes": {
+            "base": {
+                "name": "Jeu de Base",
+                "description": "L'expérience classique. Concentrez-vous sur votre cité et vos voisins immédiats."
+            },
+            "leadersMode": {
+                "name": "Extension Leaders",
+                "description": "Recrutez des figures influentes pour guider la croissance de votre cité."
+            },
+            "citiesMode": {
+                "name": "Extension Cités",
+                "description": "Affaires louches et interaction accrue avec les nouvelles cartes Noires."
+            },
+            "armadaMode": {
+                "name": "Extension Armada",
+                "description": "Prenez le large avec les plateaux maritimes et l'exploration d'îles."
+            },
+            "edificeMode": {
+                "name": "Extension Édifice",
+                "description": "Travaillez ensemble sur des projets communs pour des récompenses ou des malus."
+            },
+            "zenith": {
+                "name": "La Collection Zénith",
+                "description": "Toutes les extensions actives. Le test ultime de stratégie antique."
+            },
+            "diplomatic": {
+                "name": "La Cour Diplomatique",
+                "description": "De puissants leaders rencontrent les rues sombres de la métropole. (Leaders + Cités)"
+            },
+            "sovereign": {
+                "name": "Océans Souverains",
+                "description": "De grands leaders partent à la conquête des mers avec de puissantes flottes. (Leaders + Armada)"
+            },
+            "monumental": {
+                "name": "Souverains Monumentaux",
+                "description": "Des figures légendaires collaborent sur d'immenses structures communes. (Leaders + Édifice)"
+            },
+            "navalTrade": {
+                "name": "Routes du Commerce Naval",
+                "description": "Cités mercantiles et puissance navale dominent le commerce antique. (Cités + Armada)"
+            },
+            "metropolitan": {
+                "name": "Merveilles Métropolitaines",
+                "description": "Des cités denses mutualisant leurs ressources pour de grands édifices communs. (Cités + Édifice)"
+            },
+            "coastal": {
+                "name": "Monuments Côtiers",
+                "description": "Projets de construction collaboratifs le long des côtes stratégiques. (Armada + Édifice)"
+            },
+            "imperial": {
+                "name": "Le Triumvirat Impérial",
+                "description": "Leaders, Cités et Armada. Haute interaction, guerre navale et recrutement."
+            },
+            "masterArchitects": {
+                "name": "Les Maîtres Architectes",
+                "description": "Leaders, Cités et Édifice. Focus sur le recrutement et la construction collaborative."
+            },
+            "royalArchitects": {
+                "name": "Les Architectes Royaux",
+                "description": "Leaders, Armada et Édifice. Des leaders légendaires étendant mer et structure."
+            },
+            "coalition": {
+                "name": "La Coalition de la Force",
+                "description": "Cités, Armada et Édifice. Stratégie pure, guerre et construction."
+            },
+            "custom": {
+                "name": "Jeu d'Extensions Personnalisé",
+                "description": "{{count}} extensions sélectionnées.",
+                "single": "1 extension sélectionnée."
+            }
+        }
+    },
+    "app": {
+        "validationError": "Impossible d'enregistrer la partie. Veuillez vous assurer que tous les joueurs ont un nom, une merveille et une face sélectionnée :",
+        "missingName": "Joueur {{id}} : Nom manquant",
+        "missingWonder": "Joueur {{id}} : Merveille manquante",
+        "missingSide": "Joueur {{id}} : Face manquante",
+        "swapP": "Échanger J{{id}}",
+        "backupSuccess": "Sauvegarde terminée avec succès !",
+        "backupFailed": "Échec de la sauvegarde sur Google Drive : {{error}}",
+        "restoreConfirm": "Cela fusionnera les données de Google Drive avec vos données locales, en évitant les doublons. Continuer ?",
+        "restoreFailed": "Échec de la restauration depuis Drive : {{error}}",
+        "restoreSuccess": "Restauration terminée avec succès !",
+        "googleDriveDisconnected": "Google Drive déconnecté. Connectez-vous pour reprendre la sauvegarde ?",
+        "purchase": {
+            "nativeTitle": "Démarrer l'essai gratuit ?",
+            "webTitle": "Débloquer les extensions ?",
+            "nativeMessage": "Débloquez les 4 extensions (Leaders, Cités, Armada, Édifice) avec un essai gratuit de 7 jours, puis un achat unique.",
+            "webMessage": "Passer à la 'Version Pro - Quatre Extensions' pour un prix unique de 2,00 $ ?",
+            "nativeConfirm": "Démarrer l'essai",
+            "webConfirm": "Tout débloquer (2,00 $)"
+        }
+    },
+    "timer": {
+        "start": "Démarrer",
+        "pause": "Pause",
+        "resume": "Reprendre",
+        "fullScreen": "Plein Écran",
+        "closeFullScreen": "Quitter le Plein Écran",
+        "switchToRotating": "Passer en mode Rotation",
+        "switchToSingle": "Passer en mode Unique"
+    }
+}

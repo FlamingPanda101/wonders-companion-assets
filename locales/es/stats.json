@@ -1,0 +1,302 @@
+{
+  "playerHistory": {
+    "title": "Estadísticas del Jugador",
+    "best": "Mejor",
+    "subtitle": "Análisis Pro y Estadísticas",
+    "rankOverall": "Rango en Clasificación: #{{rank}}",
+    "wins": "Victorias",
+    "games": "Partidas",
+    "winRate": "Tasa de Victorias",
+    "avgScore": "Puntuación Media",
+    "scoringProfile": "Perfil de Puntuación",
+    "averagePointsCategory": "Desglose de puntos medios por categoría",
+    "recentPerformance": "Rendimiento Reciente",
+    "scoreTrendLast10": "Tendencia de puntuación en las últimas 10 partidas",
+    "playStyleDescription": "Arquetipos: El sistema analiza tu perfil de puntuación para asignarte una Clase basada en tu rendimiento.",
+    "classLabel": "Arquetipo",
+    "yourArchetypeIs": "Tu arquetipo es: {{name}}",
+    "match": "Coincidencia",
+    "unknown": "Desconocido",
+    "wonderMastery": "Maestría de Maravillas",
+    "sideAWinRate": "Tasa de Victorias Lado A",
+    "sideBWinRate": "Tasa de Victorias Lado B",
+    "wonderSideA": "Lado A",
+    "wonderSideB": "Lado B",
+    "you": "Tú",
+    "globalAvg": "Todos",
+    "recommendedBoard": "Basándonos en tu historial, sugerimos",
+    "sortByGames": "Número de Partidas",
+    "sortByWinRate": "Tasa de Victorias",
+    "rival": "Rival",
+    "barelyAhead": "La puntuación media está por delante de ti por <1>{{diff}} pts</1>",
+    "barelyBelow": "La puntuación media está por detrás de ti por <1>{{diff}} pts</1>",
+    "scoreStalemate": "Estancamiento Estadístico (Puntuación media)",
+    "victim": "Tu Víctima",
+    "youBeatThem_one": "Les has ganado <1>1</1> vez",
+    "youBeatThem_other": "Les has ganado <1>{{count}}</1> veces",
+    "matchHistory": "Historial de Encuentros",
+    "nemesis": "Némesis",
+    "hasBeatenYou": "Te ha ganado <1>{{losses}}</1> veces",
+    "victory": "¡Victoria!",
+    "won": "ganó",
+    "searchPlayers": "Buscar jugadores...",
+    "noPlayersFound": "No se encontraron jugadores",
+    "tryDifferentSearch": "Prueba con un término de búsqueda diferente",
+    "playGamesToSeeStats": "¡Juega algunas partidas para ver las estadísticas de los jugadores aquí!",
+    "achievements": "Logros",
+    "score": "Puntuación",
+    "progress": "Progreso",
+    "get": "OBTENER",
+    "overall": "General",
+    "vs": "vs",
+    "badges": {
+      "beginner_luck": {
+        "title": "Suerte del Principiante",
+        "description": "Gana tu primera partida jugada"
+      },
+      "centurion": {
+        "title": "Centurión",
+        "description": "Consigue 100+ puntos en una sola partida",
+        "progressLabel": "{{current}}/100 puntuación máx"
+      },
+      "close_call": {
+        "title": "Por Poco",
+        "description": "Gana una partida por 2 puntos o menos"
+      },
+      "culture_icon": {
+        "title": "Icono Cultural",
+        "description": "Consigue 40+ puntos en Estructuras Civiles"
+      },
+      "dark_side": {
+        "title": "Lado Oscuro",
+        "description": "Gana 5 partidas usando el Lado B de la Maravilla",
+        "progressLabel": "{{current}}/5 victorias"
+      },
+      "debt_collector": {
+        "title": "Cobrador de Deudas",
+        "description": "Gana una partida mientras tienes 5+ fichas de Deuda"
+      },
+      "dominator": {
+        "title": "Dominador",
+        "description": "Gana una partida por 20 puntos o más"
+      },
+      "globe_trotter": {
+        "title": "Trotamundos",
+        "description": "Juega con las 7 maravillas base",
+        "progressLabel": "{{current}}/7 maravillas base"
+      },
+      "grand_scientist": {
+        "title": "Gran Científico",
+        "description": "Consigue 50+ puntos en Ciencia"
+      },
+      "guild_leader": {
+        "title": "Líder de Gremio",
+        "description": "Consigue 30+ puntos en Gremios"
+      },
+      "hoarder": {
+        "title": "El Acaparador",
+        "description": "Termina una partida con 20+ Monedas"
+      },
+      "island_explorer": {
+        "title": "Explorador de Islas",
+        "description": "Explora 3+ Islas en una sola partida"
+      },
+      "jack_of_all_trades": {
+        "title": "Multitarea",
+        "description": "Consigue > 8 puntos en 5+ categorías en una partida"
+      },
+      "leader_of_leaders": {
+        "title": "Líder de Líderes",
+        "description": "Consigue 15+ puntos de cartas de Líderes"
+      },
+      "master_builder": {
+        "title": "Maestro Constructor",
+        "description": "Construye todas las etapas de tu maravilla"
+      },
+      "merchant_prince": {
+        "title": "Príncipe Mercader",
+        "description": "Consigue 20+ puntos en Estructuras Comerciales"
+      },
+      "naval_commander": {
+        "title": "Comandante Naval",
+        "description": "Gana una partida con la fuerza Naval máxima"
+      },
+      "pacifist": {
+        "title": "Pacifista",
+        "description": "Gana una partida con ≤ 0 puntos Militares"
+      },
+      "participation_award": {
+        "title": "Premio de Participación",
+        "description": "Juega 5 partidas sin conseguir ninguna victoria"
+      },
+      "specialist": {
+        "title": "Especialista",
+        "description": "Consigue > 35 puntos en una sola categoría"
+      },
+      "speed_demon": {
+        "title": "Demonio de la Velocidad",
+        "description": "Termina una partida en menos de 20 minutos"
+      },
+      "strategist": {
+        "title": "Estratega",
+        "description": "Mantén una tasa de victorias del 30% (mín. 10 partidas)",
+        "progressLabel": "{{current}}%/30% tasa de victorias"
+      },
+      "supreme_general": {
+        "title": "General Supremo",
+        "description": "Consigue 40+ puntos en Militares"
+      },
+      "veteran": {
+        "title": "Veterano",
+        "description": "Juega 50 partidas",
+        "progressLabel": "{{current}}/50 partidas"
+      },
+      "wonder_master": {
+        "title": "Maestro de Maravillas",
+        "description": "Gana con 7 maravillas diferentes",
+        "progressLabel": "{{current}}/7 maravillas ganadas"
+      },
+      "century_club": {
+        "title": "Club del Siglo",
+        "description": "Juega 100 partidas",
+        "progressLabel": "{{current}}/100 partidas"
+      },
+      "iron_will": {
+        "title": "Voluntad de Hierro",
+        "description": "Gana 10 partidas",
+        "progressLabel": "{{current}}/10 victorias"
+      },
+      "social_butterfly": {
+        "title": "Mariposa Social",
+        "description": "Juega contra 10+ oponentes diferentes",
+        "progressLabel": "{{current}}/10 oponentes"
+      },
+      "loyal_wonder": {
+        "title": "Maravilla Leal",
+        "description": "Juega la misma maravilla 10+ veces",
+        "progressLabel": "{{current}}/10 partidas"
+      },
+      "double_agent": {
+        "title": "Agente Doble",
+        "description": "Gana con ambos Lados A y B de la misma maravilla"
+      },
+      "hat_trick": {
+        "title": "Hat Trick",
+        "description": "Gana 3 partidas seguidas"
+      },
+      "full_house": {
+        "title": "Casa Llena",
+        "description": "Juega una partida con 7 jugadores"
+      },
+      "balanced": {
+        "title": "Maestro Equilibrado",
+        "description": "Consigue > 0 en las 7 categorías base en una sola partida"
+      }
+    }
+  },
+  "history": {
+    "title": "Historial de Partidas",
+    "empty": "No hay partidas jugadas aún",
+    "date": "Fecha",
+    "winner": "Ganador",
+    "players": "Jugadores",
+    "viewDetails": "Ver Detalles",
+    "deleteGame": "Eliminar Partida",
+    "confirmDelete": "¿Estás seguro de que quieres eliminar esta partida?",
+    "gamesPlayed": "Partidas Jugadas",
+    "averageScore": "Puntuación Media",
+    "highestScore": "Mejor Puntuación",
+    "noGamesSaved": "No hay partidas guardadas",
+    "noMatchesFound": "No se encontraron coincidencias",
+    "saveGamesMessage": "Guarda tus partidas desde la página de Clasificación para verlas aquí.",
+    "adjustFiltersMessage": "Prueba a ajustar tu selección de expansiones para ver diferentes registros.",
+    "deleteRecord": "¿Eliminar registro de partida?",
+    "tip": "Consejo: Pulsa en los iconos del tablero para ver los nombres completos",
+    "tipShort": "Consejo: Pulsa en los iconos",
+    "tipSeeFullNames": "para ver los nombres completos",
+    "sortedHighToLow": "--- Orden: De mayor a menor ---",
+    "gameMoved": "¡Partida Movida!",
+    "gameMovedMessage": "Este registro corresponde a un conjunto de expansiones diferente. Para verlo, cambia el filtro de \"Mode de Juego\" arriba.",
+    "sortOptions": {
+      "mostRecent": "Más Reciente",
+      "totalScore": "Puntuación Total",
+      "military": "Conflictos Militares",
+      "treasury": "Contenido del Tesoro",
+      "wonder": "Maravilla",
+      "civilian": "Estructuras Civiles",
+      "scientific": "Estructuras Científicas",
+      "commercial": "Estructuras Comerciales",
+      "guilds": "Gremios",
+      "debts": "Deudas",
+      "naval": "Conflictos Navales",
+      "islands": "Exploración de Islas",
+      "dockyard": "Tablero del Astillero"
+    },
+    "topScoreLabel": "Top {{category}}: {{score}}",
+    "copyCSVText": "Copiar Resultados (Texto CSV)",
+    "shareCSVFile": "Compartir Resultados (Archivo CSV)",
+    "team": "EQUIPO",
+    "player": "JUGADOR",
+    "winningTeam": "¡Equipo Ganador!",
+    "losingTeam": "Equipo Perdedor",
+    "vs": "vs"
+  },
+  "leaderboard": {
+    "title": "Clasificación",
+    "allWonders": "Todas las Maravillas",
+    "subtitle": "Mejores Puntuaciones de Todos los Tiempos",
+    "best": "Mejor",
+    "all": "Todo",
+    "bestScoresOnly": "Solo Mejores Puntuaciones",
+    "allScores": "Todas las Puntuaciones",
+    "noRecordsFound": "No se encontraron registros",
+    "noRecordsMessage": "Juega una partida y guarda los resultados para poblar la clasificación.",
+    "rank": "Rango",
+    "player": "Jugador",
+    "wins": "Victorias",
+    "avgScore": "Puntuación Media",
+    "gamesPlayed": "Partidas",
+    "winRate": "Tasa de Victorias"
+  },
+  "statistics": {
+    "title": "Estadísticas del Juego",
+    "overview": "Resumen",
+    "totalGames": "Total de Partidas",
+    "totalPlayers": "Total de Jugadores",
+    "avgGameDuration": "Duración Media de Partida",
+    "mostUsedWonder": "Maravilla más Utilizada",
+    "highestScoringCategory": "Categoría más Lucrativa",
+    "mostPopularExpansion": "Expansión más Popular",
+    "avgWinningScore": "Puntuación Ganadora Media",
+    "avgScore": "Puntuación Media",
+    "topWonder": "Mejor Maravilla",
+    "wins": "victorias",
+    "plays": "jugadas",
+    "games": "partidas",
+    "playerWinRate": "Tasa de Victorias del Jugador",
+    "noPlayerData": "No hay datos de jugadores aún.",
+    "avgScoreByCategory": "Puntuación Media por Categoría",
+    "winRateByWonder": "Tasa de Victorias por Maravilla",
+    "mostPlayedWonders": "Maravillas más Jugadas",
+    "avgScoreByWonder": "Puntuación Media por Maravilla",
+    "noGamesSide": "No hay partidas jugadas con este lado aún.",
+    "all": "Todo",
+    "sideA": "Lado A",
+    "sideB": "Lado B",
+    "statAwards": {
+      "highestScore": "Mejor Puntuación",
+      "scientificGenius": "Genio Científico",
+      "civilianLeader": "Líder Civil",
+      "militaryWarlord": "Señor de la Guerra",
+      "richestMerchant": "Mercader más Rico",
+      "guildMaster": "Maestro de Gremio",
+      "wonderArchitect": "Arquitecto de Maravilla",
+      "navalAdmiral": "Almirante Naval",
+      "islandExplorer": "Explorador de Islas",
+      "masterShipwright": "Maestro Constructor Naval",
+      "leaderOfLeaders": "Líder de Líderes",
+      "urbanLegend": "Leyenda Urbana",
+      "grandArchitect": "Gran Arquitecto"
+    }
+  }
+}

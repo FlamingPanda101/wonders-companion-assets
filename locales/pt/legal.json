@@ -1,0 +1,81 @@
+{
+    "privacyPolicy": {
+        "title": "Política de Privacidade",
+        "lastUpdated": "Última atualização: 25 de novembro de 2025",
+        "intro": {
+            "title": "Introdução",
+            "content": "Esta Política de Privacidade descreve como o aplicativo \"Wonders Companion\" (\"nós\", \"nosso\" ou \"nos\") lida com seus dados. Estamos comprometidos em proteger sua privacidade."
+        },
+        "dataCollection": {
+            "title": "Coleta e Armazenamento de Dados",
+            "noCollection": "Não coletamos, transmitimos ou armazenamos nenhuma informação pessoal em servidores externos.",
+            "localStorage": "Todos os dados inseridos no aplicativo, incluindo nomes de jogadores, pontuações e histórico de jogos, são armazenados localmente no seu dispositivo usando o Armazenamento Local do seu navegador ou as capacidades de armazenamento nativas do dispositivo.",
+            "cloudBackupTitle": "Backup Opcional na Nuvem",
+            "cloudBackupContent": "Podemos oferecer um recurso opcional para fazer backup do seu histórico de jogos no seu Google Drive ou Armazenamento do Google pessoal. Se você optar por usar este recurso:",
+            "cloudBackupList": [
+                "Você será solicitado a fazer login com sua conta do Google.",
+                "O aplicativo acessará apenas os arquivos específicos que ele criar para fins de backup.",
+                "Seus dados permanecem sob seu controle no seu armazenamento pessoal na nuvem.",
+                "Não temos acesso às suas credenciais de conta do Google ou a quaisquer outros dados no seu Google Drive."
+            ]
+        },
+        "thirdParty": {
+            "title": "Serviços de Terceiros",
+            "noTracking": "Este aplicativo não usa nenhum serviço de análise, rastreamento ou redes de anúncios de terceiros.",
+            "googleServices": "Se você optar pelo recurso de backup na nuvem, o aplicativo interagirá com os serviços de autenticação e armazenamento do Google apenas para fins de fornecer a funcionalidade de backup. Consulte a Política de Privacidade do Google para obter mais informações sobre como eles lidam com seus dados."
+        },
+        "dataDeletion": {
+            "title": "Exclusão de Dados",
+            "content": "Como todos os dados são armazenados localmente no seu dispositivo, você tem controle total sobre eles. Você pode limpar seus dados a qualquer momento ao:",
+            "methods": [
+                "Usar os recursos \"Limpar Histórico\" ou \"Resetar\" nas configurações do aplicativo.",
+                "Limpar o cache e o armazenamento local do seu navegador.",
+                "Desinstalar o aplicativo (se instalado como um aplicativo nativo)."
+            ]
+        },
+        "changes": {
+            "title": "Alterações nesta Política",
+            "content": "Podemos atualizar esta Política de Privacidade de tempos em tempos. Quaisquer alterações serão refletidas neste documento com uma data de \"Última atualização\" atualizada."
+        },
+        "contact": {
+            "title": "Contate-nos",
+            "content": "Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato com o desenvolvedor."
+        }
+    },
+    "termsOfService": {
+        "title": "Termos de Serviço",
+        "lastUpdated": "Última atualização: {{date}}",
+        "sections": {
+            "1": {
+                "title": "1. Aceitação dos Termos",
+                "content": "Ao usar o aplicativo \"Wonders Companion\", você concorda em cumprir estes Termos de Serviço. Se você não concordar com estes termos, não use o aplicativo."
+            },
+            "2": {
+                "title": "2. Descrição do Serviço",
+                "content": "O \"Wonders Companion\" é uma ferramenta digital projetada para auxiliar os jogadores no cálculo e registro de pontuações para o jogo de tabuleiro \"7 Wonders\". Este aplicativo é uma ferramenta feita por fãs e não é afiliado aos editores oficiais de 7 Wonders."
+            },
+            "3": {
+                "title": "3. Dados do Usuário e Privacidade",
+                "content1": "Sua privacidade é importante para nós. Consulte nossa <1>Política de Privacidade</1> para obter informações sobre como lidamos com seus dados.",
+                "content2": "Você é responsável por manter a segurança do seu dispositivo e de quaisquer dados armazenados no aplicativo. Se você usar o recurso opcional de backup do Google Drive, você é responsável por manter a segurança de sua conta do Google."
+            },
+            "4": {
+                "title": "4. Propriedade Intelectual",
+                "content1": "Todos os nomes de jogos, arte e temas relacionados ao \"7 Wonders\" são propriedade intelectual de seus respectivos proprietários. Este aplicativo não reivindica a propriedade de nenhum ativo oficial do jogo.",
+                "content2": "O código e o design do aplicativo são propriedade do desenvolvedor. Você não pode reproduzir, distribuir ou criar obras derivadas deste aplicativo sem permissão explícita."
+            },
+            "5": {
+                "title": "5. Limitação de Responsabilidade",
+                "content": "Este aplicativo é fornecido \"como está\", sem quaisquer garantias. O desenvolvedor não será responsável por quaisquer danos diretos, indiretos, incidentais ou consequenciais resultantes do uso ou da incapacidade de usar o aplicativo, incluindo perda de dados ou erros de pontuação."
+            },
+            "6": {
+                "title": "6. Alterações nos Termos",
+                "content": "Reservamo-nos o direito de modificar estes Termos de Serviço a qualquer momento. Seu uso continuado do aplicativo após quaisquer alterações constitui sua aceitação dos novos termos."
+            },
+            "7": {
+                "title": "7. Informações de Contato",
+                "content": "Para quaisquer questões relativas a estes Termos de Serviço, entre em contato com o desenvolvedor."
+            }
+        }
+    }
+}

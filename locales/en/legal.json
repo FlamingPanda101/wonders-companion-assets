@@ -1,0 +1,81 @@
+{
+    "privacyPolicy": {
+        "title": "Privacy Policy",
+        "lastUpdated": "Last Updated: November 25, 2025",
+        "intro": {
+            "title": "Introduction",
+            "content": "This Privacy Policy describes how the \"Wonders Companion\" application (\"we\", \"our\", or \"us\") handles your data. We are committed to protecting your privacy."
+        },
+        "dataCollection": {
+            "title": "Data Collection and Storage",
+            "noCollection": "We do not collect, transmit, or store any personal information on external servers.",
+            "localStorage": "All data entered into the application, including player names, scores, and game history, is stored locally on your device using your browser's Local Storage or the device's native storage capabilities.",
+            "cloudBackupTitle": "Optional Cloud Backup",
+            "cloudBackupContent": "We may offer an optional feature to back up your game history to your personal Google Drive or Google Storage. If you choose to use this feature:",
+            "cloudBackupList": [
+                "You will be asked to sign in with your Google account.",
+                "The application will only access the specific files it creates for backup purposes.",
+                "Your data remains under your control in your personal cloud storage.",
+                "We do not have access to your Google account credentials or any other data in your Google Drive."
+            ]
+        },
+        "thirdParty": {
+            "title": "Third-Party Services",
+            "noTracking": "This application does not use any third-party analytics, tracking services, or advertising networks.",
+            "googleServices": "If you opt-in to the cloud backup feature, the application will interact with Google's authentication and storage services solely for the purpose of providing the backup functionality. Please refer to Google's Privacy Policy for more information on how they handle your data."
+        },
+        "dataDeletion": {
+            "title": "Data Deletion",
+            "content": "Since all data is stored locally on your device, you have full control over it. You can clear your data at any time by:",
+            "methods": [
+                "Using the \"Clear History\" or \"Reset\" features within the application settings.",
+                "Clearing your browser's cache and local storage.",
+                "Uninstalling the application (if installed as a native app)."
+            ]
+        },
+        "changes": {
+            "title": "Changes to This Policy",
+            "content": "We may update this Privacy Policy from time to time. Any changes will be reflected in this document with an updated \"Last Updated\" date."
+        },
+        "contact": {
+            "title": "Contact Us",
+            "content": "If you have any questions about this Privacy Policy, please contact the developer."
+        }
+    },
+    "termsOfService": {
+        "title": "Terms of Service",
+        "lastUpdated": "Last Updated: {{date}}",
+        "sections": {
+            "1": {
+                "title": "1. Acceptance of Terms",
+                "content": "By using the \"Wonders Companion\" application, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the application."
+            },
+            "2": {
+                "title": "2. Description of Service",
+                "content": "The \"Wonders Companion\" is a digital utility designed to assist players in calculating and recording scores for the board game \"7 Wonders\". This application is a fan-made tool and is not affiliated with the official publishers of 7 Wonders."
+            },
+            "3": {
+                "title": "3. User Data and Privacy",
+                "content1": "Your privacy is important to us. Please refer to our <1>Privacy Policy</1> for information on how we handle your data.",
+                "content2": "You are responsible for maintaining the security of your device and any data stored within the application. If you use the optional Google Drive backup feature, you are responsible for maintaining the security of your Google account."
+            },
+            "4": {
+                "title": "4. Intellectual Property",
+                "content1": "All game names, artwork, and themes related to \"7 Wonders\" are intellectual property of their respective owners. This application does not claim ownership of any official game assets.",
+                "content2": "The application code and design are the property of the developer. You may not reproduce, distribute, or create derivative works of this application without explicit permission."
+            },
+            "5": {
+                "title": "5. Limitation of Liability",
+                "content": "This application is provided \"as is\" without any warranties. The developer shall not be liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use the application, including data loss or scoring errors."
+            },
+            "6": {
+                "title": "6. Changes to Terms",
+                "content": "We reserve the right to modify these Terms of Service at any time. Your continued use of the application following any changes constitutes your acceptance of the new terms."
+            },
+            "7": {
+                "title": "7. Contact Information",
+                "content": "For any questions regarding these Terms of Service, please contact the developer."
+            }
+        }
+    }
+}

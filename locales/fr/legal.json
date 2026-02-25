@@ -1,0 +1,81 @@
+{
+    "privacyPolicy": {
+        "title": "Politique de Confidentialité",
+        "lastUpdated": "Dernière Mise à Jour : 25 Novembre 2025",
+        "intro": {
+            "title": "Introduction",
+            "content": "Cette politique de confidentialité décrit comment l'application \"Wonders Companion\" (\"nous\", \"notre\" ou \"nos\") traite vos données. Nous nous engageons à protéger votre vie privée."
+        },
+        "dataCollection": {
+            "title": "Collecte et Stockage de Données",
+            "noCollection": "Nous ne collectons, ne transmettons ni ne stockons aucune information personnelle sur des serveurs externes.",
+            "localStorage": "Toutes les données saisies dans l'application, y compris les noms des joueurs, les scores et l'historique des parties, sont stockées localement sur votre appareil à l'aide du stockage local de votre navigateur ou des capacités de stockage natives de l'appareil.",
+            "cloudBackupTitle": "Sauvegarde Cloud Facultative",
+            "cloudBackupContent": "Nous pouvons proposer une fonctionnalité facultative pour sauvegarder votre historique de jeu sur votre Google Drive personnel ou votre stockage Google. Si vous choisissez d'utiliser cette fonctionnalité :",
+            "cloudBackupList": [
+                "Il vous sera demandé de vous connecter avec votre compte Google.",
+                "L'application n'accédera qu'aux fichiers spécifiques qu'elle crée pour la sauvegarde.",
+                "Vos données restent sous votre contrôle dans votre stockage cloud personnel.",
+                "Nous n'avons pas accès aux identifiants de votre compte Google ni à toute autre donnée de votre Google Drive."
+            ]
+        },
+        "thirdParty": {
+            "title": "Services Tiers",
+            "noTracking": "Cette application n'utilise aucun service tiers d'analyse, de suivi ou de publicité.",
+            "googleServices": "Si vous optez pour la fonction de sauvegarde cloud, l'application interagira avec les services d'authentification et de stockage de Google uniquement dans le but de fournir la fonctionnalité de sauvegarde. Veuillez vous référer à la politique de confidentialité de Google pour plus d'informations sur la manière dont ils traitent vos données."
+        },
+        "dataDeletion": {
+            "title": "Suppression de Données",
+            "content": "Puisque toutes les données sont stockées localement sur votre appareil, vous en avez le contrôle total. Vous pouvez effacer vos données à tout moment en :",
+            "methods": [
+                "Utilisant les fonctions \"Effacer l'Historique\" ou \"Réinitialiser\" dans les paramètres de l'application.",
+                "Effaçant le cache et le stockage local de votre navigateur.",
+                "Désinstallant l'application (si installée en tant qu'application native)."
+            ]
+        },
+        "changes": {
+            "title": "Modifications de cette Politique",
+            "content": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Toute modification sera reflétée dans ce document avec une date de \"Dernière Mise à Jour\" actualisée."
+        },
+        "contact": {
+            "title": "Nous Contacter",
+            "content": "Si vous avez des questions sur cette politique de confidentialité, veuillez contacter le développeur."
+        }
+    },
+    "termsOfService": {
+        "title": "Conditions d'Utilisation",
+        "lastUpdated": "Dernière Mise à Jour : {{date}}",
+        "sections": {
+            "1": {
+                "title": "1. Acceptation des Conditions",
+                "content": "En utilisant l'application \"Wonders Companion\", vous acceptez d'être lié par ces Conditions d'Utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser l'application."
+            },
+            "2": {
+                "title": "2. Description du Service",
+                "content": "Le \"Wonders Companion\" est un utilitaire numérique conçu pour aider les joueurs à calculer et enregistrer les scores du jeu de société \"7 Wonders\". Cette application est un outil créé par des fans et n'est pas affiliée aux éditeurs officiels de 7 Wonders."
+            },
+            "3": {
+                "title": "3. Données de l'Utilisateur et Vie Privée",
+                "content1": "Votre vie privée est importante pour nous. Veuillez vous référer à notre <1>Politique de Confidentialité</1> pour plus d'informations sur la manière dont nous traitons vos données.",
+                "content2": "Vous êtes responsable de maintenir la sécurité de votre appareil et de toutes les données stockées dans l'application. Si vous utilisez la fonction de sauvegarde facultative Google Drive, vous êtes responsable de maintenir la sécurité de votre compte Google."
+            },
+            "4": {
+                "title": "4. Propriété Intellectuelle",
+                "content1": "Tous les noms de jeux, illustrations et thèmes liés à \"7 Wonders\" sont la propriété intellectuelle de leurs détenteurs respectifs. Cette application ne revendique la propriété d'aucun actif officiel du jeu.",
+                "content2": "Le code et le design de l'application sont la propriété du développeur. Vous ne pouvez pas reproduire, distribuer ou créer des œuvres dérivées de cette application sans autorisation explicite."
+            },
+            "5": {
+                "title": "5. Limitation de Responsabilité",
+                "content": "Cette application est fournie \"en l'état\" sans aucune garantie. Le développeur ne sera pas responsable des dommages directs, indirects, accessoires ou consécutifs résultant de l'utilisation ou de l'incapacité d'utiliser l'application, l'utilisation de données ou les erreurs de score."
+            },
+            "6": {
+                "title": "6. Modifications des Conditions",
+                "content": "Nous nous réservons le droit de modifier ces Conditions d'Utilisation à tout moment. Votre utilisation continue de l'application après toute modification constitue votre acceptation des nouvelles conditions."
+            },
+            "7": {
+                "title": "7. Informations de Contact",
+                "content": "Pour toute question concernant ces Conditions d'Utilisation, veuillez contacter le développeur."
+            }
+        }
+    }
+}

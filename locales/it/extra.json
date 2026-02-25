@@ -1,0 +1,194 @@
+{
+    "rankings": {
+        "title": "Classifica",
+        "rankByTeam": "Classifica per Squadra",
+        "rankByPlayer": "Classifica per Giocatore",
+        "teamTie": "Pareggio tra Squadre!",
+        "tieGame": "Pareggio!",
+        "teamVictory": "Vittoria Squadra {{team}}!",
+        "theVictors": "I Vincitori",
+        "theVictor": "Il Vincitore",
+        "noScoresYet": "Nessun punteggio ancora",
+        "enterScoresMessage": "Inserisci i punteggi nel foglio di gioco per vedere la classifica qui!",
+        "teamWinner": "SQUADRA VINCITRICE",
+        "winner": "VINCITORE",
+        "saveGame": "Salva Partita",
+        "saveGameResults": "Salva Risultati",
+        "gameSaved": "Partita Salvata!",
+        "resultsSaved": "Risultati Salvati",
+        "shareResults": "Condividi Risultati",
+        "shareResultsText": "Condividi Risultati (Testo)",
+        "shareResultsCSV": "Condividi Risultati (CSV)",
+        "sharedToClipboard": "Condiviso negli appunti!",
+        "copiedToClipboard": "Copiato negli appunti!",
+        "copyCSVText": "Copia Testo CSV",
+        "shareCSVFile": "Condividi File CSV",
+        "allWonders": "Tutte le Meraviglie",
+        "copyFileText": "COPIA TESTO FILE",
+        "textCopied": "Testo Copiato!",
+        "shareTitle": "Risultati 7 Wonders Scoreboard",
+        "shareText": "Ecco i risultati della nostra partita!",
+        "shareDialogTitle": "Condividi Risultati",
+        "saveValidationMessage": "Per salvare la partita, completa le informazioni mancanti. Clicca sull'icona di setup in alto a destra.",
+        "coinTieBreakerDisclaimer": "Per uno spareggio preciso, imposta il punteggio del Tesoro su 'Monete' nelle Impostazioni.",
+        "winnerDecidedByCoins": "Il vincitore è stato deciso dal numero di monete a causa di un pareggio nei punti.",
+        "csvImportTip": "Suggerimento: Questo testo o file CSV può essere importato nell'app di un altro utente nelle Impostazioni!",
+        "viewHistorySettings": "Puoi consultare la cronologia delle partite nelle Impostazioni.",
+        "classicGrid": "Griglia Classica",
+        "personalizedCards": "Carte Personalizzate"
+    },
+    "hallOfFame": {
+        "title": "Hall of Fame",
+        "empty": "Hall of Fame vuota",
+        "noRecords": "Nessun record trovato per le espansioni selezionate.",
+        "noData": "Nessun Dato",
+        "supremeSovereign": "Il Sovrano Supremo",
+        "warlord": "Il Signore della Guerra",
+        "admiral": "L'Ammiraglio",
+        "madScientist": "Lo Scienziato Pazzo",
+        "philosopher": "Il Filosofo",
+        "wonderArchitect": "L'Architetto di Meraviglie",
+        "totalArchitect": "Il Mastro Costruttore",
+        "tycoon": "Il Magnate",
+        "guildmaster": "Il Maestro delle Gilde",
+        "hoardingDragon": "Il Drago Accumulatore",
+        "hopelessDebtor": "Il Debitore Disperato",
+        "islandExplorer": "L'Esploratore d'Isole",
+        "shipwright": "Il Costruttore Navale",
+        "veteran": "Il Veterano",
+        "veteranSubtitle": "(Piu partite giocate)",
+        "strategist": "Lo Stratega",
+        "strategistSubtitle": "(Migliore media punteggio)"
+    },
+    "gameModes": {
+        "title": "MODALITÀ DI GIOCO",
+        "gameMode": "modalità di gioco",
+        "showAllRecords": "Mostra tutti i record",
+        "unlockAllWonders": "Sblocca tutte le Meraviglie",
+        "armada": "Armada",
+        "cities": "Cities",
+        "edifice": "Edifice",
+        "leaders": "Leaders",
+        "teamplay": "Gioco a Squadre",
+        "expansionmaps": "Mappe Espansione",
+        "purchasePrompt": "2 USD per sbloccare tutte e quattro le espansioni",
+        "breakTheRules": "Infrangi le regole",
+        "breakTheRulesDesc1": "7 Wonders è progettato per un massimo de 7 giocatori, ma questa app rimuove tali limiti. Puoi aggiungere quanti giocatori vuoi, selezionare qualsiasi combinazione di espansioni e persino giocare con meraviglie duplicate.",
+        "breakTheRulesDesc2": "La logica del punteggio rimane valida per qualsiasi numero di giocatori, ma preparati a partite caotiche (ed emozionanti) se spingi i confini!",
+        "note": "Nota: Alcune combinazioni di espansioni possono richiedere più spazio sul tavolo e aumentare significativamente il tempo di gioco.",
+        "gotIt": "Ricevuto!",
+        "gamesHidden": "ALCUNE PARTITE NASCOSTE",
+        "hiddenGamesMessage_one": "{{count}} partita è nascosta dalla Hall of Fame, Classifica, Cronologia e Statistiche perché include un'espansione che non hai acquistato.",
+        "hiddenGamesMessage_other": "{{count}} partite sono nascoste dalla Hall of Fame, Classifica, Cronologia e Statistiche perché includono espansioni che non hai acquistato.",
+        "hiddenGamesPurchaseLink_one": "Acquista le espansioni per accedere alla partita nascosta",
+        "hiddenGamesPurchaseLink_other": "Acquista le espansioni per accedere alle partite nascoste",
+        "hiddenGamesMessageLong": "{{count}} partite nella tua cronologia non corrispondono ai filtri attuali.",
+        "armadaDesc": "Conflitti navali ed esplorazione di isole. Include plance navali per ogni giocatore.",
+        "citiesDesc": "Debiti inter-cittadini e interazioni ombrose. Aggiunge le nuove carte 'Nere'.",
+        "edificeDesc": "Progetti comuni che i giocatori costruiscono insieme per ricompense o penalità globali.",
+        "leadersDesc": "Recluta potenti figure storiche per guidare la strategia della tua civiltà.",
+        "teamPlayDesc": "Gioca a squadre per sommare i punteggi e coordinare le strategie.",
+        "unlockAllWondersDesc": "Abilita tutte le meraviglie di ogni espansione indipendentemente dalle modalità selezionate.",
+        "modes": {
+            "base": {
+                "name": "Gioco Base",
+                "description": "L'esperienza classica. Concentrati sulla tua città e sui tuoi vicini immediati."
+            },
+            "leadersMode": {
+                "name": "Espansione Leaders",
+                "description": "Recluta figure influenti per guidare la crescita della tua civiltà."
+            },
+            "citiesMode": {
+                "name": "Espansione Cities",
+                "description": "Affari loschi e maggiore interazione con le nuove carte Nere."
+            },
+            "armadaMode": {
+                "name": "Espansione Armada",
+                "description": "Prendi il largo con le plance navali e l'esplorazione d'isole."
+            },
+            "edificeMode": {
+                "name": "Espansione Edifice",
+                "description": "Lavorate insieme a progetti comuni per ricompense o penalità globali."
+            },
+            "zenith": {
+                "name": "La Collezione Zenith",
+                "description": "Tutte le espansioni attive. L'ultima sfida della strategia antica."
+            },
+            "diplomatic": {
+                "name": "La Corte Diplomatica",
+                "description": "Potenti leader incontrano le strade difficili della metropoli."
+            },
+            "sovereign": {
+                "name": "Oceani Sovrani",
+                "description": "Grandi leader conquistano i mari con potenti flotte."
+            },
+            "monumental": {
+                "name": "Governanti Monumentali",
+                "description": "Figure leggendarie collaborano su imponenti strutture comuni."
+            },
+            "navalTrade": {
+                "name": "Rotte Commerciali Navali",
+                "description": "Città mercantili e potere navale dominano l'antico commercio."
+            },
+            "metropolitan": {
+                "name": "Meraviglie Metropolitane",
+                "description": "Città dense che mettono in comune le risorse per grandi edifici comunitari."
+            },
+            "coastal": {
+                "name": "Punti di Riferimento Costieri",
+                "description": "Progetti di costruzione collaborativi lungo le linee costiere strategiche."
+            },
+            "imperial": {
+                "name": "Il Triumvirato Imperiale",
+                "description": "Leaders, Cities e Armada. Alta interazione, guerra navale e reclutamento."
+            },
+            "masterArchitects": {
+                "name": "I Maestri Architetti",
+                "description": "Leaders, Cities e Edifice. Focus sul reclutamento e sulla costruzione collaborativa."
+            },
+            "royalArchitects": {
+                "name": "Gli Architetti Reali",
+                "description": "Leaders, Armada e Edifice. Leader leggendari che espandono mare e strutture."
+            },
+            "coalition": {
+                "name": "La Coalizione del Potere",
+                "description": "Cities, Armada e Edifice. Pura strategia, guerra e costruzione."
+            },
+            "custom": {
+                "name": "Mazzo Espansioni Personalizzato",
+                "description": "{{count}} espansioni selezionate.",
+                "single": "1 espansione selezionata."
+            }
+        }
+    },
+    "app": {
+        "validationError": "Impossibile salvare la partita. Assicurati che tutti i giocatori abbiano un nome, una meraviglia e un lato selezionati:",
+        "missingName": "Giocatore {{id}}: Nome mancante",
+        "missingWonder": "Giocatore {{id}}: Meraviglia mancante",
+        "missingSide": "Giocatore {{id}}: Lato mancante",
+        "swapP": "Scambia G{{id}}",
+        "backupSuccess": "Backup completato con successo!",
+        "backupFailed": "Salvataggio backup su Google Drive fallito: {{error}}",
+        "restoreConfirm": "Questo unirà i dati di Google Drive con i tuoi dati locali, evitando duplicati. Continuare?",
+        "restoreFailed": "Ripristino da Drive fallito: {{error}}",
+        "restoreSuccess": "Ripristino completato con successo!",
+        "googleDriveDisconnected": "Google Drive disconnesso. Accedi per riprendere il backup?",
+        "purchase": {
+            "nativeTitle": "Inizia prova gratuita?",
+            "webTitle": "Sblocca Espansioni?",
+            "nativeMessage": "Sblocca tutte e 4 le espansioni (Leaders, Cities, Armada, Edifice) con una prova gratuita di 7 giorni, quindi acquisto unico.",
+            "webMessage": "Passa alla 'Versione Pro - Quattro Espansioni' per un costo unico di 2,00 $? \n\n(Questa è una simulazione perché sei in un browser)",
+            "nativeConfirm": "Inizia Prova",
+            "webConfirm": "Sblocca Tutto (2,00 $)"
+        }
+    },
+    "timer": {
+        "start": "Inizia",
+        "pause": "Pausa",
+        "resume": "Riprendi",
+        "fullScreen": "Schermo Intero",
+        "closeFullScreen": "Chiudi Schermo Intero",
+        "switchToRotating": "Passa a modalità Rotante",
+        "switchToSingle": "Passa a modalità Singola"
+    }
+}

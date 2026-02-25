@@ -1,0 +1,1202 @@
+{
+    "mad_librarian": {
+        "name": "The Mad Librarian",
+        "description": "You have more papyrus than a mummy factory. You spent three Ages in a basement staring at tablets while your neighbors were actually building a civilization."
+    },
+    "pythagoras_understudy": {
+        "name": "Pythagoras’ Understudy",
+        "description": "Math is your only friend. While others are building armies, you’re calculating the square root of 'Winning.'"
+    },
+    "gear_grinder": {
+        "name": "The Gear Grinder",
+        "description": "You never met a mechanical symbol you didn't like. You're probably hoping to build a robot to play the rest of the game for you."
+    },
+    "tablet_titan": {
+        "name": "Tablet Titan",
+        "description": "You collected so many tablets that your city basically invented the internet in the Bronze Age. Too bad there's no Wi-Fi."
+    },
+    "alchemy_dropout": {
+        "name": "Alchemy Dropout",
+        "description": "You tried to turn lead into gold, but you mostly just turned cards into Science symbols. At least the lab looks cool."
+    },
+    "shield_waller": {
+        "name": "The Shield Waller",
+        "description": "Your city is less 'metropolis' and more 'spiked cage.' Your military score is the only thing keeping you from a total loss."
+    },
+    "siege_engine": {
+        "name": "The Siege Engine",
+        "description": "You don't just win conflicts; you make sure your neighbors feel the shame of their -1 tokens for generations."
+    },
+    "mercenary_mogul": {
+        "name": "The Mercenary Mogul",
+        "description": "You buy your way into wars. You’re the reason military budgets exist, and the reason your neighbors are broke."
+    },
+    "spartan_wannabe": {
+        "name": "Spartan Wannabe",
+        "description": "Who needs a Palace when you have a very sharp stick? You have zero Civilian points but won every conflict."
+    },
+    "reluctant_pacifist": {
+        "name": "The Reluctant Pacifist",
+        "description": "You built one Guard Tower in Age I and then just... stopped. You're watching the carnage with a 'Safety First' badge."
+    },
+    "palace_dweller": {
+        "name": "The Palace Dweller",
+        "description": "You live for the prestige. Your city is beautiful, useless, and worth a mountain of points. Just like a real government."
+    },
+    "statue_stalker": {
+        "name": "Statue Stalker",
+        "description": "You have a statue for every occasion. We get it, you're pretty. Now please pass the clay."
+    },
+    "blue_blood": {
+        "name": "The Blue Blood",
+        "description": "You find Science 'too messy' and Military 'too loud.' You prefer the quiet dignity of a 7-point Senate."
+    },
+    "civic_superfan": {
+        "name": "Civic Super-Fan",
+        "description": "You’ve built every public building available. Your city has the highest taxes and the best-trimmed hedges."
+    },
+    "pantheon_planner": {
+        "name": "Pantheon Planner",
+        "description": "You’re building for the gods. Hopefully, they appreciate the 5 points, because your neighbors certainly don't."
+    },
+    "ill_just_buy_it_guy": {
+        "name": "The 'I'll Just Buy It' Guy",
+        "description": "You produce nothing but gold. Your treasury score is huge, and you bought every single resource from your neighbors."
+    },
+    "marketplace_manipulator": {
+        "name": "Marketplace Manipulator",
+        "description": "You control the flow of goods. If your neighbors want a brick, they have to go through you—and your 2-coin fee."
+    },
+    "gold_hoarder": {
+        "name": "The Gold Hoarder",
+        "description": "You have so many coins you’re using them as wallpaper. Points are points, but shiny things are forever."
+    },
+    "tavern_tourist": {
+        "name": "Tavern Tourist",
+        "description": "You spent most of Age I in the pub. You didn't get much done, but you had a great time doing it."
+    },
+    "resource_refugee": {
+        "name": "The Resource Refugee",
+        "description": "You literally produce nothing. You’re a professional shopper in a world of producers."
+    },
+    "guild_ghost": {
+        "name": "The Guild Ghost",
+        "description": "You’re invisible until Age III, then you swoop in and steal 18 points based entirely on your neighbor's hard work."
+    },
+    "copycat_king": {
+        "name": "Copycat King",
+        "description": "You don't have a strategy. You just have neighbors with good strategies that you’re currently stealing."
+    },
+    "wonder_worker": {
+        "name": "The Wonder Worker",
+        "description": "You finished your Wonder in Age II while everyone else was still figuring out how to make glass. Show off."
+    },
+    "foundation_fanatic": {
+        "name": "Foundation Fanatic",
+        "description": "You spent the whole game on Stage 1 of your Wonder. It’s a very nice base, though. Very sturdy."
+    },
+    "pyramid_scheme": {
+        "name": "Pyramid Scheme",
+        "description": "You’re building a pyramid. It’s expensive, it’s pointless, but it’s worth a massive pile of points."
+    },
+    "laboratory_rat": {
+        "name": "The Laboratory Rat",
+        "description": "You spent Age I, II, and III in a basement. You emerged blinking into the light with 48 points and a headache."
+    },
+    "observatory_overlord": {
+        "name": "Observatory Overlord",
+        "description": "You’re looking at the stars while your neighbor is looking at your lack of shields. Hope the constellations can block a catapult."
+    },
+    "patent_pending": {
+        "name": "The Patent Pending",
+        "description": "You have a lot of great ideas, but none of them involve actually helping your neighbors with their resources."
+    },
+    "scroll_soul": {
+        "name": "Scroll Soul",
+        "description": "Your city smells like old parchment and desperation. You’d trade your firstborn for one more School."
+    },
+    "geometry_giant": {
+        "name": "Geometry Giant",
+        "description": "You see the world in shapes. Specifically, the shape of three matching symbols that give you 7 points."
+    },
+    "wall_to_wall_warrior": {
+        "name": "Wall-to-Wall Warrior",
+        "description": "If there’s a brick on the table, it’s going into a fortification. Your city is essentially a giant, angry LEGO set."
+    },
+    "peace_treaty_tease": {
+        "name": "The Peace-Treaty Tease",
+        "description": "You look like you’re going for Blue cards until the very last turn, when you drop a Circus and ruin everyone’s day."
+    },
+    "iron_fist": {
+        "name": "The Iron Fist",
+        "description": "You rule with a heavy hand and a lot of shields. Diplomacy is just something you do while reloading the ballista."
+    },
+    "spearhead_specialist": {
+        "name": "Spearhead Specialist",
+        "description": "You’re always the first to draft a red card. It’s not about the points; it’s about sending a message."
+    },
+    "phalanx_fanatic": {
+        "name": "The Phalanx Fanatic",
+        "description": "You love a good formation. Your city is so organized it’s scary, mostly because of all the spears."
+    },
+    "gardens_architect": {
+        "name": "Gardens Architect",
+        "description": "Your city is basically a giant park. It’s very relaxing until you realize you can't eat flowers or fight with thorns."
+    },
+    "town_crier": {
+        "name": "The Town Crier",
+        "description": "You love making announcements. Usually, it's just 'Look how many Blue cards I have!' followed by smug silence."
+    },
+    "altar_ego": {
+        "name": "Altar Ego",
+        "description": "You’ve built so many altars that you’re legally a deity in three different ancient provinces."
+    },
+    "fountain_finder": {
+        "name": "The Fountain Finder",
+        "description": "You’re obsessed with water features. Your city is 40% fountains and 60% people trying not to slip."
+    },
+    "senate_sweeper": {
+        "name": "Senate Sweeper",
+        "description": "You’ve dominated the political landscape. You have a seat at every table, mostly so you can talk about your points."
+    },
+    "bazaar_brawler": {
+        "name": "Bazaar Brawler",
+        "description": "You fight for every coin. You’ll spend ten minutes arguing over a 1-coin discount and you bring a sword to the market."
+    },
+    "the_middleman": {
+        "name": "The Middleman",
+        "description": "You’re the bridge between your neighbors. You take a little off the top of every single transaction."
+    },
+    "coin_collector": {
+        "name": "Coin Collector",
+        "description": "You treat every coin like a beloved pet. It’s hard to spend them when they’re so cute."
+    },
+    "export_expert": {
+        "name": "The Export Expert",
+        "description": "You’re always sending stuff away for profit. Your city is empty, but your pockets are full."
+    },
+    "trade_route_ruler": {
+        "name": "Trade Route Ruler",
+        "description": "You’ve established routes to everywhere. You’re basically the ancient world’s version of a modern logistics company."
+    },
+    "the_parasite": {
+        "name": "The Parasite",
+        "description": "Your entire score is based on what the people next to you built. You’re like a high-scoring barnacle."
+    },
+    "opportunist_supreme": {
+        "name": "Opportunist Supreme",
+        "description": "You see an opening, you take it. Especially if that opening is a Guild card that scores off your rich neighbors."
+    },
+    "shadow_broker": {
+        "name": "The Shadow Broker",
+        "description": "You’re pulling the strings from the shadows. Or just drafting the Spies Guild and taking credit for everything."
+    },
+    "purple_prose": {
+        "name": "Purple Prose",
+        "description": "You write your own victory. Usually involving a lot of math based on how many brown cards your neighbor has."
+    },
+    "colossus_king": {
+        "name": "Colossus King",
+        "description": "You’re building a giant statue. It’s big, it’s bold, and combined with your military might, it’s winning."
+    },
+    "base_051": {
+        "name": "The Architect",
+        "description": "Obsessed with leaving a legacy. You prioritized completing your Wonder and building monumental civic structures."
+    },
+    "base_052": {
+        "name": "The Mercenary",
+        "description": "War is a business, and business is booming. You funded your military campaigns with a strong commercial backbone."
+    },
+    "base_053": {
+        "name": "The Bureaucrat",
+        "description": "A master of logistics and city planning. You focused on civic scoring backed by a sprawling trade network."
+    },
+    "base_054": {
+        "name": "The Tycoon",
+        "description": "Cash is king. You monopolized trade routes and hoarded coins to buy your way to victory."
+    },
+    "base_055": {
+        "name": "The Artisan",
+        "description": "A master craftsman. You leaned heavily on Guilds to capitalize on the achievements of your neighbors."
+    },
+    "base_056": {
+        "name": "The Diplomat",
+        "description": "You avoided the bloodshed entirely, focusing instead on a perfectly balanced, peaceful civilization."
+    },
+    "base_057": {
+        "name": "The Alchemist",
+        "description": "Transforming resources into pure progress. You aggressively pursued scientific advancements while hoarding the resulting wealth."
+    },
+    "base_058": {
+        "name": "The Imperialist",
+        "description": "Expansion through force and culture. You marched your armies forward while building a sprawling, beautiful city behind them."
+    },
+    "base_059": {
+        "name": "The Populist",
+        "description": "A leader of the people. You focused entirely on civic happiness and a booming economy to keep the citizens content."
+    },
+    "base_060": {
+        "name": "The Pioneer",
+        "description": "Always looking forward. You paired high scientific achievement with solid civic infrastructure."
+    },
+    "base_061": {
+        "name": "The Strategist",
+        "description": "Calculated and precise. You maintained an incredibly even spread across all scoring categories without a single glaring weakness."
+    },
+    "base_062": {
+        "name": "The Opportunist",
+        "description": "You played the table, not just your board. You relied on Commercial cards and late-game Guilds to siphon points based on your neighbors' strategies."
+    },
+    "base_063": {
+        "name": "The Monopolist",
+        "description": "You controlled the resources. By dominating the yellow cards, you forced your neighbors to pay you while raking in trade points."
+    },
+    "base_064": {
+        "name": "The Ascetic",
+        "description": "You ignored material wealth entirely, scraping by with zero coins but achieving massive scientific and wonder milestones."
+    },
+    "base_065": {
+        "name": "The Warlord",
+        "description": "Pure, unadulterated aggression. You prioritized the highest possible military score at the expense of almost everything else."
+    },
+    "base_066": {
+        "name": "The Visionary",
+        "description": "You built a city of the future. High science, a fully constructed wonder, and the guilds to back up your unique approach."
+    },
+    "base_067": {
+        "name": "The Quartermaster",
+        "description": "You supplied the war effort. A unique blend of military might and the commercial infrastructure required to sustain it."
+    },
+    "base_068": {
+        "name": "The Patrician",
+        "description": "Old money and high society. You dominated the blue civic cards and purple guilds for a highly cultured victory."
+    },
+    "base_069": {
+        "name": "The Pragmatist",
+        "description": "No flashy science or massive armies, just a highly efficient engine of commerce, coins, and civic structures."
+    },
+    "base_070": {
+        "name": "The Syndicate",
+        "description": "You ran the underground. High guilds, high commerce, and enough military to keep your neighbors intimidated."
+    },
+    "base_071": {
+        "name": "The Traditionalist",
+        "description": "You played the classics. A fully built wonder, a strong civic presence, and a solid standing army."
+    },
+    "base_072": {
+        "name": "The Polymath",
+        "description": "A renaissance player. You dabbled heavily in science while maintaining an impressive array of guilds and civic structures."
+    },
+    "base_073": {
+        "name": "The Scavenger",
+        "description": "You capitalized on what was left over. A chaotic but effective mix of low-tier military wins, leftover science, and coins."
+    },
+    "base_074": {
+        "name": "The Benefactor",
+        "description": "You funded the city's greatness. Massive treasury scores combined with towering civic monuments."
+    },
+    "base_075": {
+        "name": "The Autocrat",
+        "description": "Total control. You finished your wonder early, built a formidable army, and heavily taxed your citizens via commercial cards."
+    },
+    "leader_001": {
+        "name": "The Figurehead",
+        "description": "You let your leaders do the heavy lifting. A massive score from high-value leader cards carried an otherwise mediocre city."
+    },
+    "leader_002": {
+        "name": "The Generalissimo",
+        "description": "Led from the front lines. You recruited military masterminds to guarantee absolute supremacy in every conflict."
+    },
+    "leader_003": {
+        "name": "The Patron of the Arts",
+        "description": "You sponsored the great thinkers and artists of the age, turning your city into a cultural beacon dripping with prestige points."
+    },
+    "leader_004": {
+        "name": "The Headmaster",
+        "description": "You recruited history's greatest minds. Your leaders fueled a massive scientific engine that left the rest of the world in the dark ages."
+    },
+    "leader_005": {
+        "name": "The Guild Master",
+        "description": "A networking genius. You used specific leaders to discount and maximize the power of a sprawling network of specialized Guilds."
+    },
+    "leader_006": {
+        "name": "The Plutocrat",
+        "description": "You bought your way to the top. Your leaders generated an absurd amount of wealth, which you converted directly into a massive treasury score."
+    },
+    "leader_007": {
+        "name": "The Dynasty",
+        "description": "Generations of great leadership. You maintained a perfectly balanced empire heavily subsidized by the sheer power of your ruling class."
+    },
+    "leader_008": {
+        "name": "The Benefactor",
+        "description": "You relied on leaders who discounted building costs, allowing you to construct towering civic monuments and commercial hubs on a budget."
+    },
+    "leader_009": {
+        "name": "The Wonder Builder",
+        "description": "You drafted architects and engineers. Your leaders were entirely dedicated to finishing your Wonder faster and better than anyone else."
+    },
+    "leader_010": {
+        "name": "The Demagogue",
+        "description": "A populist leader focused on war and wealth. You used your authority to extort your neighbors and dominate the battlefield."
+    },
+    "leader_011": {
+        "name": "The High Priest",
+        "description": "A city led by faith and culture. You ignored the military entirely, using your leaders to build an awe-inspiring, wealthy, and civilian-heavy utopia."
+    },
+    "leader_012": {
+        "name": "The Diplomat",
+        "description": "You carefully navigated the political landscape. By using leaders to secure key resources, you played a flexible, highly opportunistic game."
+    },
+    "leader_013": {
+        "name": "The Innovator",
+        "description": "A leader in technology. You paired brilliant scientific minds with a strong commercial backbone to fund their research."
+    },
+    "leader_014": {
+        "name": "The Taskmaster",
+        "description": "You squeezed every ounce of productivity out of your people. High commercial scoring, maxed-out guilds, and leaders who demanded results."
+    },
+    "leader_015": {
+        "name": "The Warmonger",
+        "description": "You hired mercenaries and tacticians to fuel an endless crusade. Your leaders were weapons, and your military score proves it."
+    },
+    "leader_016": {
+        "name": "The Monopoly",
+        "description": "You recruited the ancient world's best merchants. A staggering commercial score heavily subsidized by your cunning leadership."
+    },
+    "leader_017": {
+        "name": "The Polymath",
+        "description": "Led by true renaissance thinkers. You generated points from an incredibly diverse array of science, guilds, and civilian monuments."
+    },
+    "leader_018": {
+        "name": "The Scion",
+        "description": "Born into greatness. You utilized leaders who practically built your Wonder for you, cementing your legacy early in the game."
+    },
+    "leader_019": {
+        "name": "The Visionary",
+        "description": "You saw the future. Your leaders paved the way for a massive scientific breakthrough that your neighbors couldn't hope to match."
+    },
+    "leader_020": {
+        "name": "The Puppet Master",
+        "description": "You pulled the strings from the shadows. High leader points combined with opportunistic guilds to piggyback off everyone else's success."
+    },
+    "leader_021": {
+        "name": "The Conqueror",
+        "description": "Total military dominance backed by the wealth to sustain it. You drafted leaders who made your armies cheap and deadly."
+    },
+    "leader_022": {
+        "name": "The Administrator",
+        "description": "Your leaders created a highly efficient bureaucracy. Massive civilian scores combined with just enough trade to keep the city running."
+    },
+    "leader_023": {
+        "name": "The Hoarder",
+        "description": "You drafted leaders who generated raw wealth. At the end of Age III, you sat on a mountain of coins while everyone else was broke."
+    },
+    "leader_024": {
+        "name": "The Noble",
+        "description": "You surrounded yourself with high society. Pure prestige scoring driven entirely by blue cards and the white cards of your elite inner circle."
+    },
+    "leader_025": {
+        "name": "The Monarch",
+        "description": "A terrifying blend of raw power and elite leadership. You built an aggressive military and finished your wonder, driven by legendary figures."
+    },
+    "leader_026": {
+        "name": "The Aristocrat",
+        "description": "High society and deep pockets. You drafted leaders who elevated your status, leaning heavily on purple guilds and hoarded wealth."
+    },
+    "leader_027": {
+        "name": "The Mercenary Captain",
+        "description": "You hired the best commanders coin could buy. A devastating military strategy funded directly by a massive treasury."
+    },
+    "leader_028": {
+        "name": "The Oracle",
+        "description": "Guided by divine foresight. Your leaders helped you construct a magnificent Wonder while delving deeply into the sciences."
+    },
+    "leader_029": {
+        "name": "The Syndic",
+        "description": "You controlled the board's economy through powerful figures. A dominant commercial engine supported by highly specialized guilds."
+    },
+    "leader_030": {
+        "name": "The Philanthropist",
+        "description": "You used your elite status to build a paradise. Massive civilian monuments funded by a healthy treasury and guided by visionary leaders."
+    },
+    "leader_031": {
+        "name": "The Warlord",
+        "description": "Led by tyrants and conquerors. You maxed out your military capabilities, letting your leaders drive your aggressive expansion."
+    },
+    "leader_032": {
+        "name": "The Academic",
+        "description": "You assembled a brain trust. By recruiting the smartest minds in history, your scientific progress was completely unstoppable."
+    },
+    "leader_033": {
+        "name": "The Archmage",
+        "description": "A rare and potent combination. You used your leaders to perfectly synchronize massive scientific gains with high-scoring guilds."
+    },
+    "leader_034": {
+        "name": "The Vanguard",
+        "description": "You led the charge in both culture and combat. A balanced approach using leaders to secure military wins and civilian prestige."
+    },
+    "leader_035": {
+        "name": "The Trade Baron",
+        "description": "Your leaders were economic savants. You completely monopolized the yellow cards and controlled the flow of resources."
+    },
+    "leader_036": {
+        "name": "The Artisan",
+        "description": "You drafted master builders. Your leaders discounted your Wonder and fueled a massive late-game surge in guild points."
+    },
+    "leader_037": {
+        "name": "The Chancellor",
+        "description": "A master of statecraft. Your leaders helped you maintain an incredibly balanced, resilient city that scored consistently across the board."
+    },
+    "leader_038": {
+        "name": "The Hierophant",
+        "description": "A spiritual and cultural epicenter. Your leaders guided the construction of both your Wonder and towering civilian monuments."
+    },
+    "leader_039": {
+        "name": "The Tactician",
+        "description": "A calculated, terrifying approach. You combined brilliant scientific leaders with a flawless, advanced military strategy."
+    },
+    "leader_040": {
+        "name": "The Emissary",
+        "description": "You connected your people through trade and diplomacy. High commercial output backed by stunning civilian infrastructure and solid leadership."
+    },
+    "leader_041": {
+        "name": "The Sovereign",
+        "description": "Absolute rule. You utilized a powerful inner circle of leaders to max out your military and finish your Wonder with ease."
+    },
+    "leader_042": {
+        "name": "The Exarch",
+        "description": "A governor with an iron fist and deep pockets. You used leaders to maintain a terrifying military while monopolizing regional trade."
+    },
+    "leader_043": {
+        "name": "The Financier",
+        "description": "The true power behind the throne. Your leaders were strictly business, generating immense wealth and a staggering commercial score."
+    },
+    "leader_044": {
+        "name": "The Luminary",
+        "description": "A shining beacon of civilization. Your point total was completely carried by legendary figures and the sheer volume of your blue civilian cards."
+    },
+    "leader_045": {
+        "name": "The Erudite",
+        "description": "A city of quiet, brilliant progress. You favored leaders who boosted your science and civilian infrastructure, ignoring war entirely."
+    },
+    "leader_046": {
+        "name": "The Autarch",
+        "description": "You built it all yourself. Relying heavily on leaders who discounted building materials, you constructed a massive Wonder and an unbeatable army."
+    },
+    "leader_047": {
+        "name": "The Sentinel",
+        "description": "A highly specialized defensive strategy. You used leaders to build a formidable military and backed it up with clever guild drafting."
+    },
+    "leader_048": {
+        "name": "The Opportunist",
+        "description": "You let others do the work. Your leaders and highly active guilds allowed you to siphon incredible points off your neighbors' achievements."
+    },
+    "leader_049": {
+        "name": "The Zealot",
+        "description": "Blind devotion to your leaders and your Wonder. You sacrificed science, commerce, and military just to see your great project completed."
+    },
+    "leader_050": {
+        "name": "The Pantheon",
+        "description": "You collected practically every white card you could get your hands on. Your city wasn't much to look at, but your leaders were legends."
+    },
+    "cities_001": {
+        "name": "The Shadow Broker",
+        "description": "You controlled the underworld. A massive score driven by black cards and commercial dominance, pulling the strings from the dark."
+    },
+    "cities_002": {
+        "name": "The Extortionist",
+        "description": "You bled your neighbors dry. By heavily utilizing aggressive black cards, you forced everyone else into debt while you profited."
+    },
+    "cities_003": {
+        "name": "The Pacifist",
+        "description": "You completely avoided the bloodshed. Using diplomacy icons on black cards, you hid behind your walls and focused on civic prestige."
+    },
+    "cities_004": {
+        "name": "The Black Market Boss",
+        "description": "Your economy thrived in the shadows. You hoarded coins and utilized illegal trade routes to build an unassailable financial empire."
+    },
+    "cities_005": {
+        "name": "The Syndicate",
+        "description": "A criminal empire operating in plain sight. You balanced respectable civic monuments with a terrifying array of black cards."
+    },
+    "cities_006": {
+        "name": "The Assassin",
+        "description": "Silent and deadly. You used diplomacy to dodge major conflicts while utilizing specific black cards and guilds to target your opponents' weaknesses."
+    },
+    "cities_007": {
+        "name": "The Spy",
+        "description": "You copied your neighbors' homework. Heavy use of black cards allowed you to mimic technologies and stay competitive in the arms race."
+    },
+    "cities_008": {
+        "name": "The Corrupt Official",
+        "description": "You bent the rules to your advantage. A mix of civic planning and deep corruption yielded a beautifully compromised city."
+    },
+    "cities_009": {
+        "name": "The Usurer",
+        "description": "You capitalized on others' misfortune. While everyone else was drowning in debt tokens, your treasury and city score skyrocketed."
+    },
+    "cities_010": {
+        "name": "The Informant",
+        "description": "You sold secrets for survival. A high science output funded entirely by questionable dealings and the protection of the black market."
+    },
+    "cities_011": {
+        "name": "The Traitor",
+        "description": "You turned on your own people. You accumulated a massive amount of debt yourself, but offset it by dragging your neighbors down with you."
+    },
+    "cities_012": {
+        "name": "The Thief",
+        "description": "You stole your way to victory. Highly active in the underworld, you drained your opponents' resources to fund your own city's growth."
+    },
+    "cities_013": {
+        "name": "The Smuggler",
+        "description": "You slipped through the cracks. Bypassing standard trade routes, you used black cards to supply your massive commercial empire."
+    },
+    "cities_014": {
+        "name": "The Mercenary",
+        "description": "Loyalty to the highest bidder. You used black cards to bolster an aggressive, unstoppable military campaign."
+    },
+    "cities_015": {
+        "name": "The Fence",
+        "description": "You dealt in stolen goods. A sprawling commercial network supported entirely by the illegal activities of the underworld."
+    },
+    "cities_016": {
+        "name": "The Anarchist",
+        "description": "You wanted to watch the world burn. High debt, chaotic guild drafting, and purely destructive black cards."
+    },
+    "cities_017": {
+        "name": "The Fugitive",
+        "description": "Always on the run. You used diplomacy to constantly evade battles, sacrificing your own treasury and taking on debt just to survive."
+    },
+    "cities_018": {
+        "name": "The Defector",
+        "description": "You switched sides at the perfect moment. A balanced strategy that heavily relied on black cards to swing the momentum in the late game."
+    },
+    "cities_019": {
+        "name": "The Underboss",
+        "description": "Second in command, but holding all the real power. You built your Wonder using the illicit resources generated by your black cards."
+    },
+    "cities_020": {
+        "name": "The Safehouse",
+        "description": "A haven for the wicked. You focused heavily on finishing your Wonder and hiding behind diplomacy tokens to score peacefully."
+    },
+    "cities_021": {
+        "name": "The Secret Society",
+        "description": "An enlightened cult operating in the shadows. You paired massive scientific discoveries with deeply ingrained black card mechanics."
+    },
+    "cities_022": {
+        "name": "The Mastermind",
+        "description": "Every move was calculated. You used black cards not for chaos, but to surgically dismantle your opponents' strategies while advancing your own."
+    },
+    "cities_023": {
+        "name": "The Provocateur",
+        "description": "You started wars you didn't have to fight. High military aggression combined with diplomacy meant you controlled exactly when and where combat happened."
+    },
+    "cities_024": {
+        "name": "The Loan Shark",
+        "description": "You held everyone's purse strings. A staggering treasury score, fueled by a trade empire and forcing endless debt upon the board."
+    },
+    "cities_025": {
+        "name": "The Diplomatic Immunity",
+        "description": "Untouchable. You ignored the military entirely, using black cards to completely shield your pristine, civilian-heavy city from any repercussions."
+    },
+    "cities_026": {
+        "name": "The Embezzler",
+        "description": "You siphoned city funds into your own pockets. High treasury and black cards, leaving the city in massive debt while you got rich."
+    },
+    "cities_027": {
+        "name": "The Fixer",
+        "description": "You solved problems behind closed doors. A balanced city built on a foundation of diplomacy and well-timed underworld favors."
+    },
+    "cities_028": {
+        "name": "The Ghost",
+        "description": "You were barely there. By abusing diplomacy, you ghosted every military conflict, leaving your neighbors to fight while you built in peace."
+    },
+    "cities_029": {
+        "name": "The Racketeer",
+        "description": "You ran a protection racket. A terrifying military presence combined with a commercial monopoly enforced by the black market."
+    },
+    "cities_030": {
+        "name": "The Insurgent",
+        "description": "You funded a rebellion. Aggressive military tactics fueled by heavy debt and chaotic, disruptive city cards."
+    },
+    "cities_031": {
+        "name": "The Defaulter",
+        "description": "You mortgaged your city's future. You built an incredible Wonder and civic structures, but drowned in debt tokens to get there."
+    },
+    "cities_032": {
+        "name": "The Aristocrat",
+        "description": "Untouchable elite. You used diplomacy and city cards to insulate your high-society civilian structures from the wars of the commoners."
+    },
+    "cities_033": {
+        "name": "The Shadow Cabinet",
+        "description": "A dark enlightenment. You paired a massive scientific engine with heavy investments in the underworld to protect your research."
+    },
+    "cities_034": {
+        "name": "The Kingpin",
+        "description": "You ruled the streets. A massive score derived almost entirely from specialized guilds and heavy utilization of city cards."
+    },
+    "cities_035": {
+        "name": "The Mole",
+        "description": "Deep cover espionage. You stayed poor and heavily in debt, but stole enough scientific and guild secrets to scrape together a victory."
+    },
+    "cities_036": {
+        "name": "The Opportunist",
+        "description": "You profited off the chaos. While everyone else was taking on debt, you cleanly executed a strategy based on trade and black market exploitation."
+    },
+    "cities_037": {
+        "name": "The Propagandist",
+        "description": "You controlled the narrative. High military aggression masked by beautifully constructed civic monuments and underworld connections."
+    },
+    "cities_038": {
+        "name": "The Debt Collector",
+        "description": "You were the one knocking on the door. A flawless treasury score maintained by making sure your opponents paid dearly for every mistake."
+    },
+    "cities_039": {
+        "name": "The Double Agent",
+        "description": "Nobody knew whose side you were on. An incredibly even spread of points across all categories, heavily lubricated by city cards."
+    },
+    "cities_040": {
+        "name": "The Oligarch",
+        "description": "A corrupt corporatocracy. You completely monopolized commercial trade routes and used black cards to cement your financial dominance."
+    },
+    "cities_041": {
+        "name": "The Deserter",
+        "description": "You abandoned your posts. Zero military, massive debts, but you managed to hide in the underworld long enough to build a functioning city."
+    },
+    "cities_042": {
+        "name": "The Smear Campaigner",
+        "description": "You ruined your rivals' reputations. A heavy focus on blue cards and black cards to secure prestige while tearing others down."
+    },
+    "cities_043": {
+        "name": "The Shadow Scholar",
+        "description": "Forbidden knowledge. You utilized illegal avenues to secure scientific breakthroughs that no one else dared to research."
+    },
+    "cities_044": {
+        "name": "The War Profiteer",
+        "description": "Peace is bad for business. You fueled massive military conflicts and used commercial/black cards to sell weapons to the victors."
+    },
+    "cities_045": {
+        "name": "The Cultist",
+        "description": "A dark devotion. You took on massive debt and utilized forbidden city cards entirely to speed the construction of your Wonder."
+    },
+    "cities_046": {
+        "name": "The Rogue",
+        "description": "You played by your own rules. A highly aggressive military strategy funded by stolen coins and underworld connections."
+    },
+    "cities_047": {
+        "name": "The Blacksmith",
+        "description": "You forged a shady empire. High guild scoring, a completed Wonder, and heavy reliance on the black market to get the materials you needed."
+    },
+    "cities_048": {
+        "name": "The Bankrupt",
+        "description": "A cautionary tale. You leaned way too hard into the underworld, resulting in an overwhelming amount of debt that crippled your final score."
+    },
+    "cities_049": {
+        "name": "The Exile",
+        "description": "Cast out from high society. You abandoned civic duty and science, focusing entirely on your Wonder, the black market, and taking on debt to survive."
+    },
+    "cities_050": {
+        "name": "The Godfather",
+        "description": "The undisputed ruler of the city. You achieved a masterful balance of standard scoring while completely dominating the underworld mechanics."
+    },
+    "edifice_001": {
+        "name": "The Chief Architect",
+        "description": "You spearheaded every major communal project. A massive score from Edifice rewards paired perfectly with completing your own Wonder."
+    },
+    "edifice_002": {
+        "name": "The Boycotter",
+        "description": "You refused to help the community. You took on massive debts from failed Edifices, but used those saved resources to fuel a dominant science engine."
+    },
+    "edifice_003": {
+        "name": "The Philanthropist",
+        "description": "You built for the people. High participation in Edifices combined with towering civilian monuments for a beautiful, prestige-heavy city."
+    },
+    "edifice_004": {
+        "name": "The Profiteer",
+        "description": "You used communal projects strictly for personal gain. You hoarded the coins generated from Edifice rewards to build an unassailable treasury."
+    },
+    "edifice_005": {
+        "name": "The Free Rider",
+        "description": "You let everyone else do the heavy lifting. You ignored the Edifices completely, eating the debt while heavily investing in specialized Guilds."
+    },
+    "edifice_006": {
+        "name": "The Garrison Commander",
+        "description": "You used communal projects to arm your city. Participating in military-focused Edifices gave you the edge needed to crush your neighbors."
+    },
+    "edifice_007": {
+        "name": "The Foreman",
+        "description": "You organized the workforce. A highly active commercial sector that perfectly supported your continuous contributions to the Edifices."
+    },
+    "edifice_008": {
+        "name": "The Saboteur",
+        "description": "You deliberately let projects fail to hurt your neighbors. You took the debt hit yourself, but ruined everyone else's carefully laid plans."
+    },
+    "edifice_009": {
+        "name": "The Mason",
+        "description": "A master of stone and clay. You perfectly balanced constructing your own Wonder with securing every possible Edifice reward."
+    },
+    "edifice_010": {
+        "name": "The Diplomat",
+        "description": "A friend to all. You maintained an even spread across all standard categories while graciously contributing to every communal project."
+    },
+    "edifice_011": {
+        "name": "The Opportunist",
+        "description": "You only pitched in when it suited you. A mixed bag of partial Edifice rewards and a few debts, balancing communal effort with self-interest."
+    },
+    "edifice_012": {
+        "name": "The Innovator",
+        "description": "Progress above all. You used Edifice rewards strictly to subsidize a terrifyingly fast and effective scientific engine."
+    },
+    "edifice_013": {
+        "name": "The Tycoon",
+        "description": "You bought out the competition. Massive commercial dominance and high treasury, completely ignoring communal projects because you could afford the fines."
+    },
+    "edifice_014": {
+        "name": "The Warlord",
+        "description": "You viewed Edifices as a distraction from conquest. You took the penalties on the chin and poured everything into absolute military supremacy."
+    },
+    "edifice_015": {
+        "name": "The Civic Leader",
+        "description": "A shining example for the board. You led the charge on communal projects while building breathtaking civilian structures in your own city."
+    },
+    "edifice_016": {
+        "name": "The Contractor",
+        "description": "You supplied the materials for the world. A massive commercial trading network that ensured you could easily afford to participate in every Edifice."
+    },
+    "edifice_017": {
+        "name": "The Outcast",
+        "description": "You played an entirely solitary game. You practically abandoned the board's shared goals, scraping together a weird, guild-heavy strategy amid mounting debts."
+    },
+    "edifice_018": {
+        "name": "The Aristocrat",
+        "description": "You believed communal labor was beneath you. You focused purely on prestige and wealth, absorbing the debt tokens without blinking."
+    },
+    "edifice_019": {
+        "name": "The Guardian",
+        "description": "A protector of the realm. You contributed heavily to the Edifices, ensuring your city was well-fortified, respected, and prosperous."
+    },
+    "edifice_020": {
+        "name": "The Bureaucrat",
+        "description": "You managed the logistics of progress. High civic scoring backed by a relentless, highly efficient contribution to every shared project."
+    },
+    "edifice_021": {
+        "name": "The Pragmatist",
+        "description": "You only participated when the math worked out. A highly balanced, calculated game where you took a few debts to secure more lucrative standard cards."
+    },
+    "edifice_022": {
+        "name": "The Guildmaster",
+        "description": "You focused on specialized trades. Using the rewards from Edifices, you perfectly set up a devastating late-game run of purple cards."
+    },
+    "edifice_023": {
+        "name": "The Embezzler",
+        "description": "You stole from the project funds. You completely ignored the Edifices, letting them fail so your opponents took debt while you hoarded coins."
+    },
+    "edifice_024": {
+        "name": "The Vanguard",
+        "description": "Always the first to commit. You instantly jumped on every Edifice, securing the best rewards early and fueling a fast-paced, aggressive city build."
+    },
+    "edifice_025": {
+        "name": "The Overachiever",
+        "description": "You did it all. You fully completed your own Wonder, maxed out your Edifice participation, and still built a highly respectable city."
+    },
+    "edifice_026": {
+        "name": "The Martyr",
+        "description": "You took the fall for the city. You absorbed massive Edifice debts to ensure your civilization's scientific and military dominance remained untouched."
+    },
+    "edifice_027": {
+        "name": "The Visionary Architect",
+        "description": "You redefined the skyline. A perfectly synergized game where your Wonder and the shared Edifices were completed in record time."
+    },
+    "edifice_028": {
+        "name": "The Recluse",
+        "description": "You shut the gates and focused inward. You ignored the communal projects entirely, taking the debts while building an unassailable scientific utopia."
+    },
+    "edifice_029": {
+        "name": "The Supplier",
+        "description": "You controlled the materials. Your massive commercial network meant you could easily contribute to every Edifice while still raking in coins."
+    },
+    "edifice_030": {
+        "name": "The Merciless",
+        "description": "You had no time for teamwork. You maxed out your military to extort your neighbors, completely ignoring the Edifices and eating the penalties."
+    },
+    "edifice_031": {
+        "name": "The Pacifist Builder",
+        "description": "You refused to fight, pouring all your resources into communal Edifices and stunning blue civilian cards to secure a prestige victory."
+    },
+    "edifice_032": {
+        "name": "The Industrialist",
+        "description": "A well-oiled machine. You heavily utilized brown and gray cards to ensure you were always ready to claim the highest Edifice rewards."
+    },
+    "edifice_033": {
+        "name": "The Isolationist",
+        "description": "You built an empire in the mountains, disconnected from the world. High guilds and wonder scoring, but terribly deep in Edifice debt."
+    },
+    "edifice_034": {
+        "name": "The Stormbringer",
+        "description": "You brought chaos to the board. An aggressive, disruptive strategy that caused multiple Edifices to fail, hurting everyone including yourself."
+    },
+    "edifice_035": {
+        "name": "The Night Owl",
+        "description": "You worked late to get it done. You snatched up late-game Edifice rewards that your opponents couldn't afford, swinging the game in your favor."
+    },
+    "edifice_036": {
+        "name": "The Golden Child",
+        "description": "Everything you touched turned to points. Flawless participation in the Edifices backed by a perfectly balanced, wealthy civilization."
+    },
+    "edifice_037": {
+        "name": "The Sovereign",
+        "description": "You ruled with absolute authority. You dictated the flow of the game, effortlessly completing your Wonder, leading the military, and finishing the Edifices."
+    },
+    "edifice_038": {
+        "name": "The Patrician",
+        "description": "Old money and high culture. You ignored the grit of communal labor, comfortably paying the debt penalties while you focused on high society."
+    },
+    "edifice_039": {
+        "name": "The Spark",
+        "description": "You ignited an era of progress. You practically single-handedly funded the scientific and communal projects for the entire board."
+    },
+    "edifice_040": {
+        "name": "The Warmonger",
+        "description": "You burned it all down. You intentionally let the Edifices fail, capitalizing on your opponents' weakened states to crush them militarily."
+    },
+    "edifice_041": {
+        "name": "The Syndicate",
+        "description": "You organized the labor force. Heavy commercial and guild synergies allowed you to comfortably secure rewards from every shared project."
+    },
+    "edifice_042": {
+        "name": "The Diplomatic Envoy",
+        "description": "You bridged the gaps between nations. A highly respected city with massive civilian appeal and flawless participation in all communal goals."
+    },
+    "edifice_043": {
+        "name": "The Anchor",
+        "description": "You held the board together. When others faltered, you stepped up, ensuring the Edifices were completed while maintaining a balanced city."
+    },
+    "edifice_044": {
+        "name": "The Keymaster",
+        "description": "You unlocked the city's potential. An incredibly precise strategy where you took calculated debts to secure key Guilds and Wonder stages."
+    },
+    "edifice_045": {
+        "name": "The Explorer",
+        "description": "You looked beyond your borders. High scientific output and commercial trade, heavily subsidizing the communal Edifice projects."
+    },
+    "edifice_046": {
+        "name": "The Vault Keeper",
+        "description": "You hoarded the city's wealth. A staggering treasury score, practically ignoring the Edifices because you could afford the fines."
+    },
+    "edifice_047": {
+        "name": "The Magistrate",
+        "description": "You upheld the law. A perfectly balanced approach, ensuring your military was strong, your civilians happy, and the Edifices completed."
+    },
+    "edifice_048": {
+        "name": "The Bankrupt Builder",
+        "description": "You bit off more than you could chew. You tried to build your Wonder, fight wars, and do science, but ultimately drowned in Edifice debt."
+    },
+    "edifice_049": {
+        "name": "The Grandmaster",
+        "description": "A legendary performance. You perfectly optimized every single aspect of your city while effortlessly claiming every communal reward."
+    },
+    "edifice_050": {
+        "name": "The Defaulter",
+        "description": "You simply gave up on the communal effort. You focused strictly on a high-scoring Guild strategy and let the debt tokens pile up."
+    },
+    "armada_001": {
+        "name": "The Admiral",
+        "description": "Master and commander of the seas. You dominated the naval conflict tokens while maintaining a formidable land army."
+    },
+    "armada_002": {
+        "name": "The Explorer",
+        "description": "You charted the unknown. Pushing your green and blue fleets to the limit to discover high-value islands and scientific breakthroughs."
+    },
+    "armada_003": {
+        "name": "The Corsair",
+        "description": "A feared pirate king. You used your red fleet to extort your neighbors and secure military victories on land and sea."
+    },
+    "armada_004": {
+        "name": "The Merchant Marine",
+        "description": "You controlled the global supply chain. Massive commercial success on land, paired with a dominant yellow trading fleet."
+    },
+    "armada_005": {
+        "name": "The Colonist",
+        "description": "You focused entirely on settling new lands. Your massive score boost was driven almost entirely by high-value Island cards."
+    },
+    "armada_006": {
+        "name": "The Shipwright",
+        "description": "You built an awe-inspiring armada. The construction of your Wonder was directly tied to the rapid expansion of your dockyard tracks."
+    },
+    "armada_007": {
+        "name": "The Navigator",
+        "description": "Perfectly balanced on the water. You advanced all your ships evenly, explored islands, and secured naval borders."
+    },
+    "armada_008": {
+        "name": "The Privateer",
+        "description": "Sanctioned piracy. You used your naval conflicts to drain your opponents' treasuries while heavily advancing the yellow trade track."
+    },
+    "armada_009": {
+        "name": "The Coast Guard",
+        "description": "You focused on defense. Your red fleet ensured no one could touch your shores while you built massive civilian monuments on land."
+    },
+    "armada_010": {
+        "name": "The Oceanographer",
+        "description": "The sea is your laboratory. You ignored land military in favor of mapping the oceans and gathering scientific lore from islands."
+    },
+    "armada_011": {
+        "name": "The Smuggler",
+        "description": "Operating in the shadows. You used the yellow fleet and clever commercial cards to move resources under the radar to exotic islands."
+    },
+    "armada_012": {
+        "name": "The Commodore",
+        "description": "A high-ranking naval elite. You focused heavily on the blue fleet track to rack up massive prestige points at sea and on land."
+    },
+    "armada_013": {
+        "name": "The Cartographer",
+        "description": "You mapped the world. A specialized strategy relying entirely on uncovering new islands and finishing your Wonder."
+    },
+    "armada_014": {
+        "name": "The Freebooter",
+        "description": "Total chaos on the high seas. You neglected your city's infrastructure to maximize islands, naval conflicts, and your dockyard."
+    },
+    "armada_015": {
+        "name": "The Trade Prince",
+        "description": "You cornered the international market. Your yellow fleet and commercial cards made you the undisputed economic ruler."
+    },
+    "armada_016": {
+        "name": "The Conquistador",
+        "description": "You brought the sword to new shores. High land military, aggressive red fleet naval power, but very little actual exploration."
+    },
+    "armada_017": {
+        "name": "The Portmaster",
+        "description": "Your city was the hub of the world. Huge civilian scores backed up by a bustling, fully developed harbor."
+    },
+    "armada_018": {
+        "name": "The Whaler",
+        "description": "A focused, ruthless oceanic enterprise. You utilized your dockyard tracks and commercial lanes to scrape together a gritty win."
+    },
+    "armada_019": {
+        "name": "The Castaway",
+        "description": "You practically abandoned your home city to live on the islands. A massive island score with barely any points on the mainland."
+    },
+    "armada_020": {
+        "name": "The Grand Fleet",
+        "description": "Unstoppable naval supremacy. Your tracks were maxed out, ensuring massive point swings in dockyard and conflict scores."
+    },
+    "armada_021": {
+        "name": "The Leviathan",
+        "description": "A monster in the water. You paired an intimidating military presence with specialized guilds and heavy naval conflict wins."
+    },
+    "armada_022": {
+        "name": "The Mariner",
+        "description": "A true seafarer. You balanced the green scientific fleet with the yellow trading fleet, discovering islands and ignoring war."
+    },
+    "armada_023": {
+        "name": "The Blockader",
+        "description": "You choked out the competition. Heavy naval conflict activity combined with a monopolistic hold on commercial resources."
+    },
+    "armada_024": {
+        "name": "The Diplomatic Envoy",
+        "description": "You used your ships to connect, not conquer. High civilian scores and island exploration, proving that peaceful seas lead to prosperity."
+    },
+    "armada_025": {
+        "name": "The Kraken",
+        "description": "You dragged your opponents to the depths. Massive land military, unmatched naval conflicts, and fully upgraded dockyards."
+    },
+    "armada_026": {
+        "name": "The Wayfinder",
+        "description": "Guided by the stars. You focused heavily on completing your Wonder and discovering every Island you could find."
+    },
+    "armada_027": {
+        "name": "The Blockade Runner",
+        "description": "You bypassed enemy fleets to deliver the goods. A highly lucrative commercial engine paired with just enough dockyard presence to survive."
+    },
+    "armada_028": {
+        "name": "The Treasure Hunter",
+        "description": "X marks the spot. You sailed specifically to dig up wealth, hoarding coins and scoring massive points from remote island discoveries."
+    },
+    "armada_029": {
+        "name": "The Imperial Fleet",
+        "description": "The pride of the empire. You neglected the islands entirely to build a massive, fully upgraded dockyard and an unstoppable military."
+    },
+    "armada_030": {
+        "name": "The Pearl Diver",
+        "description": "You found beauty in the depths. High civilian monument scoring paired perfectly with uncovering pristine, untouched islands."
+    },
+    "armada_031": {
+        "name": "The Sea Scholar",
+        "description": "A floating academy. You pushed the green ship track to its absolute limit, reaping massive scientific benefits from your naval expeditions."
+    },
+    "armada_032": {
+        "name": "The Invader",
+        "description": "You launched amphibious assaults on your neighbors. An absolute menace in both land military and naval conflicts."
+    },
+    "armada_033": {
+        "name": "The Castellan",
+        "description": "You heavily fortified your shores. A defensive strategy relying on a strong civilian foundation and just enough naval power to repel attackers."
+    },
+    "armada_034": {
+        "name": "The Sea Dog",
+        "description": "A scrappy, opportunistic sailor. You grabbed whatever points you could find across guilds, islands, and minor naval skirmishes."
+    },
+    "armada_035": {
+        "name": "The Archipelago",
+        "description": "You expanded your empire across multiple islands, using them to fuel a massive commercial and treasury-based victory."
+    },
+    "armada_036": {
+        "name": "The Siren",
+        "description": "You lured your enemies to their doom. High civilian prestige masked a surprisingly deadly naval conflict strategy."
+    },
+    "armada_037": {
+        "name": "The Shipwrecked",
+        "description": "Things on the mainland went horribly wrong, but you managed to salvage the game by isolating yourself on the islands."
+    },
+    "armada_038": {
+        "name": "The Ironclad",
+        "description": "Slow, steady, and unbreakable. You pushed the red track and military while utilizing specific guilds to maximize your point output."
+    },
+    "armada_039": {
+        "name": "The Flotilla",
+        "description": "A massive, peaceful fleet. You advanced all your non-military ship tracks equally, creating a beautifully balanced dockyard."
+    },
+    "armada_040": {
+        "name": "The Poseidon",
+        "description": "Ruler of the waves. You practically ignored the base game cards entirely to achieve absolute dominance across the dockyard, islands, and naval conflicts."
+    },
+    "armada_041": {
+        "name": "The Buccaneer",
+        "description": "You struck fast and faded away. Decent military strength backed by just enough naval conflict wins to keep your opponents poor."
+    },
+    "armada_042": {
+        "name": "The Lighthouse Keeper",
+        "description": "You guided the way for others while focusing on your own city's Wonder and civic beauty, lightly exploring the closest islands."
+    },
+    "armada_043": {
+        "name": "The Lookout",
+        "description": "Always scanning the horizon. You prioritized the scientific and commercial tracks to stay one step ahead of the competition."
+    },
+    "armada_044": {
+        "name": "The Mutineer",
+        "description": "You overthrew the traditional strategies. You abandoned your Wonder entirely to focus on aggressive naval and land combat."
+    },
+    "armada_045": {
+        "name": "The Custom House",
+        "description": "You taxed the seas heavily. A high commercial score paired with a fully realized dockyard board meant endless resources."
+    },
+    "armada_046": {
+        "name": "The Tidal Wave",
+        "description": "You crushed your opponents under the weight of your fleets and armies, while your Wonder stood as a monument to your power."
+    },
+    "armada_047": {
+        "name": "The Deep Sea Diver",
+        "description": "You delved into the unknown. An incredibly focused strategy aimed entirely at maximizing island exploration points and science."
+    },
+    "armada_048": {
+        "name": "The Ferryman",
+        "description": "You connected the continents. A steady flow of commerce, civilian scoring, and a highly active dockyard kept you in the running."
+    },
+    "armada_049": {
+        "name": "The Monsoon",
+        "description": "A chaotic force of nature. You drafted cards wildly, resulting in an unpredictable mix of high guilds, naval conflicts, and island finds."
+    },
+    "armada_050": {
+        "name": "The Fleet Admiral",
+        "description": "A legendary commander. You successfully balanced a robust land empire with absolute perfection across all three Armada categories."
+    },
+    "base_101": {
+        "name": "The Hermit",
+        "description": "Knowledge is your only companion. You retreated into the sciences, completely ignoring the noise of the battlefield."
+    },
+    "base_102": {
+        "name": "The Iron Duke",
+        "description": "Strength through tradition. You built a formidable military force backed by towering, permanent civic monuments."
+    },
+    "base_103": {
+        "name": "The High Priest",
+        "description": "Your city is a temple. You focused entirely on completing your Wonder and elevating your civilian prestige to divine levels."
+    },
+    "base_104": {
+        "name": "The Collector",
+        "description": "You value unique achievements. Your strategy revolved around specialized guilds and the commercial infrastructure to pay for them."
+    },
+    "base_105": {
+        "name": "The Spendthrift",
+        "description": "Easy come, easy go. You draft high-value commercial cards but never manage to keep enough gold in the bank for a high treasury score."
+    },
+    "base_106": {
+        "name": "The Oracle",
+        "description": "You foresaw a future of progress and influence. A unique blend of massive scientific breakthroughs and high-scoring late-game guilds."
+    },
+    "base_107": {
+        "name": "The Legatus",
+        "description": "Conquest at all costs. You marched through the ages with an unbeatable army, sacrificing scientific growth for pure tactical dominance."
+    },
+    "base_108": {
+        "name": "The Curator",
+        "description": "You built a city for the ages. Your museum-like civilization focused on blue monuments and a fully realized, magnificent Wonder."
+    },
+    "base_109": {
+        "name": "The Banker",
+        "description": "Wealth is the ultimate victory. You cornered the commercial market and sat on the largest treasury in the ancient world."
+    },
+    "base_110": {
+        "name": "The Weaver",
+        "description": "You tied the table together. Using commercial trade and specialized guilds, you profited from every one of your neighbors' moves."
+    },
+    "base_111": {
+        "name": "The Peasant",
+        "description": "Humble but persistent. You focused on simple civic life, ignoring the complexities of high-level commerce and trade."
+    },
+    "base_112": {
+        "name": "The Philosopher",
+        "description": "A life of the mind. You achieved total scientific supremacy while maintaining a peaceful, non-militaristic stance."
+    },
+    "base_113": {
+        "name": "The Diplomat",
+        "description": "A friend to all. You maintained an incredibly balanced city, participating in every category without making any enemies."
+    },
+    "base_114": {
+        "name": "The Architect",
+        "description": "Master of blueprints. You focused on the structural integrity of your civilization, prioritizing your Wonder and civic monuments above all else."
+    },
+    "base_115": {
+        "name": "The Mercenary",
+        "description": "You fought for gold. Your strategy was simple: build a massive military and use commercial cards to ensure you stayed wealthy enough to keep it."
+    },
+    "base_116": {
+        "name": "The Chronicler",
+        "description": "Recording the rise of man. You balanced a deep interest in history and science with a large, record-keeping civilian bureaucracy."
+    },
+    "base_117": {
+        "name": "The Artificer",
+        "description": "Crafting greatness. You focused on the mechanical and structural, pairing your Wonder construction with specialized guild achievements."
+    },
+    "base_118": {
+        "name": "The Usurer",
+        "description": "Profit through interest. You focused on commercial cards that generated high wealth, using that gold to buy a top-tier treasury score."
+    },
+    "base_119": {
+        "name": "The Hoplite",
+        "description": "A soldier of the line. Your city was built on a foundation of military drills and discipline, ignoring the flowery guilds and commerce of others."
+    },
+    "base_120": {
+        "name": "The Senator",
+        "description": "A master of internal politics. You prioritized the internal civic strength of your city and the late-game influence of the guilds."
+    },
+    "base_121": {
+        "name": "The Cartographer",
+        "description": "Mapping the known world. You focused on exploration and trade, pairing a strong commercial network with high scientific progress."
+    },
+    "base_122": {
+        "name": "The Steward",
+        "description": "A careful manager of resources. You prioritized a high treasury and commercial stability, avoiding the high costs of a standing army."
+    },
+    "base_123": {
+        "name": "The Centurion",
+        "description": "Military and market power. You dominated the battlefield while ensuring your trade routes remained profitable and secure."
+    },
+    "base_124": {
+        "name": "The Augur",
+        "description": "Knowledge and mysticism. You pursued a unique path through high scientific research centered around the completion of your Wonder."
+    },
+    "base_125": {
+        "name": "The Titan",
+        "description": "A civilization of myth. You achieved the impossible: absolute military supremacy and a fully completed, world-renowned Wonder."
+    }
+}

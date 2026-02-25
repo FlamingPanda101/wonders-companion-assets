@@ -1,0 +1,194 @@
+{
+    "rankings": {
+        "title": "Ranking",
+        "rankByTeam": "Ranking Drużynowy",
+        "rankByPlayer": "Ranking Graczy",
+        "teamTie": "Remis między Drużynami!",
+        "tieGame": "Remis!",
+        "teamVictory": "Drużyna {{team}} wygrywa!",
+        "theVictors": "Zwycięzcy",
+        "theVictor": "Zwycięzca",
+        "noScoresYet": "Brak wyników",
+        "enterScoresMessage": "Wprowadź wyniki w arkuszu punktacji, aby zobaczyć ranking tutaj!",
+        "teamWinner": "DRUŻYNA ZWYCIĘSKA",
+        "winner": "ZWYCIĘZCA",
+        "saveGame": "Zapisz Grę",
+        "saveGameResults": "Zapisz Wyniki",
+        "gameSaved": "Gra Zapisana!",
+        "resultsSaved": "Wyniki Zapisane",
+        "shareResults": "Udostępnij Wyniki",
+        "shareResultsText": "Udostępnij Wyniki (Tekst)",
+        "shareResultsCSV": "Udostępnij Wyniki (CSV)",
+        "sharedToClipboard": "Udostępniono do schowka!",
+        "copiedToClipboard": "Skopiowano do schowka!",
+        "copyCSVText": "Kopiuj Tekst CSV",
+        "shareCSVFile": "Udostępnij Plik CSV",
+        "allWonders": "Wszystkie Cuda",
+        "copyFileText": "KOPIUJ TEKST PLIKU",
+        "textCopied": "Tekst Skopiowany!",
+        "shareTitle": "Wyniki 7 Wonders Scoreboard",
+        "shareText": "Oto wyniki naszej gry!",
+        "shareDialogTitle": "Udostępnij Wyniki",
+        "saveValidationMessage": "Aby zapisać grę, uzupełnij brakujące informacje o konfiguracji. Kliknij ikonę konfiguracji w prawym górnym rogu.",
+        "coinTieBreakerDisclaimer": "Aby uzyskać dokładne rozstrzygnięcie remisu, ustaw punktację Skarbca na 'Monety' w Ustawieniach.",
+        "winnerDecidedByCoins": "Zwycięzca został wyłoniony na podstawie liczby monet z powodu remisu w punktach.",
+        "csvImportTip": "Wskazówka: Ten tekst lub plik CSV można zaimportować do aplikacji innego użytkownika w Ustawieniach!",
+        "viewHistorySettings": "Możesz przeglądać swoją historię gier w Ustawieniach.",
+        "classicGrid": "Klasyczna Siatka",
+        "personalizedCards": "Spersonalizowane Karty"
+    },
+    "hallOfFame": {
+        "title": "Galeria Sław",
+        "empty": "Galeria Sław jest pusta",
+        "noRecords": "Nie znaleziono rekordów dla wybranych dodatków.",
+        "noData": "Brak Danych",
+        "supremeSovereign": "Najwyższy Suweren",
+        "warlord": "Watażka",
+        "admiral": "Admirał",
+        "madScientist": "Szalony Naukowiec",
+        "philosopher": "Filozof",
+        "wonderArchitect": "Architekt Cudów",
+        "totalArchitect": "Mistrz Budownictwa",
+        "tycoon": "Potentat",
+        "guildmaster": "Mistrz Gildii",
+        "hoardingDragon": "Chomikujący Smok",
+        "hopelessDebtor": "Beznadziejny Dłużnik",
+        "islandExplorer": "Eksplorator Wysp",
+        "shipwright": "Budowniczy Statków",
+        "veteran": "Weteran",
+        "veteranSubtitle": "(Najwięcej rozegranych gier)",
+        "strategist": "Strateg",
+        "strategistSubtitle": "(Najlepsza średnia punktów)"
+    },
+    "gameModes": {
+        "title": "TRYBY GRY",
+        "gameMode": "tryb gry",
+        "showAllRecords": "Pokaż wszystkie rekordy",
+        "unlockAllWonders": "Odblokuj wszystkie Cuda",
+        "armada": "Armada",
+        "cities": "Cities",
+        "edifice": "Edifice",
+        "leaders": "Leaders",
+        "teamplay": "Gra Drużynowa",
+        "expansionmaps": "Mapy Dodatków",
+        "purchasePrompt": "2 USD, aby odblokować wszystkie cztery dodatki",
+        "breakTheRules": "Łam zasady",
+        "breakTheRulesDesc1": "7 Wonders jest zaprojektowane dla maksymalnie 7 graczy, ale ta aplikacja usuwa te limity. Możesz dodać dowolną liczbę graczy, wybrać dowolną kombinację dodatków, a nawet grać z identycznymi cudami.",
+        "breakTheRulesDesc2": "Logika punktacji pozostaje solidna dla dowolnej liczby graczy, ale przygotuj się na chaotyczne (i ekscytujące) gry, jeśli przekroczysz granice!",
+        "note": "Uwaga: Niektóre kombinacje dodatków mogą wymagać więcej miejsca na stole i znacznie wydłużyć czas gry.",
+        "gotIt": "Rozumiem!",
+        "gamesHidden": "NIEKTÓRE GRY UKRYTE",
+        "hiddenGamesMessage_one": "{{count}} gra jest ukryta z Galerii Sław, Rankingu, Historii i Statystyk, ponieważ zawiera dodatek, którego nie kupiłeś.",
+        "hiddenGamesMessage_other": "{{count}} gry są ukryte z Galerii Sław, Rankingu, Historii i Statystyk, ponieważ zawierają dodatki, których nie kupiłeś.",
+        "hiddenGamesPurchaseLink_one": "Kup dodatki, aby uzyskać dostęp do ukrytej gry",
+        "hiddenGamesPurchaseLink_other": "Kup dodatki, aby uzyskać dostęp do ukrytych gier",
+        "hiddenGamesMessageLong": "{{count}} gier w Twojej historii nie pasuje do aktualnych filtrów.",
+        "armadaDesc": "Konflikty morskie i eksploracja wysp. Zawiera plansze morskie dla każdego gracza.",
+        "citiesDesc": "Długi między miastami i mroczne interakcje. Dodaje nowe 'Czarne' karty.",
+        "edificeDesc": "Wspólne projekty, które gracze budują razem dla nagród lub globalnych kar.",
+        "leadersDesc": "Rekrutuj potężne postacie historyczne, aby kierować strategią swojej cywilizacji.",
+        "teamPlayDesc": "Graj w drużynach, aby sumować wyniki i koordynować strategie.",
+        "unlockAllWondersDesc": "Włącz wszystkie cuda z każdego dodatku, niezależnie od wybranych trybów.",
+        "modes": {
+            "base": {
+                "name": "Gra Podstawowa",
+                "description": "Klasyczne doświadczenie. Skup się na swoim mieście i bezpośrednich sąsiadach."
+            },
+            "leadersMode": {
+                "name": "Dodatek Leaders",
+                "description": "Rekrutuj wpływowe postacie, aby kierować rozwojem swojej cywilizacji."
+            },
+            "citiesMode": {
+                "name": "Dodatek Cities",
+                "description": "Mroczne interesy i większa interakcja dzięki nowym Czarnym kartom."
+            },
+            "armadaMode": {
+                "name": "Dodatek Armada",
+                "description": "Wypłyń na szerokie wody z planszami morskimi i eksploracją wysp."
+            },
+            "edificeMode": {
+                "name": "Dodatek Edifice",
+                "description": "Współpracujcie przy wspólnych projektach, aby zdobyć nagrody lub uniknąć globalnych kar."
+            },
+            "zenith": {
+                "name": "Kolekcja Zenith",
+                "description": "Wszystkie aktywne dodatki. Ostateczne wyzwanie starożytnej strategii."
+            },
+            "diplomatic": {
+                "name": "Dwór Dyplomatyczny",
+                "description": "Potężni liderzy spotykają się na mrocznych ulicach metropolii."
+            },
+            "sovereign": {
+                "name": "Suwerenne Oceany",
+                "description": "Wielcy liderzy podbijają morza potężnymi flotami."
+            },
+            "monumental": {
+                "name": "Monumentalni Władcy",
+                "description": "Legendarne postacie współpracują przy budowie imponujących struktur publicznych."
+            },
+            "navalTrade": {
+                "name": "Morskie Szlaki Handlowe",
+                "description": "Miasta handlowe i potęga morska dominują w starożytnym handlu."
+            },
+            "metropolitan": {
+                "name": "Metropolitalne Cuda",
+                "description": "Gęsto zabudowane miasta łączą zasoby, by budować wielkie budowle publiczne."
+            },
+            "coastal": {
+                "name": "Nadmorskie Zabytki",
+                "description": "Wspólne projekty budowlane wzdłuż strategicznych linii brzegowych."
+            },
+            "imperial": {
+                "name": "Imperialny Triumwirat",
+                "description": "Łączy Leaders, Cities i Armada. Duża interakcja, wojna morska i rekrutacja."
+            },
+            "masterArchitects": {
+                "name": "Mistrzowie Architektury",
+                "description": "Łączy Leaders, Cities i Edifice. Skupienie na rekrutacji i wspólnym budowaniu."
+            },
+            "royalArchitects": {
+                "name": "Królewscy Architekci",
+                "description": "Łączy Leaders, Armada i Edifice. Legendarni liderzy rozbudowują morze i kamienne budowle."
+            },
+            "coalition": {
+                "name": "Koalicja Mocy",
+                "description": "Łączy Cities, Armada i Edifice. Czysta strategia, wojna i budowa."
+            },
+            "custom": {
+                "name": "Niestandardowy Zestaw Dodatków",
+                "description": "Wybrano {{count}} dodatków.",
+                "single": "Wybrano 1 dodatek."
+            }
+        }
+    },
+    "app": {
+        "validationError": "Nie można zapisać gry. Upewnij się, że wszyscy gracze mają wybraną nazwę, cud i stronę:",
+        "missingName": "Gracz {{id}}: Brak nazwy",
+        "missingWonder": "Gracz {{id}}: Brak cudu",
+        "missingSide": "Gracz {{id}}: Brak strony",
+        "swapP": "Zamień G{{id}}",
+        "backupSuccess": "Kopia zapasowa zakończona sukcesem!",
+        "backupFailed": "Nie udało się zapisać kopii zapasowej na Google Drive: {{error}}",
+        "restoreConfirm": "Spowoduje to połączenie danych z Google Drive z danymi lokalnymi, unikając duplikatów. Kontynuować?",
+        "restoreFailed": "Przywracanie z Drive nie powiodło się: {{error}}",
+        "restoreSuccess": "Przywracanie zakończone sukcesem!",
+        "googleDriveDisconnected": "Google Drive odłączony. Zaloguj się, aby wznowić kopię zapasową?",
+        "purchase": {
+            "nativeTitle": "Rozpocząć okres próbny?",
+            "webTitle": "Odblokować Dodatki?",
+            "nativeMessage": "Odblokuj wszystkie 4 dodatki (Leaders, Cities, Armada, Edifice) z 7-dniowym okresem próbnym, a następnie jednorazowym zakupem.",
+            "webMessage": "Ulepszyć do 'Wersji Pro - Cztery Dodatki' za jednorazową opłatą 2,00 USD? \n\n(To jest symulacja, ponieważ jesteś w przeglądarce)",
+            "nativeConfirm": "Rozpocznij Okres Próbny",
+            "webConfirm": "Odblokuj Wszystko (2,00 USD)"
+        }
+    },
+    "timer": {
+        "start": "Start",
+        "pause": "Pauza",
+        "resume": "Wznów",
+        "fullScreen": "Pełny Ekran",
+        "closeFullScreen": "Zamknij Pełny Ekran",
+        "switchToRotating": "Przełącz na tryb rotacyjny",
+        "switchToSingle": "Przełącz na tryb pojedynczy"
+    }
+}

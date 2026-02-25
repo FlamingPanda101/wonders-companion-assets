@@ -1,0 +1,81 @@
+{
+    "privacyPolicy": {
+        "title": "Polityka Prywatności",
+        "lastUpdated": "Ostatnia aktualizacja: 25 listopada 2025 r.",
+        "intro": {
+            "title": "Wstęp",
+            "content": "Niniejsza Polityka Prywatności opisuje, w jaki sposób aplikacja \"Wonders Companion\" (\"my\", \"nasze\" lub \"nas\") obchodzi się z Twoimi danymi. Zobowiązujemy się do ochrony Twojej prywatności."
+        },
+        "dataCollection": {
+            "title": "Gromadzenie i przechowywanie danych",
+            "noCollection": "Nie gromadzimy, nie przesyłamy ani nie przechowujemy żadnych danych osobowych na zewnętrznych serwerach.",
+            "localStorage": "Wszystkie dane wprowadzone do aplikacji, w tym nazwy graczy, wyniki i historia gier, są przechowywane lokalnie na Twoim urządzeniu przy użyciu pamięci lokalnej przeglądarki lub natywnych funkcji przechowywania danych urządzenia.",
+            "cloudBackupTitle": "Opcjonalna kopia zapasowa w chmurze",
+            "cloudBackupContent": "Możemy oferować opcjonalną funkcję tworzenia kopii zapasowej historii gier na osobistym koncie Google Drive lub Google Storage. Jeśli zdecydujesz się skorzystać z tej funkcji:",
+            "cloudBackupList": [
+                "Zostaniesz poproszony o zalogowanie się na swoje konto Google.",
+                "Aplikacja będzie miała dostęp tylko do konkretnych plików, które sama utworzy w celu wykonania kopii zapasowej.",
+                "Twoje dane pozostają pod Twoją kontrolą w Twojej osobistej przestrzeni dyskowej w chmurze.",
+                "Nie mamy dostępu do danych logowania do Twojego konta Google ani do żadnych innych danych na Twoim Dysku Google."
+            ]
+        },
+        "thirdParty": {
+            "title": "Usługi stron trzecich",
+            "noTracking": "Ta aplikacja nie korzysta z żadnych zewnętrznych usług analitycznych, usług śledzenia ani sieci reklamowych.",
+            "googleServices": "Jeśli zdecydujesz się na funkcję kopii zapasowej w chmurze, aplikacja będzie wchodzić w interakcję z usługami uwierzytelniania i przechowywania danych Google wyłącznie w celu zapewnienia funkcji kopii zapasowej. Więcej informacji na temat sposobu obchodzenia się z Twoimi danymi można znaleźć w Polityce Prywatności Google."
+        },
+        "dataDeletion": {
+            "title": "Usuwanie danych",
+            "content": "Ponieważ wszystkie dane są przechowywane lokalnie na Twoim urządzeniu, masz nad nimi pełną kontrolę. Możesz wyczyścić swoje dane w dowolnym momencie poprzez:",
+            "methods": [
+                "Użycie funkcji \"Wyczyść historię\" lub \"Resetuj\" w ustawieniach aplikacji.",
+                "Wyczyszczenie pamięci podręcznej i pamięci lokalnej przeglądarki.",
+                "Odinstalowanie aplikacji (się zainstalowana jako aplikacja natywna)."
+            ]
+        },
+        "changes": {
+            "title": "Zmiany w niniejszej polityce",
+            "content": "Możemy od czasu do czasu aktualizować niniejszą Politykę Prywatności. Wszelkie zmiany zostaną odzwiercione w tym dokumencie z zaktualizowaną datą \"Ostatnia aktualizacja\"."
+        },
+        "contact": {
+            "title": "Kontakt z nami",
+            "content": "Jeśli masz jakiekolwiek pytania dotyczące niniejszej Polityki Prywatności, skontaktuj się z deweloperem."
+        }
+    },
+    "termsOfService": {
+        "title": "Warunki Korzystania z Usługi",
+        "lastUpdated": "Ostatnia aktualizacja: {{date}}",
+        "sections": {
+            "1": {
+                "title": "1. Akceptacja Warunków",
+                "content": "Korzystając z aplikacji \"Wonders Companion\", wyrażasz zgodę na przestrzeganie niniejszych Warunków Korzystania z Usługi. Jeśli nie zgadzasz się z tymi warunkami, nie korzystaj z aplikacji."
+            },
+            "2": {
+                "title": "2. Opis Usługi",
+                "content": "\"Wonders Companion\" to cyfrowe narzędzie zaprojektowane, aby pomagać graczom w obliczaniu i zapisywaniu wyników gry planszowej \"7 Cudów Świata\". Ta aplikacja jest narzędziem stworzonym przez fanów i nie jest powiązana z oficjalnymi wydawcami gry 7 Cudów Świata."
+            },
+            "3": {
+                "title": "3. Dane Użytkownika i Prywatność",
+                "content1": "Twoja prywatność jest dla nas ważna. Informacje o sposobie obchodzenia się z Twoimi danymi znajdziesz w naszej <1>Polityce Prywatności</1>.",
+                "content2": "Jesteś odpowiedzialny za utrzymanie bezpieczeństwa swojego urządzenia oraz wszelkich danych przechowywanych w aplikacji. Jeśli korzystasz z opcjonalnej funkcji kopii zapasowej na Dysku Google, odpowiadasz za utrzymanie bezpieczeństwa swojego konta Google."
+            },
+            "4": {
+                "title": "4. Własność Intelektualna",
+                "content1": "Wszystkie nazwy gier, grafiki i motywy związane z \"7 Cudów Świata\" są własnością intelektualną ich odpowiednich właścicieli. Niniejsza aplikacja nie rości sobie praw własności do żadnych oficjalnych elementów gry.",
+                "content2": "Kod i projekt aplikacji są własnością dewelopera. Nie wolno powielać, rozpowszechniać ani tworzyć dzieł pochodnych tej aplikacji bez wyraźnej zgody."
+            },
+            "5": {
+                "title": "5. Ograniczenie Odpowiedzialności",
+                "content": "Ta aplikacja jest dostarczana w stanie \"takim, jakim jest\", bez żadnych gwarancji. Deweloper nie ponosi odpowiedzialności za jakiekolwiek bezpośrednie, pośrednie, przypadkowe lub wtórne szkody wynikające z korzystania lub niemożności korzystania z aplikacji, w tym za utratę danych lub błędy w punktacji."
+            },
+            "6": {
+                "title": "6. Zmiany w Warunkach",
+                "content": "Zastrzegamy sobie prawo do modyfikacji niniejszych Warunków Korzystania z Usługi w dowolnym momencie. Dalsze korzystanie z aplikacji po wprowadzeniu jakichkolwiek zmian oznacza akceptację nowych warunków."
+            },
+            "7": {
+                "title": "7. Informacje Kontaktowe",
+                "content": "W przypadku pytań dotyczących niniejszych Warunków Korzystania z Usługi prosimy o kontakt z deweloperem."
+            }
+        }
+    }
+}

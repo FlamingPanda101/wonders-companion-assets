@@ -1,0 +1,81 @@
+{
+    "privacyPolicy": {
+        "title": "Informativa sulla Privacy",
+        "lastUpdated": "Ultimo Aggiornamento: 25 Novembre 2025",
+        "intro": {
+            "title": "Introduzione",
+            "content": "Questa Informativa sulla Privacy descrive come l'applicazione \"Wonders Companion\" (\"noi\", \"nostro\" o \"ci\") gestisce i tuoi dati. Ci impegniamo a proteggere la tua privacy."
+        },
+        "dataCollection": {
+            "title": "Raccolta e Conservazione dei Dati",
+            "noCollection": "Non raccogliamo, trasmettiamo né conserviamo alcuna informazione personale su server esterni.",
+            "localStorage": "Tutti i dati inseriti nell'applicazione, inclusi i nomi dei giocatori, i punteggi e lo storico delle partite, sono memorizzati localmente sul tuo dispositivo utilizzando lo spazio di archiviazione locale del browser o le capacità di archiviazione native del dispositivo.",
+            "cloudBackupTitle": "Backup Cloud Opzionale",
+            "cloudBackupContent": "Potremmo offrire una funzione opzionale per eseguire il backup dello storico delle partite sul tuo Google Drive personale o Google Storage. Se scegli di utilizzare questa funzione:",
+            "cloudBackupList": [
+                "Ti verrà chiesto di accedere con il tuo account Google.",
+                "L'applicazione accederà solo ai file specifici che crea per scopi di backup.",
+                "I tuoi dati rimangono sotto il tuo controllo nel tuo spazio di archiviazione cloud personale.",
+                "Non abbiamo accesso alle credenziali del tuo account Google né a qualsiasi altro dato nel tuo Google Drive."
+            ]
+        },
+        "thirdParty": {
+            "title": "Servizi di Terze Parti",
+            "noTracking": "Questa applicazione non utilizza alcun servizio di analisi, tracciamento o reti pubblicitarie di terze parti.",
+            "googleServices": "Se attivi la funzione di backup cloud, l'applicazione interagirà con i servizi di autenticazione e archiviazione di Google esclusivamente allo scopo di fornire la funzionalità di backup. Fai riferimento all'Informativa sulla Privacy di Google per ulteriori informazioni su come gestiscono i tuoi dati."
+        },
+        "dataDeletion": {
+            "title": "Eliminazione dei Dati",
+            "content": "Poiché tutti i dati sono memorizzati localmente sul tuo dispositivo, ne hai il pieno controllo. Puoi cancellare i tuoi dati in qualsiasi momento:",
+            "methods": [
+                "Utilizzando le funzioni \"Cancella Storico\" o \"Ripristina\" nelle impostazioni dell'applicazione.",
+                "Cancellando la cache e lo spazio di archiviazione locale del browser.",
+                "Disinstallando l'applicazione (se installata come app nativa)."
+            ]
+        },
+        "changes": {
+            "title": "Modifiche a questa Informativa",
+            "content": "Potremmo aggiornare questa Informativa sulla Privacy di tanto in tanto. Eventuali modifiche saranno riflesse in questo documento con una data di \"Ultimo Aggiornamento\" aggiornata."
+        },
+        "contact": {
+            "title": "Contattaci",
+            "content": "In caso di domande su questa Informativa sulla Privacy, contatta lo sviluppatore."
+        }
+    },
+    "termsOfService": {
+        "title": "Termini di Servizio",
+        "lastUpdated": "Ultimo Aggiornamento: {{date}}",
+        "sections": {
+            "1": {
+                "title": "1. Accettazione dei Termini",
+                "content": "Utilizzando l'applicazione \"Wonders Companion\", accetti di essere vincolato dai presenti Termini di Servizio. Se non accetti questi termini, ti preghiamo di non utilizzare l'applicazione."
+            },
+            "2": {
+                "title": "2. Descrizione del Servizio",
+                "content": "\"Wonders Companion\" è un'utilità digitale progettata per assistere i giocatori nel calcolo e nella registrazione dei punteggi per il gioco da tavolo \"7 Wonders\". Questa applicazione è uno strumento creato dai fan e non è affiliata agli editori ufficiali di 7 Wonders."
+            },
+            "3": {
+                "title": "3. Dati Utente e Privacy",
+                "content1": "La tua privacy è importante per noi. Fai riferimento alla nostra <1>Informativa sulla Privacy</1> per informazioni su come gestiamo i tuoi dati.",
+                "content2": "Sei responsabile del mantenimento della sicurezza del tuo dispositivo e di tutti i dati memorizzati all'interno dell'applicazione. Se utilizzi la funzione opzionale di backup su Google Drive, sei responsabile del mantenimento della sicurezza del tuo account Google."
+            },
+            "4": {
+                "title": "4. Proprietà Intellettuale",
+                "content1": "Tutti i nomi dei giochi, le illustrazioni e i temi relativi a \"7 Wonders\" sono proprietà intellettuale dei rispettivi proprietari. Questa applicazione non rivendica la proprietà di alcuna risorsa ufficiale del gioco.",
+                "content2": "Il codice e il design dell'applicazione sono di proprietà dello sviluppatore. Non puoi riprodurre, distribuire o creare opere derivate di questa applicazione senza esplicito permesso."
+            },
+            "5": {
+                "title": "5. Limitazione di Responsabilità",
+                "content": "Questa applicazione viene fornita \"così com'è\" senza alcuna garanzia. Lo sviluppatore non sarà responsabile per eventuali danni diretti, indiretti, incidentali o consequenziali derivanti dall'uso o dall'impossibilità di usare l'applicazione, inclusi la perdita di dati o errori nei punteggi."
+            },
+            "6": {
+                "title": "6. Modifiche ai Termini",
+                "content": "Ci riserviamo il diritto di modificare questi Termini di Servizio in qualsiasi momento. L'uso continuato dell'applicazione dopo eventuali modifiche costituisce l'accettazione dei nuovi termini."
+            },
+            "7": {
+                "title": "7. Informazioni di Contatto",
+                "content": "Per qualsiasi domanda riguardante questi Termini di Servizio, contatta lo sviluppatore."
+            }
+        }
+    }
+}

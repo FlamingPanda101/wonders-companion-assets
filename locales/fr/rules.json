@@ -1,0 +1,2296 @@
+{
+    "rules": {
+        "base": {
+            "hero": {
+                "badge": "Règles de Base",
+                "title": "Bâtissez une Civilisation.",
+                "subtitle": "Dirigez l'une des 7 grandes cités du Monde Antique. Récoltez des ressources, développez des routes commerciales et affirmez votre suprématie militaire."
+            },
+            "setup": {
+                "title": "Préparation",
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "Chaque joueur commence avec <strong>3 Pièces</strong>."
+                },
+                "decks": {
+                    "title": "Decks d'Âge",
+                    "text": "Préparez les decks Âge I, II et III en fonction du nombre de joueurs (symbole 3+ sur les cartes)."
+                },
+                "wonders": {
+                    "title": "Merveilles",
+                    "text": "Distribuez un plateau Merveille à chaque joueur. Choisissez la face A ou B."
+                }
+            },
+            "gameFlow": {
+                "title": "Structure du Jeu",
+                "turnsTitle": "6 Tours / Âge",
+                "turnsSubtitle": "À chaque Âge, les joueurs reçoivent 7 cartes.",
+                "cardsDealt": "7 Cartes Distribuées",
+                "step1": {
+                    "title": "1. Jouer une Carte",
+                    "text": "Choisissez simultanément 1 carte à jouer."
+                },
+                "step2": {
+                    "title": "2. Révélation & Action",
+                    "text": "Révélez les cartes et effectuez une action :",
+                    "age1": "Âge I : Passez à gauche",
+                    "age2": "Âge II : Passez à droite",
+                    "age3": "Âge III : Passez à gauche"
+                },
+                "step3": {
+                    "title": "3. Faire passer la main",
+                    "text": "Passez les cartes restantes au voisin."
+                },
+                "note": "Répétez jusqu'à ce que 6 cartes soient jouées. La 7ème est défaussée."
+            },
+            "actions": {
+                "title": "Actions",
+                "buildStructure": {
+                    "title": "Bâtir une Structure",
+                    "text": "Payez le coût en ressources indiqué sur la carte pour la poser devant vous.",
+                    "trading": "<strong>Commerce :</strong> Achetez les ressources manquantes à vos voisins pour 2 pièces l'unité (sauf si vous avez un comptoir)."
+                },
+                "buildWonder": {
+                    "title": "Construire une étape de Merveille",
+                    "text": "Glissez la carte choisie sous le plateau Merveille et payez le coût de l'étape. L'effet de la carte est ignoré."
+                },
+                "discard": {
+                    "title": "Se défausser pour de l'Or",
+                    "text": "Posez la carte face cachée sur la défausse commune.",
+                    "gain": "Recevez <strong>3 Pièces</strong> de la banque."
+                }
+            },
+            "endOfAge": {
+                "title": "Fin d'Âge : Conflits Militaires",
+                "militaryTitle": "Conflit Militaire",
+                "comparison": "Comparez vos boucliers avec vos voisins de gauche et de droite."
+            },
+            "scoring": {
+                "title": "Calcul du Score Final",
+                "military": {
+                    "title": "Conflits Militaires",
+                    "text": "Somme des jetons Victoire moins jetons Défaite."
+                },
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "1 Point pour chaque tranche de 3 pièces dans votre trésor."
+                },
+                "wonder": {
+                    "title": "Merveille",
+                    "text": "Points rapportés par les étapes de Merveille construites."
+                },
+                "civil": {
+                    "title": "Structures Civiles",
+                    "text": "Somme des points de victoire sur les cartes bleues."
+                },
+                "scientific": {
+                    "title": "Structures Scientifiques",
+                    "text": "Points par lot de symboles identiques et par lot de 3 symboles différents."
+                },
+                "commercial": {
+                    "title": "Structures Commerciales",
+                    "text": "Points rapportés par les structures jaunes."
+                },
+                "guilds": {
+                    "title": "Guildes",
+                    "text": "Points rapportés par les cartes violettes."
+                }
+            },
+            "variants": {
+                "title": "Variantes",
+                "expert2p": {
+                    "title": "Variante 2 Joueurs (Expert)",
+                    "subtitle": "Nécessite le plateau Cité Franche.",
+                    "freeCity": "<strong>Cité Franche :</strong> Les joueurs contrôlent tour à tour une 3ème cité neutre.",
+                    "control": "<strong>Contrôle :</strong> Le joueur ayant la force militaire la plus élevée contrôle la Cité Franche pour ce tour."
+                }
+            }
+        },
+        "leaders": {
+            "hero": {
+                "badge": "Grands Esprits",
+                "title": "La sagesse guide les âges.",
+                "subtitle": "Recrutez des <strong>Leaders</strong> pour obtenir des avantages uniques et orienter votre stratégie."
+            },
+            "setup": {
+                "title": "Mise en place",
+                "cards": {
+                    "title": "Cartes Leader",
+                    "text": "Distribuez 4 Leaders à chaque joueur."
+                },
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "Commencez avec <strong>6 Pièces</strong>."
+                }
+            },
+            "phases": {
+                "draft": {
+                    "title": "Draft des Leaders",
+                    "subtitle": "Début de la partie",
+                    "text": "Draftez 4 Leaders.",
+                    "pick1": "Choisir 1",
+                    "passRt": "Passer Droite",
+                    "keep4": "Garder 4"
+                },
+                "gameplay": {
+                    "title": "Déroulement",
+                    "recruitment": {
+                        "title": "Phase de Recrutement",
+                        "text": "Début de chaque Âge : Recruter, Construire une Merveille, ou Vendre un Leader.",
+                        "recruit": {
+                            "title": "Recruter",
+                            "text": "Payer le coût."
+                        },
+                        "wonder": {
+                            "title": "Merveille",
+                            "text": "Utiliser un Leader pour bâtir une étape."
+                        },
+                        "sell": {
+                            "title": "Vendre",
+                            "text": "Défausser pour 3 pièces."
+                        }
+                    },
+                    "turnsTitle": "Tours / Âge",
+                    "cardsDealt": "7 Cartes Distribuées",
+                    "step1": {
+                        "title": "1. Jouer une carte",
+                        "text": "Jeu standard."
+                    },
+                    "step2": {
+                        "title": "2. Passer",
+                        "text": "Passer la main standard."
+                    },
+                    "step3": {
+                        "title": "Fin",
+                        "text": "Le jeu continue."
+                    }
+                }
+            },
+            "scoring": {
+                "title": "Score",
+                "military": "PV Militaires.",
+                "treasury": "1 PV / 3 pièces.",
+                "wonder": "PV Merveille.",
+                "civil": "PV Civils.",
+                "scientific": "PV Scientifiques.",
+                "commercial": "PV Commerciaux.",
+                "guilds": "PV Guildes.",
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "PV des cartes Leader."
+                }
+            },
+            "variants": {
+                "title": "Variantes",
+                "freeCity": {
+                    "title": "Jeu en Équipe",
+                    "leaders": "Les partenaires s'assoient côte à côte.",
+                    "play": "Discutez librement de la stratégie."
+                }
+            }
+        },
+        "cities": {
+            "hero": {
+                "badge": "Maîtres de l'Ombre",
+                "title": "Les empires souterrains s'élèvent.",
+                "subtitle": "Mercenaires, voleurs et espions entrent en scène. <strong>Cities</strong> ajoute interaction agressive et dettes."
+            },
+            "setup": {
+                "title": "Mise en place",
+                "cards": {
+                    "title": "Cartes Cities",
+                    "text": "Mélangez les <strong>cartes Cities</strong> dans chaque deck d'Âge (1 par joueur). 8 cartes par joueur/Âge."
+                },
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "Commencez avec <strong>3 Pièces</strong> (Standard)."
+                }
+            },
+            "gameFlow": {
+                "title": "Déroulement",
+                "turnsTitle": "Tours / Âge",
+                "cardsDealt": "8 Cartes Distribuées",
+                "step1": {
+                    "title": "1. Jouer une carte",
+                    "text": "Bâtir, Merveille, ou Défausser."
+                },
+                "step2": {
+                    "title": "2. Résoudre",
+                    "text": "Résoudre les effets immédiatement."
+                },
+                "step3": {
+                    "title": "3. Passer",
+                    "text": "Passer les cartes restantes."
+                },
+                "note": "Comme 8 cartes sont distribuées, vous jouerez 7 cartes par Âge (une de plus que le jeu de base)."
+            },
+            "mechanics": {
+                "title": "Mécaniques",
+                "debts": {
+                    "title": "Dettes",
+                    "text": "Si vous ne pouvez pas payer les pertes monétaires causées par les autres, prenez des <strong>Jetons de Dette</strong> (-PV)."
+                },
+                "diplomacy": {
+                    "title": "Diplomatie",
+                    "text": "<strong>Symbole Colombe</strong>. Placez un jeton de diplomatie pour ignorer la prochaine phase de Conflit Militaire."
+                }
+            },
+            "scoring": {
+                "title": "Score",
+                "military": "PV Militaires.",
+                "treasury": "1 PV / 3 pièces.",
+                "wonder": "PV Merveille.",
+                "civil": "PV Civils.",
+                "scientific": "PV Scientifiques.",
+                "commercial": "PV Commerciaux.",
+                "guilds": "PV Guildes.",
+                "cities": {
+                    "title": "Cities",
+                    "text": "PV des cartes Noires."
+                },
+                "debt": {
+                    "title": "Dette",
+                    "text": "Soustrayez les PV pour les jetons de Dette conservés à la fin du jeu."
+                }
+            },
+            "variants": {
+                "title": "Variantes",
+                "freeCity": {
+                    "title": "Jeu en Équipe",
+                    "subtitle": "2 vs 2 ou 3 vs 3",
+                    "play": "Les coéquipiers s'assoient l'un à côté de l'autre et peuvent discuter stratégie."
+                }
+            }
+        },
+        "armada": {
+            "hero": {
+                "badge": "Maîtres des Mers",
+                "title": "Partez à la conquête de l'horizon.",
+                "subtitle": "Construisez une flotte pour explorer, commercer et conquérir. <strong>Armada</strong> ajoute un plateau naval et une progression maritime."
+            },
+            "setup": {
+                "title": "Mise en place Navale",
+                "boards": {
+                    "title": "Chantiers Navals",
+                    "text": "Chaque joueur reçoit un <strong>Plateau Naval</strong> (Chantier Naval)."
+                },
+                "ships": {
+                    "title": "Navires",
+                    "text": "Placez les navires Rouge, Jaune, Bleu, Vert sur les cases de départ."
+                },
+                "cards": {
+                    "title": "Cartes Armada",
+                    "text": "Mélangez les cartes Armada dans les decks d'Âge (1 par joueur)."
+                }
+            },
+            "gameFlow": {
+                "title": "Déroulement",
+                "turnsTitle": "Tours / Âge",
+                "cardsDealt": "8 Cartes Distribuées",
+                "step1": {
+                    "title": "1. Jouer une carte",
+                    "text": "Structure/Merveille/Défausse."
+                },
+                "step2": {
+                    "title": "2. Action Navale",
+                    "text": "Si vous avez bâti une carte, vous pouvez payer les coûts pour avancer le navire de couleur correspondante."
+                },
+                "step3": {
+                    "title": "3. Passer",
+                    "text": "Passer les mains."
+                }
+            },
+            "actions": {
+                "title": "Actions Navales",
+                "buildStructure": {
+                    "title": "Bâtir une Structure",
+                    "navalOpportunity": {
+                        "title": "Opportunité Navale",
+                        "text": "Peut payer le coût pour déplacer le navire correspondant d'une case."
+                    }
+                },
+                "buildWonder": {
+                    "title": "Bâtir une Merveille",
+                    "naval": "Choisissez un navire de couleur à avancer (payez le coût)."
+                },
+                "discard": {
+                    "title": "Défausser",
+                    "text": "Gagnez 3 pièces. Pas de mouvement naval autorisé."
+                }
+            },
+            "endOfAge": {
+                "title": "Fin d'Âge",
+                "order": "Résolvez le Conflit Terrestre puis le Conflit Naval.",
+                "groundWar": {
+                    "title": "1. Conflit Terrestre",
+                    "text": "Comparez les boucliers Rouges avec vos voisins."
+                },
+                "navalWar": {
+                    "title": "2. Conflit Naval",
+                    "text": "Comparez la force de la flotte Bleue avec TOUS les joueurs. Les joueurs les plus faibles prennent des jetons de malus."
+                }
+            },
+            "scoring": {
+                "title": "Score",
+                "military": {
+                    "title": "Militaire Terrestre",
+                    "text": "PV des conflits terrestres."
+                },
+                "naval": {
+                    "title": "Militaire Naval",
+                    "text": "PV des conflits navals (flotte Rouge)."
+                },
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "1 PV / 3 pièces."
+                },
+                "wonder": "PV Merveille.",
+                "civil": "PV Civils.",
+                "scientific": "PV Scientifiques.",
+                "commercial": "PV Commerciaux.",
+                "guilds": "PV Guildes.",
+                "islands": {
+                    "title": "Îles",
+                    "text": "PV des îles découvertes (flottes Verte/Bleue)."
+                },
+                "dockyard": {
+                    "title": "Chantier Naval",
+                    "text": "PV selon la position des navires."
+                }
+            },
+            "variants": {
+                "title": "Variantes",
+                "expert2p": {
+                    "title": "Expert 2 Joueurs",
+                    "freeCity": "Utilisez les règles de la Cité Franche pour le 3ème joueur neutre.",
+                    "play": "Le joueur neutre n'a pas de plateau naval."
+                }
+            }
+        },
+        "edifice": {
+            "hero": {
+                "badge": "Grands Architectes",
+                "title": "Bâtissez ensemble ou chutez seul.",
+                "subtitle": "Collaborez sur des <strong>Édifices</strong> pour des récompenses, ou ignorez-les à vos risques et périls."
+            },
+            "setup": {
+                "title": "Mise en place",
+                "cards": {
+                    "title": "Cartes Édifice",
+                    "text": "Un Édifice par Âge."
+                },
+                "pawns": {
+                    "title": "Pions de Participation",
+                    "text": "Distribuez les pions à chaque joueur."
+                }
+            },
+            "gameFlow": {
+                "title": "Déroulement",
+                "turnsTitle": "Tours / Âge",
+                "cardsDealt": "7 Cartes Distribuées",
+                "step1": {
+                    "title": "1. Jouer une carte",
+                    "text": "Jeu standard."
+                },
+                "step2": {
+                    "title": "2. Bâtir",
+                    "text": "Si vous construisez une étape de Merveille, vous pouvez participer à l'Édifice."
+                },
+                "step3": {
+                    "title": "3. Passer",
+                    "text": "Passer les mains."
+                },
+                "note": "Nombre de cartes standard."
+            },
+            "actions": {
+                "title": "Interactions Édifice",
+                "buildStructure": {
+                    "title": "Bâtir une Structure",
+                    "text": "Règles standard."
+                },
+                "buildWonder": {
+                    "title": "Bâtir une Merveille",
+                    "participation": {
+                        "title": "Participation",
+                        "text": "Lors de la construction d'une étape de Merveille, payez le coût de l'Édifice pour placer un pion sur l'Édifice. Limite de 1 pion par Édifice."
+                    }
+                },
+                "discard": {
+                    "title": "Défausser",
+                    "text": "Gagnez 3 pièces."
+                }
+            },
+            "endOfAge": {
+                "title": "Fin d'Âge",
+                "order": "Résolvez l'Édifice puis le Militaire.",
+                "edificeCheck": {
+                    "title": "1. Vérification de l'Édifice",
+                    "text": "Si l'Édifice est plein (ou si assez de joueurs ont participé), il est complet. Les participants reçoivent des récompenses. En cas d'échec, les non-participants perdent des ressources/PV."
+                },
+                "groundWar": {
+                    "title": "2. Militaire",
+                    "text": "Guerre standard."
+                }
+            },
+            "scoring": {
+                "title": "Score",
+                "military": "PV Militaires.",
+                "treasury": "1 PV / 3 pièces.",
+                "wonder": "PV Merveille.",
+                "civil": "PV Civils.",
+                "scientific": "PV Scientifiques.",
+                "commercial": "PV Commerciaux.",
+                "guilds": "PV Guildes.",
+                "edificeRewards": {
+                    "title": "Édifice",
+                    "text": "PV des jetons Édifice complétés."
+                }
+            }
+        },
+        "armada_cities": {
+            "hero": {
+                "badge": "Empires des Mers & des Ombres",
+                "title": "Conquérir les vagues, régner depuis l'ombre.",
+                "subtitle": "L'exploration navale d'<strong>Armada</strong> rencontre la diplomatie agressive de <strong>Cities</strong>."
+            },
+            "setup": {
+                "title": "Mise en place",
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "Commencez avec <strong>3 Pièces</strong> (Standard)."
+                },
+                "armada": {
+                    "title": "Armada",
+                    "text": "Placez les Chantiers Navals. Mélangez les cartes Armada dans les decks. <strong>Distribuez 9 cartes par main.</strong>"
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Mélangez les cartes Cities dans les decks d'Âge."
+                }
+            },
+            "gameFlow": {
+                "title": "Déroulement",
+                "turnsTitle": "Tours / Âge",
+                "cardsDealt": "9 Cartes Distribuées",
+                "step1": {
+                    "title": "1. Jouer une carte",
+                    "text": "Choisissez 1 carte parmi votre main de 9."
+                },
+                "step2": {
+                    "title": "2. Action Navale",
+                    "text": "Optionnel : Avancez un navire si les couleurs correspondent."
+                },
+                "step3": {
+                    "title": "3. Passer la main",
+                    "text": "Passez les cartes restantes."
+                }
+            },
+            "actions": {
+                "title": "Actions",
+                "buildStructure": {
+                    "title": "Bâtir une Structure",
+                    "navalOpportunity": {
+                        "title": "Opportunité Navale",
+                        "text": "Si la carte correspond à une couleur du plateau Naval, payez le coût pour avancer le navire."
+                    }
+                },
+                "buildWonder": {
+                    "title": "Bâtir une Merveille",
+                    "text": "Utilisez une carte pour bâtir une étape. <strong>Naval :</strong> Avancez le navire de votre choix."
+                },
+                "discard": {
+                    "title": "Défausser",
+                    "text": "Gagnez <strong>3 Pièces</strong> <span className=\"text-stone-400 mx-2\">|</span> Avancez le <strong>Navire Jaune</strong> (Gratuit)"
+                }
+            },
+            "mechanics": {
+                "title": "Mécaniques",
+                "debtsDiplomacy": {
+                    "title": "Dettes & Diplomatie",
+                    "text": "<strong>Dette :</strong> -PV pour les pertes non payées.<br/><strong>Diplomatie :</strong> Ignorez le prochain conflit terrestre."
+                },
+                "fleets": {
+                    "title": "Flottes",
+                    "text": "<strong>Rouge :</strong> Force Navale.<br/><strong>Vert :</strong> Explorer des Îles.<br/><strong>Bleu :</strong> PV.<br/><strong>Jaune :</strong> Pièces/Taxes."
+                }
+            },
+            "endOfAge": {
+                "title": "Fin d'Âge",
+                "order": "Guerre Terrestre -> Guerre Navale.",
+                "groundWar": {
+                    "title": "1. Guerre Terrestre",
+                    "text": "Comparez les boucliers (vérifiez la Diplomatie)."
+                },
+                "navalWar": {
+                    "title": "2. Guerre Navale",
+                    "text": "Comparez la Force Navale contre TOUS les joueurs."
+                }
+            },
+            "scoring": {
+                "title": "Score",
+                "military": {
+                    "title": "Militaire",
+                    "text": "PV Terrestres."
+                },
+                "naval": {
+                    "title": "Naval",
+                    "text": "PV Navals."
+                },
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "PV Pièces."
+                },
+                "wonder": {
+                    "title": "Merveille",
+                    "text": "PV Merveille."
+                },
+                "civil": {
+                    "title": "Civil",
+                    "text": "PV Bleu."
+                },
+                "scientific": {
+                    "title": "Scientifique",
+                    "text": "PV Vert."
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "PV Jaune."
+                },
+                "guilds": {
+                    "title": "Guildes",
+                    "text": "PV Violet."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "PV Noirs."
+                },
+                "debt": {
+                    "title": "Dette",
+                    "text": "Pénalité de Dette."
+                },
+                "islands": {
+                    "title": "Îles",
+                    "text": "PV des Îles."
+                },
+                "dockyard": {
+                    "title": "Plateau Naval",
+                    "text": "PV des Navires."
+                }
+            },
+            "variants": {
+                "title": "Variantes",
+                "teamPlay": {
+                    "title": "Jeu en Équipe",
+                    "military": "Pas de conflit entre coéquipiers.",
+                    "doubleTokens": "Double jetons pour les victoires.",
+                    "naval": "Les conflits navals sont individuels."
+                }
+            }
+        },
+        "armada_cities_edifice": {
+            "hero": {
+                "badge": "Architectes des Flottes",
+                "title": "Voguer, Bâtir, Comploter.",
+                "subtitle": "Une combinaison riche alliant exploration, projets colossaux et intrigues urbaines."
+            },
+            "setup": {
+                "title": "Mise en place",
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "Commencez avec <strong>3 Pièces</strong>."
+                },
+                "wonders": {
+                    "title": "Merveilles",
+                    "text": "Distribuez les Merveilles."
+                },
+                "armada": {
+                    "title": "Armada",
+                    "text": "Chantiers & Navires. 9 cartes/main."
+                },
+                "edifice": {
+                    "title": "Édifice",
+                    "text": "1 Projet par Âge."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Cartes Cities dans les decks."
+                },
+                "islands": {
+                    "title": "Îles",
+                    "text": "Decks d'Îles prêts."
+                }
+            },
+            "gameFlow": {
+                "title": "Structure du Jeu",
+                "overview": {
+                    "title": "Tour de jeu",
+                    "li1": "<strong>9 Cartes</strong> par main.",
+                    "li2": "Projets <strong>Édifice</strong> à chaque Âge.",
+                    "li3": "Dettes & diplomatie <strong>Cities</strong> appliquées."
+                },
+                "turnsTitle": "Tours",
+                "step1": {
+                    "title": "1. Choisir",
+                    "text": "Sélectionnez une carte."
+                },
+                "step2": {
+                    "title": "2. Action",
+                    "text": "Jouez la carte."
+                },
+                "step3": {
+                    "title": "3. Passer",
+                    "text": "Passez le paquet."
+                }
+            },
+            "actions": {
+                "title": "Actions",
+                "buildStructure": {
+                    "title": "Bâtir",
+                    "text": "Règles de construction standard.",
+                    "chain": "<strong>Chaînages :</strong> Les symboles Édifice & Cities permettent des constructions gratuites.",
+                    "navalOpportunity": {
+                        "title": "Opportunité Navale",
+                        "text": "Payez pour avancer le navire correspondant."
+                    }
+                },
+                "buildWonder": {
+                    "title": "Bâtir Merveille",
+                    "text": "Construisez une étape.",
+                    "bonusTitle": "ACTION BONUS",
+                    "naval": "<strong>Naval :</strong> Avancez un navire (Payez le coût).",
+                    "edifice": "<strong>Édifice :</strong> Participez (Payez le coût)."
+                },
+                "discard": {
+                    "title": "Défausser",
+                    "text": "Gagnez des pièces.",
+                    "li1": "3 Pièces",
+                    "li2": "Avancez le Navire Jaune (Gratuit)"
+                }
+            },
+            "mechanics": {
+                "title": "Mécaniques",
+                "fleets": {
+                    "title": "Flottes",
+                    "red": {
+                        "title": "Rouge",
+                        "effect": "Conflit Naval"
+                    },
+                    "yellow": {
+                        "title": "Jaune",
+                        "effect": "Or/Taxes"
+                    },
+                    "blue": {
+                        "title": "Bleu",
+                        "effect": "PV"
+                    },
+                    "green": {
+                        "title": "Vert",
+                        "effect": "Exploration"
+                    }
+                },
+                "edificeCities": {
+                    "title": "Édifice & Cities",
+                    "debtDiplomacy": {
+                        "title": "Dettes & Diplomatie",
+                        "text": "Gérez les dettes et les guerres."
+                    },
+                    "edificeResults": {
+                        "title": "Résultats d'Édifice",
+                        "text": "Récompenses ou Pénalités."
+                    }
+                }
+            },
+            "endOfAge": {
+                "title": "Fin d'Âge",
+                "order": "Édifice -> Guerre Terrestre -> Guerre Navale",
+                "edifice": {
+                    "title": "1. Édifice",
+                    "text": "Vérifiez la réussite."
+                },
+                "groundWar": {
+                    "title": "2. Guerre Terrestre",
+                    "text": "Comparez les boucliers (vérifiez la Diplomatie)."
+                },
+                "navalWar": {
+                    "title": "3. Guerre Navale",
+                    "text": "Comparez la force navale contre TOUS les joueurs."
+                }
+            },
+            "scoring": {
+                "title": "Calcul du Score",
+                "military": {
+                    "title": "Militaire",
+                    "text": "PV Terrestres."
+                },
+                "naval": {
+                    "title": "Naval",
+                    "text": "PV Navals."
+                },
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "PV Pièces."
+                },
+                "wonder": {
+                    "title": "Merveille",
+                    "text": "PV Merveille."
+                },
+                "civil": {
+                    "title": "Civil",
+                    "text": "PV Bleus."
+                },
+                "scientific": {
+                    "title": "Scientifique",
+                    "text": "PV Verts."
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "PV Jaunes."
+                },
+                "guilds": {
+                    "title": "Guildes",
+                    "text": "PV Violets."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "PV Noirs."
+                },
+                "edifice": {
+                    "title": "Édifice",
+                    "text": "PV Édifice."
+                },
+                "debt": {
+                    "title": "Dette",
+                    "text": "Pénalité de Dette."
+                },
+                "islands": {
+                    "title": "Îles",
+                    "text": "PV des Îles."
+                },
+                "dockyard": {
+                    "title": "Chantier Naval",
+                    "text": "PV des Navires."
+                }
+            },
+            "variants": {
+                "title": "Variantes",
+                "expert2p": {
+                    "title": "2 Joueurs",
+                    "subtitle": "Changements Mode Expert",
+                    "li1": "La Cité Franche participe au Conflit Naval.",
+                    "li2": "La Cité Franche PEUT participer à l'Édifice.",
+                    "li3": "La Cité Franche paie sa propre participation."
+                },
+                "teamPlay": {
+                    "title": "Jeu en Équipe",
+                    "subtitle": "Règles Coopératives",
+                    "li1": "Pas de Guerre Terrestre entre coéquipiers.",
+                    "li2": "Le Conflit Naval est individuel.",
+                    "li3": "Les coéquipiers peuvent discuter des cartes.",
+                    "li4": "La participation à l'Édifice est individuelle."
+                }
+            }
+        },
+        "armada_edifice": {
+            "hero": {
+                "badge": "Architectes Navals",
+                "title": "Bâtir des monuments, tracer les mers.",
+                "subtitle": "<strong>Armada</strong> et <strong>Édifice</strong> se combinent pour une grande course à la construction et à l'exploration."
+            },
+            "setup": {
+                "title": "Mise en place",
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "Commencez avec <strong>3 Pièces</strong>."
+                },
+                "armada": {
+                    "title": "Armada",
+                    "text": "Chantiers Navals & Navires. 8 cartes par main."
+                },
+                "edifice": {
+                    "title": "Édifice",
+                    "text": "1 Projet d'Édifice par Âge."
+                },
+                "islands": {
+                    "title": "Îles",
+                    "text": "Decks d'Îles."
+                }
+            },
+            "gameFlow": {
+                "title": "Déroulement",
+                "turnsTitle": "Tours / Âge",
+                "cardsDealt": "8 Cartes Distribuées",
+                "step1": {
+                    "title": "1. Choisir",
+                    "text": "Choisissez une carte."
+                },
+                "step2": {
+                    "title": "2. Action",
+                    "text": "Construire Merveille, Structure ou Défausser."
+                },
+                "step3": {
+                    "title": "3. Naval",
+                    "text": "Action navale optionnelle si vous bâtissez une structure."
+                }
+            },
+            "actions": {
+                "title": "Actions",
+                "buildStructure": {
+                    "title": "Bâtir une Structure",
+                    "navalOpportunity": {
+                        "title": "Opportunité Navale",
+                        "text": "Payez pour avancer le navire."
+                    }
+                },
+                "buildWonder": {
+                    "title": "Bâtir une Merveille",
+                    "bonusTitle": "ACTION BONUS (CHOISISSEZ-EN UNE)",
+                    "naval": "<strong>Naval :</strong> Couleur correspondante au Chantier.",
+                    "edifice": "<strong>Édifice :</strong> Participer."
+                },
+                "discard": {
+                    "title": "Défausser",
+                    "text": "Gagnez 3 pièces."
+                }
+            },
+            "mechanics": {
+                "title": "Mécaniques",
+                "fleets": {
+                    "title": "Flottes",
+                    "red": {
+                        "effect": "Force Navale"
+                    },
+                    "green": {
+                        "effect": "Îles"
+                    },
+                    "blue": {
+                        "effect": "PV"
+                    },
+                    "yellow": {
+                        "effect": "Pièces"
+                    }
+                },
+                "edificeRisks": {
+                    "title": "Risques Édifice",
+                    "debts": {
+                        "title": "Pénalités",
+                        "text": "L'échec de l'Édifice entraîne une pénalité."
+                    }
+                }
+            },
+            "endOfAge": {
+                "title": "Fin d'Âge",
+                "order": "Édifice -> Guerre Terrestre -> Guerre Navale",
+                "edifice": {
+                    "title": "1. Édifice",
+                    "text": "Vérification de réussite."
+                },
+                "groundWar": {
+                    "title": "2. Guerre Terrestre",
+                    "text": "Comparez les boucliers rouges."
+                },
+                "navalWar": {
+                    "title": "3. Guerre Navale",
+                    "text": "Comparez la force de la flotte."
+                }
+            },
+            "scoring": {
+                "title": "Score",
+                "military": {
+                    "title": "Militaire",
+                    "text": "PV Terrestres."
+                },
+                "naval": {
+                    "title": "Naval",
+                    "text": "PV Navals."
+                },
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "PV Pièces."
+                },
+                "wonder": {
+                    "title": "Merveille",
+                    "text": "PV Merveille."
+                },
+                "civil": {
+                    "title": "Civil",
+                    "text": "PV Bleus."
+                },
+                "scientific": {
+                    "title": "Scientifique",
+                    "text": "PV Verts."
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "PV Jaunes."
+                },
+                "guilds": {
+                    "title": "Guildes",
+                    "text": "PV Violets."
+                },
+                "edifice": {
+                    "title": "Édifice",
+                    "text": "1 Projet par Âge."
+                },
+                "debt": {
+                    "title": "Dette",
+                    "text": "Pénalité de Dette."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "PV Leaders."
+                },
+                "islands": {
+                    "title": "Îles",
+                    "text": "PV des Îles."
+                },
+                "dockyard": {
+                    "title": "Chantier Naval",
+                    "text": "PV des Navires."
+                }
+            },
+            "variants": {
+                "title": "Variantes",
+                "expert2p": {
+                    "title": "2 Joueurs",
+                    "li1": "La Cité Franche joue le Naval et l'Édifice.",
+                    "li2": "La Cité Franche paie ses propres coûts."
+                },
+                "teamPlay": {
+                    "title": "Jeu en Équipe",
+                    "li1": "Paix entre coéquipiers.",
+                    "li2": "Naval individuel.",
+                    "li3": "Édifice individuel."
+                }
+            }
+        },
+        "armada_leaders_edifice": {
+            "hero": {
+                "badge": "Légions Florissantes",
+                "title": "Amiraux et Architectes.",
+                "subtitle": "Une expérience ultime mêlant diplomatie, construction coopérative et conquête navale."
+            },
+            "setup": {
+                "title": "Mise en place",
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "Commencez avec <strong>6 Pièces</strong>."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "Distribuez 4 Leaders."
+                },
+                "armada": {
+                    "title": "Armada",
+                    "text": "Chantiers Navals. 8 cartes par main."
+                },
+                "edifice": {
+                    "title": "Édifice",
+                    "text": "1 Projet d'Édifice par Âge."
+                }
+            },
+            "phases": {
+                "draft": {
+                    "title": "Draft des Leaders",
+                    "subtitle": "Préparation",
+                    "text": "Draftez 4 Leaders.",
+                    "pick1": "Choisir 1",
+                    "passRt": "Passer Droite",
+                    "keep4": "Garder 4"
+                },
+                "gameplay": {
+                    "title": "Déroulement",
+                    "recruitment": {
+                        "title": "Recrutement",
+                        "text": "Jouez un Leader (Recruter, Merveille, Vendre).",
+                        "recruit": {
+                            "title": "Recruter",
+                            "text": "Payez le coût."
+                        },
+                        "wonder": {
+                            "title": "Merveille",
+                            "text": "Utilisez un Leader pour bâtir une étape."
+                        },
+                        "sell": {
+                            "title": "Vendre",
+                            "text": "Défaussez pour 3 pièces."
+                        }
+                    },
+                    "turnsTitle": "Tours / Âge",
+                    "cardsDealt": "8 Cartes Distribuées",
+                    "step1": {
+                        "title": "1. Choisir",
+                        "text": "Sélectionnez une carte."
+                    },
+                    "step2": {
+                        "title": "2. Naval",
+                        "text": "Déplacez un navire."
+                    },
+                    "step3": {
+                        "title": "3. Passer",
+                        "text": "Passez la main."
+                    }
+                }
+            },
+            "actions": {
+                "title": "Actions & Interactions",
+                "buildStructure": {
+                    "title": "Bâtir",
+                    "navalOpportunity": {
+                        "title": "Opportunité Navale",
+                        "text": "Payez pour avancer le navire."
+                    }
+                },
+                "buildWonder": {
+                    "title": "Bâtir Merveille",
+                    "exclusive": "Choisissez UNE SEULE action bonus (Naval OU Édifice).",
+                    "naval": "<strong>Naval :</strong> Avancez un navire.",
+                    "edifice": "<strong>Édifice :</strong> Participez."
+                }
+            },
+            "mechanics": {
+                "title": "Mécaniques",
+                "fleets": {
+                    "title": "Flottes",
+                    "red": {
+                        "title": "Rouge",
+                        "effect": "Guerre"
+                    },
+                    "yellow": {
+                        "title": "Jaune",
+                        "effect": "Or"
+                    },
+                    "blue": {
+                        "title": "Bleu",
+                        "effect": "PV"
+                    },
+                    "green": {
+                        "title": "Vert",
+                        "effect": "Exploration"
+                    }
+                },
+                "edificeRisks": {
+                    "title": "Risques Édifice",
+                    "debts": {
+                        "title": "Pénalité",
+                        "text": "L'échec entraîne une pénalité."
+                    }
+                }
+            },
+            "endOfAge": {
+                "title": "Fin d'Âge",
+                "order": "Édifice -> Terrestre -> Naval",
+                "edifice": {
+                    "title": "Édifice",
+                    "text": "1 Projet par Âge."
+                },
+                "groundWar": {
+                    "title": "2. Guerre Terrestre",
+                    "text": "Boucliers Rouges."
+                },
+                "navalWar": {
+                    "title": "3. Guerre Navale",
+                    "text": "Force de la Flotte."
+                }
+            },
+            "scoring": {
+                "title": "Score",
+                "military": {
+                    "title": "Militaire",
+                    "text": "PV Terrestres."
+                },
+                "naval": {
+                    "title": "Naval",
+                    "text": "PV Navals."
+                },
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "PV Pièces."
+                },
+                "wonder": {
+                    "title": "Merveille",
+                    "text": "PV Merveille."
+                },
+                "civil": {
+                    "title": "Civil",
+                    "text": "PV Bleus."
+                },
+                "scientific": {
+                    "title": "Scientifique",
+                    "text": "PV Verts."
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "PV Jaunes."
+                },
+                "guilds": {
+                    "title": "Guildes",
+                    "text": "PV Violets."
+                },
+                "edifice": {
+                    "title": "Édifice",
+                    "text": "1 Projet par Âge."
+                },
+                "debt": {
+                    "title": "Dette",
+                    "text": "Pénalité de Dette."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "PV des cartes Leader."
+                },
+                "islands": {
+                    "title": "Îles",
+                    "text": "PV des Îles."
+                },
+                "dockyard": {
+                    "title": "Chantier Naval",
+                    "text": "PV du Chantier Naval."
+                }
+            },
+            "variants": {
+                "title": "Variantes",
+                "expert2p": {
+                    "title": "2 Joueurs",
+                    "li1": "La Cité Franche joue le Naval et l'Édifice.",
+                    "li2": "La Cité Franche paie ses propres coûts."
+                },
+                "teamPlay": {
+                    "title": "Jeu en Équipe",
+                    "li1": "Paix entre coéquipiers.",
+                    "li2": "Naval individuel.",
+                    "li3": "Édifice individuel."
+                }
+            }
+        },
+        "armada_cities_leaders": {
+            "hero": {
+                "badge": "Légendes des Mers & de l'Ombre",
+                "title": "Un triumvirat de puissance.",
+                "subtitle": "La force navale d'<strong>Armada</strong>, la diplomatie de <strong>Cities</strong> et la sagesse de <strong>Leaders</strong>."
+            },
+            "setup": {
+                "title": "Mise en place",
+                "treasury": {
+                    "title": "Trésors",
+                    "text": "Commencez avec <strong>6 Pièces</strong> (la règle Cities/Leaders l'emporte sur celle de Base)."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "PV des cartes Leader."
+                },
+                "armada": {
+                    "title": "Armada",
+                    "text": "Placez le Chantier Naval. Mélangez les cartes Armada (1 par joueur). <strong>8 cartes par main.</strong>"
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Mélangez les cartes Noires (1 par joueur). <strong>Taille de main finale : 9 cartes.</strong>"
+                }
+            },
+            "phases": {
+                "draft": {
+                    "title": "Phase 1 : Draft des Leaders",
+                    "subtitle": "Préparez votre Cour",
+                    "text": "Avant l'Âge I, draftez 4 Leaders. (Choisir 1, Passer Droite).",
+                    "pick1": "Choisir 1",
+                    "passRt": "Passer Droite",
+                    "keep4": "Garder 4"
+                },
+                "gameplay": {
+                    "title": "Phase 2 : Jeu",
+                    "recruitment": {
+                        "title": "Début d'Âge : Recrutement",
+                        "text": "Jouez 1 Leader avant de distribuer les cartes d'Âge.",
+                        "recruit": {
+                            "title": "Recruter",
+                            "text": "Payez le coût. Effet Actif."
+                        },
+                        "wonder": {
+                            "title": "Merveille",
+                            "text": "Bâtissez une étape de Merveille."
+                        },
+                        "sell": {
+                            "title": "Vendre",
+                            "text": "Gagnez 3 Pièces."
+                        }
+                    },
+                    "turnsTitle": "Les 8 Tours",
+                    "step1": {
+                        "title": "Choisir une Carte",
+                        "text": "La main est de <strong>9 cartes</strong> (7 Base + 1 City + 1 Armada). Choisissez-en une."
+                    },
+                    "step2": {
+                        "title": "Passer la Main",
+                        "text": "Âge I & III : Gauche. Âge II : Droite."
+                    },
+                    "step3": {
+                        "title": "Action",
+                        "text": "Révélez et jouez."
+                    }
+                }
+            },
+            "actions": {
+                "title": "Actions",
+                "buildStructure": {
+                    "title": "Bâtir Structure",
+                    "navalOpportunity": {
+                        "title": "Opportunité Navale",
+                        "text": "Si la carte correspond à la couleur du Chantier (Rouge/Jaune/Bleu/Vert), vous pouvez payer pour avancer le navire."
+                    }
+                },
+                "buildWonder": {
+                    "title": "Bâtir une Étape de Merveille",
+                    "naval": "<strong>Naval :</strong> Payez le coût pour le navire lié à la Merveille."
+                }
+            },
+            "mechanics": {
+                "title": "Mécaniques d'Expansion",
+                "debtsDiplomacy": {
+                    "title": "Dettes & Diplomatie",
+                    "text": "<strong>Dette :</strong> -1 PV par pièce non payée.<br /><strong>Diplomatie (Pigeon) :</strong> Retrait du prochain conflit terrestre (vos voisins s'affrontent)."
+                },
+                "armadaFleets": {
+                    "title": "Flottes d'Armada",
+                    "text": "<strong>Îles :</strong> Explorez pour des bonus.<br /><strong>Flottes :</strong> Taxes, PV, Force."
+                }
+            },
+            "endOfAge": {
+                "title": "Résolution de Fin d'Âge",
+                "order": "Résolvez dans cet ordre strict :",
+                "groundWar": {
+                    "title": "1. Guerre Terrestre",
+                    "text": "Vérification Diplomatie ? Comparez les Boucliers Rouges."
+                },
+                "navalWar": {
+                    "title": "2. Guerre Navale",
+                    "text": "Comparez la Force Bleue contre TOUS."
+                }
+            },
+            "scoring": {
+                "title": "Score",
+                "military": {
+                    "title": "Conflits Militaires",
+                    "text": "Victoires (+) et Défaites (-) Terrestres"
+                },
+                "naval": {
+                    "title": "Conflits Navals",
+                    "text": "Victoires (+) et Défaites (-) Navales"
+                },
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "1 PV par 3 pièces"
+                },
+                "wonder": {
+                    "title": "Merveille",
+                    "text": "Points + Cartes sous la Merveille"
+                },
+                "civil": {
+                    "title": "Structures Civiles",
+                    "text": "Somme des cartes Bleues"
+                },
+                "scientific": {
+                    "title": "Scientifique",
+                    "text": "Séries (Identiques², Différents x7)"
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "Valeur des cartes Jaunes"
+                },
+                "guilds": {
+                    "title": "Guildes",
+                    "text": "Cartes Violettes"
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Cartes Cities dans les decks."
+                },
+                "debt": {
+                    "title": "Dettes",
+                    "text": "Soustrayez la valeur totale des Dettes"
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "PV des cartes Leader."
+                },
+                "islands": {
+                    "title": "Îles",
+                    "text": "Valeur des cartes Îles"
+                },
+                "dockyard": {
+                    "title": "Chantier Naval",
+                    "text": "PV de la piste de flotte bleue"
+                }
+            },
+            "variants": {
+                "title": "Variantes de Jeu",
+                "expert2p": {
+                    "title": "Expert 2 Joueurs",
+                    "freeCity": "<strong>Cité Franche :</strong> Pas de Leaders.",
+                    "naval": "<strong>Naval :</strong> La Cité Franche participe.",
+                    "diplomacy": "<strong>Diplomatie :</strong> Combattez uniquement le voisin actif."
+                },
+                "teamPlay": {
+                    "title": "Jeu en Équipe",
+                    "conflict": "<strong>Conflit :</strong> Pas de guerre terrestre avec le coéquipier.",
+                    "doubleTokens": "<strong>Doubles Jetons :</strong> Victoire/Défaite x2.",
+                    "naval": "<strong>Naval :</strong> Individuel."
+                }
+            }
+        },
+        "armada_leaders": {
+            "hero": {
+                "badge": "Navigateurs Diplomates",
+                "title": "Des leaders sur chaque pont.",
+                "subtitle": "La profondeur stratégique de <strong>Leaders</strong> s'allie à la puissance maritime d'<strong>Armada</strong>."
+            },
+            "setup": {
+                "title": "Mise en place",
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "Commencez avec <strong>6 Pièces</strong> (Règle Leaders)."
+                },
+                "armada": {
+                    "title": "Armada",
+                    "text": "Chantiers & Navires. 9 cartes/main."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "Distribuez 4 Leaders."
+                },
+                "islands": {
+                    "title": "Îles",
+                    "text": "Préparez les decks d'Îles (Niveaux 1, 2, 3)."
+                }
+            },
+            "phases": {
+                "draft": {
+                    "title": "Phase 1 : Draft des Leaders",
+                    "subtitle": "Préparez votre Cour",
+                    "text": "Avant l'Âge I, draftez 4 Leaders. (Choisir 1, Passer Droite).",
+                    "pick1": "Choisir 1",
+                    "passRt": "Passer Droite",
+                    "keep4": "Garder 4"
+                },
+                "gameplay": {
+                    "title": "Phase 2 : Jeu",
+                    "recruitment": {
+                        "title": "Début d'Âge : Recrutement",
+                        "text": "Jouez 1 Leader avant de distribuer les cartes d'Âge.",
+                        "recruit": {
+                            "title": "Recruter",
+                            "text": "Payez le coût. Effet Actif."
+                        },
+                        "wonder": {
+                            "title": "Merveille",
+                            "text": "Bâtissez une étape de Merveille."
+                        },
+                        "sell": {
+                            "title": "Vendre",
+                            "text": "Gagnez 3 Pièces."
+                        }
+                    },
+                    "turnsTitle": "Les 8 Tours",
+                    "cardsDealt": "8 Cartes Distribuées",
+                    "step1": {
+                        "title": "Choisir une Carte",
+                        "text": "Main de <strong>8 cartes</strong>. Choisissez-en une."
+                    },
+                    "step2": {
+                        "title": "Passer la Main",
+                        "text": "Âge I & III : Gauche. Âge II : Droite."
+                    },
+                    "step3": {
+                        "title": "Action",
+                        "text": "Révélez et jouez."
+                    }
+                }
+            },
+            "actions": {
+                "title": "Actions",
+                "buildStructure": {
+                    "title": "Bâtir Structure",
+                    "navalOpportunity": {
+                        "title": "Opportunité Navale",
+                        "text": "Si la carte correspond à la couleur du Chantier, payez pour avancer le navire."
+                    }
+                },
+                "buildWonder": {
+                    "title": "Bâtir une Étape de Merveille",
+                    "naval": "<strong>Naval :</strong> Vérifiez la couleur de départ du Chantier. Payez le coût correspondant."
+                },
+                "discard": {
+                    "title": "Défausser",
+                    "text": "Gagnez <strong>3 Pièces</strong> <span className=\"text-stone-400 mx-2\">|</span> Navire <strong>Jaune</strong> (Gratuit)"
+                }
+            },
+            "endOfAge": {
+                "title": "Résolution de Fin d'Âge",
+                "order": "Ordre strict :",
+                "groundWar": {
+                    "title": "1. Guerre Terrestre",
+                    "text": "Comparez les Boucliers contre les Voisins."
+                },
+                "navalWar": {
+                    "title": "2. Guerre Navale",
+                    "text": "Comparez la Force Bleue contre TOUS."
+                }
+            },
+            "scoring": {
+                "title": "Score",
+                "military": {
+                    "title": "Conflits Militaires",
+                    "text": "Victoires (+) et Défaites (-) Terrestres"
+                },
+                "naval": {
+                    "title": "Conflits Navals",
+                    "text": "Victoires (+) et Défaites (-) Navales"
+                },
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "1 PV par 3 pièces"
+                },
+                "wonder": {
+                    "title": "Merveille",
+                    "text": "Points + Étapes complétées"
+                },
+                "civil": {
+                    "title": "Structures Civiles",
+                    "text": "Somme des cartes Bleues"
+                },
+                "scientific": {
+                    "title": "Scientifique",
+                    "text": "Séries (Identiques², Différents x7)"
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "Valeur des cartes Jaunes"
+                },
+                "guilds": {
+                    "title": "Guildes",
+                    "text": "Cartes Violettes (Max 10 PV/carte)"
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "PV des cartes Leader."
+                },
+                "islands": {
+                    "title": "Îles",
+                    "text": "Valeur des cartes Îles"
+                },
+                "dockyard": {
+                    "title": "Chantier Naval",
+                    "text": "PV de la piste de flotte bleue"
+                }
+            },
+            "variants": {
+                "title": "Variante Expert 2 Joueurs",
+                "freeCity": {
+                    "title": "La Cité Franche",
+                    "leaders": "<strong>Leaders :</strong> Draftés par les joueurs. La Cité Franche n'en a AUCUN.",
+                    "naval": "<strong>Naval :</strong> La Cité Franche participe.",
+                    "play": "<strong>Jeu :</strong> Les humains jouent pour la Cité Franche."
+                }
+            }
+        },
+        "cities_edifice": {
+            "hero": {
+                "badge": "Monuments de l'Intrigue",
+                "title": "Coopération sous surveillance.",
+                "subtitle": "Bâtissez des <strong>Édifices</strong> tout en gérant les <strong>Dettes</strong> et la <strong>Diplomatie</strong>."
+            },
+            "setup": {
+                "title": "Mise en place",
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "Commencez avec <strong>3 Pièces</strong>."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Cartes Cities dans les decks."
+                },
+                "edifice": {
+                    "title": "Édifice",
+                    "text": "1 Projet par Âge."
+                },
+                "tokens": {
+                    "title": "Jetons",
+                    "text": "Préparez les jetons Dette (-1, -2, -3, -5) et Pigeons de Diplomatie."
+                }
+            },
+            "gameFlow": {
+                "title": "Déroulement",
+                "turnsTitle": "Tours",
+                "cardsDealt": "8 Cartes Distribuées",
+                "step1": {
+                    "title": "1. Choisir",
+                    "text": "Sélectionnez une carte."
+                },
+                "step2": {
+                    "title": "2. Action",
+                    "text": "Jouez la carte."
+                },
+                "step3": {
+                    "title": "3. Passer",
+                    "text": "Passez le paquet."
+                }
+            },
+            "actions": {
+                "title": "Actions",
+                "construct": {
+                    "title": "Construire Structure",
+                    "text": "Payez le coût. Notez les structures uniques."
+                },
+                "buildWonder": {
+                    "title": "Bâtir Merveille",
+                    "participation": {
+                        "title": "Option de Participation",
+                        "text": "Payez le coût listé sur la carte Édifice pour prendre un pion."
+                    }
+                },
+                "discard": {
+                    "title": "Défausser",
+                    "text": "Gagnez des pièces."
+                }
+            },
+            "mechanics": {
+                "title": "Mécaniques",
+                "debtsDiplomacy": {
+                    "title": "Dettes & Diplomatie",
+                    "text": "<strong>Dette :</strong> -1 PV par pièce non payée.<br /><strong>Diplomatie (Pigeon) :</strong> Retrait du conflit (les voisins s'affrontent)."
+                },
+                "edificeResults": {
+                    "title": "Résultats d'Édifice",
+                    "text": "<strong>Réussite :</strong> Récompenses pour les pions.<br /><strong>Échec :</strong> Pénalité si AUCUN pion (Dette si insolvable)."
+                }
+            },
+            "endOfAge": {
+                "title": "Fin d'Âge",
+                "order": "Édifice -> Guerre Terrestre -> Guerre Navale",
+                "edificeCheck": {
+                    "title": "1. Vérification Édifice",
+                    "text": "<strong>Réussi :</strong> Gain de récompense.<br /><strong>Échec :</strong> Payez pénalité ou prenez Dette."
+                },
+                "groundWar": {
+                    "title": "2. Guerre Terrestre",
+                    "text": "Comparez les boucliers (vérifiez la Diplomatie)."
+                }
+            },
+            "scoring": {
+                "title": "Score",
+                "military": {
+                    "title": "Militaire",
+                    "text": "PV Terrestres."
+                },
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "PV Pièces."
+                },
+                "wonder": {
+                    "title": "Merveille",
+                    "text": "PV Merveille."
+                },
+                "civil": {
+                    "title": "Civil",
+                    "text": "PV Bleus."
+                },
+                "scientific": {
+                    "title": "Scientifique",
+                    "text": "PV Verts."
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "PV Jaunes."
+                },
+                "guilds": {
+                    "title": "Guildes",
+                    "text": "PV Violets."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Cartes Cities dans les decks."
+                },
+                "edifice": {
+                    "title": "Édifice",
+                    "text": "1 Projet par Âge."
+                },
+                "debt": {
+                    "title": "Dette",
+                    "text": "Pénalité de Dette."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "PV des cartes Leader."
+                }
+            },
+            "variants": {
+                "title": "Variantes",
+                "freeCity": {
+                    "title": "Cités Franches (Équipe)",
+                    "draw": "<strong>Pioche :</strong> Ajoutez à la main, jouez pour soi + Cité Franche.",
+                    "edifice": "<strong>Édifice :</strong> La Cité Franche PEUT participer (le contrôleur paie).",
+                    "play": "<strong>Jeu :</strong> Doit chaîner. Peut acheter des ressources."
+                }
+            }
+        },
+        "leaders_edifice": {
+            "hero": {
+                "badge": "Leaders + Édifice",
+                "title": "Cour et Chantier",
+                "subtitle": "Vos leaders peuvent-ils inspirer de grands travaux ?"
+            },
+            "setup": {
+                "title": "Mise en place",
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "Tous les joueurs commencent avec <strong>6 Pièces</strong>."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "PV des cartes Leader."
+                },
+                "edifice": {
+                    "title": "Édifice",
+                    "text": "1 Projet par Âge."
+                },
+                "tokens": {
+                    "title": "Jetons",
+                    "text": "Dettes (-2, -3, -5) pour échec Édifice."
+                }
+            },
+            "phases": {
+                "draft": {
+                    "title": "Draft des Leaders",
+                    "subtitle": "Préparation",
+                    "text": "Draftez 4 Leaders.",
+                    "pick1": "Choisir 1",
+                    "passRt": "Passer Droite",
+                    "keep4": "Garder 4"
+                },
+                "gameplay": {
+                    "title": "Déroulement",
+                    "recruitment": {
+                        "title": "Recrutement",
+                        "text": "Jouez un Leader (Recruter, Merveille, Vendre).",
+                        "recruit": {
+                            "title": "Recruter",
+                            "text": "Payez le coût."
+                        },
+                        "wonder": {
+                            "title": "Merveille",
+                            "text": "Utilisez un Leader pour bâtir une étape."
+                        },
+                        "sell": {
+                            "title": "Vendre",
+                            "text": "Défaussez pour 3 pièces."
+                        }
+                    },
+                    "turnsTitle": "Tours / Âge",
+                    "cardsDealt": "8 Cartes Distribuées",
+                    "step1": {
+                        "title": "1. Choisir",
+                        "text": "Sélectionnez une carte."
+                    },
+                    "step2": {
+                        "title": "2. Naval",
+                        "text": "Déplacez un navire."
+                    },
+                    "step3": {
+                        "title": "3. Passer",
+                        "text": "Passez la main."
+                    },
+                    "note": "*Au 6ème tour, jouez une carte et défaussez la 7ème face cachée."
+                }
+            },
+            "actions": {
+                "title": "Actions & Interactions",
+                "construct": {
+                    "title": "Construire une Structure",
+                    "text": "Payez le coût. Commercez avec vos voisins."
+                },
+                "buildWonder": {
+                    "title": "Bâtir Merveille + Édifice",
+                    "participation": {
+                        "title": "Option de Participation",
+                        "text": "Payez le coût de participation pour prendre un pion."
+                    }
+                },
+                "discard": {
+                    "title": "Défausser",
+                    "text": "Gagnez <strong>3 Pièces</strong>."
+                }
+            },
+            "endOfAge": {
+                "title": "Résolution de Fin d'Âge",
+                "order": "Suivez cet ordre strict :",
+                "edificeCheck": {
+                    "title": "1. Vérification Édifice",
+                    "text": "<strong>Complet :</strong> Gain de récompense.<br /><strong>Échec :</strong> Payez la pénalité ou prenez une Dette."
+                },
+                "groundWar": {
+                    "title": "2. Guerre Terrestre",
+                    "text": "Comparez vos boucliers avec vos voisins."
+                }
+            },
+            "scoring": {
+                "title": "Score",
+                "military": {
+                    "title": "Conflits Militaires",
+                    "text": "Victoires (+) et Défaites (-)"
+                },
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "1 PV par 3 pièces"
+                },
+                "wonder": {
+                    "title": "Merveille",
+                    "text": "Points du plateau + étapes bâties"
+                },
+                "civil": {
+                    "title": "Structures Civiles",
+                    "text": "Somme des cartes Bleues"
+                },
+                "scientific": {
+                    "title": "Scientifique",
+                    "text": "Séries (Identiques², Différents x7)"
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "Valeur des cartes Jaunes"
+                },
+                "guilds": {
+                    "title": "Guildes",
+                    "text": "Cartes Violettes"
+                },
+                "edificeRewards": {
+                    "title": "Récompenses Édifice",
+                    "text": "PV des projets complétés"
+                },
+                "debt": {
+                    "title": "Dettes",
+                    "text": "Soustrayez la valeur totale des Dettes"
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "PV des cartes Leader."
+                }
+            },
+            "variants": {
+                "title": "Variante Expert 2 Joueurs",
+                "freeCity": {
+                    "title": "La Cité Franche",
+                    "leaders": "<strong>Leaders :</strong> Draftés par les joueurs. La Cité Franche n'en a AUCUN.",
+                    "edifice": "<strong>Édifice :</strong> La Cité Franche PEUT participer (payé par le contrôleur).",
+                    "play": "<strong>Jeu :</strong> Doit chaîner. Peut acheter des ressources."
+                }
+            }
+        },
+        "cities_leaders_edifice": {
+            "hero": {
+                "badge": "Cities + Leaders + Édifice",
+                "title": "Complexité Totale",
+                "subtitle": "La synergie ultime entre intrigue, influence et architecture."
+            },
+            "setup": {
+                "title": "Mise en place Combinée",
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "Tous les joueurs commencent avec <strong>6 Pièces</strong>."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "PV des cartes Leader."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Mélangez les cartes Cities (1 par joueur)."
+                },
+                "edifice": {
+                    "title": "Édifice",
+                    "text": "1 Projet par Âge."
+                }
+            },
+            "phases": {
+                "draft": {
+                    "title": "Phase Leaders",
+                    "subtitle": "Draft des Leaders",
+                    "text": "Au début de la partie, avant l'Âge I.",
+                    "pick1": "Choisir 1",
+                    "passRt": "Passer Drt",
+                    "keep4": "Garder 4"
+                },
+                "gameplay": {
+                    "title": "Les Âges",
+                    "recruitment": {
+                        "title": "Phase de Recrutement",
+                        "text": "Début de chaque Âge : Recrutez un Leader.",
+                        "recruit": {
+                            "title": "Recruter",
+                            "text": "Payez le coût pour jouer."
+                        },
+                        "wonder": {
+                            "title": "Bâtir Merveille",
+                            "text": "Utilisez le Leader pour une étape."
+                        },
+                        "sell": {
+                            "title": "Vendre",
+                            "text": "Défausser pour 3 pièces."
+                        }
+                    },
+                    "turnsTitle": "Tours / Âge",
+                    "cardsDealt": "8 Cartes Distribuées",
+                    "step1": {
+                        "title": "1. Jouer une carte",
+                        "text": "Structure, Merveille ou Défausse."
+                    },
+                    "step2": {
+                        "title": "2. Vérification Édifice",
+                        "text": "Si vous bâtissez une Merveille, participez éventuellement à l'Édifice."
+                    },
+                    "step3": {
+                        "title": "3. Passer la main",
+                        "text": "Passez les cartes restantes."
+                    }
+                }
+            },
+            "actions": {
+                "title": "Actions & Interactions",
+                "construct": {
+                    "title": "Construire Cité/Structure",
+                    "text": "Payez les coûts (pièces/ressources)."
+                },
+                "buildWonder": {
+                    "title": "Merveille / Édifice",
+                    "participation": {
+                        "title": "Participation",
+                        "text": "Lors d'une étape de Merveille, payez le coût Édifice pour un pion."
+                    }
+                },
+                "discard": {
+                    "title": "Défausser pour des Pièces",
+                    "text": "Dépensez une carte pour <strong>3 Pièces</strong>."
+                }
+            },
+            "mechanics": {
+                "title": "Mécaniques d'Extension",
+                "debtsDiplomacy": {
+                    "title": "Dettes & Diplomatie",
+                    "text": "<strong>Dette :</strong> Perte de pièces ou jeton dette (-PV).<br/><strong>Diplomatie :</strong> Évitez les conflits de l'Âge."
+                },
+                "edificeResults": {
+                    "title": "Résultats Édifice",
+                    "text": "<strong>Complet :</strong> Récompenses pour tous.<br/><strong>Incomplet :</strong> Pénalité pour les non-participants."
+                }
+            },
+            "endOfAge": {
+                "title": "Séquence de Fin d'Âge",
+                "order": "Résolution dans cet ordre :",
+                "edificeCheck": {
+                    "title": "1. Vérification Édifice",
+                    "text": "Vérifiez si l'Édifice est complet.<br/>Distribuez récompenses ou pénalités."
+                },
+                "groundWar": {
+                    "title": "2. Conflit Militaire",
+                    "text": "Comparez vos boucliers. Appliquez la Diplomatie."
+                }
+            },
+            "scoring": {
+                "title": "Score Final",
+                "military": {
+                    "title": "Militaire",
+                    "text": "Victoires moins Défaites."
+                },
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "1 PV / 3 pièces."
+                },
+                "wonder": {
+                    "title": "Merveille",
+                    "text": "Points des étapes."
+                },
+                "civil": {
+                    "title": "Civil",
+                    "text": "Points des cartes Bleues."
+                },
+                "scientific": {
+                    "title": "Scientifique",
+                    "text": "Séries de symboles."
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "Points des cartes Jaunes."
+                },
+                "guilds": {
+                    "title": "Guildes",
+                    "text": "Points des cartes Violettes."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Cartes Cities dans les decks."
+                },
+                "edificeRewards": {
+                    "title": "Édifice",
+                    "text": "Points des jetons Édifice."
+                },
+                "debt": {
+                    "title": "Dettes",
+                    "text": "Soustrayez les jetons Dette."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "PV des cartes Leader."
+                }
+            },
+            "variants": {
+                "title": "Variantes",
+                "freeCity": {
+                    "title": "Cité Franche (Équipe)",
+                    "leaders": "Leaders draftés normalement.",
+                    "edifice": "Participation individuelle.",
+                    "draw": "Piochez 2 gardez 1.",
+                    "play": "Discussion et stratégie libre."
+                }
+            }
+        },
+        "cities_leaders": {
+            "hero": {
+                "badge": "Souverains de l'Ombre",
+                "title": "Génie tactique et diplomatie impitoyable.",
+                "subtitle": "<strong>Cities</strong> ajoute de la profondeur diplomatique tandis que <strong>Leaders</strong> oriente votre stratégie à long terme."
+            },
+            "setup": {
+                "title": "Mise en place",
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "Commencez avec <strong>6 Pièces</strong>."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "PV des cartes Leader."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Cartes Cities dans les decks."
+                }
+            },
+            "phases": {
+                "draft": {
+                    "title": "Phase Leaders",
+                    "subtitle": "Draft",
+                    "text": "Draftez 4 Leaders au début.",
+                    "pick1": "Choisir 1",
+                    "passRt": "Passer Droite",
+                    "keep4": "Garder 4"
+                },
+                "gameplay": {
+                    "title": "Les Âges",
+                    "recruitment": {
+                        "title": "Recrutement (Début d'Âge)",
+                        "text": "Avant chaque Âge, recrutez un Leader.",
+                        "recruit": {
+                            "title": "Recruter",
+                            "text": "Payez pour jouer le Leader."
+                        },
+                        "wonder": {
+                            "title": "Merveille",
+                            "text": "Bâtissez une étape de Merveille avec le Leader."
+                        },
+                        "sell": {
+                            "title": "Vendre",
+                            "text": "Défaussez le Leader pour 3 pièces."
+                        }
+                    },
+                    "turnsTitle": "Tours / Âge",
+                    "cardsDealt": "8 Cartes Distribuées",
+                    "step1": {
+                        "title": "1. Jouer une Carte",
+                        "text": "Bâtir, Merveille ou Défausser."
+                    },
+                    "step2": {
+                        "title": "2. Effets Immédiats",
+                        "text": "Résolvez dettes, diplomatie ou effets immédiats."
+                    },
+                    "step3": {
+                        "title": "3. Passer la Main",
+                        "text": "Passez les cartes restantes."
+                    }
+                }
+            },
+            "actions": {
+                "title": "Actions",
+                "construct": {
+                    "title": "Construire",
+                    "text": "Payez les coûts. Les cartes Cities coûtent souvent de l'or."
+                },
+                "buildWonder": {
+                    "title": "Bâtir Merveille",
+                    "text": "Bâtissez une étape."
+                },
+                "discard": {
+                    "title": "Défausser",
+                    "text": "Défaussez pour <strong>3 Pièces</strong>."
+                }
+            },
+            "mechanics": {
+                "title": "Nouvelles Mécaniques",
+                "debtsDiplomacy": {
+                    "title": "Dettes & Diplomatie",
+                    "text": "Les cartes Cities peuvent faire perdre des pièces. La Diplomatie évite la guerre."
+                }
+            },
+            "endOfAge": {
+                "title": "Fin d'Âge",
+                "groundWar": {
+                    "title": "Conflit Militaire",
+                    "text": "Résolution standard. Le Pigeon est défaussé après usage."
+                }
+            },
+            "scoring": {
+                "title": "Score",
+                "military": {
+                    "title": "Militaire",
+                    "text": "PV des cartes/jetons."
+                },
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "1 PV / 3 pièces."
+                },
+                "wonder": {
+                    "title": "Merveille",
+                    "text": "PV Merveille."
+                },
+                "civil": {
+                    "title": "Civil",
+                    "text": "PV cartes Bleues."
+                },
+                "scientific": {
+                    "title": "Scientifique",
+                    "text": "PV cartes Vertes."
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "PV cartes Jaunes."
+                },
+                "guilds": {
+                    "title": "Guildes",
+                    "text": "PV cartes Violettes."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Cartes Cities dans les decks."
+                },
+                "debt": {
+                    "title": "Dette",
+                    "text": "PV en moins pour dettes."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "PV des cartes Leader."
+                }
+            },
+            "variants": {
+                "title": "Variantes",
+                "freeCity": {
+                    "title": "Cités Franches (Équipe)",
+                    "leaders": "Draft normal.",
+                    "play": "Dette partagée par l'équipe."
+                }
+            }
+        },
+        "zenith": {
+            "hero": {
+                "badge": "Zénith",
+                "title": "L'Âge d'Or",
+                "subtitle": "Nouvelles merveilles et cartes pour vos parties les plus ambitieuses."
+            },
+            "setup": {
+                "title": "Mise en place Ultime",
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "Chaque joueur commence avec <strong>6 Pièces</strong>."
+                },
+                "boards": {
+                    "title": "Chantiers Navals",
+                    "text": "Chaque joueur reçoit un plateau Naval et 4 navires."
+                },
+                "edifice": {
+                    "title": "Édifice",
+                    "text": "1 Projet par Âge."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Cartes Cities dans les decks."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "PV des cartes Leader."
+                },
+                "islands": {
+                    "title": "Îles",
+                    "text": "Placez les 3 decks d'Îles à proximité."
+                }
+            },
+            "phases": {
+                "draft": {
+                    "title": "Phase de Draft",
+                    "subtitle": "Sélection des Leaders",
+                    "text": "Avant l'Âge I, draftez 4 Leaders.",
+                    "pick1": "Choisir 1",
+                    "passRt": "Passer Drt",
+                    "keep4": "Garder 4"
+                },
+                "gameplay": {
+                    "title": "Points forts du Jeu",
+                    "recruitment": {
+                        "title": "Recrutement",
+                        "text": "Début de chaque Âge : Jouez 1 Leader.",
+                        "recruit": {
+                            "title": "Recruter",
+                            "text": "Payez pour jouer."
+                        },
+                        "wonder": {
+                            "title": "Merveille",
+                            "text": "Bâtissez avec un Leader."
+                        },
+                        "sell": {
+                            "title": "Vendre",
+                            "text": "Défaussez pour 3 pièces."
+                        }
+                    },
+                    "turnsTitle": "Tours / Âge",
+                    "cardsDealt": "9 cartes distribuées / joueur",
+                    "step1": {
+                        "title": "1. Choisir Carte",
+                        "text": "Choisissez 1 carte parmi 9. Révélation simultanée."
+                    },
+                    "step2": {
+                        "title": "2. Action",
+                        "text": "Bâtir, Merveille ou Défausser. Si vous bâtissez, action navale possible."
+                    },
+                    "step3": {
+                        "title": "3. Passer",
+                        "text": "Passez les cartes restantes (8 tours par Âge)."
+                    }
+                }
+            },
+            "actions": {
+                "title": "Actions",
+                "construct": {
+                    "title": "Bâtir une Structure",
+                    "navalOpportunity": {
+                        "title": "Construction Navale",
+                        "text": "Si la couleur correspond, payez pour avancer le navire."
+                    }
+                },
+                "buildWonder": {
+                    "title": "Bâtir étape de Merveille",
+                    "participation": {
+                        "title": "Participation Édifice",
+                        "text": "Payez pour participer à l'Édifice en cours."
+                    },
+                    "naval": {
+                        "title": "Construction Navale",
+                        "text": "Avancez le navire correspondant à la couleur de l'étape bâtie."
+                    }
+                },
+                "discard": {
+                    "title": "Défausser",
+                    "text": "Gagnez <strong>3 Pièces</strong> et avancez votre <strong>Navire Jaune</strong> de 1 case (gratuit)."
+                }
+            },
+            "mechanics": {
+                "title": "Mécaniques Clés",
+                "debtsDiplomacy": {
+                    "title": "Dettes & Diplomatie",
+                    "text": "<strong>Cities :</strong> Gérez les pertes et évitez les conflits."
+                },
+                "edificeResults": {
+                    "title": "Projets Édifice",
+                    "text": "<strong>Édifice :</strong> Collaborez. L'échec pénalise les non-participants."
+                },
+                "armadaFleets": {
+                    "title": "Exploration Navale",
+                    "text": "<strong>Armada :</strong> Avancez vos 4 navires pour la force, l'or et l'exploration."
+                }
+            },
+            "endOfAge": {
+                "title": "Résolution Fin d'Âge",
+                "order": "Ordre strict : Édifice -> Guerre Terrestre -> Guerre Navale.",
+                "edificeCheck": {
+                    "title": "1. Édifice",
+                    "text": "Récompenses ou pénalités selon le projet."
+                },
+                "groundWar": {
+                    "title": "2. Guerre Terrestre",
+                    "text": "Comparez les boucliers (hors Diplomatie)."
+                },
+                "navalWar": {
+                    "title": "3. Guerre Navale",
+                    "text": "Comparez la force Bleue contre TOUS."
+                }
+            },
+            "scoring": {
+                "title": "Score Final",
+                "military": {
+                    "title": "Militaire",
+                    "text": "Points de conflit terrestre."
+                },
+                "naval": {
+                    "title": "Naval",
+                    "text": "Points de conflit naval."
+                },
+                "treasury": {
+                    "title": "Trésor",
+                    "text": "1 PV / 3 pièces."
+                },
+                "wonder": {
+                    "title": "Merveille",
+                    "text": "Points des étapes."
+                },
+                "civil": {
+                    "title": "Civil",
+                    "text": "Points des cartes Bleues."
+                },
+                "scientific": {
+                    "title": "Scientifique",
+                    "text": "Séries et symboles."
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "Points des cartes Jaunes."
+                },
+                "guilds": {
+                    "title": "Guildes",
+                    "text": "Points des cartes Violettes."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "PV des cartes Leader."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Cartes Cities dans les decks."
+                },
+                "edificeRewards": {
+                    "title": "Édifices",
+                    "text": "Points des projets."
+                },
+                "islands": {
+                    "title": "Îles",
+                    "text": "Points des cartes exploration."
+                },
+                "dockyard": {
+                    "title": "Chantier Naval",
+                    "text": "Points selon la position des navires."
+                },
+                "debt": {
+                    "title": "Dettes",
+                    "text": "Soustrayez les points de pénalité."
+                }
+            }
+        },
+        "fallback": {
+            "title": "Sélectionnez les Extensions",
+            "text": "Choisissez les extensions avec lesquelles vous jouez ci-dessus pour voir les règles spécifiques."
+        }
+    }
+}

@@ -1,0 +1,302 @@
+{
+  "playerHistory": {
+    "title": "Statistiques du Joueur",
+    "subtitle": "Analyses & Stats Pro",
+    "rankOverall": "Rang au Classement : #{{rank}}",
+    "wins": "Victoires",
+    "games": "Parties",
+    "winRate": "Taux de Victoire",
+    "avgScore": "Score Moyen",
+    "scoringProfile": "Profil de Score",
+    "averagePointsCategory": "Répartition moyenne des points par catégorie",
+    "recentPerformance": "Performance Récente",
+    "scoreTrendLast10": "Tendance du score sur les 10 dernières parties",
+    "playStyleDescription": "Archetypes : Le système analyse votre profil de score pour vous assigner une Classe basée sur votre performance.",
+    "classLabel": "Archetype",
+    "yourArchetypeIs": "Votre archetype est : {{name}}",
+    "match": "Match",
+    "unknown": "Inconnu",
+    "wonderMastery": "Maîtrise des Merveilles",
+    "sideAWinRate": "Taux de Victoire Face A",
+    "sideBWinRate": "Taux de Victoire Face B",
+    "wonderSideA": "Face A",
+    "wonderSideB": "Face B",
+    "you": "Vous",
+    "globalAvg": "Tout le monde",
+    "recommendedBoard": "D'après vos résultats, nous suggérons",
+    "sortByGames": "Nombre de Parties",
+    "sortByWinRate": "Taux de Victoire",
+    "rival": "Rival",
+    "barelyAhead": "Le score moyen est devant vous de <1>{{diff}} pts</1>",
+    "barelyBelow": "Le score moyen est derrière vous de <1>{{diff}} pts</1>",
+    "scoreStalemate": "Égalité Statistique (Score moyen)",
+    "victim": "Votre Victime",
+    "youBeatThem_one": "Vous les avez battus <1>1</1> fois",
+    "youBeatThem_other": "Vous les avez battus <1>{{count}}</1> fois",
+    "matchHistory": "Historique des Confrontations",
+    "nemesis": "Némésis",
+    "hasBeatenYou": "Vous a battu <1>{{losses}}</1> fois",
+    "victory": "Victoire !",
+    "won": "a gagné",
+    "searchPlayers": "Rechercher des joueurs...",
+    "noPlayersFound": "Aucun joueur trouvé",
+    "tryDifferentSearch": "Essayez un autre terme de recherche",
+    "playGamesToSeeStats": "Jouez quelques parties pour voir les statistiques des joueurs ici !",
+    "achievements": "Succès",
+    "score": "Score",
+    "progress": "Progression",
+    "best": "Meilleur",
+    "get": "OBTENIR",
+    "overall": "Global",
+    "vs": "vs",
+    "badges": {
+      "beginner_luck": {
+        "title": "Chance du Débutant",
+        "description": "Gagner votre première partie jouée"
+      },
+      "centurion": {
+        "title": "Centurion",
+        "description": "Marquer 100 points ou plus en une seule partie",
+        "progressLabel": "{{current}}/100 score max"
+      },
+      "close_call": {
+        "title": "De justesse",
+        "description": "Gagner une partie par 2 points ou moins"
+      },
+      "culture_icon": {
+        "title": "Icône Culturelle",
+        "description": "Marquer 40+ points en Structures Civiles"
+      },
+      "dark_side": {
+        "title": "Côté Obscur",
+        "description": "Gagner 5 parties en utilisant la Face B de la Merveille",
+        "progressLabel": "{{current}}/5 victoires"
+      },
+      "debt_collector": {
+        "title": "Collecteur de Dettes",
+        "description": "Gagner une partie en possédant 5+ jetons de Dette"
+      },
+      "dominator": {
+        "title": "Dominateur",
+        "description": "Gagner une partie avec 20 points d'avance ou plus"
+      },
+      "globe_trotter": {
+        "title": "Globe-Trotter",
+        "description": "Jouer avec les 7 merveilles de base",
+        "progressLabel": "{{current}}/7 merveilles de base"
+      },
+      "grand_scientist": {
+        "title": "Grand Scientifique",
+        "description": "Marquer 50+ points en Sciences"
+      },
+      "guild_leader": {
+        "title": "Maître de Guilde",
+        "description": "Marquer 30+ points en Guildes"
+      },
+      "hoarder": {
+        "title": "L'Amasseur",
+        "description": "Terminer une partie avec 20 pièces ou plus"
+      },
+      "island_explorer": {
+        "title": "Explorateur d'Îles",
+        "description": "Explorer 3+ Îles en une seule partie"
+      },
+      "jack_of_all_trades": {
+        "title": "Touche-à-tout",
+        "description": "Marquer > 8 points dans 5 catégories ou plus en une partie"
+      },
+      "leader_of_leaders": {
+        "title": "Leader des Leaders",
+        "description": "Marquer 15+ points via les cartes Leaders"
+      },
+      "master_builder": {
+        "title": "Maître Bâtisseur",
+        "description": "Construire toutes les étapes de votre merveille"
+      },
+      "merchant_prince": {
+        "title": "Prince Marchand",
+        "description": "Marquer 20+ points en Structures Commerciales"
+      },
+      "naval_commander": {
+        "title": "Commandant Naval",
+        "description": "Gagner une partie avec la force Navale maximale"
+      },
+      "pacifist": {
+        "title": "Pacifiste",
+        "description": "Gagner une partie avec ≤ 0 points Militaires"
+      },
+      "participation_award": {
+        "title": "Prix de Participation",
+        "description": "Jouer 5 parties sans obtenir de victoire"
+      },
+      "specialist": {
+        "title": "Spécialiste",
+        "description": "Marquer > 35 points dans une seule catégorie"
+      },
+      "speed_demon": {
+        "title": "Démon de la Vitesse",
+        "description": "Terminer une partie en moins de 20 minutes"
+      },
+      "strategist": {
+        "title": "Stratège",
+        "description": "Maintenir un taux de victoire de 30% (min. 10 parties)",
+        "progressLabel": "{{current}}%/30% taux de victoire"
+      },
+      "supreme_general": {
+        "title": "Général Suprême",
+        "description": "Marquer 40+ points en Militaire"
+      },
+      "veteran": {
+        "title": "Vétéran",
+        "description": "Jouer 50 parties",
+        "progressLabel": "{{current}}/50 parties"
+      },
+      "wonder_master": {
+        "title": "Maître des Merveilles",
+        "description": "Gagner avec 7 merveilles différentes",
+        "progressLabel": "{{current}}/7 merveilles gagnées"
+      },
+      "century_club": {
+        "title": "Club des Cent",
+        "description": "Jouer 100 parties",
+        "progressLabel": "{{current}}/100 parties"
+      },
+      "iron_will": {
+        "title": "Volonté de Fer",
+        "description": "Gagner 10 parties",
+        "progressLabel": "{{current}}/10 victoires"
+      },
+      "social_butterfly": {
+        "title": "Papillon Social",
+        "description": "Jouer contre 10+ adversaires différents",
+        "progressLabel": "{{current}}/10 adversaires"
+      },
+      "loyal_wonder": {
+        "title": "Merveille Loyale",
+        "description": "Jouer la même merveille 10+ fois",
+        "progressLabel": "{{current}}/10 parties"
+      },
+      "double_agent": {
+        "title": "Double Agent",
+        "description": "Gagner avec les Faces A et B de la même merveille"
+      },
+      "hat_trick": {
+        "title": "Coup du Chapeau",
+        "description": "Gagner 3 parties d'affilée"
+      },
+      "full_house": {
+        "title": "Main Pleine",
+        "description": "Jouer une partie à 7 joueurs"
+      },
+      "balanced": {
+        "title": "Maître de l'Équilibre",
+        "description": "Marquer > 0 dans les 7 catégories de base en une seule partie"
+      }
+    }
+  },
+  "history": {
+    "title": "Historique des Parties",
+    "empty": "Aucune partie jouée pour le moment",
+    "date": "Date",
+    "winner": "Gagnant",
+    "players": "Joueurs",
+    "viewDetails": "Voir Détails",
+    "deleteGame": "Supprimer la Partie",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer cette partie ?",
+    "gamesPlayed": "Parties Jouées",
+    "averageScore": "Score Moyen",
+    "highestScore": "Meilleur Score",
+    "noGamesSaved": "Aucune Partie Enregistrée",
+    "noMatchesFound": "Aucune Correspondance Trouvée",
+    "saveGamesMessage": "Enregistrez vos parties depuis la page Classement pour les voir ici.",
+    "adjustFiltersMessage": "Essayez d'ajuster votre sélection d'extensions pour voir d'autres enregistrements.",
+    "deleteRecord": "Supprimer l'enregistrement ?",
+    "tip": "Astuce : Appuyez sur les icônes de plateau pour voir les noms complets",
+    "tipShort": "Astuce : Appuyez sur les icônes",
+    "tipSeeFullNames": "pour voir les noms complets",
+    "sortedHighToLow": "--- Trié : Du plus haut au plus bas ---",
+    "gameMoved": "Partie Déplacée !",
+    "gameMovedMessage": "Cet enregistrement correspond à une configuration d'extensions différente. Pour le voir, changez votre filtre \"Mode de Jeu\" en haut.",
+    "sortOptions": {
+      "mostRecent": "Plus Récent",
+      "totalScore": "Score Total",
+      "military": "Conflits Militaires",
+      "treasury": "Contenu du Trésor",
+      "wonder": "Merveille",
+      "civilian": "Structures Civiles",
+      "scientific": "Structures Scientifiques",
+      "commercial": "Structures Commerciales",
+      "guilds": "Guildes",
+      "debts": "Dettes",
+      "naval": "Conflits Navals",
+      "islands": "Exploration d'Îles",
+      "dockyard": "Plateau Chantier Naval"
+    },
+    "topScoreLabel": "Top {{category}} : {{score}}",
+    "copyCSVText": "Copier Résultats (Texte CSV)",
+    "shareCSVFile": "Partager Résultats (Fichier CSV)",
+    "team": "ÉQUIPE",
+    "player": "JOUEUR",
+    "winningTeam": "Équipe Gagnante !",
+    "losingTeam": "Équipe Perdante",
+    "vs": "vs"
+  },
+  "leaderboard": {
+    "title": "Classement",
+    "allWonders": "Toutes les Merveilles",
+    "subtitle": "Meilleurs Scores de Tous les Temps",
+    "best": "Meilleur",
+    "all": "Tout",
+    "bestScoresOnly": "Meilleurs Scores Uniquement",
+    "allScores": "Tous les Scores",
+    "noRecordsFound": "Aucun Enregistrement Trouvé",
+    "noRecordsMessage": "Jouez une partie et enregistrez les résultats pour peupler le classement.",
+    "rank": "Rang",
+    "player": "Joueur",
+    "wins": "Victoires",
+    "avgScore": "Score Moyen",
+    "gamesPlayed": "Parties",
+    "winRate": "Taux de Victoire"
+  },
+  "statistics": {
+    "title": "Statistiques du Jeu",
+    "overview": "Aperçu",
+    "totalGames": "Total des Parties",
+    "totalPlayers": "Total des Joueurs",
+    "avgGameDuration": "Durée Moyenne d'une Partie",
+    "mostUsedWonder": "Merveille la Plus Utilisée",
+    "highestScoringCategory": "Catégorie la Plus Lucrative",
+    "mostPopularExpansion": "Extension la Plus Populaire",
+    "avgWinningScore": "Score Gagnant Moyen",
+    "avgScore": "Score Moyen",
+    "topWonder": "Meilleure Merveille",
+    "wins": "victoires",
+    "plays": "jouées",
+    "games": "parties",
+    "playerWinRate": "Taux de Victoire du Joueur",
+    "noPlayerData": "Aucune donnée joueur pour le moment.",
+    "avgScoreByCategory": "Score Moyen par Catégorie",
+    "winRateByWonder": "Taux de Victoire par Merveille",
+    "mostPlayedWonders": "Merveilles les Plus Jouées",
+    "avgScoreByWonder": "Score Moyen par Merveille",
+    "noGamesSide": "Aucune partie jouée avec cette face pour le moment.",
+    "all": "Tout",
+    "sideA": "Face A",
+    "sideB": "Face B",
+    "statAwards": {
+      "highestScore": "Plus Haut Score",
+      "scientificGenius": "Génie Scientifique",
+      "civilianLeader": "Leader Civil",
+      "militaryWarlord": "Seigneur de Guerre",
+      "richestMerchant": "Marchand le Plus Riche",
+      "guildMaster": "Maître de Guilde",
+      "wonderArchitect": "Architecte de Merveille",
+      "navalAdmiral": "Amiral Naval",
+      "islandExplorer": "Explorateur d'Îles",
+      "masterShipwright": "Maître Constructeur Naval",
+      "leaderOfLeaders": "Leader des Leaders",
+      "urbanLegend": "Légende Urbaine",
+      "grandArchitect": "Grand Architecte"
+    }
+  }
+}

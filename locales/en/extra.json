@@ -1,0 +1,193 @@
+{
+    "rankings": {
+        "title": "Rankings",
+        "rankByTeam": "Rank by Team",
+        "rankByPlayer": "Rank by Player",
+        "teamTie": "Team Tie!",
+        "tieGame": "Tie Game!",
+        "teamVictory": "Team {{team}} Victory!",
+        "theVictors": "The Victors",
+        "theVictor": "The Victor",
+        "noScoresYet": "No Scores Yet",
+        "enterScoresMessage": "Enter scores in the play sheet to see rankings here!",
+        "teamWinner": "TEAM WINNER",
+        "winner": "WINNER",
+        "saveGame": "Save Game",
+        "saveGameResults": "Save Game Results",
+        "gameSaved": "Game Saved!",
+        "resultsSaved": "Results Saved",
+        "shareResults": "Share Results",
+        "shareResultsText": "Share Results (Text)",
+        "shareResultsCSV": "Share Results (CSV)",
+        "sharedToClipboard": "Shared to clipboard!",
+        "copiedToClipboard": "Copied to clipboard!",
+        "copyCSVText": "Copy CSV Text",
+        "shareCSVFile": "Share CSV File",
+        "allWonders": "All Wonders",
+        "copyFileText": "COPY FILE TEXT",
+        "textCopied": "Text Copied!",
+        "shareTitle": "Wonders Companion Game Results",
+        "shareText": "Here are the results from our game!",
+        "shareDialogTitle": "Share Results",
+        "saveValidationMessage": "To save game, fill in missing setup information. Click on the setup icon at the top right.",
+        "coinTieBreakerDisclaimer": "For accurate tie-breaking, switch Treasury Scoring to 'Coins' in Settings.",
+        "winnerDecidedByCoins": "The winner is decided by coins due to a tie in points.",
+        "csvImportTip": "Tip: This text or CSV can be imported into another user's app in Settings!",
+        "viewHistorySettings": "You can look up your game history in Settings.",
+        "classicGrid": "Classic Grid",
+        "personalizedCards": "Personalized Cards"
+    },
+    "hallOfFame": {
+        "title": "Hall of Fame",
+        "empty": "Hall of Fame Empty",
+        "noRecords": "No records found for the selected expansions.",
+        "noData": "No Data",
+        "supremeSovereign": "The Supreme Sovereign",
+        "warlord": "The Warlord",
+        "admiral": "The Admiral",
+        "madScientist": "The Mad Scientist",
+        "philosopher": "The Philosopher",
+        "wonderArchitect": "The Wonder Architect",
+        "tycoon": "The Tycoon",
+        "guildmaster": "The Guildmaster",
+        "hoardingDragon": "The Hoarding Dragon",
+        "hopelessDebtor": "The Hopeless Debtor",
+        "islandExplorer": "The Island Explorer",
+        "shipwright": "The Shipwright",
+        "veteran": "The Veteran",
+        "veteranSubtitle": "(Most Games Played)",
+        "strategist": "The Strategist",
+        "strategistSubtitle": "(Highest Game Average)"
+    },
+    "gameModes": {
+        "title": "GAME MODES",
+        "gameMode": "game mode",
+        "showAllRecords": "Show All Records",
+        "unlockAllWonders": "Unlock All Wonders",
+        "armada": "Armada",
+        "cities": "Cities",
+        "edifice": "Edifice",
+        "leaders": "Leaders",
+        "teamplay": "Team Play",
+        "expansionmaps": "Expansion Maps",
+        "purchasePrompt": "$2 USD to unlock all four expansions",
+        "breakTheRules": "Break the rules",
+        "breakTheRulesDesc1": "7 Wonders is designed for up to 7 players, but this app removes those limits. You can add as many players as you want, select any combination of expansions, and even play with duplicate wonders.",
+        "breakTheRulesDesc2": "The scoring logic remains solid for all player counts, but be prepared for some chaotic (and exciting) games if you push the boundaries!",
+        "note": "Note: Certain expansion combinations may require additional table space and can significantly increase play time.",
+        "gotIt": "Got it!",
+        "gamesHidden": "SOME GAMES HIDDEN",
+        "hiddenGamesMessage_one": "{{count}} game hidden from Hall of Fame, Leaderboard, Player History, Game Statistics, and Game History because it includes an expansion which you have not purchased.",
+        "hiddenGamesMessage_other": "{{count}} games hidden from Hall of Fame, Leaderboard, Player History, Game Statistics, and Game History because they include expansions which you have not purchased.",
+        "hiddenGamesPurchaseLink_one": "Purchase the expansions to access the hidden game",
+        "hiddenGamesPurchaseLink_other": "Purchase the expansions to access the hidden games",
+        "hiddenGamesMessageLong": "{{count}} games in your history don't match the current game mode filters.",
+        "armadaDesc": "Naval conflicts and island exploration. Includes naval boards for each player.",
+        "citiesDesc": "Intercity debt and shadowy interaction. Adds new 'Black' city cards.",
+        "edificeDesc": "Communal projects that players build together for rewards or global penalties.",
+        "leadersDesc": "Recruit powerful historical figures to guide your civilization's strategy.",
+        "teamPlayDesc": "Play in teams to pool scores and coordinate strategies.",
+        "unlockAllWondersDesc": "Enable all wonders from every expansion regardless of selected modes.",
+        "modes": {
+            "base": {
+                "name": "Base Game",
+                "description": "The classic experience. Focus on your city and immediate neighbors."
+            },
+            "leadersMode": {
+                "name": "Leaders Expansion",
+                "description": "Recruit influential figures to guide your civilization's growth."
+            },
+            "citiesMode": {
+                "name": "Cities Expansion",
+                "description": "Shadowy dealings and increased interaction with new Black cards."
+            },
+            "armadaMode": {
+                "name": "Armada Expansion",
+                "description": "Take to the high seas with naval tracks and island exploration."
+            },
+            "edificeMode": {
+                "name": "Edifice Expansion",
+                "description": "Work together on communal projects for rewards or global penalties."
+            },
+            "zenith": {
+                "name": "The Zenith Collection",
+                "description": "All expansions active. The ultimate test of ancient strategy."
+            },
+            "diplomatic": {
+                "name": "The Diplomatic Court",
+                "description": "Powerful leaders meet the gritty streets of the metropolis."
+            },
+            "sovereign": {
+                "name": "Sovereign Oceans",
+                "description": "Great leaders conquer the seas with powerful fleets."
+            },
+            "monumental": {
+                "name": "Monumental Rulers",
+                "description": "Legendary figures collaborate on massive communal structures."
+            },
+            "navalTrade": {
+                "name": "Naval Trade Routes",
+                "description": "Mercantile cities and naval power dominate ancient commerce."
+            },
+            "metropolitan": {
+                "name": "Metropolitan Wonders",
+                "description": "Dense cities pooling resources for grand communal edifices."
+            },
+            "coastal": {
+                "name": "Coastal Landmarks",
+                "description": "Collaborative building projects along the strategic coastlines."
+            },
+            "imperial": {
+                "name": "The Imperial Triumvirate",
+                "description": "Leaders, Cities, and Armada. High interaction, naval warfare, and recruitment."
+            },
+            "masterArchitects": {
+                "name": "The Master Architects",
+                "description": "Leaders, Cities, and Edifice. Focus on recruitment and collaborative building."
+            },
+            "royalArchitects": {
+                "name": "The Royal Architects",
+                "description": "Leaders, Armada, and Edifice. Legendary leaders expanding sea and structure."
+            },
+            "coalition": {
+                "name": "The Coalition of Might",
+                "description": "Cities, Armada, and Edifice. Pure strategy, warfare, and construction."
+            },
+            "custom": {
+                "name": "Custom Expansion Deck",
+                "description": "{{count}} expansions selected.",
+                "single": "1 expansion selected."
+            }
+        }
+    },
+    "app": {
+        "validationError": "Cannot save game. Please ensure all players have a custom name, wonder, and side selected:",
+        "missingName": "Player {{id}}: Missing Name",
+        "missingWonder": "Player {{id}}: Missing Wonder",
+        "missingSide": "Player {{id}}: Missing Side",
+        "swapP": "Swap P{{id}}",
+        "backupSuccess": "Backup completed successfully!",
+        "backupFailed": "Failed to save backup to Google Drive: {{error}}",
+        "restoreConfirm": "This will merge data from Google Drive with your local data, avoiding duplicates. Continue?",
+        "restoreFailed": "Failed to restore from Drive: {{error}}",
+        "restoreSuccess": "Restore completed successfully!",
+        "googleDriveDisconnected": "Google Drive disconnected. Sign in to resume backup?",
+        "purchase": {
+            "nativeTitle": "Start Free Trial?",
+            "webTitle": "Unlock Expansions?",
+            "nativeMessage": "Unlock all 4 expansions (Leaders, Cities, Armada, Edifice) with a 7-day free trial, then a one-time purchase.",
+            "webMessage": "Upgrade to 'Pro Version - Four Expansions' (Leaders, Cities, Armada, Edifice) for a one-time fee of $2.00?",
+            "nativeConfirm": "Start Trial",
+            "webConfirm": "Unlock All ($2.00)"
+        }
+    },
+    "timer": {
+        "start": "Start",
+        "pause": "Pause",
+        "resume": "Resume",
+        "fullScreen": "Full Screen",
+        "closeFullScreen": "Close Full Screen",
+        "switchToRotating": "Switch to Rotating Mode",
+        "switchToSingle": "Switch to Single Mode"
+    }
+}

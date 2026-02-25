@@ -1,0 +1,194 @@
+{
+    "rankings": {
+        "title": "Ranglijst",
+        "rankByTeam": "Ranglijst per Team",
+        "rankByPlayer": "Ranglijst per Speler",
+        "teamTie": "Gelijkspel tussen Teams!",
+        "tieGame": "Gelijkspel!",
+        "teamVictory": "Team {{team}} wint!",
+        "theVictors": "De Winnaars",
+        "theVictor": "De Winnaar",
+        "noScoresYet": "Nog geen scores",
+        "enterScoresMessage": "Voer scores in het scoreblad in om de ranglijst hier te zien!",
+        "teamWinner": "WINNEND TEAM",
+        "winner": "WINNAAR",
+        "saveGame": "Spel Opslaan",
+        "saveGameResults": "Resultaten Opslaan",
+        "gameSaved": "Spel Opgeslagen!",
+        "resultsSaved": "Resultaten Opgeslagen",
+        "shareResults": "Deel Resultaten",
+        "shareResultsText": "Deel Resultaten (Tekst)",
+        "shareResultsCSV": "Deel Resultaten (CSV)",
+        "sharedToClipboard": "Gedeeld naar klembord!",
+        "copiedToClipboard": "Gekopieerd naar klembord!",
+        "copyCSVText": "Kopieer CSV-tekst",
+        "shareCSVFile": "Deel CSV-bestand",
+        "allWonders": "Alle Wonderen",
+        "copyFileText": "KOPIEER BESTANDSTEKST",
+        "textCopied": "Tekst Gekopieerd!",
+        "shareTitle": "7 Wonders Scoreboard Resultaten",
+        "shareText": "Hier zijn de resultaten van ons spel!",
+        "shareDialogTitle": "Deel Resultaten",
+        "saveValidationMessage": "Vul de ontbrekende setup-informatie in om het spel op te slaan. Klik op het setup-icoon rechtsboven.",
+        "coinTieBreakerDisclaimer": "Stel voor een nauwkeurige tie-break de Schatkist-score in op 'Munten' in de Instellingen.",
+        "winnerDecidedByCoins": "De winnaar is bepaald door het aantal munten vanwege een gelijkspel in punten.",
+        "csvImportTip": "Tip: Deze tekst of dit CSV-bestand kan worden geïmporteerd in de app van een andere gebruiker via Instellingen!",
+        "viewHistorySettings": "U kunt uw spelgeschiedenis bekijken in de Instellingen.",
+        "classicGrid": "Klassiek Raster",
+        "personalizedCards": "Gepersonaliseerde Kaarten"
+    },
+    "hallOfFame": {
+        "title": "Eregalerij",
+        "empty": "Eregalerij is leeg",
+        "noRecords": "Geen records gevonden voor de geselecteerde uitbreidingen.",
+        "noData": "Geen Gegevens",
+        "supremeSovereign": "De Opperste Heerser",
+        "warlord": "De Krijgsheer",
+        "admiral": "De Admiraal",
+        "madScientist": "De Gekke Geleerde",
+        "philosopher": "De Filosoof",
+        "wonderArchitect": "De Wonderarchitect",
+        "totalArchitect": "De Meesterbouwer",
+        "tycoon": "De Mogol",
+        "guildmaster": "De Gildemeester",
+        "hoardingDragon": "De Hamsterende Draak",
+        "hopelessDebtor": "De Hopeloze Schuldenaar",
+        "islandExplorer": "De Eilandreiziger",
+        "shipwright": "De Scheepsbouwer",
+        "veteran": "De Veteraan",
+        "veteranSubtitle": "(Meeste spellen gespeeld)",
+        "strategist": "De Strateeg",
+        "strategistSubtitle": "(Beste gemiddelde score)"
+    },
+    "gameModes": {
+        "title": "SPELMODI",
+        "gameMode": "spelmodus",
+        "showAllRecords": "Toon alle records",
+        "unlockAllWonders": "Ontgrendel alle Wonderen",
+        "armada": "Armada",
+        "cities": "Cities",
+        "edifice": "Edifice",
+        "leaders": "Leaders",
+        "teamplay": "Teamspel",
+        "expansionmaps": "Uitbreidingskaarten",
+        "purchasePrompt": "2 USD om alle vier de uitbreidingen te ontgrendelen",
+        "breakTheRules": "Breek de regels",
+        "breakTheRulesDesc1": "7 Wonders is ontworpen voor maximaal 7 spelers, maar deze app verwijdert die limieten. Je kunt zoveel spelers toevoegen als je wilt, elke combinatie van uitbreidingen selecteren en zelfs met identieke wonderen spelen.",
+        "breakTheRulesDesc2": "De scoreberekening blijft solide voor elk aantal spelers, maar wees voorbereid op chaotische (en spannende) spellen als je de grenzen opzoekt!",
+        "note": "Opmerking: Sommige combinaties van uitbreidingen vereisen mogelijk meer tafelruimte en verlengen de speeltijd aanzienlijk.",
+        "gotIt": "Begrepen!",
+        "gamesHidden": "SOMMIGE SPELLEN VERBORGEN",
+        "hiddenGamesMessage_one": "{{count}} spel is verborgen uit de Eregalerij, Ranglijst, Geschiedenis en Statistieken omdat het een uitbreiding bevat die je niet hebt gekocht.",
+        "hiddenGamesMessage_other": "{{count}} spellen zijn verborgen uit de Eregalerij, Ranglijst, Geschiedenis en Statistieken omdat ze uitbreidingen bevatten die je niet hebt gekocht.",
+        "hiddenGamesPurchaseLink_one": "Koop de uitbreidingen om toegang te krijgen tot het verborgen spel",
+        "hiddenGamesPurchaseLink_other": "Koop de uitbreidingen om toegang te krijgen tot de verborgen spellen",
+        "hiddenGamesMessageLong": "{{count}} spellen in je geschiedenis komen niet overeen met de huidige filters.",
+        "armadaDesc": "Navale conflicten en eilandverkenning. Inclusief scheepsborden voor elke speler.",
+        "citiesDesc": "Schulden tussen steden en duistere interacties. Voegt de nieuwe 'Zwarte' kaarten toe.",
+        "edificeDesc": "Gemeenschappelijke projecten die spelers samen bouwen voor beloningen of wereldwijde straffen.",
+        "leadersDesc": "Rekruteer machtige historische figuren om de strategie van je beschaving te sturen.",
+        "teamPlayDesc": "Speel in teams om scores te combineren en strategieën te coördineren.",
+        "unlockAllWondersDesc": "Schakel alle wonderen uit elke uitbreiding in, ongeacht de geselecteerde modi.",
+        "modes": {
+            "base": {
+                "name": "Basisspel",
+                "description": "De klassieke ervaring. Focus op je stad en je directe buren."
+            },
+            "leadersMode": {
+                "name": "Leaders Uitbreiding",
+                "description": "Rekruteer invloedrijke figuren om de groei van je beschaving te sturen."
+            },
+            "citiesMode": {
+                "name": "Cities Uitbreiding",
+                "description": "Duistere zaakjes en meer interactie met de nieuwe Zwarte kaarten."
+            },
+            "armadaMode": {
+                "name": "Armada Uitbreiding",
+                "description": "Kies het ruime sop met scheepsborden en eilandverkenning."
+            },
+            "edificeMode": {
+                "name": "Edifice Uitbreiding",
+                "description": "Werk samen aan gemeenschappelijke projecten voor beloningen of wereldwijde straffen."
+            },
+            "zenith": {
+                "name": "De Zenith Collectie",
+                "description": "Alle actieve uitbreidingen. De ultieme uitdaging van antieke strategie."
+            },
+            "diplomatic": {
+                "name": "Het Diplomatieke Hof",
+                "description": "Krachtige leiders ontmoeten de duistere straten van de metropool."
+            },
+            "sovereign": {
+                "name": "Soevereine Oceanen",
+                "description": "Grote leiders veroveren de zeeën met machtige vloten."
+            },
+            "monumental": {
+                "name": "Monumentale Heersers",
+                "description": "Legendarische figuren werken samen aan imposante gemeenschappelijke bouwwerken."
+            },
+            "navalTrade": {
+                "name": "Navale Handelsroutes",
+                "description": "Handelssteden en zeemacht domineren de antieke handel."
+            },
+            "metropolitan": {
+                "name": "Metropolitane Wonderen",
+                "description": "Dichte steden die middelen bundelen voor grote gemeenschapsgebouwen."
+            },
+            "coastal": {
+                "name": "Kustmonumenten",
+                "description": "Collaboratieve bouwprojecten langs strategische kustlijnen."
+            },
+            "imperial": {
+                "name": "Het Imperiale Triumviraat",
+                "description": "Combineert Leaders, Cities en Armada. Hoge interactie, zeeoorlog en rekrutering."
+            },
+            "masterArchitects": {
+                "name": "De Meester-Architecten",
+                "description": "Combineert Leaders, Cities en Edifice. Focus op rekrutering en samen bouwen."
+            },
+            "royalArchitects": {
+                "name": "De Koninklijke Architecten",
+                "description": "Combineert Leaders, Armada en Edifice. Legendarische leiders breiden zee en steen uit."
+            },
+            "coalition": {
+                "name": "Coalitie van Macht",
+                "description": "Combineert Cities, Armada en Edifice. Pure strategie, oorlog en constructie."
+            },
+            "custom": {
+                "name": "Aangepaste Uitbreiding set",
+                "description": "{{count}} uitbreidingen geselecteerd.",
+                "single": "1 uitbreiding geselecteerd."
+            }
+        }
+    },
+    "app": {
+        "validationError": "Kan spel niet opslaan. Zorg ervoor dat alle spelers een naam, wonder en zijde hebben geselecteerd:",
+        "missingName": "Speler {{id}}: Naam ontbreekt",
+        "missingWonder": "Speler {{id}}: Wonder ontbreekt",
+        "missingSide": "Speler {{id}}: Zijde ontbreekt",
+        "swapP": "Wissel S{{id}}",
+        "backupSuccess": "Back-up succesvol voltooid!",
+        "backupFailed": "Back-up naar Google Drive mislukt: {{error}}",
+        "restoreConfirm": "Dit zal de gegevens van Google Drive samenvoegen met je lokale gegevens, dubbele items worden vermeden. Doorgaan?",
+        "restoreFailed": "Herstel van Drive mislukt: {{error}}",
+        "restoreSuccess": "Herstel succesvol voltooid!",
+        "googleDriveDisconnected": "Google Drive losgekoppeld. Log in om de back-up te hervatten?",
+        "purchase": {
+            "nativeTitle": "Gratis proefperiode starten?",
+            "webTitle": "Uitbreidingen Ontgrendelen?",
+            "nativeMessage": "Ontgrendel alle 4 de uitbreidingen (Leaders, Cities, Armada, Edifice) met een gratis proefperiode van 7 dagen, daarna een eenmalige aankoop.",
+            "webMessage": "Upgraden naar 'Pro Versie - Vier Uitbreidingen' voor een eenmalige prijs van $2,00? \n\n(Dit is een simulatie omdat je in een browser zit)",
+            "nativeConfirm": "Start Proefperiode",
+            "webConfirm": "Alles Ontgrendelen ($2,00)"
+        }
+    },
+    "timer": {
+        "start": "Start",
+        "pause": "Pauze",
+        "resume": "Hervatten",
+        "fullScreen": "Volledig Scherm",
+        "closeFullScreen": "Sluit Volledig Scherm",
+        "switchToRotating": "Wissel naar Roterende modus",
+        "switchToSingle": "Wissel naar Enkelvoudige modus"
+    }
+}

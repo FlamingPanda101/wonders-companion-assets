@@ -1,0 +1,194 @@
+{
+    "rankings": {
+        "title": "ランキング",
+        "rankByTeam": "チーム別ランキング",
+        "rankByPlayer": "プレイヤー別ランキング",
+        "teamTie": "チーム引き分け！",
+        "tieGame": "引き分け！",
+        "teamVictory": "チーム {{team}} の勝利！",
+        "theVictors": "勝利チーム",
+        "theVictor": "勝利者",
+        "noScoresYet": "スコアがありません",
+        "enterScoresMessage": "スコアシートにスコアを入力して、ここにランキングを表示しましょう！",
+        "teamWinner": "勝利チーム",
+        "winner": "勝利者",
+        "saveGame": "ゲームを保存",
+        "saveGameResults": "結果を保存",
+        "gameSaved": "ゲームを保存しました！",
+        "resultsSaved": "結果を保存しました",
+        "shareResults": "結果を共有",
+        "shareResultsText": "結果を共有 (テキスト)",
+        "shareResultsCSV": "結果を共有 (CSV)",
+        "sharedToClipboard": "クリップボードに共有しました！",
+        "copiedToClipboard": "クリップボードにコピーしました！",
+        "copyCSVText": "CSVテキストをコピー",
+        "shareCSVFile": "CSVファイルを共有",
+        "allWonders": "全ての七不思議",
+        "copyFileText": "ファイルテキストをコピー",
+        "textCopied": "テキストをコピーしました！",
+        "shareTitle": "7 Wonders 積分表の結果",
+        "shareText": "ゲーム結果はこちらです！",
+        "shareDialogTitle": "結果を共有",
+        "saveValidationMessage": "ゲームを保存するには、不足している設定情報を入力してください。右上の設定アイコンをクリックしてください。",
+        "coinTieBreakerDisclaimer": "正確なタイブレークを行うには、設定で宝物庫のスコアリングを「コイン」に設定してください。",
+        "winnerDecidedByCoins": "点数が同じだったため、コインの数で勝者が決定されました。",
+        "csvImportTip": "ヒント：このテキストまたはCSVファイルは、設定から他のユーザーのアプリにインポートできます！",
+        "viewHistorySettings": "設定から対戦履歴を確認できます。",
+        "classicGrid": "クラシックグリッド",
+        "personalizedCards": "パーソナライズカード"
+    },
+    "hallOfFame": {
+        "title": "殿堂入り",
+        "empty": "殿堂入りデータがありません",
+        "noRecords": "選択された拡張の記録が見つかりませんでした。",
+        "noData": "データなし",
+        "supremeSovereign": "至高の君主",
+        "warlord": "武将",
+        "admiral": "提督",
+        "madScientist": "マッドサイエンティスト",
+        "philosopher": "哲学者",
+        "wonderArchitect": "七不思議の建築家",
+        "totalArchitect": "筆頭建築家",
+        "tycoon": "大富豪",
+        "guildmaster": "ギルドマスター",
+        "hoardingDragon": "守銭奴のドラゴン",
+        "hopelessDebtor": "絶望的な債務者",
+        "islandExplorer": "島々の探索者",
+        "shipwright": "造船技師",
+        "veteran": "ベテラン",
+        "veteranSubtitle": "(最多対戦数)",
+        "strategist": "戦略家",
+        "strategistSubtitle": "(最高平均スコア)"
+    },
+    "gameModes": {
+        "title": "ゲームモード",
+        "gameMode": "ゲームモード",
+        "showAllRecords": "全ての記録を表示",
+        "unlockAllWonders": "全ての七不思議をアンロック",
+        "armada": "艦隊 (Armada)",
+        "cities": "都市 (Cities)",
+        "edifice": "大建造物 (Edifice)",
+        "leaders": "指導者 (Leaders)",
+        "teamplay": "チーム戦",
+        "expansionmaps": "拡張マップ",
+        "purchasePrompt": "2ドルで4つの拡張全てをアンロック",
+        "breakTheRules": "ルールを破る",
+        "breakTheRulesDesc1": "7 Wondersは最大7人向けに設計されていますが、このアプリはその制限を取り除きます。好きなだけプレイヤーを追加し、拡張の組み合わせを自由に選択し、同じ七不思議でプレイすることさえ可能です。",
+        "breakTheRulesDesc2": "スコアロジックはプレイヤー数に関わらず正確ですが、限界に挑む場合はカオスでエキサイティングな展開を覚悟してください！",
+        "note": "注意：拡張の組み合わせによっては、より広いテーブルスペースが必要になり、プレイ時間が大幅に増加する場合があります。",
+        "gotIt": "了解！",
+        "gamesHidden": "一部のゲームが非表示です",
+        "hiddenGamesMessage_one": "未購入の拡張が含まれているため、殿堂入り、ランキング、履歴、統計から{{count}}件のゲームが非表示になっています。",
+        "hiddenGamesMessage_other": "未購入の拡張が含まれているため、殿堂入り、ランキング、履歴、統計から{{count}}件のゲームが非表示になっています。",
+        "hiddenGamesPurchaseLink_one": "拡張を購入して非表示のゲームにアクセス",
+        "hiddenGamesPurchaseLink_other": "拡張を購入して非表示のゲームにアクセス",
+        "hiddenGamesMessageLong": "履歴内の{{count}}件のゲームが現在のフィルターに一致しません。",
+        "armadaDesc": "海戦と島々の探索。各プレイヤーに海戦ボードを追加します。",
+        "citiesDesc": "都市間の負債と影の相互作用。新しい「黒」カードを追加します。",
+        "edificeDesc": "プレイヤーが協力して建設する公共プロジェクト。報酬や全体ペナルティが発生します。",
+        "leadersDesc": "強力な歴史的人物を採用し、文明の戦略を導きます。",
+        "teamPlayDesc": "チームでプレイし、スコアを合算して戦略を共有します。",
+        "unlockAllWondersDesc": "選択されたモードに関わらず、各拡張の全ての七不思議を有効にします。",
+        "modes": {
+            "base": {
+                "name": "基本セット",
+                "description": "クラシックな体験。自分の都市と隣国に集中します。"
+            },
+            "leadersMode": {
+                "name": "指導者拡張",
+                "description": "影響力のある人物を採用し、文明の成長を導きます。"
+            },
+            "citiesMode": {
+                "name": "都市拡張",
+                "description": "裏取引と新しい黒カードによる相互作用の増加。"
+            },
+            "armadaMode": {
+                "name": "艦隊拡張",
+                "description": "海戦ボードと島々の探索で大海原へ乗り出します。"
+            },
+            "edificeMode": {
+                "name": "大建造物拡張",
+                "description": "共同プロジェクトに取り組み、報酬や連帯責任によるペナルティが発生します。"
+            },
+            "zenith": {
+                "name": "ゼニス・コレクション",
+                "description": "すべての拡張セットを有効にした、古代戦略の究極の試練。"
+            },
+            "diplomatic": {
+                "name": "外交の法廷",
+                "description": "強力な指導者たちがメトロポリスの入り組んだ街路で出会います。"
+            },
+            "sovereign": {
+                "name": "独立の海",
+                "description": "偉大な指導者たちが強力な艦隊を率いて海を征服します。"
+            },
+            "monumental": {
+                "name": "不朽の統治者",
+                "description": "伝説的な人物たちが大規模な公共建築物のために協力します。"
+            },
+            "navalTrade": {
+                "name": "海上交易路",
+                "description": "商業都市と海軍力が古代の通商を支配します。"
+            },
+            "metropolitan": {
+                "name": "メトロポリタン・ワンダー",
+                "description": "密集した都市が資源を出し合い、壮大な公共建造物を築きます。"
+            },
+            "coastal": {
+                "name": "沿岸のランドマーク",
+                "description": "戦略的な海岸線に沿って展開される共同建設プロジェクト。"
+            },
+            "imperial": {
+                "name": "インペリアル・トライアンヴィレイト",
+                "description": "Leaders, Cities, Armadaを合体。高度な相互作用、海戦、そして指導者の採用。"
+            },
+            "masterArchitects": {
+                "name": "マスター・アーキテクト",
+                "description": "Leaders, Cities, Edificeを合体。指導者の採用と共同建設に焦点を当てます。"
+            },
+            "royalArchitects": {
+                "name": "ロイヤル・アーキテクト",
+                "description": "Leaders, Armada, Edificeを合体。伝説の指導者が海と建物を拡張します。"
+            },
+            "coalition": {
+                "name": "武力の同盟",
+                "description": "Cities, Armada, Edificeを合体。純粋な戦略、戦争、そして建設。"
+            },
+            "custom": {
+                "name": "カスタム拡張セット",
+                "description": "{{count}} 個の拡張セットを選択中。",
+                "single": "1 個の拡張セットを選択中。"
+            }
+        }
+    },
+    "app": {
+        "validationError": "ゲームを保存できません。全てのプレイヤーの名前、七不思議、面が選択されているか確認してください：",
+        "missingName": "プレイヤー {{id}}: 名前がありません",
+        "missingWonder": "プレイヤー {{id}}: 七不思議がありません",
+        "missingSide": "プレイヤー {{id}}: 面がありません",
+        "swapP": "P{{id}}を入れ替え",
+        "backupSuccess": "バックアップが正常に完了しました！",
+        "backupFailed": "Googleドライブへのバックアップ保存に失敗しました: {{error}}",
+        "restoreConfirm": "Googleドライブのデータをローカルデータとマージします（重複は回避されます）。続行しますか？",
+        "restoreFailed": "ドライブからの復元に失敗しました: {{error}}",
+        "restoreSuccess": "復元が正常に完了しました！",
+        "googleDriveDisconnected": "Googleドライブが切断されました。ログインしてバックアップを再開しますか？",
+        "purchase": {
+            "nativeTitle": "無料トライアルを開始しますか？",
+            "webTitle": "拡張をアンロックしますか？",
+            "nativeMessage": "4つの拡張（Leaders, Cities, Armada, Edifice）を、7日間の無料トライアル後に一回限りの購入でアンロックできます。",
+            "webMessage": "一回限りの料金2.00ドルで「Proバージョン - 4つの拡張」にアップグレードしますか？\n\n（ブラウザ版のため、これはシミュレーションです）",
+            "nativeConfirm": "トライアル開始",
+            "webConfirm": "全てアンロック ($2.00)"
+        }
+    },
+    "timer": {
+        "start": "スタート",
+        "pause": "一時停止",
+        "resume": "再開",
+        "fullScreen": "全画面",
+        "closeFullScreen": "全画面を閉じる",
+        "switchToRotating": "ローテーションモードに切り替え",
+        "switchToSingle": "シングルモードに切り替え"
+    }
+}

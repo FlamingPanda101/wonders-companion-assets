@@ -1,0 +1,302 @@
+{
+  "playerHistory": {
+    "title": "玩家统计",
+    "subtitle": "专业分析与数据",
+    "rankOverall": "排行榜排名: #{{rank}}",
+    "wins": "胜场",
+    "games": "局数",
+    "winRate": "胜率",
+    "avgScore": "平均分",
+    "scoringProfile": "得分画像",
+    "averagePointsCategory": "各类别平均分分布",
+    "recentPerformance": "近期表现",
+    "scoreTrendLast10": "最近10局得分趋势",
+    "playStyleDescription": "职业/原型: 系统会分析您的得分分布，并根据表现为您分配一个称号。",
+    "classLabel": "原型称号",
+    "yourArchetypeIs": "您的原型是: {{name}}",
+    "match": "匹配度",
+    "unknown": "未知",
+    "wonderMastery": "奇迹精通度",
+    "sideAWinRate": "A面胜率",
+    "sideBWinRate": "B面胜率",
+    "wonderSideA": "A面",
+    "wonderSideB": "B面",
+    "you": "您",
+    "globalAvg": "全员平均",
+    "recommendedBoard": "基于您的战绩，我们建议",
+    "sortByGames": "总局数",
+    "sortByWinRate": "胜率",
+    "rival": "劲敌",
+    "barelyAhead": "平均分领先您 <1>{{diff}} 分</1>",
+    "barelyBelow": "平均分落后您 <1>{{diff}} 分</1>",
+    "scoreStalemate": "统计学势均力敌 (平均分)",
+    "victim": "您的猎物",
+    "youBeatThem_one": "您击败过对方 <1>1</1> 次",
+    "youBeatThem_other": "您击败过对方 <1>{{count}}</1> 次",
+    "matchHistory": "交战历史",
+    "nemesis": "苦主/克星",
+    "hasBeatenYou": "击败过您 <1>{{losses}}</1> 次",
+    "victory": "胜利！",
+    "won": "获胜",
+    "searchPlayers": "搜索玩家...",
+    "noPlayersFound": "未找到玩家",
+    "tryDifferentSearch": "尝试不同的搜索词",
+    "playGamesToSeeStats": "快去玩几局，在这里查看玩家统计数据吧！",
+    "achievements": "成就",
+    "score": "得分",
+    "progress": "进度",
+    "best": "最佳",
+    "get": "获得",
+    "overall": "总体",
+    "vs": "vs",
+    "badges": {
+      "beginner_luck": {
+        "title": "新手好运",
+        "description": "赢得有史以来第一场比赛"
+      },
+      "centurion": {
+        "title": "百夫长",
+        "description": "单局得分超过100分",
+        "progressLabel": "{{current}}/100 最高分"
+      },
+      "close_call": {
+        "title": "险胜/毫厘之差",
+        "description": "以2分或更少的优势获胜"
+      },
+      "culture_icon": {
+        "title": "文化偶像",
+        "description": "市政建筑得分超过40分"
+      },
+      "dark_side": {
+        "title": "黑暗面/原力觉醒",
+        "description": "使用奇迹B面赢得5场比赛",
+        "progressLabel": "{{current}}/5 胜"
+      },
+      "debt_collector": {
+        "title": "讨债人",
+        "description": "在持有5个以上负债标记的情况下获胜"
+      },
+      "dominator": {
+        "title": "统治者",
+        "description": "以20分以上的优势获胜"
+      },
+      "globe_trotter": {
+        "title": "环球旅行者",
+        "description": "使用全部7个基础奇迹进行游戏",
+        "progressLabel": "{{current}}/7 基础奇迹"
+      },
+      "grand_scientist": {
+        "title": "伟大科学家",
+        "description": "科技建筑得分超过50分"
+      },
+      "guild_leader": {
+        "title": "公会领袖",
+        "description": "公会建筑得分超过30分"
+      },
+      "hoarder": {
+        "title": "守财奴",
+        "description": "游戏结束时持有20个以上钱币"
+      },
+      "island_explorer": {
+        "title": "海岛探险家",
+        "description": "单局探索超过3个岛屿"
+      },
+      "jack_of_all_trades": {
+        "title": "面面俱到/全能选手",
+        "description": "单局有5个以上类别得分 > 8分"
+      },
+      "leader_of_leaders": {
+        "title": "领袖中的领袖",
+        "description": "从领袖卡中获得15分以上"
+      },
+      "master_builder": {
+        "title": "建筑大师",
+        "description": "建成奇迹的所有阶段"
+      },
+      "merchant_prince": {
+        "title": "贸易王子",
+        "description": "商业建筑得分超过20分"
+      },
+      "naval_commander": {
+        "title": "海军指挥官",
+        "description": "以最高海军战力获胜"
+      },
+      "pacifist": {
+        "title": "和平主义者",
+        "description": "在军事点数 ≤ 0的情况下获胜"
+      },
+      "participation_award": {
+        "title": "重在参与",
+        "description": "连续5场未获胜"
+      },
+      "specialist": {
+        "title": "专家",
+        "description": "在单个类别中得分 > 35分"
+      },
+      "speed_demon": {
+        "title": "速刷达人",
+        "description": "在20分钟内完成一局游戏"
+      },
+      "strategist": {
+        "title": "战略家",
+        "description": "保持30%的胜率（至少10场）",
+        "progressLabel": "{{current}}%/30% 胜率"
+      },
+      "supreme_general": {
+        "title": "最高统帅",
+        "description": "军事冲突得分超过40分"
+      },
+      "veteran": {
+        "title": "老兵",
+        "description": "完成50场游戏",
+        "progressLabel": "{{current}}/50 局"
+      },
+      "wonder_master": {
+        "title": "奇迹大师",
+        "description": "使用7个不同的奇迹获胜",
+        "progressLabel": "{{current}}/7 奇迹获胜"
+      },
+      "century_club": {
+        "title": "百局俱乐部",
+        "description": "完成100场游戏",
+        "progressLabel": "{{current}}/100 局"
+      },
+      "iron_will": {
+        "title": "钢铁意志",
+        "description": "赢得10场比赛",
+        "progressLabel": "{{current}}/10 胜"
+      },
+      "social_butterfly": {
+        "title": "社交达人",
+        "description": "与10个以上不同的对手对战",
+        "progressLabel": "{{current}}/10 位对手"
+      },
+      "loyal_wonder": {
+        "title": "忠实玩家",
+        "description": "使用同一个奇迹10次以上",
+        "progressLabel": "{{current}}/10 次使用"
+      },
+      "double_agent": {
+        "title": "双面间谍",
+        "description": "使用同一个奇迹的A面和B面都获胜过"
+      },
+      "hat_trick": {
+        "title": "帽子戏法",
+        "description": "连续赢得3场比赛"
+      },
+      "full_house": {
+        "title": "满堂红/全员到齐",
+        "description": "在7名玩家的游戏中对战"
+      },
+      "balanced": {
+        "title": "平衡大师",
+        "description": "在单局游戏中，基础7类得分全部均 > 0"
+      }
+    }
+  },
+  "history": {
+    "title": "游戏历史",
+    "empty": "尚无游戏记录",
+    "date": "日期",
+    "winner": "胜利者",
+    "players": "玩家",
+    "viewDetails": "查看详情",
+    "deleteGame": "删除记录",
+    "confirmDelete": "您确定要删除此游戏记录吗？",
+    "gamesPlayed": "已玩局数",
+    "averageScore": "平均分",
+    "highestScore": "最高分",
+    "noGamesSaved": "未保存任何游戏",
+    "noMatchesFound": "未找到匹配记录",
+    "saveGamesMessage": "从排行榜页面保存您的游戏，即可在此处查看。",
+    "adjustFiltersMessage": "尝试调整扩展包选择以查看不同的记录。",
+    "deleteRecord": "删除游戏记录？",
+    "tip": "提示：点击板图图标（如）以查看全名",
+    "tipShort": "提示：点击图标查看全名",
+    "tipSeeFullNames": "查看全名",
+    "sortedHighToLow": "--- 排序：由高到低 ---",
+    "gameMoved": "游戏已移动！",
+    "gameMovedMessage": "此游戏记录属于不同的扩展配置。要查看它，请更改顶部的“游戏模式”过滤器。",
+    "sortOptions": {
+      "mostRecent": "最近记录",
+      "totalScore": "总分",
+      "military": "军事冲突",
+      "treasury": "财库/钱币",
+      "wonder": "奇迹阶段",
+      "civilian": "市政建筑",
+      "scientific": "科技建筑",
+      "commercial": "商业建筑",
+      "guilds": "公会",
+      "debts": "负债",
+      "naval": "海军冲突",
+      "islands": "海岛探索",
+      "dockyard": "造船所"
+    },
+    "topScoreLabel": "最高 {{category}}: {{score}}",
+    "copyCSVText": "复制结果 (CSV 文本)",
+    "shareCSVFile": "分享结果 (CSV 文件)",
+    "team": "队伍",
+    "player": "玩家",
+    "winningTeam": "获胜队伍！",
+    "losingTeam": "落败队伍",
+    "vs": "vs"
+  },
+  "leaderboard": {
+    "title": "排行榜",
+    "allWonders": "全部奇迹",
+    "subtitle": "史上最高分",
+    "best": "最佳",
+    "all": "全部",
+    "bestScoresOnly": "仅显示最佳分",
+    "allScores": "全部记录",
+    "noRecordsFound": "未找到记录",
+    "noRecordsMessage": "进行一局游戏并保存结果来填充排行榜。",
+    "rank": "排名",
+    "player": "玩家",
+    "wins": "胜场",
+    "avgScore": "平均分",
+    "gamesPlayed": "局数",
+    "winRate": "胜率"
+  },
+  "statistics": {
+    "title": "游戏统计",
+    "overview": "总览",
+    "totalGames": "总局数",
+    "totalPlayers": "总玩家数",
+    "avgGameDuration": "平均每局时长",
+    "mostUsedWonder": "最常用奇迹",
+    "highestScoringCategory": "最高分类别",
+    "mostPopularExpansion": "最受欢迎扩展包",
+    "avgWinningScore": "平均获胜分数",
+    "avgScore": "平均分",
+    "topWonder": "表现最佳奇迹",
+    "wins": "胜",
+    "plays": "次使用",
+    "games": "局",
+    "playerWinRate": "玩家胜率",
+    "noPlayerData": "尚无玩家数据。",
+    "avgScoreByCategory": "类别平均分",
+    "winRateByWonder": "各奇迹胜率",
+    "mostPlayedWonders": "最常使用的奇迹",
+    "avgScoreByWonder": "各奇迹平均分",
+    "noGamesSide": "尚无使用此面的游戏记录。",
+    "all": "全部",
+    "sideA": "A面",
+    "sideB": "B面",
+    "statAwards": {
+      "highestScore": "最高分",
+      "scientificGenius": "科技天才",
+      "civilianLeader": "市政领袖",
+      "militaryWarlord": "战争狂人",
+      "richestMerchant": "最富商贾",
+      "guildMaster": "公会大师",
+      "wonderArchitect": "奇迹建筑师",
+      "navalAdmiral": "海军上将",
+      "islandExplorer": "海岛探险家",
+      "masterShipwright": "造船大师",
+      "leaderOfLeaders": "领袖中的领袖",
+      "urbanLegend": "城市传奇",
+      "grandArchitect": "首席建筑师"
+    }
+  }
+}

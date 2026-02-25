@@ -1,0 +1,2304 @@
+{
+  "rules": {
+    "cities": {
+      "scoring": {
+        "military": "PV Militares.",
+        "treasury": "1 PV / 3 monedas.",
+        "wonder": "PV de Maravilla.",
+        "civil": "PV Civiles.",
+        "scientific": "PV Científicos.",
+        "commercial": "PV Comerciales.",
+        "guilds": "PV de Gremios.",
+        "title": "Puntuación",
+        "cities": {
+          "title": "Ciudades",
+          "text": "PV de las cartas negras."
+        },
+        "debt": {
+          "title": "Deuda",
+          "text": "Resta PV por las fichas de Deuda al final de la partida."
+        }
+      },
+      "hero": {
+        "badge": "Maestros de las Sombras",
+        "title": "Imperios subterráneos se alzan.",
+        "subtitle": "Mercenarios, ladrones y espías entran en la refriega. **Ciudades** añade interacción agresiva y deuda."
+      },
+      "setup": {
+        "title": "Preparación",
+        "cards": {
+          "title": "Cartas de Ciudad",
+          "text": "Baraja las **cartas de Ciudad** en cada mazo de Era (1 por jugador). 8 cartas por jugador/Era."
+        },
+        "treasury": {
+          "title": "Tesorería",
+          "text": "Empieza con **3 Monedas** (Estándar)."
+        }
+      },
+      "gameFlow": {
+        "title": "Flujo de Juego",
+        "turnsTitle": "Turnos / Era",
+        "cardsDealt": "8 Cartas Repartidas",
+        "step1": {
+          "title": "1. Jugar Carta",
+          "text": "Construir, Maravilla o Descartar."
+        },
+        "step2": {
+          "title": "2. Resolve",
+          "text": "Resuelve los efectos de las cartas inmediatamente."
+        },
+        "step3": {
+          "title": "3. Pasar",
+          "text": "Pasa las cartas restantes."
+        },
+        "note": "Como se reparten 8 cartas, jugarás 7 cartas por Era (una más que en el juego base)."
+      },
+      "mechanics": {
+        "title": "Mecánicas",
+        "debts": {
+          "title": "Deudas",
+          "text": "Si no puedes pagar las pérdidas monetarias causadas por otros, toma **fichas de Deuda** (-PV)."
+        },
+        "diplomacy": {
+          "title": "Diplomacia",
+          "text": "**Símbolo de Paloma**. Coloca una ficha de diplomacia para salterte la siguiente fase de Conflicto Militar."
+        }
+      },
+      "variants": {
+        "title": "Variantes",
+        "freeCity": {
+          "title": "Juego por Equipos",
+          "subtitle": "2 vs 2 o 3 vs 3",
+          "play": "Los compañeros de equipo se sientan juntos y pueden discutir estrategias."
+        }
+      }
+    },
+    "armada": {
+      "scoring": {
+        "wonder": "PV de Maravilla.",
+        "civil": "PV Civiles.",
+        "scientific": "PV Científicos.",
+        "commercial": "PV Comerciales.",
+        "guilds": "PV de Gremios.",
+        "title": "Puntuación",
+        "military": {
+          "title": "Militar Terrestre",
+          "text": "PV de los conflictos terrestres."
+        },
+        "naval": {
+          "title": "Militar Naval",
+          "text": "PV de los conflictos navales (flota roja)."
+        },
+        "treasury": {
+          "title": "Tesorería",
+          "text": "1 PV / 3 monedas."
+        },
+        "islands": {
+          "title": "Islas",
+          "text": "PV de las islas descubiertas (flotas verde/azul)."
+        },
+        "dockyard": {
+          "title": "Astillero",
+          "text": "PV por la posición de los barcos."
+        }
+      },
+      "hero": {
+        "badge": "Maestros de los Mares",
+        "title": "Conquista el horizonte.",
+        "subtitle": "Construye una flota para explorar, comerciar y conquistar. **Armada** añade un tablero naval y progresión de barcos."
+      },
+      "setup": {
+        "title": "Preparación Naval",
+        "boards": {
+          "title": "Astilleros",
+          "text": "Cada jugador recibe un **Tablero Naval** (Astillero)."
+        },
+        "ships": {
+          "title": "Barcos",
+          "text": "Coloca los barcos Rojo, Amarillo, Azul y Verde en sus espacios iniciales."
+        },
+        "cards": {
+          "title": "Cartas de Armada",
+          "text": "Baraja las cartas de Armada en los mazos de cada Era (1 por jugador)."
+        }
+      },
+      "gameFlow": {
+        "title": "Flujo de Juego",
+        "turnsTitle": "Turnos / Era",
+        "cardsDealt": "8 Cartas Repartidas",
+        "step1": {
+          "title": "1. Jugar Carta",
+          "text": "Construir Estructura/Maravilla/Descartar."
+        },
+        "step2": {
+          "title": "2. Acción Naval",
+          "text": "Si has construido una carta, puedes pagar los costes para avanzar el barco del color correspondiente."
+        },
+        "step3": {
+          "title": "3. Pasar",
+          "text": "Pasa las manos."
+        }
+      },
+      "actions": {
+        "title": "Acciones Navales",
+        "buildStructure": {
+          "title": "Construir Estructura",
+          "navalOpportunity": {
+            "title": "Oportunidad Naval",
+            "text": "Puedes pagar el coste para mover el barco correspondiente 1 espacio."
+          }
+        },
+        "buildWonder": {
+          "title": "Construir Maravilla",
+          "naval": "Elige un barco de cualquier color para avanzar (pagando el coste)."
+        },
+        "discard": {
+          "title": "Descartar",
+          "text": "Gana 3 monedas. **No** se permite el movimiento naval."
+        }
+      },
+      "endOfAge": {
+        "title": "Fin de la Era",
+        "order": "Resuelve primero el Conflicto Terrestre y luego el Naval.",
+        "groundWar": {
+          "title": "1. Conflicto Terrestre",
+          "text": "Compara los escudos rojos con tus vecinos."
+        },
+        "navalWar": {
+          "title": "2. Conflicto Naval",
+          "text": "Compara la fuerza de la flota azul con TODOS los jugadores. Los jugadores más débiles toman fichas de malus."
+        }
+      },
+      "variants": {
+        "title": "Variantes",
+        "expert2p": {
+          "title": "Modo Experto 2 Jugadores",
+          "freeCity": "Usa las reglas de Ciudad Libre para un 3er jugador neutral.",
+          "play": "El jugador neutral no tiene tablero naval."
+        }
+      }
+    },
+    "edifice": {
+      "scoring": {
+        "military": "PV Militares.",
+        "treasury": "1 PV / 3 monedas.",
+        "wonder": "PV de Maravilla.",
+        "civil": "PV Civiles.",
+        "scientific": "PV Científicos.",
+        "commercial": "PV Comerciales.",
+        "guilds": "PV de Gremios.",
+        "title": "Puntuación",
+        "edificeRewards": {
+          "title": "Edificios",
+          "text": "PV de las fichas de recompensa de Edificio."
+        },
+        "edifice": {
+          "title": "Edificio",
+          "text": "PV de Recompensas de Edificio."
+        },
+        "debt": {
+          "title": "Deuda",
+          "text": "Pérdida de PV por fallar proyectos."
+        }
+      },
+      "hero": {
+        "badge": "Arquitectos del Destino",
+        "title": "Cimentad vuestro legado.",
+        "subtitle": "Colabora en proyectos masivos para ganar gloria o sufrir las consecuencias del fracaso. **Edificio** añade proyectos comunes y participación."
+      },
+      "setup": {
+        "title": "Preparación",
+        "cards": {
+          "title": "Cartas de Edificio",
+          "text": "Coloca **1 carta de Edificio** al azar para cada una de las tres Eras."
+        },
+        "pawns": {
+          "title": "Marcadores",
+          "text": "Coloca los **marcadores de participación** sobre las cartas (jugadores - 1)."
+        }
+      },
+      "gameFlow": {
+        "title": "Flujo de Juego",
+        "turnsTitle": "Turnos / Era",
+        "cardsDealt": "7 Cartas Repartidas",
+        "step1": {
+          "title": "1. Jugar Carta",
+          "text": "Elegir acción estándar (Construir, Maravilla o Descartar)."
+        },
+        "step2": {
+          "title": "2. Participar",
+          "text": "Opcionalmente, participa en la construcción del Edificio actual al construir una etapa de Maravilla."
+        },
+        "step3": {
+          "title": "3. Pasar",
+          "text": "Pasar las manos."
+        },
+        "note": "Aviso: Solo puedes participar en un Edificio una vez por Era."
+      },
+      "actions": {
+        "title": "Acciones y Proyectos",
+        "buildStructure": {
+          "title": "Construir Estructura",
+          "text": "Acción estándar. No permite participar en el Edificio."
+        },
+        "buildWonder": {
+          "title": "Construir Maravilla",
+          "participation": {
+            "title": "Unirse al Proyecto",
+            "text": "Al construir una etapa de Maravilla, puedes pagar el coste del Edificio para participar y ganar una recompensa potencial."
+          }
+        },
+        "discard": {
+          "title": "Descartar",
+          "text": "Gana **3 monedas**. No se permite la participación en el Edificio."
+        }
+      },
+      "endOfAge": {
+        "title": "Fin de la Era",
+        "order": "Se comprueba el Edificio ANTES que el Conflicto Militar.",
+        "edificeCheck": {
+          "title": "I. Comprobación de Edificio",
+          "text": "Si se han retirado todos los marcadores: **Éxito**. <br /> Si quedan marcadores: **Fracaso**."
+        },
+        "groundWar": {
+          "title": "II. Conflicto Militar",
+          "text": "Resolución estándar del combate con los vecinos."
+        }
+      }
+    },
+    "armada_cities": {
+      "hero": {
+        "badge": "Imperios de Mar y Sombra",
+        "title": "Conquista las olas, gobierna desde las sombras.",
+        "subtitle": "La exploración naval de <strong>Armada</strong> se encuentra con la diplomacia agresiva de <strong>Cities</strong>."
+      },
+      "setup": {
+        "title": "Preparación",
+        "treasury": {
+          "title": "Tesoro",
+          "text": "Empieza con <strong>3 Monedas</strong> (Estándar)."
+        },
+        "armada": {
+          "title": "Armada",
+          "text": "Coloca el Astillero. Baraja las cartas de Armada en los mazos de Era. <strong>Reparte 9 cartas/mano.</strong>"
+        },
+        "cities": {
+          "title": "Cities",
+          "text": "Baraja las cartas de Cities en los mazos de Era."
+        }
+      },
+      "gameFlow": {
+        "title": "Juego",
+        "turnsTitle": "Turnos / Era",
+        "cardsDealt": "9 Cartas Repartidas",
+        "step1": {
+          "title": "1. Jugar una Carta",
+          "text": "Elige 1 carta de la mano de 9."
+        },
+        "step2": {
+          "title": "2. Acción Naval",
+          "text": "Opcional: Avanza el barco si los colores coinciden."
+        },
+        "step3": {
+          "title": "3. Pasar Mano",
+          "text": "Pasa las cartas restantes."
+        }
+      },
+      "actions": {
+        "title": "Acciones",
+        "buildStructure": {
+          "title": "Construir Estructura",
+          "navalOpportunity": {
+            "title": "Oportunidad Naval",
+            "text": "Si la carta coincide con el color del Astillero, paga el coste para avanzar el barco."
+          }
+        },
+        "buildWonder": {
+          "title": "Construir Maravilla",
+          "text": "Usa la carta para construir una etapa de Maravilla. <strong>Naval:</strong> Avanza el barco coincidente."
+        },
+        "discard": {
+          "title": "Descartar",
+          "text": "Gana <strong>3 Monedas</strong> <span className=\"text-stone-400 mx-2\">|</span> Mueve <strong>Barco Amarillo</strong> (Gratis)"
+        }
+      },
+      "mechanics": {
+        "title": "Mecánicas",
+        "debtsDiplomacy": {
+          "title": "Deudas y Diplomacia",
+          "text": "<strong>Deuda:</strong> -PV por pérdidas no pagadas.<br/><strong>Diplomacia:</strong> Salta el conflicto terrestre."
+        },
+        "fleets": {
+          "title": "Flotas",
+          "text": "<strong>Rojo:</strong> Fuerza Naval.<br/><strong>Verde:</strong> Explorar Islas.<br/><strong>Azul:</strong> PV.<br/><strong>Amarillo:</strong> Monedas/Impuestos."
+        }
+      },
+      "endOfAge": {
+        "title": "Fin de la Era",
+        "order": "Guerra Terrestre -> Guerra Naval.",
+        "groundWar": {
+          "title": "1. Guerra Terrestre",
+          "text": "Compara Escudos Rojos (verifica Diplomacia)."
+        },
+        "navalWar": {
+          "title": "2. Guerra Naval",
+          "text": "Compara Fuerza de Flota vs TODOS."
+        }
+      },
+      "scoring": {
+        "title": "Puntuación",
+        "military": {
+          "title": "Militar",
+          "text": "PV Terrestres."
+        },
+        "naval": {
+          "title": "Naval",
+          "text": "PV Navales."
+        },
+        "treasury": {
+          "title": "Tesoro",
+          "text": "PV por Monedas."
+        },
+        "wonder": {
+          "title": "Maravilla",
+          "text": "PV de Maravilla."
+        },
+        "civil": {
+          "title": "Civil",
+          "text": "PV Azules."
+        },
+        "scientific": {
+          "title": "Científico",
+          "text": "PV Verdes."
+        },
+        "commercial": {
+          "title": "Comercial",
+          "text": "PV Amarillos."
+        },
+        "guilds": {
+          "title": "Gremios",
+          "text": "PV Morados."
+        },
+        "cities": {
+          "title": "Cities",
+          "text": "PV Negros."
+        },
+        "debt": {
+          "title": "Deuda",
+          "text": "Penalización por Deuda."
+        },
+        "islands": {
+          "title": "Islas",
+          "text": "PV de Islas."
+        },
+        "dockyard": {
+          "title": "Astillero",
+          "text": "PV de Astillero."
+        }
+      },
+      "variants": {
+        "title": "Variantes",
+        "teamPlay": {
+          "title": "Juego en Equipo",
+          "military": "Sin conflicto entre compañeros.",
+          "doubleTokens": "Doble fichas por victorias.",
+          "naval": "Conflictos navales son individuales."
+        }
+      }
+    },
+    "armada_leaders_edifice": {
+      "hero": {
+        "badge": "Comandantes de Todo",
+        "title": "Lidera, Construye, Navega.",
+        "subtitle": "<strong>Armada</strong>, <strong>Leaders</strong> y <strong>Edifice</strong> crean un rompecabezas estratégico masivo."
+      },
+      "setup": {
+        "title": "Preparación",
+        "treasury": {
+          "title": "Tesoro",
+          "text": "Empieza con <strong>6 Monedas</strong>."
+        },
+        "leaders": {
+          "title": "Líderes",
+          "text": "Reparte 4 Líderes."
+        },
+        "armada": {
+          "title": "Armada",
+          "text": "Astilleros. 8 cartas/mano."
+        },
+        "edifice": {
+          "title": "Edifice",
+          "text": "1 Proyecto por Era."
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "Draft de Líderes",
+          "subtitle": "Preparación",
+          "text": "Draft de 4 Líderes.",
+          "pick1": "Elige 1",
+          "passRt": "Pasa Der.",
+          "keep4": "Mantén 4"
+        },
+        "gameplay": {
+          "title": "Juego",
+          "recruitment": {
+            "title": "Reclutamiento",
+            "text": "Juega Líder (Reclutar, Maravilla, Vender).",
+            "recruit": {
+              "title": "Reclutar",
+              "text": "Pagar coste."
+            },
+            "wonder": {
+              "title": "Maravilla",
+              "text": "Construir Maravilla."
+            },
+            "sell": {
+              "title": "Vender",
+              "text": "3 Monedas."
+            }
+          },
+          "turnsTitle": "Turnos / Era",
+          "cardsDealt": "8 Cartas Repartidas",
+          "step1": {
+            "title": "1. Elegir",
+            "text": "Elige carta."
+          },
+          "step2": {
+            "title": "2. Naval",
+            "text": "Mueve barco."
+          },
+          "step3": {
+            "title": "3. Pasar",
+            "text": "Pasa mano."
+          }
+        }
+      },
+      "actions": {
+        "title": "Acciones",
+        "buildStructure": {
+          "title": "Construir",
+          "navalOpportunity": {
+            "title": "Oportunidad Naval",
+            "text": "Paga para avanzar barco."
+          }
+        },
+        "buildWonder": {
+          "title": "Construir Maravilla",
+          "exclusive": "Elige SOLO UNO (Naval O Edifice)",
+          "naval": "<strong>Naval:</strong> Coincidir Astillero.",
+          "edifice": "<strong>Edifice:</strong> Participar."
+        }
+      },
+      "mechanics": {
+        "title": "Mecánicas",
+        "fleets": {
+          "title": "Flotas",
+          "red": {
+            "title": "Rojo",
+            "effect": "Guerra"
+          },
+          "yellow": {
+            "title": "Amarillo",
+            "effect": "Oro"
+          },
+          "blue": {
+            "title": "Azul",
+            "effect": "PV"
+          },
+          "green": {
+            "title": "Verde",
+            "effect": "Islas"
+          }
+        },
+        "edificeRisks": {
+          "title": "Riesgos de Edifice",
+          "debts": {
+            "title": "Penalización",
+            "text": "El fracaso lleva a penalización."
+          }
+        }
+      },
+      "endOfAge": {
+        "title": "Fin de la Era",
+        "order": "Edifice -> Terrestre -> Naval",
+        "edifice": {
+          "title": "1. Edifice",
+          "text": "Verifica finalización."
+        },
+        "groundWar": {
+          "title": "2. Guerra Terrestre",
+          "text": "Escudos Rojos."
+        },
+        "navalWar": {
+          "title": "3. Guerra Naval",
+          "text": "Fuerza de Flota."
+        }
+      },
+      "scoring": {
+        "title": "Puntuación",
+        "military": {
+          "title": "Militar",
+          "text": "PV Terrestres."
+        },
+        "naval": {
+          "title": "Naval",
+          "text": "PV Navales."
+        },
+        "treasury": {
+          "title": "Tesoro",
+          "text": "PV por Monedas."
+        },
+        "wonder": {
+          "title": "Maravilla",
+          "text": "PV de Maravilla."
+        },
+        "civil": {
+          "title": "Civil",
+          "text": "PV Azules."
+        },
+        "scientific": {
+          "title": "Científico",
+          "text": "PV Verdes."
+        },
+        "commercial": {
+          "title": "Comercial",
+          "text": "PV Amarillos."
+        },
+        "guilds": {
+          "title": "Gremios",
+          "text": "PV Morados."
+        },
+        "edifice": {
+          "title": "Edifice",
+          "text": "PV de Edifice."
+        },
+        "debt": {
+          "title": "Deuda",
+          "text": "Penalización por Deuda."
+        },
+        "leaders": {
+          "title": "Líderes",
+          "text": "PV de Líderes."
+        },
+        "islands": {
+          "title": "Islas",
+          "text": "PV de Islas."
+        },
+        "dockyard": {
+          "title": "Astillero",
+          "text": "PV de Astillero."
+        }
+      },
+      "variants": {
+        "title": "Variantes",
+        "expert2p": {
+          "title": "2 Jugadores",
+          "li1": "Ciudad Libre juega Naval y Edifice.",
+          "li2": "Ciudad Libre paga sus propios costes."
+        },
+        "teamPlay": {
+          "title": "Juego en Equipo",
+          "li1": "Paz entre compañeros.",
+          "li2": "Naval individual.",
+          "li3": "Edifice individual."
+        }
+      }
+    },
+    "base": {
+      "hero": {
+        "badge": "Reglas Básicas",
+        "title": "Construye una Civilización.",
+        "subtitle": "Lidera una de las 7 grandes ciudades del Mundo Antiguo. Reúne recursos, desarrolla rutas comerciales y afirma tu supremacía militar."
+      },
+      "setup": {
+        "title": "Preparación",
+        "treasury": {
+          "title": "Tesoro",
+          "text": "Cada jugador comienza con <strong>3 Monedas</strong>."
+        },
+        "decks": {
+          "title": "Mazos de Era",
+          "text": "Prepara los mazos de las Era I, II y III según el número de jugadores (indicado por 3+ en las cartas)."
+        },
+        "wonders": {
+          "title": "Maravillas",
+          "text": "Reparte un tablero de Maravilla a cada jugador. Determina el lado A o B."
+        }
+      },
+      "gameFlow": {
+        "title": "Resumen del Juego",
+        "turnsTitle": "6 Turnos / Era",
+        "turnsSubtitle": "En cada Era, se reparten 7 cartas a cada jugador.",
+        "cardsDealt": "7 Cartas Repartidas",
+        "step1": {
+          "title": "1. Jugar una Carta",
+          "text": "Elige simultáneamente 1 carta para jugar."
+        },
+        "step2": {
+          "title": "2. Revelar y Acción",
+          "text": "Revela las cartas y realiza una acción:",
+          "age1": "Era I: Pasar a la izquierda",
+          "age2": "Era II: Pasar a la derecha",
+          "age3": "Era III: Pasar a la izquierda"
+        },
+        "step3": {
+          "title": "3. Pasar la Mano",
+          "text": "Pasa las cartas restantes al siguiente jugador."
+        },
+        "note": "Repite hasta que se jueguen 6 cartas. La 7ª carta se descarta."
+      },
+      "actions": {
+        "title": "Acciones",
+        "buildStructure": {
+          "title": "Construir Estructura",
+          "text": "Paga el coste de recursos mostrado en la carta para construirla.",
+          "trading": "<strong>Comercio:</strong> Compra los recursos que te falten a tus vecinos por 2 monedas cada uno (a menos que tengas un puesto comercial)."
+        },
+        "buildWonder": {
+          "title": "Construir Etapa de Maravilla",
+          "text": "Coloca la carta boca abajo bajo tu tablero de Maravilla y paga el coste de la etapa. El efecto de la carta se ignora."
+        },
+        "discard": {
+          "title": "Descartar por Monedas",
+          "text": "Descarta la carta boca abajo en el montón de descartes.",
+          "gain": "Gana <strong>3 Monedas</strong> de la banca."
+        }
+      },
+      "endOfAge": {
+        "title": "Fin de la Era: Conflicto Militar",
+        "militaryTitle": "Conflicto Militar",
+        "comparison": "Compara tus escudos militares con tus vecinos de la izquierda y la derecha."
+      },
+      "scoring": {
+        "title": "Puntuación Final",
+        "military": {
+          "title": "Conflictos Militares",
+          "text": "Puntos de fichas de Victoria menos fichas de Derrota."
+        },
+        "treasury": {
+          "title": "Tesoro",
+          "text": "1 Punto por cada 3 monedas en tu tesoro."
+        },
+        "wonder": {
+          "title": "Maravilla",
+          "text": "Puntos de las etapas de Maravilla completadas."
+        },
+        "civil": {
+          "title": "Estructuras Civiles",
+          "text": "Suma de los puntos de victoria en las estructuras azules."
+        },
+        "scientific": {
+          "title": "Científicas",
+          "text": "Puntúa conjuntos de símbolos idénticos y conjuntos de 3 símbolos diferentes."
+        },
+        "commercial": {
+          "title": "Comerciales",
+          "text": "Puntos de las estructuras comerciales amarillas."
+        },
+        "guilds": {
+          "title": "Gremios",
+          "text": "Puntos de las cartas de gremio moradas."
+        }
+      },
+      "variants": {
+        "title": "Variantes",
+        "expert2p": {
+          "title": "Variante para 2 Jugadores (Experto)",
+          "subtitle": "Requiere el tablero de Ciudad Libre.",
+          "freeCity": "<strong>Ciudad Libre:</strong> Los jugadores se turnan para controlar una 3ª ciudad neutral.",
+          "control": "<strong>Control:</strong> El jugador cuya carta tenga la mayor fuerza militar controla la Ciudad Libre en ese turno."
+        }
+      }
+    },
+    "leaders": {
+      "hero": {
+        "badge": "Grandes Mentes",
+        "title": "La sabiduría guía la era.",
+        "subtitle": "Recluta <strong>Líderes</strong> para obtener beneficios únicos y guiar tu estrategia."
+      },
+      "setup": {
+        "title": "Preparación",
+        "cards": {
+          "title": "Cartas de Líder",
+          "text": "Reparte 4 Líderes a cada jugador."
+        },
+        "treasury": {
+          "title": "Tesoro",
+          "text": "Comienza con <strong>6 Monedas</strong>."
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "Draft de Líderes",
+          "subtitle": "Inicio de la Partida",
+          "text": "Draftea 4 Líderes.",
+          "pick1": "Elige 1",
+          "passRt": "Pasa Dcha",
+          "keep4": "Quédate 4"
+        },
+        "gameplay": {
+          "title": "Flujo del Juego",
+          "recruitment": {
+            "title": "Fase de Reclutamiento",
+            "text": "Inicio de cada Era: Reclutar, Construye Maravilla o Vende un Líder.",
+            "recruit": {
+              "title": "Reclutar",
+              "text": "Paga el coste."
+            },
+            "wonder": {
+              "title": "Maravilla",
+              "text": "Usa el Líder para construir una etapa."
+            },
+            "sell": {
+              "title": "Vender",
+              "text": "Descarta por 3 monedas."
+            }
+          },
+          "turnsTitle": "Turnos / Era",
+          "cardsDealt": "7 Cartas Repartidas",
+          "step1": {
+            "title": "1. Jugar Carta",
+            "text": "Juego estándar."
+          },
+          "step2": {
+            "title": "2. Pasar",
+            "text": "Paso estándar."
+          },
+          "step3": {
+            "title": "Fin",
+            "text": "El juego continúa."
+          }
+        }
+      },
+      "scoring": {
+        "title": "Puntuación",
+        "military": "Puntos Militares.",
+        "treasury": "1 PV / 3 monedas.",
+        "wonder": "PV de Maravilla.",
+        "civil": "PV Civiles.",
+        "scientific": "PV Científicos.",
+        "commercial": "PV Comerciales.",
+        "guilds": "PV de Gremios.",
+        "leaders": {
+          "title": "Líderes",
+          "text": "PV de las cartas de Líder."
+        }
+      },
+      "variants": {
+        "title": "Variantes",
+        "freeCity": {
+          "title": "Juego por Equipos",
+          "leaders": "Los compañeros se sientan juntos.",
+          "play": "Discutid la estrategia libremente."
+        }
+      }
+    },
+    "armada_cities_edifice": {
+      "hero": {
+        "badge": "Maestros de Todo",
+        "title": "Construye, Conquista, Conspira.",
+        "subtitle": "**Armada**, **Ciudades** y **Edificio** se combinan para una experiencia rica y compleja."
+      },
+      "setup": {
+        "title": "Preparación",
+        "treasury": {
+          "title": "Tesorería",
+          "text": "Empieza con **3 Monedas**."
+        },
+        "wonders": {
+          "title": "Maravillas",
+          "text": "Reparte las Maravillas."
+        },
+        "armada": {
+          "title": "Armada",
+          "text": "Astilleros y Barcos. 9 cartas por mano."
+        },
+        "edifice": {
+          "title": "Edificio",
+          "text": "1 Proyecto por Era."
+        },
+        "cities": {
+          "title": "Ciudades",
+          "text": "Cartas de Ciudad en los mazos."
+        },
+        "islands": {
+          "title": "Islas",
+          "text": "Mazos de Islas preparados."
+        }
+      },
+      "gameFlow": {
+        "title": "Resumen del Juego",
+        "overview": {
+          "title": "Cambios Clave",
+          "li1": "**9 Cartas** por mano.",
+          "li2": "Proyectos de **Edificio** en cada Era.",
+          "li3": "Se aplican las deudas y diplomacia de **Ciudades**."
+        },
+        "turnsTitle": "Turnos",
+        "step1": {
+          "title": "1. Elegir",
+          "text": "Selecciona una carta."
+        },
+        "step2": {
+          "title": "2. Acción",
+          "text": "Juega la carta."
+        },
+        "step3": {
+          "title": "3. Pasar",
+          "text": "Pasa la mano."
+        }
+      },
+      "actions": {
+        "title": "Acciones",
+        "buildStructure": {
+          "title": "Construir",
+          "text": "Reglas de construcción estándar.",
+          "chain": "**Cadenas:** Los símbolos de Edificio y Ciudades permiten construcciones gratuitas.",
+          "navalOpportunity": {
+            "title": "Oportunidad Naval",
+            "text": "Paga para avanzar el barco correspondiente."
+          }
+        },
+        "buildWonder": {
+          "title": "Construir Maravilla",
+          "text": "Construye una etapa.",
+          "bonusTitle": "ACCIÓN DE BONIFICACIÓN",
+          "naval": "**Naval:** Avanza un barco (Paga el coste).",
+          "edifice": "**Edificio:** Participa (Paga el coste)."
+        },
+        "discard": {
+          "title": "Descartar",
+          "text": "Gana monedas.",
+          "li1": "3 Monedas",
+          "li2": "Avanza el Barco Amarillo (Gratis)"
+        }
+      },
+      "mechanics": {
+        "title": "Mecánicas",
+        "fleets": {
+          "title": "Flotas",
+          "red": {
+            "title": "Roja",
+            "effect": "Conflicto Naval"
+          },
+          "yellow": {
+            "title": "Amarilla",
+            "effect": "Oro/Impuestos"
+          },
+          "blue": {
+            "title": "Azul",
+            "effect": "PV"
+          },
+          "green": {
+            "title": "Verde",
+            "effect": "Explorar"
+          }
+        },
+        "edificeCities": {
+          "title": "Edificio y Ciudades",
+          "debtDiplomacy": {
+            "title": "Deuda y Diplomacia",
+            "text": "Gestiona deudas y guerras."
+          },
+          "edificeResults": {
+            "title": "Resultados de Edificio",
+            "text": "Recompensas o Penalizaciones."
+          }
+        }
+      },
+      "endOfAge": {
+        "title": "Fin de la Era",
+        "order": "Edificio -> Conflicto Terrestre -> Conflicto Naval",
+        "edifice": {
+          "title": "1. Edificio",
+          "text": "Comprueba si se ha completado."
+        },
+        "groundWar": {
+          "title": "2. Conflicto Terrestre",
+          "text": "Compara Escudos Rojos."
+        },
+        "navalWar": {
+          "title": "3. Conflicto Naval",
+          "text": "Compara Fuerza de la Flota."
+        }
+      },
+      "scoring": {
+        "title": "Puntuación",
+        "military": {
+          "title": "Militar",
+          "text": "PV Terrestres."
+        },
+        "naval": {
+          "title": "Naval",
+          "text": "PV Navales."
+        },
+        "treasury": {
+          "title": "Tesorería",
+          "text": "PV por Monedas."
+        },
+        "wonder": {
+          "title": "Maravilla",
+          "text": "PV de Maravilla."
+        },
+        "civil": {
+          "title": "Civil",
+          "text": "PV Azules."
+        },
+        "scientific": {
+          "title": "Científica",
+          "text": "PV Verdes."
+        },
+        "commercial": {
+          "title": "Comercial",
+          "text": "PV Amarillos."
+        },
+        "guilds": {
+          "title": "Gremios",
+          "text": "PV Morados."
+        },
+        "cities": {
+          "title": "Ciudades",
+          "text": "PV Negros."
+        },
+        "edifice": {
+          "title": "Edificio",
+          "text": "PV de Edificios."
+        },
+        "debt": {
+          "title": "Deuda",
+          "text": "Penalización por Deuda."
+        },
+        "islands": {
+          "title": "Islas",
+          "text": "PV de Islas."
+        },
+        "dockyard": {
+          "title": "Astillero",
+          "text": "PV de Astillero."
+        }
+      },
+      "variants": {
+        "title": "Variantes",
+        "expert2p": {
+          "title": "2-Jugadores",
+          "subtitle": "Cambios Modo Experto",
+          "li1": "Ciudad Libre participa en Guerra Naval.",
+          "li2": "Ciudad Libre PUEDE participar en Edificio.",
+          "li3": "Ciudad Libre paga su propia Participación."
+        },
+        "teamPlay": {
+          "title": "Juego en Equipo",
+          "subtitle": "Reglas Cooperativas",
+          "li1": "Sin Guerra Terrestre entre compañeros.",
+          "li2": "Guerra Naval es individual.",
+          "li3": "Compañeros pueden discutir cartas.",
+          "li4": "Participación en Edificio es individual."
+        }
+      }
+    },
+    "armada_edifice": {
+      "hero": {
+        "badge": "Arquitectos Navales",
+        "title": "Construye monumentos, traza los mares.",
+        "subtitle": "**Armada** y **Edificio** se combinan para una gran carrera de construcción y exploración."
+      },
+      "setup": {
+        "title": "Preparación",
+        "treasury": {
+          "title": "Tesoro",
+          "text": "Empieza con <strong>3 Monedas</strong>."
+        },
+        "armada": {
+          "title": "Armada",
+          "text": "Astilleros y Barcos. 8 cartas/mano."
+        },
+        "edifice": {
+          "title": "Edificio",
+          "text": "1 Proyecto por Era."
+        },
+        "islands": {
+          "title": "Islas",
+          "text": "Mazos de Islas."
+        }
+      },
+      "gameFlow": {
+        "title": "Jugabilidad",
+        "turnsTitle": "Turnos / Era",
+        "cardsDealt": "8 Cartas Repartidas",
+        "step1": {
+          "title": "1. Jugar",
+          "text": "Elige carta."
+        },
+        "step2": {
+          "title": "2. Acción",
+          "text": "Juega y Acción Naval."
+        },
+        "step3": {
+          "title": "3. Pasar",
+          "text": "Pasa mano."
+        }
+      },
+      "actions": {
+        "title": "Acciones",
+        "buildStructure": {
+          "title": "Construir",
+          "navalOpportunity": {
+            "title": "Oportunidad Naval",
+            "text": "Paga para avanzar barco."
+          }
+        },
+        "buildWonder": {
+          "title": "Construir Maravilla",
+          "bonusTitle": "ACCIÓN DE BONIFICACIÓN (ELIGE UNA)",
+          "naval": "<strong>Naval:</strong> Coincide con color de Astillero.",
+          "edifice": "<strong>Edificio:</strong> Participar."
+        },
+        "discard": {
+          "title": "Descartar",
+          "text": "Gana <strong>3 Monedas</strong> <span className=\"text-stone-400 mx-2\">|</span> Mueve <strong>Barco Amarillo</strong> (Gratis)"
+        }
+      },
+      "mechanics": {
+        "title": "Mecánicas",
+        "fleets": {
+          "title": "Flotas",
+          "red": {
+            "effect": "Fuerza Naval"
+          },
+          "green": {
+            "effect": "Islas"
+          },
+          "blue": {
+            "effect": "PV"
+          },
+          "yellow": {
+            "effect": "Monedas"
+          }
+        },
+        "edificeRisks": {
+          "title": "Riesgos de Edificio",
+          "debts": {
+            "title": "Penalizaciones",
+            "text": "El fracaso en completar el Edificio resulta en penalización."
+          }
+        }
+      },
+      "endOfAge": {
+        "title": "Fin de la Era",
+        "order": "Edificio -> Terrestre -> Naval",
+        "edifice": {
+          "title": "1. Edificio",
+          "text": "Comprobar finalización."
+        },
+        "groundWar": {
+          "title": "2. Conflicto Terrestre",
+          "text": "Comparar Escudos Rojos."
+        },
+        "navalWar": {
+          "title": "3. Conflicto Naval",
+          "text": "Comparar Fuerza de Flota."
+        }
+      },
+      "scoring": {
+        "title": "Puntuación",
+        "military": {
+          "title": "Militar",
+          "text": "PV Terrestres."
+        },
+        "naval": {
+          "title": "Naval",
+          "text": "PV Navales."
+        },
+        "treasury": {
+          "title": "Tesoro",
+          "text": "PV por Monedas."
+        },
+        "wonder": {
+          "title": "Maravilla",
+          "text": "PV de Maravilla."
+        },
+        "civil": {
+          "title": "Civil",
+          "text": "PV Azules."
+        },
+        "scientific": {
+          "title": "Científica",
+          "text": "PV Verdes."
+        },
+        "commercial": {
+          "title": "Comercial",
+          "text": "PV Amarillos."
+        },
+        "guilds": {
+          "title": "Gremios",
+          "text": "PV Morados."
+        },
+        "edifice": {
+          "title": "Edificio",
+          "text": "PV de Edificio."
+        },
+        "debt": {
+          "title": "Deuda",
+          "text": "Penalización por Deuda."
+        },
+        "leaders": {
+          "title": "Líderes",
+          "text": "PV de Líderes."
+        },
+        "islands": {
+          "title": "Islas",
+          "text": "PV de Islas."
+        },
+        "dockyard": {
+          "title": "Astillero",
+          "text": "PV de Astillero."
+        }
+      },
+      "variants": {
+        "title": "Variantes",
+        "expert2p": {
+          "title": "2-Jugadores",
+          "li1": "Ciudad Libre juega Naval y Edificio.",
+          "li2": "Ciudad Libre paga sus costes."
+        },
+        "teamPlay": {
+          "title": "Juego en Equipo",
+          "li1": "Paz entre compañeros.",
+          "li2": "Naval Individual.",
+          "li3": "Edificio Individual."
+        }
+      }
+    },
+    "cities_edifice": {
+      "hero": {
+        "badge": "Sombras y Monumentos",
+        "title": "Construye legados, navega la intriga.",
+        "subtitle": "La diplomacia oscura de **Ciudades** se encuentra con la grandeza colaborativa de **Edificio**."
+      },
+      "setup": {
+        "title": "Preparación",
+        "treasury": {
+          "title": "Tesoro",
+          "text": "Empieza con <strong>6 Monedas</strong> (Ciudades anula Base)."
+        },
+        "cities": {
+          "title": "Ciudades",
+          "text": "Baraja cartas Negras en los mazos (1 por jugador). <strong>8 cartas/mano.</strong>"
+        },
+        "edifice": {
+          "title": "Edificio",
+          "text": "1 Proyecto/Era. Añade Marcadores de Participación."
+        },
+        "tokens": {
+          "title": "Fichas",
+          "text": "Prepara Fichas de Deuda (-1, -2, -3, -5) y Palomas de Diplomacia."
+        }
+      },
+      "gameFlow": {
+        "title": "Jugabilidad",
+        "turnsTitle": "Los 8 Turnos",
+        "cardsDealt": "8 Cartas Repartidas",
+        "step1": {
+          "title": "Elegir Carta",
+          "text": "Mano de <strong>8 cartas</strong>. Elige una."
+        },
+        "step2": {
+          "title": "Pasar Mano",
+          "text": "Era I & III: Izquierda. Era II: Derecha."
+        },
+        "step3": {
+          "title": "Acción",
+          "text": "Revelar y jugar."
+        }
+      },
+      "actions": {
+        "title": "Acciones e Interacción",
+        "construct": {
+          "title": "Construir Estructura",
+          "text": "Pagar coste."
+        },
+        "buildWonder": {
+          "title": "Construir Etapa de Maravilla + Edificio",
+          "participation": {
+            "title": "Opción de Participación",
+            "text": "Pagar coste de Participación en tarjeta de Edificio para tomar un Marcador."
+          }
+        },
+        "discard": {
+          "title": "Descartar",
+          "text": "Gana <strong>3 Monedas</strong>."
+        }
+      },
+      "mechanics": {
+        "title": "Mecánicas de Expansión",
+        "debtsDiplomacy": {
+          "title": "Deudas y Diplomacia",
+          "text": "<strong>Deuda:</strong> -1 PV por moneda no pagada.<br /><strong>Diplomacia (Paloma):</strong> Retirarse del siguiente Conflicto Terrestre."
+        },
+        "edificeResults": {
+          "title": "Resultados de Edificio",
+          "text": "<strong>Construido:</strong> Recompensas para marcadores.<br /><strong>Fallido:</strong> Penalización si NO hay marcador (Deuda si no se paga)."
+        }
+      },
+      "endOfAge": {
+        "title": "Resolución de Fin de Era",
+        "order": "Resolver en orden estricto:",
+        "edificeCheck": {
+          "title": "1. Comprobación de Edificio",
+          "text": "<strong>Completado:</strong> Gana Recompensa.<br /><strong>Fallido:</strong> Paga Penalización o toma Deuda."
+        },
+        "groundWar": {
+          "title": "2. Conflicto Terrestre",
+          "text": "¿Comprobación de Diplomacia? Comparar Escudos."
+        }
+      },
+      "scoring": {
+        "title": "Puntuación",
+        "military": {
+          "title": "Conflictos Militares",
+          "text": "Victoria (+) y Derrota (-)"
+        },
+        "treasury": {
+          "title": "Tesoro",
+          "text": "1 PV por 3 monedas"
+        },
+        "wonder": {
+          "title": "Maravilla",
+          "text": "Puntos de Maravilla"
+        },
+        "civil": {
+          "title": "Estructuras Civiles",
+          "text": "Suma de cartas Azules"
+        },
+        "scientific": {
+          "title": "Científica",
+          "text": "Conjuntos"
+        },
+        "commercial": {
+          "title": "Comercial",
+          "text": "Valores de cartas Amarillas"
+        },
+        "guilds": {
+          "title": "Gremios",
+          "text": "Cartas Moradas"
+        },
+        "cities": {
+          "title": "Cartas de Ciudad",
+          "text": "Valores de cartas Negras"
+        },
+        "edifice": {
+          "title": "Recompensas de Edificio",
+          "text": "PV de proyectos completados"
+        },
+        "debt": {
+          "title": "Deudas",
+          "text": "Restar valor total de Deuda"
+        },
+        "leaders": {
+          "title": "Líderes",
+          "text": "Valores de cartas Blancas"
+        }
+      },
+      "variants": {
+        "title": "Variante Experto 2 Jugadores",
+        "freeCity": {
+          "title": "La Ciudad Libre",
+          "draw": "<strong>Robar:</strong> Añadir a mano, luego jugar para uno mismo + Ciudad Libre.",
+          "edifice": "<strong>Edificio:</strong> Ciudad Libre PUEDE participar (controlador paga).",
+          "play": "<strong>Juego:</strong> Debe encadenar. Puede comprar recursos."
+        }
+      }
+    },
+    "leaders_edifice": {
+      "hero": {
+        "badge": "Gobernantes y Monumentos",
+        "title": "Lidera naciones, construye legados.",
+        "subtitle": "La profundidad estratégica de **Líderes** se encuentra con la grandeza comunal de **Edificio**."
+      },
+      "setup": {
+        "title": "Preparación",
+        "treasury": {
+          "title": "Tesoro",
+          "text": "Empieza con <strong>6 Monedas</strong> (Líderes anula Base)."
+        },
+        "leaders": {
+          "title": "Líderes",
+          "text": "Reparte <strong>4 cartas de Líder</strong>. Baraja Gremios en Era III."
+        },
+        "edifice": {
+          "title": "Edificio",
+          "text": "1 Proyecto/Era. Añade Marcadores de Participación."
+        },
+        "tokens": {
+          "title": "Fichas",
+          "text": "Prepara Fichas de Deuda (-2, -3, -5)."
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "Fase 1: Draft de Líderes",
+          "subtitle": "Elige tu Corte",
+          "text": "Antes de la Era I, draftea 4 Líderes.",
+          "pick1": "Elige 1",
+          "passRt": "Pasa Dcha",
+          "keep4": "Quédate 4"
+        },
+        "gameplay": {
+          "title": "Fase 2: Jugabilidad",
+          "recruitment": {
+            "title": "Inicio de Era: Reclutamiento",
+            "text": "Juega 1 Líder antes de repartir cartas de Era.",
+            "recruit": {
+              "title": "Reclutar",
+              "text": "Pagar coste."
+            },
+            "wonder": {
+              "title": "Maravilla",
+              "text": "Construir Etapa."
+            },
+            "sell": {
+              "title": "Vender",
+              "text": "3 Monedas."
+            }
+          },
+          "turnsTitle": "Los 6 Turnos",
+          "cardsDealt": "7 Cartas Repartidas",
+          "step1": {
+            "title": "Elegir Carta",
+            "text": "Mano de <strong>7 cartas</strong>. Elige una."
+          },
+          "step2": {
+            "title": "Pasar Mano",
+            "text": "Era I & III: Izquierda. Era II: Derecha."
+          },
+          "step3": {
+            "title": "Acción",
+            "text": "Revelar y jugar."
+          },
+          "note": "*En el 6º turno, juega una carta y descarta la 7ª boca abajo."
+        }
+      },
+      "actions": {
+        "title": "Acciones e Interacción",
+        "construct": {
+          "title": "Construir Estructura",
+          "text": "Pagar coste."
+        },
+        "buildWonder": {
+          "title": "Construir Etapa de Maravilla + Edificio",
+          "participation": {
+            "title": "Opción de Participación",
+            "text": "Pagar coste de Participación para tomar un Marcador."
+          }
+        },
+        "discard": {
+          "title": "Descartar",
+          "text": "Gana <strong>3 Monedas</strong>."
+        }
+      },
+      "endOfAge": {
+        "title": "Resolución de Fin de Era",
+        "order": "Resolver en orden estricto:",
+        "edificeCheck": {
+          "title": "1. Comprobación de Edificio",
+          "text": "<strong>Completado:</strong> Gana Recompensa.<br /><strong>Fallido:</strong> Paga Penalización o toma Deuda."
+        },
+        "groundWar": {
+          "title": "2. Conflicto Terrestre",
+          "text": "Comparar Escudos Rojos."
+        }
+      },
+      "scoring": {
+        "title": "Puntuación",
+        "military": {
+          "title": "Conflictos Militares",
+          "text": "Victoria (+) y Derrota (-)"
+        },
+        "treasury": {
+          "title": "Tesoro",
+          "text": "1 PV por 3 monedas"
+        },
+        "wonder": {
+          "title": "Maravilla",
+          "text": "Puntos de Maravilla"
+        },
+        "civil": {
+          "title": "Estructuras Civiles",
+          "text": "Suma de cartas Azules"
+        },
+        "scientific": {
+          "title": "Científica",
+          "text": "Conjuntos"
+        },
+        "commercial": {
+          "title": "Comercial",
+          "text": "Valores de cartas Amarillas"
+        },
+        "guilds": {
+          "title": "Gremios",
+          "text": "Cartas Moradas"
+        },
+        "edificeRewards": {
+          "title": "Recompensas de Edificio",
+          "text": "PV de proyectos completados"
+        },
+        "debt": {
+          "title": "Deudas",
+          "text": "Restar valor total de Deuda"
+        },
+        "leaders": {
+          "title": "Líderes",
+          "text": "Valores de cartas Blancas"
+        }
+      },
+      "variants": {
+        "title": "Variante Experto 2 Jugadores",
+        "freeCity": {
+          "title": "La Ciudad Libre",
+          "leaders": "<strong>Líderes:</strong> Drafteados por jugadores. Ciudad Libre NO recibe.",
+          "edifice": "<strong>Edificio:</strong> Ciudad Libre PUEDE participar (controlador paga).",
+          "play": "<strong>Juego:</strong> Debe encadenar. Puede comprar recursos."
+        }
+      }
+    },
+    "armada_leaders": {
+      "hero": {
+        "badge": "Comandantes y Capitanes",
+        "title": "Lidera naciones, traza nuevos horizontes.",
+        "subtitle": "La exploración naval de **Armada** se encuentra con el liderazgo estratégico de **Líderes**."
+      },
+      "setup": {
+        "title": "Preparación",
+        "treasury": {
+          "title": "Tesoro",
+          "text": "Empieza con <strong>6 Monedas</strong> (Líderes anula Base)."
+        },
+        "armada": {
+          "title": "Armada",
+          "text": "Coloca Astillero. Baraja cartas Armada en mazos de Era. <strong>8 cartas/mano.</strong>"
+        },
+        "leaders": {
+          "title": "Líderes",
+          "text": "Reparte <strong>4 cartas de Líder</strong>. Baraja Gremios en Era III."
+        },
+        "islands": {
+          "title": "Islas",
+          "text": "Prepara mazos de Isla."
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "Fase 1: Draft de Líderes",
+          "subtitle": "Elige tu Corte",
+          "text": "Draftea 4 Líderes antes de Era I.",
+          "pick1": "Elige 1",
+          "passRt": "Pasa Dcha",
+          "keep4": "Quédate 4"
+        },
+        "gameplay": {
+          "title": "Fase 2: Jugabilidad",
+          "recruitment": {
+            "title": "Inicio de Era: Reclutamiento",
+            "text": "Juega 1 Líder antes de repartir cartas.",
+            "recruit": {
+              "title": "Reclutar",
+              "text": "Pagar coste."
+            },
+            "wonder": {
+              "title": "Maravilla",
+              "text": "Construir Etapa."
+            },
+            "sell": {
+              "title": "Vender",
+              "text": "3 Monedas."
+            }
+          },
+          "turnsTitle": "Los 8 Turnos",
+          "cardsDealt": "8 Cartas Repartidas",
+          "step1": {
+            "title": "Elegir Carta",
+            "text": "Mano de <strong>8 cartas</strong>. Elige una."
+          },
+          "step2": {
+            "title": "Pasar Mano",
+            "text": "Era I & III: Izquierda. Era II: Derecha."
+          },
+          "step3": {
+            "title": "Acción",
+            "text": "Revelar y jugar."
+          }
+        }
+      },
+      "actions": {
+        "title": "Acciones e Interacción",
+        "buildStructure": {
+          "title": "Construir Estructura",
+          "navalOpportunity": {
+            "title": "Oportunidad Naval",
+            "text": "Si la carta coincide con color de Astillero, paga coste para avanzar barco."
+          }
+        },
+        "buildWonder": {
+          "title": "Construir Etapa de Maravilla",
+          "naval": "<strong>Naval:</strong> Comprueba espacio \"Inicio\" de Astillero. Paga para ESA nave."
+        },
+        "discard": {
+          "title": "Descartar",
+          "text": "Gana <strong>3 Monedas</strong> <span className=\"text-stone-400 mx-2\">|</span> Mueve <strong>Barco Amarillo</strong> (Gratis)"
+        }
+      },
+      "endOfAge": {
+        "title": "Resolución de Fin de Era",
+        "order": "Resolver en orden estricto:",
+        "groundWar": {
+          "title": "1. Conflicto Terrestre",
+          "text": "Comparar Escudos Rojos contra Vecinos."
+        },
+        "navalWar": {
+          "title": "2. Conflicto Naval",
+          "text": "Comparar Fuerza Azul contra TODOS."
+        }
+      },
+      "scoring": {
+        "title": "Puntuación",
+        "military": {
+          "title": "Conflictos Militares",
+          "text": "Victoria (+) y Derrota (-)"
+        },
+        "naval": {
+          "title": "Conflictos Navales",
+          "text": "Victoria Naval (+) y Derrota (-)"
+        },
+        "treasury": {
+          "title": "Tesoro",
+          "text": "1 PV por 3 monedas"
+        },
+        "wonder": {
+          "title": "Maravilla",
+          "text": "Puntos de pista + Etapas completadas"
+        },
+        "civil": {
+          "title": "Estructuras Civiles",
+          "text": "Suma de cartas Azules"
+        },
+        "scientific": {
+          "title": "Científica",
+          "text": "Conjuntos"
+        },
+        "commercial": {
+          "title": "Comercial",
+          "text": "Valores de cartas Amarillas"
+        },
+        "guilds": {
+          "title": "Gremios",
+          "text": "Cartas Moradas"
+        },
+        "leaders": {
+          "title": "Líderes",
+          "text": "Valores de cartas Blancas"
+        },
+        "islands": {
+          "title": "Islas",
+          "text": "Valores de cartas de Isla"
+        },
+        "dockyard": {
+          "title": "Astillero",
+          "text": "PV de pista de flota Blue"
+        }
+      },
+      "variants": {
+        "title": "Variante Experto 2 Jugadores",
+        "freeCity": {
+          "title": "La Ciudad Libre",
+          "leaders": "<strong>Líderes:</strong> Drafteados por jugadores. Ciudad Libre NINGUNO.",
+          "naval": "<strong>Naval:</strong> Ciudad Libre participa.",
+          "play": "<strong>Juego:</strong> Humanos juegan por Ciudad Libre."
+        }
+      }
+    },
+    "cities_leaders": {
+      "hero": {
+        "badge": "Gobernantes de las Sombras",
+        "title": "Genio táctico, diplomacia despiadada.",
+        "subtitle": "La expansión **Ciudades** añade profundidad mercenaria y diplomática, mientras que **Líderes** permite la planificación estratégica."
+      },
+      "setup": {
+        "title": "Preparación",
+        "treasury": {
+          "title": "Tesoro",
+          "text": "Empieza con <strong>6 Monedas</strong>."
+        },
+        "leaders": {
+          "title": "Líderes",
+          "text": "Reparte <strong>4 Líderes</strong>. Draft antes de Era I."
+        },
+        "cities": {
+          "title": "Ciudades",
+          "text": "Baraja <strong>Cartas de Ciudad</strong> en cada mazo de Era."
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "Fase de Líderes",
+          "subtitle": "Drafting",
+          "text": "Draftea 4 Líderes al inicio.",
+          "pick1": "Elige 1",
+          "passRt": "Pasa Dcha",
+          "keep4": "Quédate 4"
+        },
+        "gameplay": {
+          "title": "Las Eras",
+          "recruitment": {
+            "title": "Reclutamiento",
+            "text": "Antes de cada Era, recluta un Líder.",
+            "recruit": {
+              "title": "Reclutar",
+              "text": "Pagar coste."
+            },
+            "wonder": {
+              "title": "Maravilla",
+              "text": "Construir Etapa."
+            },
+            "sell": {
+              "title": "Vender",
+              "text": "3 Monedas."
+            }
+          },
+          "turnsTitle": "Turnos / Era",
+          "cardsDealt": "8 Cartas Repartidas",
+          "step1": {
+            "title": "1. Jugar Carta",
+            "text": "Construir, Maravilla, o Descartar."
+          },
+          "step2": {
+            "title": "2. Resolver Efectos",
+            "text": "Deudas, diplomacia, etc."
+          },
+          "step3": {
+            "title": "3. Pasar Mano",
+            "text": "Pasar cartas restantes."
+          }
+        }
+      },
+      "actions": {
+        "title": "Acciones",
+        "construct": {
+          "title": "Construir",
+          "text": "Pagar costes."
+        },
+        "buildWonder": {
+          "title": "Construir Maravilla",
+          "text": "Usar carta para etapa."
+        },
+        "discard": {
+          "title": "Descartar",
+          "text": "Descartar por <strong>3 Monedas</strong>."
+        }
+      },
+      "mechanics": {
+        "title": "Nuevas Mecánicas",
+        "debtsDiplomacy": {
+          "title": "Deudas y Diplomacia",
+          "text": "Cartas de Ciudad causan pérdidas. Fichas de Diplomacia evitan conflicto."
+        }
+      },
+      "endOfAge": {
+        "title": "Fin de la Era",
+        "groundWar": {
+          "title": "Conflicto Militar",
+          "text": "Resolución estándar. Diplomacia se descarta tras uso."
+        }
+      },
+      "scoring": {
+        "title": "Puntuación",
+        "military": {
+          "title": "Militar",
+          "text": "PV de cartas rojas/fichas."
+        },
+        "treasury": {
+          "title": "Tesoro",
+          "text": "1 PV / 3 monedas."
+        },
+        "wonder": {
+          "title": "Maravilla",
+          "text": "PV de Maravilla."
+        },
+        "civil": {
+          "title": "Civil",
+          "text": "PV cartas Azules."
+        },
+        "scientific": {
+          "title": "Científica",
+          "text": "PV cartas Verdes."
+        },
+        "commercial": {
+          "title": "Comercial",
+          "text": "PV cartas Amarillas."
+        },
+        "guilds": {
+          "title": "Gremios",
+          "text": "PV cartas Moradas."
+        },
+        "cities": {
+          "title": "Ciudades",
+          "text": "PV cartas Negras."
+        },
+        "debt": {
+          "title": "Deuda",
+          "text": "Menos PV por deudas."
+        },
+        "leaders": {
+          "title": "Líderes",
+          "text": "PV cartas Blancas."
+        }
+      },
+      "variants": {
+        "title": "Variantes",
+        "freeCity": {
+          "title": "Ciudades Libres (Equipo)",
+          "leaders": "Draft normal.",
+          "play": "Equipos comparten deuda."
+        }
+      }
+    },
+    "armada_cities_leaders": {
+      "hero": {
+        "badge": "Imperios de Mar y Sombra",
+        "title": "Comanda las olas, gobierna la corte.",
+        "subtitle": "El poder naval de **Armada** se encuentra con la intriga política de **Ciudades** y la profundidad estratégica de **Líderes**."
+      },
+      "setup": {
+        "title": "Preparación",
+        "treasury": {
+          "title": "Tesoro",
+          "text": "Empieza con <strong>6 Monedas</strong>."
+        },
+        "leaders": {
+          "title": "Líderes",
+          "text": "Reparte <strong>4 cartas de Líder</strong>."
+        },
+        "armada": {
+          "title": "Armada",
+          "text": "Coloca Astillero. Baraja Armada en mazos. <strong>8 cartas/mano.</strong>"
+        },
+        "cities": {
+          "title": "Ciudades",
+          "text": "Baraja cartas Negras en mazos. <strong>Mano final: 9 cartas.</strong>"
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "Fase 1: Draft de Líderes",
+          "subtitle": "Draft",
+          "text": "Antes de Era I, draftea 4 Líderes.",
+          "pick1": "Elige 1",
+          "passRt": "Pasa Dcha",
+          "keep4": "Quédate 4"
+        },
+        "gameplay": {
+          "title": "Fase 2: Jugabilidad",
+          "recruitment": {
+            "title": "Inicio de Era: Reclutamiento",
+            "text": "Juega 1 Líder antes de repartir cartas.",
+            "recruit": {
+              "title": "Reclutar",
+              "text": "Pagar coste."
+            },
+            "wonder": {
+              "title": "Maravilla",
+              "text": "Construir Etapa."
+            },
+            "sell": {
+              "title": "Vender",
+              "text": "3 Monedas."
+            }
+          },
+          "turnsTitle": "Los 8 Turnos",
+          "step1": {
+            "title": "Elegir Carta",
+            "text": "Mano de <strong>9 cartas</strong>. Elige una."
+          },
+          "step2": {
+            "title": "Pasar Mano",
+            "text": "Era I & III: Izquierda. Era II: Derecha."
+          },
+          "step3": {
+            "title": "Acción",
+            "text": "Revelar y jugar."
+          }
+        }
+      },
+      "actions": {
+        "title": "Acciones y Combos",
+        "buildStructure": {
+          "title": "Construir Estructura",
+          "navalOpportunity": {
+            "title": "Oportunidad Naval",
+            "text": "Si coincide color de Astillero, paga para avanzar."
+          }
+        },
+        "buildWonder": {
+          "title": "Construir Etapa de Maravilla",
+          "naval": "<strong>Naval:</strong> Pagar coste para barco vinculado a Maravilla."
+        }
+      },
+      "mechanics": {
+        "title": "Mecánicas de Expansión",
+        "debtsDiplomacy": {
+          "title": "Deudas y Diplomacia",
+          "text": "<strong>Deuda:</strong> -1 PV por moneda.<br /><strong>Diplomacia:</strong> Retirarse de Conflicto Terrestre."
+        },
+        "armadaFleets": {
+          "title": "Flotas Armada",
+          "text": "<strong>Islas:</strong> Explorar.<br /><strong>Flotas:</strong> Impuestos, PV, Fuerza."
+        }
+      },
+      "endOfAge": {
+        "title": "Resolución de Fin de Era",
+        "order": "Resolver en orden estricto:",
+        "groundWar": {
+          "title": "1. Conflicto Terrestre",
+          "text": "¿Chequeo de Diplomacia? Comparar Escudos."
+        },
+        "navalWar": {
+          "title": "2. Conflicto Naval",
+          "text": "Comparar Fuerza Azul vs TODOS."
+        }
+      },
+      "scoring": {
+        "title": "Puntuación",
+        "military": {
+          "title": "Conflictos Militares",
+          "text": "Victoria (+) y Derrota (-)"
+        },
+        "naval": {
+          "title": "Conflictos Navales",
+          "text": "Victoria (+) y Derrota (-)"
+        },
+        "treasury": {
+          "title": "Tesoro",
+          "text": "1 PV por 3 monedas"
+        },
+        "wonder": {
+          "title": "Maravilla",
+          "text": "Puntos de pista + Cartas insertadas"
+        },
+        "civil": {
+          "title": "Estructuras Civiles",
+          "text": "Suma de cartas Azules"
+        },
+        "scientific": {
+          "title": "Científica",
+          "text": "Conjuntos"
+        },
+        "commercial": {
+          "title": "Comercial",
+          "text": "Valores de cartas Amarillas"
+        },
+        "guilds": {
+          "title": "Gremios",
+          "text": "Cartas Moradas (Max 10 PV/carta)"
+        },
+        "cities": {
+          "title": "Cartas de Ciudad",
+          "text": "Valores de cartas Negras"
+        },
+        "debt": {
+          "title": "Deudas",
+          "text": "Restar valor total de Deuda"
+        },
+        "leaders": {
+          "title": "Líderes",
+          "text": "Valores de cartas Blancas + Bonos"
+        },
+        "islands": {
+          "title": "Islas",
+          "text": "Valores de cartas de Isla"
+        },
+        "dockyard": {
+          "title": "Astillero",
+          "text": "PV de pista de flota Azul"
+        }
+      },
+      "variants": {
+        "title": "Variantes de Juego",
+        "expert2p": {
+          "title": "2-Jugadores Experto",
+          "freeCity": "<strong>Ciudad Libre:</strong> Sin Líderes.",
+          "naval": "<strong>Naval:</strong> Ciudad Libre participa.",
+          "diplomacy": "<strong>Diplomacia:</strong> Pelea solo con vecino activo."
+        },
+        "teamPlay": {
+          "title": "Juego en Equipo",
+          "conflict": "<strong>Conflicto:</strong> Sin guerra terrestre con compañero.",
+          "doubleTokens": "<strong>Dobles Fichas:</strong> 2x Victoria/Derrota.",
+          "naval": "<strong>Naval:</strong> Individual."
+        }
+      }
+    },
+    "cities_leaders_edifice": {
+      "hero": {
+        "badge": "Maestros de la Intriga",
+        "title": "Lidera desde las sombras, construye para la eternidad.",
+        "subtitle": "Las maniobras políticas de **Ciudades** se encuentran con la profundidad estratégica de **Líderes** y los proyectos colaborativos de **Edificio**."
+      },
+      "setup": {
+        "title": "Configuración Combinada",
+        "treasury": {
+          "title": "Tesoro",
+          "text": "Empieza con <strong>6 Monedas</strong>."
+        },
+        "leaders": {
+          "title": "Líderes",
+          "text": "Reparte <strong>4 Líderes</strong>. Draft antes de Era I."
+        },
+        "cities": {
+          "title": "Ciudades",
+          "text": "Baraja <strong>Cartas de Ciudad</strong> en cada mazo."
+        },
+        "edifice": {
+          "title": "Edificio",
+          "text": "Coloca 1 Edificio por Era."
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "Fase de Líderes",
+          "subtitle": "Drafting",
+          "text": "Draftea 4 Líderes al inicio.",
+          "pick1": "Elige 1",
+          "passRt": "Pasa Dcha",
+          "keep4": "Quédate 4"
+        },
+        "gameplay": {
+          "title": "Las Eras",
+          "recruitment": {
+            "title": "Fase de Reclutamiento",
+            "text": "Al inicio de cada Era, recluta un Líder:",
+            "recruit": {
+              "title": "Reclutar",
+              "text": "Pagar coste."
+            },
+            "wonder": {
+              "title": "Construir Maravilla",
+              "text": "Construir Etapa."
+            },
+            "sell": {
+              "title": "Vender",
+              "text": "3 monedas."
+            }
+          },
+          "turnsTitle": "Turnos / Era",
+          "cardsDealt": "8 Cartas Repartidas",
+          "step1": {
+            "title": "1. Jugar Carta",
+            "text": "Construir, Maravilla, o Descartar."
+          },
+          "step2": {
+            "title": "2. Comprobación de Edificio",
+            "text": "Considera participación si construyes Maravilla."
+          },
+          "step3": {
+            "title": "3. Pasar Manos",
+            "text": "Pasar cartas restantes."
+          }
+        }
+      },
+      "actions": {
+        "title": "Acciones e Interacciones",
+        "construct": {
+          "title": "Construir",
+          "text": "Pagar costes."
+        },
+        "buildWonder": {
+          "title": "Construir Maravilla / Edificio",
+          "participation": {
+            "title": "Participación",
+            "text": "Al construir maravilla, paga coste de Edificio para ganar marcador."
+          }
+        },
+        "discard": {
+          "title": "Descartar",
+          "text": "Gana <strong>3 Monedas</strong>."
+        }
+      },
+      "mechanics": {
+        "title": "Mecánicas de Expansión",
+        "debtsDiplomacy": {
+          "title": "Deudas y Diplomacia",
+          "text": "<strong>Deuda:</strong> Perder monedas o tomar deuda.<br/><strong>Diplomacia:</strong> Evitar conflictos militares."
+        },
+        "edificeResults": {
+          "title": "Resultados de Edificio",
+          "text": "<strong>Completo:</strong> Recompensas.<br/><strong>Incompleto:</strong> Penalización para no participantes."
+        }
+      },
+      "endOfAge": {
+        "title": "Secuencia de Fin de Era",
+        "order": "Resolver en este orden:",
+        "edificeCheck": {
+          "title": "1. Comprobación de Edificio",
+          "text": "Comprobar si se completó.<br/>Distribuir recompensas/penalizaciones."
+        },
+        "groundWar": {
+          "title": "2. Conflicto Militar",
+          "text": "Comparar escudos. Aplicar Diplomacia."
+        }
+      },
+      "scoring": {
+        "title": "Puntuación Final",
+        "military": {
+          "title": "Militar",
+          "text": "Suma de Fichas de Victoria/Derrota."
+        },
+        "treasury": {
+          "title": "Tesoro",
+          "text": "1 PV por 3 monedas."
+        },
+        "wonder": {
+          "title": "Maravilla",
+          "text": "Puntos de etapas completadas."
+        },
+        "civil": {
+          "title": "Civil",
+          "text": "Puntos de cartas Azules."
+        },
+        "scientific": {
+          "title": "Científica",
+          "text": "Conjuntos de símbolos."
+        },
+        "commercial": {
+          "title": "Comercial",
+          "text": "Puntos de cartas Amarillas."
+        },
+        "guilds": {
+          "title": "Gremios",
+          "text": "Puntos de cartas Moradas."
+        },
+        "cities": {
+          "title": "Ciudades",
+          "text": "Puntos de cartas Negras."
+        },
+        "edificeRewards": {
+          "title": "Edificio",
+          "text": "Puntos de proyectos completados."
+        },
+        "debt": {
+          "title": "Deudas",
+          "text": "Restar puntos de Deuda."
+        },
+        "leaders": {
+          "title": "Líderes",
+          "text": "Puntos de cartas Blancas."
+        }
+      },
+      "variants": {
+        "title": "Variantes",
+        "freeCity": {
+          "title": "Ciudad Libre (Equipo)",
+          "leaders": "Draft normal.",
+          "edifice": "Participación individual.",
+          "draw": "Robar 2, guardar 1.",
+          "play": "Compañeros pueden discutir estrategia."
+        }
+      }
+    },
+    "zenith": {
+      "hero": {
+        "badge": "Desafío Definitivo",
+        "title": "Cénit: La Configuración Definitiva",
+        "subtitle": "Experimenta todas las expansiones combinadas: <strong>Líderes</strong>, <strong>Ciudades</strong>, <strong>Armada</strong> y <strong>Edificio</strong>."
+      },
+      "setup": {
+        "title": "Configuración Definitiva",
+        "treasury": {
+          "title": "Tesoro",
+          "text": "Cada jugador empieza con <strong>6 Monedas</strong>."
+        },
+        "boards": {
+          "title": "Astilleros",
+          "text": "Cada jugador recibe Astillero y 4 barcos."
+        },
+        "edifice": {
+          "title": "Edificios",
+          "text": "Coloca 1 Edificio por Era. Distribuye marcadores."
+        },
+        "cities": {
+          "title": "Ciudades",
+          "text": "Baraja cartas de Ciudad en mazos (1 por jugador)."
+        },
+        "leaders": {
+          "title": "Líderes",
+          "text": "Baraja y reparte 4 Líderes. Draftea al inicio."
+        },
+        "islands": {
+          "title": "Islas",
+          "text": "Coloca los 3 mazos de Isla."
+        }
+      },
+      "phases": {
+        "draft": {
+          "title": "Fase de Draft",
+          "subtitle": "Selección de Líderes",
+          "text": "Antes de Era I, draftea 4 Líderes.",
+          "pick1": "Elige 1",
+          "passRt": "Pasa Dcha",
+          "keep4": "Quédate 4"
+        },
+        "gameplay": {
+          "title": "Jugabilidad",
+          "recruitment": {
+            "title": "Reclutamiento",
+            "text": "Inicio de cada Era: Juega 1 Líder.",
+            "recruit": {
+              "title": "Reclutar",
+              "text": "Pagar coste."
+            },
+            "wonder": {
+              "title": "Maravilla",
+              "text": "Construir etapa."
+            },
+            "sell": {
+              "title": "Vender",
+              "text": "3 monedas."
+            }
+          },
+          "turnsTitle": "Turnos / Era",
+          "cardsDealt": "9 cartas dealt / jugador",
+          "step1": {
+            "title": "1. Elegir Carta",
+            "text": "Elige 1 de 9. Resolución simultánea."
+          },
+          "step2": {
+            "title": "2. Acción",
+            "text": "Construir, Maravilla o Descartar. Si construyes, acción Naval posible."
+          },
+          "step3": {
+            "title": "3. Pasar",
+            "text": "Pasar cartas restantes (8 jugadas por Era)."
+          }
+        }
+      },
+      "actions": {
+        "title": "Acciones",
+        "construct": {
+          "title": "Construir Estructura",
+          "navalOpportunity": {
+            "title": "Construcción Naval",
+            "text": "Si coincide color de Astillero, mueve barco."
+          }
+        },
+        "buildWonder": {
+          "title": "Construir Etapa",
+          "participation": {
+            "title": "Participación Edificio",
+            "text": "Al construir etapa, puedes pagar para participar."
+          },
+          "naval": {
+            "title": "Construcción Naval",
+            "text": "Avanza barco correspondiente al color de la etapa."
+          }
+        },
+        "discard": {
+          "title": "Descartar",
+          "text": "Gana <strong>3 Monedas</strong> y mueve <strong>Barco Amarillo</strong> (gratis)."
+        }
+      },
+      "mechanics": {
+        "title": "Mecánicas Clave",
+        "debtsDiplomacy": {
+          "title": "Deudas y Diplomacia",
+          "text": "<strong>Ciudades:</strong> Gestiona pérdidas y evita conflictos."
+        },
+        "edificeResults": {
+          "title": "Proyectos de Edificio",
+          "text": "<strong>Edificio:</strong> Colabora para terminar. Penalizaciones si fallas."
+        },
+        "armadaFleets": {
+          "title": "Exploración Naval",
+          "text": "<strong>Armada:</strong> Avanza 4 barcos para fuerza, oro e islas."
+        }
+      },
+      "endOfAge": {
+        "title": "Resolución de Fin de Era",
+        "order": "Orden estricto: Edificio -> Terrestre -> Naval.",
+        "edificeCheck": {
+          "title": "1. Edificio",
+          "text": "Comprobar proyecto. Recompensas/Penalizaciones."
+        },
+        "groundWar": {
+          "title": "2. Conflicto Terrestre",
+          "text": "Comparar escudos rojos (salvo Diplomacia)."
+        },
+        "navalWar": {
+          "title": "3. Conflicto Naval",
+          "text": "Comparar fuerza azul vs todos."
+        }
+      },
+      "scoring": {
+        "title": "Puntuación Final",
+        "military": {
+          "title": "Militar",
+          "text": "Puntos de conflicto terrestre."
+        },
+        "naval": {
+          "title": "Naval",
+          "text": "Puntos de conflicto naval."
+        },
+        "treasury": {
+          "title": "Tesoro",
+          "text": "1 PV por 3 monedas."
+        },
+        "wonder": {
+          "title": "Maravilla",
+          "text": "Puntos de etapas."
+        },
+        "civil": {
+          "title": "Civil",
+          "text": "Puntos de cartas Azules."
+        },
+        "scientific": {
+          "title": "Científica",
+          "text": "Puntos de conjuntos."
+        },
+        "commercial": {
+          "title": "Comercial",
+          "text": "Puntos de cartas Amarillas."
+        },
+        "guilds": {
+          "title": "Gremios",
+          "text": "Puntos de cartas Moradas."
+        },
+        "leaders": {
+          "title": "Líderes",
+          "text": "Puntos de Líderes."
+        },
+        "cities": {
+          "title": "Ciudades",
+          "text": "Puntos de cartas Negras."
+        },
+        "edificeRewards": {
+          "title": "Edificios",
+          "text": "Puntos de proyectos."
+        },
+        "islands": {
+          "title": "Islas",
+          "text": "Puntos de exploración."
+        },
+        "dockyard": {
+          "title": "Astillero",
+          "text": "Puntos de posición de barcos."
+        },
+        "debt": {
+          "title": "Deudas",
+          "text": "Restar puntos de Deuda."
+        }
+      }
+    },
+    "fallback": {
+      "title": "Seleccionar Expansiones",
+      "text": "Selecciona las expansiones con las que estás jugando arriba para ver las reglas e interacciones específicas para esa combinación."
+    }
+  }
+}

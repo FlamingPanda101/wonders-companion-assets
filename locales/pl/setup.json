@@ -1,0 +1,15 @@
+{
+  "assignments": "Przypisania",
+  "selectWonderPlh": "Wybierz Cud...",
+  "swapP": "Zamień G{{id}}",
+  "missingInfo": "Brakujące Info o Setupie:",
+  "finishSetup": "Zakończ Przygotowanie",
+  "wonders": "Cuda",
+  "sides": "Strony",
+  "teams": "Drużyny",
+  "clear": "Wyczyść",
+  "mergePlayerRecords": "Połączyć rekordy graczy?",
+  "mergeMessage": "Nazwa '{{newName}}' jest już używana. Czy na pewno chcesz połączyć historię '{{oldName}}' z istniejącą historią dla '{{newName}}'?",
+  "confirmMerge": "Potwierdź Połączenie",
+  "subtitle": "Przypisz cuda i typy plansz."
+}

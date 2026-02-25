@@ -1,0 +1,2296 @@
+{
+    "rules": {
+        "base": {
+            "hero": {
+                "badge": "Core Rules",
+                "title": "Build a Civilization.",
+                "subtitle": "Lead one of the 7 great cities of the Ancient World. Gather resources, develop commercial routes, and affirm your military supremacy."
+            },
+            "setup": {
+                "title": "Setup",
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "Each player starts with <strong>3 Coins</strong>."
+                },
+                "decks": {
+                    "title": "Age Decks",
+                    "text": "Prepare Age I, II, and III decks based on player count (3+ on cards)."
+                },
+                "wonders": {
+                    "title": "Wonders",
+                    "text": "Deal one Wonder board to each player. Determine A or B side."
+                }
+            },
+            "gameFlow": {
+                "title": "Game Overview",
+                "turnsTitle": "6 Turns / Age",
+                "turnsSubtitle": "In each Age, players are dealt 7 cards.",
+                "cardsDealt": "7 Cards Dealt",
+                "step1": {
+                    "title": "1. Play a Card",
+                    "text": "Simultaneously choose 1 card to play."
+                },
+                "step2": {
+                    "title": "2. Reveal & Action",
+                    "text": "Reveal cards and take one action:",
+                    "age1": "Age I: Pass left",
+                    "age2": "Age II: Pass right",
+                    "age3": "Age III: Pass left"
+                },
+                "step3": {
+                    "title": "3. Pass Hand",
+                    "text": "Pass the remaining cards to the next player."
+                },
+                "note": "Repeat until 6 cards are played. The 7th card is discarded."
+            },
+            "actions": {
+                "title": "Actions",
+                "buildStructure": {
+                    "title": "Build Structure",
+                    "text": "Pay the resource cost shown on the card to build it.",
+                    "trading": "<strong>Trading:</strong> Purchase missing resources from neighbors for 2 coins each (unless you have a trading post)."
+                },
+                "buildWonder": {
+                    "title": "Build Wonder Stage",
+                    "text": "Tuck the card under your Wonder board and pay the stage cost. The card's effect is ignored."
+                },
+                "discard": {
+                    "title": "Discard for Coins",
+                    "text": "Discard the card face down to the discard pile.",
+                    "gain": "Gain <strong>3 Coins</strong> from the bank."
+                }
+            },
+            "endOfAge": {
+                "title": "End of Age: Military Conflict",
+                "militaryTitle": "Military Conflict",
+                "comparison": "Compare military shields with your left and right neighbors."
+            },
+            "scoring": {
+                "title": "End Game Scoring",
+                "military": {
+                    "title": "Military Conflicts",
+                    "text": "Points from Victory tokens minus Defeat tokens."
+                },
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "1 Point for every 3 coins in your treasury."
+                },
+                "wonder": {
+                    "title": "Wonder",
+                    "text": "Points from completed Wonder stages."
+                },
+                "civil": {
+                    "title": "Civil Structures",
+                    "text": "Sum of victory points on Blue structures."
+                },
+                "scientific": {
+                    "title": "Scientific",
+                    "text": "Score sets of identical symbols and sets of 3 different symbols."
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "Points from Yellow commercial structures."
+                },
+                "guilds": {
+                    "title": "Guilds",
+                    "text": "Points from Purple guild cards."
+                }
+            },
+            "variants": {
+                "title": "Variants",
+                "expert2p": {
+                    "title": "2-Player Variant (Expert)",
+                    "subtitle": "Requires the Free City board.",
+                    "freeCity": "<strong>Free City:</strong> Players take turns controlling a neutral 3rd city.",
+                    "control": "<strong>Control:</strong> The player whose card has the highest military strength controls the Free City for that turn."
+                }
+            }
+        },
+        "leaders": {
+            "hero": {
+                "badge": "Great Minds",
+                "title": "Wisdom guides the age.",
+                "subtitle": "Recruit <strong>Leaders</strong> to provide unique benefits and guide your strategy."
+            },
+            "setup": {
+                "title": "Setup",
+                "cards": {
+                    "title": "Leader Cards",
+                    "text": "Deal 4 Leaders to each player."
+                },
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "Start with <strong>6 Coins</strong>."
+                }
+            },
+            "phases": {
+                "draft": {
+                    "title": "Leader Drafting",
+                    "subtitle": "Start of Game",
+                    "text": "Draft 4 Leaders.",
+                    "pick1": "Pick 1",
+                    "passRt": "Pass Rt",
+                    "keep4": "Keep 4"
+                },
+                "gameplay": {
+                    "title": "Game Flow",
+                    "recruitment": {
+                        "title": "Recruitment Phase",
+                        "text": "Start of each Age: Recruit, Build Wonder, or Sell a Leader.",
+                        "recruit": {
+                            "title": "Recruit",
+                            "text": "Pay cost."
+                        },
+                        "wonder": {
+                            "title": "Wonder",
+                            "text": "Use Leader to build stage."
+                        },
+                        "sell": {
+                            "title": "Sell",
+                            "text": "Discard for 3 coins."
+                        }
+                    },
+                    "turnsTitle": "Turns / Age",
+                    "cardsDealt": "7 Cards Dealt",
+                    "step1": {
+                        "title": "1. Play Card",
+                        "text": "Standard play."
+                    },
+                    "step2": {
+                        "title": "2. Pass",
+                        "text": "Standard pass."
+                    },
+                    "step3": {
+                        "title": "End",
+                        "text": "Play continues."
+                    }
+                }
+            },
+            "scoring": {
+                "title": "Scoring",
+                "military": "Military VP.",
+                "treasury": "1 VP / 3 coins.",
+                "wonder": "Wonder VP.",
+                "civil": "Civilian VP.",
+                "scientific": "Scientific VP.",
+                "commercial": "Commercial VP.",
+                "guilds": "Guild VP.",
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "VP from Leader cards."
+                }
+            },
+            "variants": {
+                "title": "Variants",
+                "freeCity": {
+                    "title": "Team Play",
+                    "leaders": "Partners sit together.",
+                    "play": "Discuss strategy freely."
+                }
+            }
+        },
+        "cities": {
+            "hero": {
+                "badge": "Masters of Shadow",
+                "title": "Underground empires rise.",
+                "subtitle": "Mercenaries, thieves, and spies enter the fray. <strong>Cities</strong> adds aggressive interaction and debt."
+            },
+            "setup": {
+                "title": "Setup",
+                "cards": {
+                    "title": "Cities Cards",
+                    "text": "Shuffle <strong>Cities cards</strong> into each Age deck (1 per player). 8 cards per player/Age."
+                },
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "Start with <strong>3 Coins</strong> (Standard)."
+                }
+            },
+            "gameFlow": {
+                "title": "Game Flow",
+                "turnsTitle": "Turns / Age",
+                "cardsDealt": "8 Cards Dealt",
+                "step1": {
+                    "title": "1. Play Card",
+                    "text": "Build, Wonder, or Discard."
+                },
+                "step2": {
+                    "title": "2. Resolve",
+                    "text": "Resolve card effects immediately."
+                },
+                "step3": {
+                    "title": "3. Pass",
+                    "text": "Pass remaining cards."
+                },
+                "note": "Since 8 cards are dealt, you will play 7 cards per Age (one more than base game)."
+            },
+            "mechanics": {
+                "title": "Mechanics",
+                "debts": {
+                    "title": "Debts",
+                    "text": "If you cannot pay monetary losses caused by others, take <strong>Debt tokens</strong> (-VP)."
+                },
+                "diplomacy": {
+                    "title": "Diplomacy",
+                    "text": "<strong>Dove symbol</strong>. Place a diplomacy token to skip the next Military Conflict phase."
+                }
+            },
+            "scoring": {
+                "title": "Scoring",
+                "military": "Military VP.",
+                "treasury": "1 VP / 3 coins.",
+                "wonder": "Wonder VP.",
+                "civil": "Civilian VP.",
+                "scientific": "Scientific VP.",
+                "commercial": "Commercial VP.",
+                "guilds": "Guild VP.",
+                "cities": {
+                    "title": "Cities",
+                    "text": "VP from Black cards."
+                },
+                "debt": {
+                    "title": "Debt",
+                    "text": "Subtract VP for held Debt tokens at end of game."
+                }
+            },
+            "variants": {
+                "title": "Variants",
+                "freeCity": {
+                    "title": "Team Play",
+                    "subtitle": "2 vs 2 or 3 vs 3",
+                    "play": "Teammates sit next to each other and can discuss strategies."
+                }
+            }
+        },
+        "armada": {
+            "hero": {
+                "badge": "Masters of Seas",
+                "title": "Conquer the horizon.",
+                "subtitle": "Build a fleet to explore, trade, and conquer. <strong>Armada</strong> adds a naval board and ship progression."
+            },
+            "setup": {
+                "title": "Naval Setup",
+                "boards": {
+                    "title": "Dockyards",
+                    "text": "Each player gets a <strong>Naval Board</strong> (Dockyard)."
+                },
+                "ships": {
+                    "title": "Ships",
+                    "text": "Place Red, Yellow, Blue, Green ships on starting spaces."
+                },
+                "cards": {
+                    "title": "Armada Cards",
+                    "text": "Shuffle Armada cards into Age decks (1 per player)."
+                }
+            },
+            "gameFlow": {
+                "title": "Game Flow",
+                "turnsTitle": "Turns / Age",
+                "cardsDealt": "8 Cards Dealt",
+                "step1": {
+                    "title": "1. Play Card",
+                    "text": "Build Structure/Wonder/Discard."
+                },
+                "step2": {
+                    "title": "2. Naval Action",
+                    "text": "If you built a card, you may pay costs to advance the matching colored ship."
+                },
+                "step3": {
+                    "title": "3. Pass",
+                    "text": "Pass hands."
+                }
+            },
+            "actions": {
+                "title": "Naval Actions",
+                "buildStructure": {
+                    "title": "Build Structure",
+                    "navalOpportunity": {
+                        "title": "Naval Opportunity",
+                        "text": "Can pay cost to move matching ship 1 space."
+                    }
+                },
+                "buildWonder": {
+                    "title": "Build Wonder",
+                    "naval": "Choose one color ship to advance (pay cost)."
+                },
+                "discard": {
+                    "title": "Discard",
+                    "text": "Gain 3 coins. No naval movement allowed."
+                }
+            },
+            "endOfAge": {
+                "title": "End of Age",
+                "order": "Resolve Ground War then Naval War.",
+                "groundWar": {
+                    "title": "1. Ground Conflict",
+                    "text": "Compare Red shields with neighbors."
+                },
+                "navalWar": {
+                    "title": "2. Naval Conflict",
+                    "text": "Compare Blue fleet strength with ALL players. Weakest players take malus tokens."
+                }
+            },
+            "scoring": {
+                "title": "Scoring",
+                "military": {
+                    "title": "Ground Military",
+                    "text": "VP from ground conflicts."
+                },
+                "naval": {
+                    "title": "Naval Military",
+                    "text": "VP from naval conflicts (Red fleet)."
+                },
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "1 VP / 3 coins."
+                },
+                "wonder": "Wonder VP.",
+                "civil": "Civilian VP.",
+                "scientific": "Scientific VP.",
+                "commercial": "Commercial VP.",
+                "guilds": "Guild VP.",
+                "islands": {
+                    "title": "Islands",
+                    "text": "VP from discovered islands (Green/Blue fleets)."
+                },
+                "dockyard": {
+                    "title": "Dockyard",
+                    "text": "VP from ship positions."
+                }
+            },
+            "variants": {
+                "title": "Variants",
+                "expert2p": {
+                    "title": "2-Player Expert",
+                    "freeCity": "Use Free City rules for 3rd neutral player.",
+                    "play": "Neutral player does not have a naval board."
+                }
+            }
+        },
+        "edifice": {
+            "hero": {
+                "badge": "Grand Architects",
+                "title": "Build together or fall alone.",
+                "subtitle": "Collaborate on <strong>Edifices</strong> for rewards, or ignore them at your peril."
+            },
+            "setup": {
+                "title": "Setup",
+                "cards": {
+                    "title": "Edifice Cards",
+                    "text": "One Edifice per Age."
+                },
+                "pawns": {
+                    "title": "Participation Pawns",
+                    "text": "Distribute pawns to each player."
+                }
+            },
+            "gameFlow": {
+                "title": "Game Flow",
+                "turnsTitle": "Turns / Age",
+                "cardsDealt": "7 Cards Dealt",
+                "step1": {
+                    "title": "1. Play Card",
+                    "text": "Standard play."
+                },
+                "step2": {
+                    "title": "2. Build",
+                    "text": "If building Wonder stage, you can participate in Edifice."
+                },
+                "step3": {
+                    "title": "3. Pass",
+                    "text": "Pass hands."
+                },
+                "note": "Standard card count."
+            },
+            "actions": {
+                "title": "Edifice Interactions",
+                "buildStructure": {
+                    "title": "Build Structure",
+                    "text": "Standard rules."
+                },
+                "buildWonder": {
+                    "title": "Build Wonder",
+                    "participation": {
+                        "title": "Participation",
+                        "text": "When building a Wonder stage, pay Edifice cost to place a pawn on the Edifice. Limit 1 pawn per Edifice."
+                    }
+                },
+                "discard": {
+                    "title": "Discard",
+                    "text": "Gain 3 coins."
+                }
+            },
+            "endOfAge": {
+                "title": "End of Age",
+                "order": "Resolve Edifice then Military.",
+                "edificeCheck": {
+                    "title": "1. Edifice Check",
+                    "text": "If Edifice is full (or enough players participated), it is complete. Participants get rewards. If failed, non-participants lose resources/VP."
+                },
+                "groundWar": {
+                    "title": "2. Military",
+                    "text": "Standard war."
+                }
+            },
+            "scoring": {
+                "title": "Scoring",
+                "military": "Military VP.",
+                "treasury": "1 VP / 3 coins.",
+                "wonder": "Wonder VP.",
+                "civil": "Civilian VP.",
+                "scientific": "Scientific VP.",
+                "commercial": "Commercial VP.",
+                "guilds": "Guild VP.",
+                "edificeRewards": {
+                    "title": "Edifice",
+                    "text": "VP from completed Edifice chips."
+                }
+            }
+        },
+        "armada_cities": {
+            "hero": {
+                "badge": "Empires of Sea & Shadow",
+                "title": "Conquer the waves, rule from the shadows.",
+                "subtitle": "The naval exploration of <strong>Armada</strong> meets the aggressive diplomacy of <strong>Cities</strong>."
+            },
+            "setup": {
+                "title": "Setup",
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "Start with <strong>3 Coins</strong> (Standard)."
+                },
+                "armada": {
+                    "title": "Armada",
+                    "text": "Place Dockyard. Shuffle Armada cards into Age decks. <strong>Deal 9 cards/hand.</strong>"
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Shuffle Cities cards into Age decks."
+                }
+            },
+            "gameFlow": {
+                "title": "Gameplay",
+                "turnsTitle": "Turns / Age",
+                "cardsDealt": "9 Cards Dealt",
+                "step1": {
+                    "title": "1. Play a Card",
+                    "text": "Pick 1 card from hand of 9."
+                },
+                "step2": {
+                    "title": "2. Naval Action",
+                    "text": "Optional: Advance ship if colors match."
+                },
+                "step3": {
+                    "title": "3. Pass Hand",
+                    "text": "Pass remaining cards."
+                }
+            },
+            "actions": {
+                "title": "Actions",
+                "buildStructure": {
+                    "title": "Build Structure",
+                    "navalOpportunity": {
+                        "title": "Naval Opportunity",
+                        "text": "If card matches Dockyard color, pay cost to advance ship."
+                    }
+                },
+                "buildWonder": {
+                    "title": "Build Wonder",
+                    "text": "Use card to build Wonder stage. <strong>Naval:</strong> Advance matching ship."
+                },
+                "discard": {
+                    "title": "Discard",
+                    "text": "Gain <strong>3 Coins</strong> <span className=\"text-stone-400 mx-2\">|</span> Move <strong>Yellow Ship</strong> (Free)"
+                }
+            },
+            "mechanics": {
+                "title": "Mechanics",
+                "debtsDiplomacy": {
+                    "title": "Debts & Diplomacy",
+                    "text": "<strong>Debt:</strong> -VP for unpaid losses.<br/><strong>Diplomacy:</strong> Skip ground conflict."
+                },
+                "fleets": {
+                    "title": "Fleets",
+                    "text": "<strong>Red:</strong> Naval Strength.<br/><strong>Green:</strong> Explore Islands.<br/><strong>Blue:</strong> VP.<br/><strong>Yellow:</strong> Coins/Taxes."
+                }
+            },
+            "endOfAge": {
+                "title": "End of Age",
+                "order": "Ground War -> Naval War.",
+                "groundWar": {
+                    "title": "1. Ground War",
+                    "text": "Compare Red Shields (check Diplomacy)."
+                },
+                "navalWar": {
+                    "title": "2. Naval War",
+                    "text": "Compare Fleet Strength vs ALL."
+                }
+            },
+            "scoring": {
+                "title": "Scoring",
+                "military": {
+                    "title": "Military",
+                    "text": "Ground VP."
+                },
+                "naval": {
+                    "title": "Naval",
+                    "text": "Naval VP."
+                },
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "Coins VP."
+                },
+                "wonder": {
+                    "title": "Wonder",
+                    "text": "Wonder VP."
+                },
+                "civil": {
+                    "title": "Civil",
+                    "text": "Blue VP."
+                },
+                "scientific": {
+                    "title": "Scientific",
+                    "text": "Green VP."
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "Yellow VP."
+                },
+                "guilds": {
+                    "title": "Guilds",
+                    "text": "Purple VP."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Black VP."
+                },
+                "debt": {
+                    "title": "Debt",
+                    "text": "Debt Penalty."
+                },
+                "islands": {
+                    "title": "Islands",
+                    "text": "Island VP."
+                },
+                "dockyard": {
+                    "title": "Dockyard",
+                    "text": "Dockyard VP."
+                }
+            },
+            "variants": {
+                "title": "Variants",
+                "teamPlay": {
+                    "title": "Team Play",
+                    "military": "No conflict between teammates.",
+                    "doubleTokens": "Double tokens for victories.",
+                    "naval": "Naval conflicts are individual."
+                }
+            }
+        },
+        "armada_cities_edifice": {
+            "hero": {
+                "badge": "Masters of All",
+                "title": "Build, Conquer, Conspire.",
+                "subtitle": "<strong>Armada</strong>, <strong>Cities</strong>, and <strong>Edifice</strong> combine for a rich, complex experience."
+            },
+            "setup": {
+                "title": "Setup",
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "Start with <strong>3 Coins</strong>."
+                },
+                "wonders": {
+                    "title": "Wonders",
+                    "text": "Deal Wonders."
+                },
+                "armada": {
+                    "title": "Armada",
+                    "text": "Dockyards & Ships. 9 cards/hand."
+                },
+                "edifice": {
+                    "title": "Edifice",
+                    "text": "1 Project per Age."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Cities cards in decks."
+                },
+                "islands": {
+                    "title": "Islands",
+                    "text": "Island decks ready."
+                }
+            },
+            "gameFlow": {
+                "title": "Game Overview",
+                "overview": {
+                    "title": "Key Changes",
+                    "li1": "<strong>9 Cards</strong> per hand.",
+                    "li2": "<strong>Edifice</strong> projects each Age.",
+                    "li3": "<strong>Cities</strong> debts & diplomacy apply."
+                },
+                "turnsTitle": "Turns",
+                "step1": {
+                    "title": "1. Choose",
+                    "text": "Select card."
+                },
+                "step2": {
+                    "title": "2. Action",
+                    "text": "Play card."
+                },
+                "step3": {
+                    "title": "3. Pass",
+                    "text": "Pass hand."
+                }
+            },
+            "actions": {
+                "title": "Actions",
+                "buildStructure": {
+                    "title": "Build",
+                    "text": "Standard build rules.",
+                    "chain": "<strong>Chains:</strong> Edifice & Cities symbols allow free builds.",
+                    "navalOpportunity": {
+                        "title": "Naval Opportunity",
+                        "text": "Pay to advance matching ship."
+                    }
+                },
+                "buildWonder": {
+                    "title": "Build Wonder",
+                    "text": "Build stage.",
+                    "bonusTitle": "BONUS ACTION",
+                    "naval": "<strong>Naval:</strong> Advance ship (Pay cost).",
+                    "edifice": "<strong>Edifice:</strong> Participate (Pay cost)."
+                },
+                "discard": {
+                    "title": "Discard",
+                    "text": "Gain coins.",
+                    "li1": "3 Coins",
+                    "li2": "Advance Yellow Ship (Free)"
+                }
+            },
+            "mechanics": {
+                "title": "Mechanics",
+                "fleets": {
+                    "title": "Fleets",
+                    "red": {
+                        "title": "Red",
+                        "effect": "Naval War"
+                    },
+                    "yellow": {
+                        "title": "Yellow",
+                        "effect": "Gold/Tax"
+                    },
+                    "blue": {
+                        "title": "Blue",
+                        "effect": "VP"
+                    },
+                    "green": {
+                        "title": "Green",
+                        "effect": "Explore"
+                    }
+                },
+                "edificeCities": {
+                    "title": "Edifice & Cities",
+                    "debtDiplomacy": {
+                        "title": "Debt & Diplomacy",
+                        "text": "Manage debts and wars."
+                    },
+                    "edificeResults": {
+                        "title": "Edifice Results",
+                        "text": "Rewards or Penalties."
+                    }
+                }
+            },
+            "endOfAge": {
+                "title": "End of Age",
+                "order": "Edifice -> Ground War -> Naval War",
+                "edifice": {
+                    "title": "1. Edifice",
+                    "text": "Check completion."
+                },
+                "groundWar": {
+                    "title": "2. Ground War",
+                    "text": "Compare Red Shields."
+                },
+                "navalWar": {
+                    "title": "3. Naval War",
+                    "text": "Compare Fleet Strength."
+                }
+            },
+            "scoring": {
+                "title": "Scoring",
+                "military": {
+                    "title": "Military",
+                    "text": "Ground VP."
+                },
+                "naval": {
+                    "title": "Naval",
+                    "text": "Naval VP."
+                },
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "Coins VP."
+                },
+                "wonder": {
+                    "title": "Wonder",
+                    "text": "Wonder VP."
+                },
+                "civil": {
+                    "title": "Civil",
+                    "text": "Blue VP."
+                },
+                "scientific": {
+                    "title": "Scientific",
+                    "text": "Green VP."
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "Yellow VP."
+                },
+                "guilds": {
+                    "title": "Guilds",
+                    "text": "Purple VP."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Black VP."
+                },
+                "edifice": {
+                    "title": "Edifice",
+                    "text": "Edifice VP."
+                },
+                "debt": {
+                    "title": "Debt",
+                    "text": "Debt Penalty."
+                },
+                "islands": {
+                    "title": "Islands",
+                    "text": "Island VP."
+                },
+                "dockyard": {
+                    "title": "Dockyard",
+                    "text": "Dockyard VP."
+                }
+            },
+            "variants": {
+                "title": "Variants",
+                "expert2p": {
+                    "title": "2-Player",
+                    "subtitle": "Expert Mode Changes",
+                    "li1": "Free City participates in Naval War.",
+                    "li2": "Free City CAN participate in Edifice.",
+                    "li3": "Free City pays for its own Participation."
+                },
+                "teamPlay": {
+                    "title": "Team Play",
+                    "subtitle": "Cooperative Rules",
+                    "li1": "No Ground War between teammates.",
+                    "li2": "Naval War is individual.",
+                    "li3": "Teammates can discuss cards.",
+                    "li4": "Edifice participation is individual."
+                }
+            }
+        },
+        "armada_edifice": {
+            "hero": {
+                "badge": "Naval Architects",
+                "title": "Build monuments, chart the seas.",
+                "subtitle": "<strong>Armada</strong> and <strong>Edifice</strong> combine for a grand construction and exploration race."
+            },
+            "setup": {
+                "title": "Setup",
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "Start with <strong>3 Coins</strong>."
+                },
+                "armada": {
+                    "title": "Armada",
+                    "text": "Dockyards & Ships. 8 cards/hand."
+                },
+                "edifice": {
+                    "title": "Edifice",
+                    "text": "1 Project per Age."
+                },
+                "islands": {
+                    "title": "Islands",
+                    "text": "Island decks."
+                }
+            },
+            "gameFlow": {
+                "title": "Gameplay",
+                "turnsTitle": "Turns / Age",
+                "cardsDealt": "8 Cards Dealt",
+                "step1": {
+                    "title": "1. Play",
+                    "text": "Choose card."
+                },
+                "step2": {
+                    "title": "2. Action",
+                    "text": "Play & Naval Action."
+                },
+                "step3": {
+                    "title": "3. Pass",
+                    "text": "Pass hand."
+                }
+            },
+            "actions": {
+                "title": "Actions",
+                "buildStructure": {
+                    "title": "Build",
+                    "navalOpportunity": {
+                        "title": "Naval Opportunity",
+                        "text": "Pay to advance ship."
+                    }
+                },
+                "buildWonder": {
+                    "title": "Build Wonder",
+                    "bonusTitle": "BONUS ACTION (CHOOSE ONE)",
+                    "naval": "<strong>Naval:</strong> Match Dockyard color.",
+                    "edifice": "<strong>Edifice:</strong> Participate."
+                },
+                "discard": {
+                    "title": "Discard",
+                    "text": "Gain <strong>3 Coins</strong> <span className=\"text-stone-400 mx-2\">|</span> Move <strong>Yellow Ship</strong> (Free)"
+                }
+            },
+            "mechanics": {
+                "title": "Mechanics",
+                "fleets": {
+                    "title": "Fleets",
+                    "red": {
+                        "effect": "Naval Strength"
+                    },
+                    "green": {
+                        "effect": "Islands"
+                    },
+                    "blue": {
+                        "effect": "VP"
+                    },
+                    "yellow": {
+                        "effect": "Coins"
+                    }
+                },
+                "edificeRisks": {
+                    "title": "Edifice Risks",
+                    "debts": {
+                        "title": "Penalties",
+                        "text": "Failure to complete Edifice results in penalty."
+                    }
+                }
+            },
+            "endOfAge": {
+                "title": "End of Age",
+                "order": "Edifice -> Ground -> Naval",
+                "edifice": {
+                    "title": "1. Edifice",
+                    "text": "Check completion."
+                },
+                "groundWar": {
+                    "title": "2. Ground War",
+                    "text": "Compare Red Shields."
+                },
+                "navalWar": {
+                    "title": "3. Naval War",
+                    "text": "Compare Fleet Strength."
+                }
+            },
+            "scoring": {
+                "title": "Scoring",
+                "military": {
+                    "title": "Military",
+                    "text": "Ground VP."
+                },
+                "naval": {
+                    "title": "Naval",
+                    "text": "Naval VP."
+                },
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "Coins VP."
+                },
+                "wonder": {
+                    "title": "Wonder",
+                    "text": "Wonder VP."
+                },
+                "civil": {
+                    "title": "Civil",
+                    "text": "Blue VP."
+                },
+                "scientific": {
+                    "title": "Scientific",
+                    "text": "Green VP."
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "Yellow VP."
+                },
+                "guilds": {
+                    "title": "Guilds",
+                    "text": "Purple VP."
+                },
+                "edifice": {
+                    "title": "Edifice",
+                    "text": "Edifice VP."
+                },
+                "debt": {
+                    "title": "Debt",
+                    "text": "Debt Penalty."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "Leaders VP."
+                },
+                "islands": {
+                    "title": "Islands",
+                    "text": "Island VP."
+                },
+                "dockyard": {
+                    "title": "Dockyard",
+                    "text": "Dockyard VP."
+                }
+            },
+            "variants": {
+                "title": "Variants",
+                "expert2p": {
+                    "title": "2-Player",
+                    "li1": "Free City plays Naval and Edifice.",
+                    "li2": "Free City pays its own costs."
+                },
+                "teamPlay": {
+                    "title": "Team Play",
+                    "li1": "Peace between teammates.",
+                    "li2": "Individual Naval.",
+                    "li3": "Individual Edifice."
+                }
+            }
+        },
+        "armada_leaders_edifice": {
+            "hero": {
+                "badge": "Commanders of All",
+                "title": "Lead, Build, Sail.",
+                "subtitle": "<strong>Armada</strong>, <strong>Leaders</strong>, and <strong>Edifice</strong> create a massive strategic puzzle."
+            },
+            "setup": {
+                "title": "Setup",
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "Start with <strong>6 Coins</strong>."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "Deal 4 Leaders."
+                },
+                "armada": {
+                    "title": "Armada",
+                    "text": "Dockyards. 8 cards/hand."
+                },
+                "edifice": {
+                    "title": "Edifice",
+                    "text": "1 Project per Age."
+                }
+            },
+            "phases": {
+                "draft": {
+                    "title": "Leader Draft",
+                    "subtitle": "Preparation",
+                    "text": "Draft 4 Leaders.",
+                    "pick1": "Pick 1",
+                    "passRt": "Pass Rt",
+                    "keep4": "Keep 4"
+                },
+                "gameplay": {
+                    "title": "Gameplay",
+                    "recruitment": {
+                        "title": "Recruitment",
+                        "text": "Play Leader (Recruit, Wonder, Sell).",
+                        "recruit": {
+                            "title": "Recruit",
+                            "text": "Pay cost."
+                        },
+                        "wonder": {
+                            "title": "Wonder",
+                            "text": "Build Wonder."
+                        },
+                        "sell": {
+                            "title": "Sell",
+                            "text": "3 Coins."
+                        }
+                    },
+                    "turnsTitle": "Turns / Age",
+                    "cardsDealt": "8 Cards Dealt",
+                    "step1": {
+                        "title": "1. Choose",
+                        "text": "Pick card."
+                    },
+                    "step2": {
+                        "title": "2. Naval",
+                        "text": "Move ship."
+                    },
+                    "step3": {
+                        "title": "3. Pass",
+                        "text": "Pass hand."
+                    }
+                }
+            },
+            "actions": {
+                "title": "Actions",
+                "buildStructure": {
+                    "title": "Build",
+                    "navalOpportunity": {
+                        "title": "Naval Opportunity",
+                        "text": "Pay to advance ship."
+                    }
+                },
+                "buildWonder": {
+                    "title": "Build Wonder",
+                    "exclusive": "Choose ONLY ONE bonus action (Naval OR Edifice)",
+                    "naval": "<strong>Naval:</strong> Match Dockyard.",
+                    "edifice": "<strong>Edifice:</strong> Participate."
+                }
+            },
+            "mechanics": {
+                "title": "Mechanics",
+                "fleets": {
+                    "title": "Fleets",
+                    "red": {
+                        "title": "Red",
+                        "effect": "War"
+                    },
+                    "yellow": {
+                        "title": "Yellow",
+                        "effect": "Gold"
+                    },
+                    "blue": {
+                        "title": "Blue",
+                        "effect": "VP"
+                    },
+                    "green": {
+                        "title": "Green",
+                        "effect": "Islands"
+                    }
+                },
+                "edificeRisks": {
+                    "title": "Edifice Risks",
+                    "debts": {
+                        "title": "Penalty",
+                        "text": "Failure leads to penalty."
+                    }
+                }
+            },
+            "endOfAge": {
+                "title": "End of Age",
+                "order": "Edifice -> Ground -> Naval",
+                "edifice": {
+                    "title": "1. Edifice",
+                    "text": "Check completion."
+                },
+                "groundWar": {
+                    "title": "2. Ground War",
+                    "text": "Red Shields."
+                },
+                "navalWar": {
+                    "title": "3. Naval War",
+                    "text": "Fleet Strength."
+                }
+            },
+            "scoring": {
+                "title": "Scoring",
+                "military": {
+                    "title": "Military",
+                    "text": "Ground VP."
+                },
+                "naval": {
+                    "title": "Naval",
+                    "text": "Naval VP."
+                },
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "Coins VP."
+                },
+                "wonder": {
+                    "title": "Wonder",
+                    "text": "Wonder VP."
+                },
+                "civil": {
+                    "title": "Civil",
+                    "text": "Blue VP."
+                },
+                "scientific": {
+                    "title": "Scientific",
+                    "text": "Green VP."
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "Yellow VP."
+                },
+                "guilds": {
+                    "title": "Guilds",
+                    "text": "Purple VP."
+                },
+                "edifice": {
+                    "title": "Edifice",
+                    "text": "Edifice VP."
+                },
+                "debt": {
+                    "title": "Debt",
+                    "text": "Debt Penalty."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "Leader VP."
+                },
+                "islands": {
+                    "title": "Islands",
+                    "text": "Island VP."
+                },
+                "dockyard": {
+                    "title": "Dockyard",
+                    "text": "Dockyard VP."
+                }
+            },
+            "variants": {
+                "title": "Variants",
+                "expert2p": {
+                    "title": "2-Player",
+                    "li1": "Free City plays Naval and Edifice.",
+                    "li2": "Free City pays its own costs."
+                },
+                "teamPlay": {
+                    "title": "Team Play",
+                    "li1": "Peace between teammates.",
+                    "li2": "Individual Naval.",
+                    "li3": "Individual Edifice."
+                }
+            }
+        },
+        "armada_cities_leaders": {
+            "hero": {
+                "badge": "Empires of Sea & Shadow",
+                "title": "Command the waves, rule the court.",
+                "subtitle": "The naval might of <strong>Armada</strong> meets the political intrigue of <strong>Cities</strong> and the strategic depth of <strong>Leaders</strong>."
+            },
+            "setup": {
+                "title": "Setup",
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "Start with <strong>6 Coins</strong> (Cities/Leaders rule overrides Base rule of 3)."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "Deal <strong>4 Leader cards</strong>."
+                },
+                "armada": {
+                    "title": "Armada",
+                    "text": "Place Dockyard. Shuffle Armada cards into Age decks (1 per player). <strong>Deal 8 cards/hand.</strong>"
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Shuffle Black cards into Age decks (1 per player). <strong>Final hand size: 9 cards.</strong>"
+                }
+            },
+            "phases": {
+                "draft": {
+                    "title": "Phase 1: Leader Draft",
+                    "subtitle": "Draft Your Court",
+                    "text": "Before Age I, draft 4 Leaders. (Pick 1, Pass Right).",
+                    "pick1": "Pick 1",
+                    "passRt": "Pass Rt",
+                    "keep4": "Keep 4"
+                },
+                "gameplay": {
+                    "title": "Phase 2: Gameplay",
+                    "recruitment": {
+                        "title": "Start of Age: Recruitment",
+                        "text": "Play 1 Leader before dealing Age cards.",
+                        "recruit": {
+                            "title": "Recruit",
+                            "text": "Pay cost. Effect Active."
+                        },
+                        "wonder": {
+                            "title": "Wonder",
+                            "text": "Build Wonder Stage."
+                        },
+                        "sell": {
+                            "title": "Sell",
+                            "text": "Gain 3 Coins."
+                        }
+                    },
+                    "turnsTitle": "The 8 Turns",
+                    "step1": {
+                        "title": "Choose Card",
+                        "text": "Hand size is <strong>9 cards</strong> (7 Base + 1 City + 1 Armada). Pick one."
+                    },
+                    "step2": {
+                        "title": "Pass Hand",
+                        "text": "Age I & III: Left. Age II: Right."
+                    },
+                    "step3": {
+                        "title": "Action",
+                        "text": "Reveal and play."
+                    }
+                }
+            },
+            "actions": {
+                "title": "Actions & Combos",
+                "buildStructure": {
+                    "title": "Build Structure",
+                    "navalOpportunity": {
+                        "title": "Naval Opportunity",
+                        "text": "If card matches Dockyard color (Red/Yellow/Blue/Green), you may pay cost to advance ship."
+                    }
+                },
+                "buildWonder": {
+                    "title": "Build Wonder Stage",
+                    "naval": "<strong>Naval:</strong> Pay cost for Wonder-linked ship."
+                }
+            },
+            "mechanics": {
+                "title": "Expansion Mechanics",
+                "debtsDiplomacy": {
+                    "title": "Debts & Diplomacy",
+                    "text": "<strong>Debt:</strong> -1 VP per unpaid coin.<br /><strong>Diplomacy (Dove):</strong> Withdraw from next Ground Conflict. (Neighbors fight each other)."
+                },
+                "armadaFleets": {
+                    "title": "Armada Fleets",
+                    "text": "<strong>Islands:</strong> Explore for bonuses.<br /><strong>Fleets:</strong> Tax, VP, Strength."
+                }
+            },
+            "endOfAge": {
+                "title": "End of Age Resolution",
+                "order": "Resolve in this strict order:",
+                "groundWar": {
+                    "title": "1. Ground War",
+                    "text": "Diplomacy Check? Compare Red Shields."
+                },
+                "navalWar": {
+                    "title": "2. Naval War",
+                    "text": "Compare Blue Strength vs ALL."
+                }
+            },
+            "scoring": {
+                "title": "Scoring",
+                "military": {
+                    "title": "Military Conflicts",
+                    "text": "Ground Victory (+) and Defeat (-)"
+                },
+                "naval": {
+                    "title": "Naval Conflicts",
+                    "text": "Naval Victory (+) and Defeat (-)"
+                },
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "1 VP per 3 coins"
+                },
+                "wonder": {
+                    "title": "Wonder",
+                    "text": "Track points + Cards tucked"
+                },
+                "civil": {
+                    "title": "Civil Structures",
+                    "text": "Sum of Blue cards"
+                },
+                "scientific": {
+                    "title": "Scientific",
+                    "text": "Sets (Identicals², Different x7)"
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "Yellow card values"
+                },
+                "guilds": {
+                    "title": "Guilds",
+                    "text": "Purple cards"
+                },
+                "cities": {
+                    "title": "Cities Cards",
+                    "text": "Black card values"
+                },
+                "debt": {
+                    "title": "Debts",
+                    "text": "Subtract total Debt value"
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "White card values + Bonuses"
+                },
+                "islands": {
+                    "title": "Islands",
+                    "text": "Island card values"
+                },
+                "dockyard": {
+                    "title": "Dockyard",
+                    "text": "Blue fleet track VP"
+                }
+            },
+            "variants": {
+                "title": "Game Variants",
+                "expert2p": {
+                    "title": "2-Player Expert",
+                    "freeCity": "<strong>Free City:</strong> No Leaders.",
+                    "naval": "<strong>Naval:</strong> Free City participates.",
+                    "diplomacy": "<strong>Diplomacy:</strong> Fight only active neighbor."
+                },
+                "teamPlay": {
+                    "title": "Team Play",
+                    "conflict": "<strong>Conflict:</strong> No ground war with teammate.",
+                    "doubleTokens": "<strong>Double Tokens:</strong> 2x Victory/Defeat.",
+                    "naval": "<strong>Naval:</strong> Individual."
+                }
+            }
+        },
+        "armada_leaders": {
+            "hero": {
+                "badge": "Commanders & Captains",
+                "title": "Lead nations, chart new horizons.",
+                "subtitle": "The naval exploration of <strong>Armada</strong> meets the strategic leadership of <strong>Leaders</strong>."
+            },
+            "setup": {
+                "title": "Setup",
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "Start with <strong>6 Coins</strong> (Leaders overrides Base)."
+                },
+                "armada": {
+                    "title": "Armada",
+                    "text": "Place Dockyard. Shuffle Armada cards into Age decks (1 per player). <strong>Deal 8 cards/hand.</strong>"
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "Deal <strong>4 Leader cards</strong>. Shuffle Guilds into Age III."
+                },
+                "islands": {
+                    "title": "Islands",
+                    "text": "Prepare Island decks (Levels 1, 2, 3)."
+                }
+            },
+            "phases": {
+                "draft": {
+                    "title": "Phase 1: Leader Draft",
+                    "subtitle": "Draft Your Court",
+                    "text": "Before Age I, draft 4 Leaders. (Pick 1, Pass Right).",
+                    "pick1": "Pick 1",
+                    "passRt": "Pass Rt",
+                    "keep4": "Keep 4"
+                },
+                "gameplay": {
+                    "title": "Phase 2: Gameplay",
+                    "recruitment": {
+                        "title": "Start of Age: Recruitment",
+                        "text": "Play 1 Leader before dealing Age cards.",
+                        "recruit": {
+                            "title": "Recruit",
+                            "text": "Pay cost. Effect Active."
+                        },
+                        "wonder": {
+                            "title": "Wonder",
+                            "text": "Build Wonder Stage."
+                        },
+                        "sell": {
+                            "title": "Sell",
+                            "text": "Gain 3 Coins."
+                        }
+                    },
+                    "turnsTitle": "The 8 Turns",
+                    "cardsDealt": "8 Cards Dealt",
+                    "step1": {
+                        "title": "Choose Card",
+                        "text": "Hand size is <strong>8 cards</strong>. Pick one."
+                    },
+                    "step2": {
+                        "title": "Pass Hand",
+                        "text": "Age I & III: Left. Age II: Right."
+                    },
+                    "step3": {
+                        "title": "Action",
+                        "text": "Reveal and play."
+                    }
+                }
+            },
+            "actions": {
+                "title": "Actions & Interaction",
+                "buildStructure": {
+                    "title": "Build Structure",
+                    "navalOpportunity": {
+                        "title": "Naval Opportunity",
+                        "text": "If card matches Dockyard color, pay cost to advance ship."
+                    }
+                },
+                "buildWonder": {
+                    "title": "Build Wonder Stage",
+                    "naval": "<strong>Naval:</strong> Check Dockyard \"Start\" space. Pay cost for THAT color ship."
+                },
+                "discard": {
+                    "title": "Discard",
+                    "text": "Gain <strong>3 Coins</strong> <span className=\"text-stone-400 mx-2\">|</span> Move <strong>Yellow Ship</strong> (Free)"
+                }
+            },
+            "endOfAge": {
+                "title": "End of Age Resolution",
+                "order": "Resolve in this strict order:",
+                "groundWar": {
+                    "title": "1. Ground War",
+                    "text": "Compare Red Shields against Neighbors."
+                },
+                "navalWar": {
+                    "title": "2. Naval War",
+                    "text": "Compare Blue Strength vs ALL."
+                }
+            },
+            "scoring": {
+                "title": "Scoring",
+                "military": {
+                    "title": "Military Conflicts",
+                    "text": "Ground Victory (+) and Defeat (-)"
+                },
+                "naval": {
+                    "title": "Naval Conflicts",
+                    "text": "Naval Victory (+) and Defeat (-)"
+                },
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "1 VP per 3 coins"
+                },
+                "wonder": {
+                    "title": "Wonder",
+                    "text": "Track points + Completed stages"
+                },
+                "civil": {
+                    "title": "Civil Structures",
+                    "text": "Sum of Blue cards"
+                },
+                "scientific": {
+                    "title": "Scientific",
+                    "text": "Sets (Identicals², Different x7)"
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "Yellow card values"
+                },
+                "guilds": {
+                    "title": "Guilds",
+                    "text": "Purple cards (Max 10 VP/card)"
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "White card values + Bonuses"
+                },
+                "islands": {
+                    "title": "Islands",
+                    "text": "Island card values"
+                },
+                "dockyard": {
+                    "title": "Dockyard",
+                    "text": "Blue fleet track VP"
+                }
+            },
+            "variants": {
+                "title": "2-Player Expert Variant",
+                "freeCity": {
+                    "title": "The Free City",
+                    "leaders": "<strong>Leaders:</strong> Drafted by players. Free City gets NONE.",
+                    "naval": "<strong>Naval:</strong> Free City participates.",
+                    "play": "<strong>Play:</strong> Humans play for Free City."
+                }
+            }
+        },
+        "cities_edifice": {
+            "hero": {
+                "badge": "Shadows & Monuments",
+                "title": "Build legacies, navigate intrigue.",
+                "subtitle": "The dark diplomacy of <strong>Cities</strong> meets the collaborative grandeur of <strong>Edifice</strong>."
+            },
+            "setup": {
+                "title": "Setup",
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "Start with <strong>6 Coins</strong> (Cities overrides Base)."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Shuffle Black cards into Age decks (1 per player). <strong>Deal 8 cards/hand.</strong>"
+                },
+                "edifice": {
+                    "title": "Edifice",
+                    "text": "Place 1 Project/Age. Add Participation Pawns (fewer than players)."
+                },
+                "tokens": {
+                    "title": "Tokens",
+                    "text": "Prepare Debt Tokens (-1, -2, -3, -5) and Diplomacy Doves."
+                }
+            },
+            "gameFlow": {
+                "title": "Gameplay",
+                "turnsTitle": "The 8 Turns",
+                "cardsDealt": "8 Cards Dealt",
+                "step1": {
+                    "title": "Choose Card",
+                    "text": "Hand size is <strong>8 cards</strong>. Pick one."
+                },
+                "step2": {
+                    "title": "Pass Hand",
+                    "text": "Age I & III: Left. Age II: Right."
+                },
+                "step3": {
+                    "title": "Action",
+                    "text": "Reveal and play."
+                }
+            },
+            "actions": {
+                "title": "Actions & Interaction",
+                "construct": {
+                    "title": "Construct Structure",
+                    "text": "Pay cost. Note unique structures."
+                },
+                "buildWonder": {
+                    "title": "Build Wonder Stage + Edifice",
+                    "participation": {
+                        "title": "Participation Option",
+                        "text": "Pay Participation Cost listed on Edifice card to take a Pawn."
+                    }
+                },
+                "discard": {
+                    "title": "Discard",
+                    "text": "Gain <strong>3 Coins</strong>."
+                }
+            },
+            "mechanics": {
+                "title": "Expansion Mechanics",
+                "debtsDiplomacy": {
+                    "title": "Debts & Diplomacy",
+                    "text": "<strong>Debt:</strong> -1 VP per unpaid coin.<br /><strong>Diplomacy (Dove):</strong> Withdraw from next Ground Conflict. (Neighbors fight each other)."
+                },
+                "edificeResults": {
+                    "title": "Edifice Results",
+                    "text": "<strong>Built:</strong> Rewards for pawns.<br /><strong>Failed:</strong> Penalty if NO pawn (Debt if can't pay)."
+                }
+            },
+            "endOfAge": {
+                "title": "End of Age Resolution",
+                "order": "Resolve in this strict order:",
+                "edificeCheck": {
+                    "title": "1. Edifice Check",
+                    "text": "<strong>Completed:</strong> Gain Reward.<br /><strong>Failed:</strong> Pay Penalty or take Debt."
+                },
+                "groundWar": {
+                    "title": "2. Ground War",
+                    "text": "Diplomacy Check? Compare Shields."
+                }
+            },
+            "scoring": {
+                "title": "Scoring",
+                "military": {
+                    "title": "Military Conflicts",
+                    "text": "Ground Victory (+) and Defeat (-)"
+                },
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "1 VP per 3 coins"
+                },
+                "wonder": {
+                    "title": "Wonder",
+                    "text": "Track points + Completed stages"
+                },
+                "civil": {
+                    "title": "Civil Structures",
+                    "text": "Sum of Blue cards"
+                },
+                "scientific": {
+                    "title": "Scientific",
+                    "text": "Sets (Identicals², Different x7)"
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "Yellow card values"
+                },
+                "guilds": {
+                    "title": "Guilds",
+                    "text": "Purple cards"
+                },
+                "cities": {
+                    "title": "Cities Cards",
+                    "text": "Black card values"
+                },
+                "edifice": {
+                    "title": "Edifice Rewards",
+                    "text": "VP from completed projects"
+                },
+                "debt": {
+                    "title": "Debts",
+                    "text": "Subtract total Debt value"
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "White card values + Bonuses"
+                }
+            },
+            "variants": {
+                "title": "2-Player Expert Variant",
+                "freeCity": {
+                    "title": "The Free City",
+                    "draw": "<strong>Draw:</strong> Add to hand, then play for self + Free City.",
+                    "edifice": "<strong>Edifice:</strong> Free City CAN participate (controller pays).",
+                    "play": "<strong>Play:</strong> Must Chain. Can Buy Resources."
+                }
+            }
+        },
+        "leaders_edifice": {
+            "hero": {
+                "badge": "Rulers & Monuments",
+                "title": "Lead nations, build legacies.",
+                "subtitle": "The strategic depth of <strong>Leaders</strong> meets the communal grandeur of <strong>Edifice</strong>."
+            },
+            "setup": {
+                "title": "Setup",
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "Start with <strong>6 Coins</strong> (Leaders overrides Base)."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "Deal <strong>4 Leader cards</strong>. Shuffle Guilds into Age III."
+                },
+                "edifice": {
+                    "title": "Edifice",
+                    "text": "Place 1 Project/Age. Add Participation Pawns (fewer than players)."
+                },
+                "tokens": {
+                    "title": "Tokens",
+                    "text": "Prepare Debt Tokens (-2, -3, -5) for failed Edifices."
+                }
+            },
+            "phases": {
+                "draft": {
+                    "title": "Phase 1: Leader Draft",
+                    "subtitle": "Draft Your Court",
+                    "text": "Before Age I, draft 4 Leaders. (Pick 1, Pass Right).",
+                    "pick1": "Pick 1",
+                    "passRt": "Pass Rt",
+                    "keep4": "Keep 4"
+                },
+                "gameplay": {
+                    "title": "Phase 2: Gameplay",
+                    "recruitment": {
+                        "title": "Start of Age: Recruitment",
+                        "text": "Play 1 Leader before dealing Age cards.",
+                        "recruit": {
+                            "title": "Recruit",
+                            "text": "Pay cost. Effect Active."
+                        },
+                        "wonder": {
+                            "title": "Wonder",
+                            "text": "Build Wonder Stage."
+                        },
+                        "sell": {
+                            "title": "Sell",
+                            "text": "Gain 3 Coins."
+                        }
+                    },
+                    "turnsTitle": "The 6 Turns",
+                    "cardsDealt": "7 Cards Dealt",
+                    "step1": {
+                        "title": "Choose Card",
+                        "text": "Hand size is <strong>7 cards</strong>. Pick one."
+                    },
+                    "step2": {
+                        "title": "Pass Hand",
+                        "text": "Age I & III: Left. Age II: Right."
+                    },
+                    "step3": {
+                        "title": "Action",
+                        "text": "Reveal and play."
+                    },
+                    "note": "*On the 6th turn, play one card and discard the 7th facedown."
+                }
+            },
+            "actions": {
+                "title": "Actions & Interaction",
+                "construct": {
+                    "title": "Construct Structure",
+                    "text": "Pay cost (Resources/Coins). Trade with neighbors."
+                },
+                "buildWonder": {
+                    "title": "Build Wonder Stage + Edifice",
+                    "participation": {
+                        "title": "Participation Option",
+                        "text": "Pay Participation Cost listed on Edifice card to take a Pawn."
+                    }
+                },
+                "discard": {
+                    "title": "Discard",
+                    "text": "Gain <strong>3 Coins</strong>."
+                }
+            },
+            "endOfAge": {
+                "title": "End of Age Resolution",
+                "order": "Resolve in this strict order:",
+                "edificeCheck": {
+                    "title": "1. Edifice Check",
+                    "text": "<strong>Completed:</strong> Gain Reward.<br /><strong>Failed:</strong> Pay Penalty or take Debt."
+                },
+                "groundWar": {
+                    "title": "2. Ground War",
+                    "text": "Compare Red Shields against Neighbors."
+                }
+            },
+            "scoring": {
+                "title": "Scoring",
+                "military": {
+                    "title": "Military Conflicts",
+                    "text": "Ground Victory (+) and Defeat (-)"
+                },
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "1 VP per 3 coins"
+                },
+                "wonder": {
+                    "title": "Wonder",
+                    "text": "Track points + Completed stages"
+                },
+                "civil": {
+                    "title": "Civil Structures",
+                    "text": "Sum of Blue cards"
+                },
+                "scientific": {
+                    "title": "Scientific",
+                    "text": "Sets (Identicals², Different x7)"
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "Yellow card values"
+                },
+                "guilds": {
+                    "title": "Guilds",
+                    "text": "Purple cards"
+                },
+                "edificeRewards": {
+                    "title": "Edifice Rewards",
+                    "text": "VP from completed projects"
+                },
+                "debt": {
+                    "title": "Debts",
+                    "text": "Subtract total Debt value"
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "White card values + Bonuses"
+                }
+            },
+            "variants": {
+                "title": "2-Player Expert Variant",
+                "freeCity": {
+                    "title": "The Free City",
+                    "leaders": "<strong>Leaders:</strong> Drafted by players. Free City gets NONE.",
+                    "edifice": "<strong>Edifice:</strong> Free City CAN participate (controller pays).",
+                    "play": "<strong>Play:</strong> Must Chain. Can Buy Resources."
+                }
+            }
+        },
+        "cities_leaders_edifice": {
+            "hero": {
+                "badge": "Masters of Intrigue",
+                "title": "Lead from the shadows, build for eternity.",
+                "subtitle": "The political maneuvering of <strong>Cities</strong> meets the strategic depth of <strong>Leaders</strong> and the collaborative projects of <strong>Edifice</strong>."
+            },
+            "setup": {
+                "title": "Combined Setup",
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "All players begin with <strong>6 Coins</strong>."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "Deal <strong>4 Leaders</strong> to each player. Draft them at the start of the game."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Shuffle <strong>Cities cards</strong> into each Age deck (player count = cards added)."
+                },
+                "edifice": {
+                    "title": "Edifice",
+                    "text": "Place 1 Edifice card per Age (I, II, III) on the board."
+                }
+            },
+            "phases": {
+                "draft": {
+                    "title": "Leader Phase",
+                    "subtitle": "Drafting Leaders",
+                    "text": "At the start of the game, before Age I.",
+                    "pick1": "Pick 1",
+                    "passRt": "Pass Rt",
+                    "keep4": "Keep 4"
+                },
+                "gameplay": {
+                    "title": "The Ages",
+                    "recruitment": {
+                        "title": "Recruitment Phase",
+                        "text": "At the start of each Age (before dealing Age cards), recruit one Leader:",
+                        "recruit": {
+                            "title": "Recruit",
+                            "text": "Pay cost to play a Leader."
+                        },
+                        "wonder": {
+                            "title": "Build Wonder",
+                            "text": "Use Leader to build a Wonder stage."
+                        },
+                        "sell": {
+                            "title": "Sell",
+                            "text": "Discard Leader for 3 coins."
+                        }
+                    },
+                    "turnsTitle": "Turns / Age",
+                    "cardsDealt": "8 Cards Dealt",
+                    "step1": {
+                        "title": "1. Play a Card",
+                        "text": "Build Structure, Build Wonder Stage, or Discard for Coins."
+                    },
+                    "step2": {
+                        "title": "2. Edifice Check",
+                        "text": "If you build a Wonder stage/Edifice, consider Edifice participation."
+                    },
+                    "step3": {
+                        "title": "3. Pass Hands",
+                        "text": "Pass remaining cards to the next player."
+                    }
+                }
+            },
+            "actions": {
+                "title": "Actions & Interactions",
+                "construct": {
+                    "title": "Construct City/Structure",
+                    "text": "Pay costs (coins/resources) to build cards."
+                },
+                "buildWonder": {
+                    "title": "Build Wonder / Edifice",
+                    "participation": {
+                        "title": "Participation",
+                        "text": "When building a Wonder stage, pay the Edifice cost to gain a participation pawn."
+                    }
+                },
+                "discard": {
+                    "title": "Discard for Coins",
+                    "text": "Discard a card to gain <strong>3 Coins</strong> (plus bonuses)."
+                }
+            },
+            "mechanics": {
+                "title": "Expansion Mechanics",
+                "debtsDiplomacy": {
+                    "title": "Debts & Diplomacy",
+                    "text": "<strong>Debt:</strong> Lose coins or take debt tokens (-VP).<br/><strong>Diplomacy:</strong> Avoid military conflicts this Age."
+                },
+                "edificeResults": {
+                    "title": "Edifice Results",
+                    "text": "<strong>Complete:</strong> All participants gain rewards.<br/><strong>Incomplete:</strong> All non-participants pay a penalty."
+                }
+            },
+            "endOfAge": {
+                "title": "End of Age Sequence",
+                "order": "Resolve in this order:",
+                "edificeCheck": {
+                    "title": "1. Edifice Check",
+                    "text": "Check if the Edifice is completed (pawns filled).<br/>Distribute rewards or penalties."
+                },
+                "groundWar": {
+                    "title": "2. Military Conflict",
+                    "text": "Compare shields with neighbors. Apply Diplomacy tokens."
+                }
+            },
+            "scoring": {
+                "title": "End Game Scoring",
+                "military": {
+                    "title": "Military",
+                    "text": "Sum of Victory tokens minus Defeat tokens."
+                },
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "1 VP for every 3 coins."
+                },
+                "wonder": {
+                    "title": "Wonder",
+                    "text": "Points from completed Wonder stages."
+                },
+                "civil": {
+                    "title": "Civilian",
+                    "text": "Points from Blue cards."
+                },
+                "scientific": {
+                    "title": "Scientific",
+                    "text": "Sets of identical symbols and sets of 3 different symbols."
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "Points from Yellow cards."
+                },
+                "guilds": {
+                    "title": "Guilds",
+                    "text": "Points from Purple cards."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Points from Black cards."
+                },
+                "edificeRewards": {
+                    "title": "Edifice",
+                    "text": "Points from completed Edifice tokens."
+                },
+                "debt": {
+                    "title": "Debts",
+                    "text": "Subtract points for each Debt token."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "Points from White Leader cards."
+                }
+            },
+            "variants": {
+                "title": "Variants",
+                "freeCity": {
+                    "title": "Free City (Team Play)",
+                    "leaders": "Leaders are drafted normally.",
+                    "edifice": "Edifice participation is individual.",
+                    "draw": "Draw 2 cards, keep 1, play implies team rules.",
+                    "play": "Teammates can show cards and discuss strategy."
+                }
+            }
+        },
+        "cities_leaders": {
+            "hero": {
+                "badge": "Shadow Rulers",
+                "title": "Tactical genius, ruthless diplomacy.",
+                "subtitle": "The <strong>Cities</strong> expansion adds mercenary and diplomatic depth, while <strong>Leaders</strong> enables long-term strategic planning."
+            },
+            "setup": {
+                "title": "Expanded Setup",
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "Start with <strong>6 Coins</strong>."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "Deal <strong>4 Leaders</strong> to each player. Draft phase occurs before Age I."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Shuffle <strong>Cities cards</strong> into each Age deck (1 per player)."
+                }
+            },
+            "phases": {
+                "draft": {
+                    "title": "Leader Phase",
+                    "subtitle": "Drafting",
+                    "text": "Draft 4 Leaders at the start.",
+                    "pick1": "Pick 1",
+                    "passRt": "Pass Rt",
+                    "keep4": "Keep 4"
+                },
+                "gameplay": {
+                    "title": "The Ages",
+                    "recruitment": {
+                        "title": "Recruitment (Start of Age)",
+                        "text": "Before each Age, recruit a Leader.",
+                        "recruit": {
+                            "title": "Recruit",
+                            "text": "Pay cost to play Leader."
+                        },
+                        "wonder": {
+                            "title": "Wonder",
+                            "text": "Build Wonder stage with Leader."
+                        },
+                        "sell": {
+                            "title": "Sell",
+                            "text": "Discard Leader for 3 coins."
+                        }
+                    },
+                    "turnsTitle": "Turns / Age",
+                    "cardsDealt": "8 Cards Dealt",
+                    "step1": {
+                        "title": "1. Play a Card",
+                        "text": "Build, Wonder, or Discard."
+                    },
+                    "step2": {
+                        "title": "2. Resolve Effects",
+                        "text": "Resolve debts, diplomacy, or other immediate effects."
+                    },
+                    "step3": {
+                        "title": "3. Pass Hand",
+                        "text": "Pass remaining cards."
+                    }
+                }
+            },
+            "actions": {
+                "title": "Actions",
+                "construct": {
+                    "title": "Construct",
+                    "text": "Pay costs. Cities cards often cost coins."
+                },
+                "buildWonder": {
+                    "title": "Build Wonder",
+                    "text": "Use a card to build a Wonder stage."
+                },
+                "discard": {
+                    "title": "Discard",
+                    "text": "Discard for <strong>3 Coins</strong>."
+                }
+            },
+            "mechanics": {
+                "title": "New Mechanics",
+                "debtsDiplomacy": {
+                    "title": "Debts & Diplomacy",
+                    "text": "City cards can cause opponents to lose coins (or take Debt). Diplomacy tokens prevent participation in the next war."
+                }
+            },
+            "endOfAge": {
+                "title": "End of Age",
+                "groundWar": {
+                    "title": "Military Conflict",
+                    "text": "Standard military resolution. Diplomacy tokens are discarded after avoiding one conflict."
+                }
+            },
+            "scoring": {
+                "title": "Scoring",
+                "military": {
+                    "title": "Military",
+                    "text": "VP from red cards/tokens."
+                },
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "1 VP / 3 coins."
+                },
+                "wonder": {
+                    "title": "Wonder",
+                    "text": "Wonder VP."
+                },
+                "civil": {
+                    "title": "Civilian",
+                    "text": "Blue card VP."
+                },
+                "scientific": {
+                    "title": "Scientific",
+                    "text": "Green card VP."
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "Yellow card VP."
+                },
+                "guilds": {
+                    "title": "Guilds",
+                    "text": "Purple card VP."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Black card VP."
+                },
+                "debt": {
+                    "title": "Debt",
+                    "text": "Minus VP for unpaid debts."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "White card VP."
+                }
+            },
+            "variants": {
+                "title": "Variants",
+                "freeCity": {
+                    "title": "Free Cities (Team)",
+                    "leaders": "Draft Leaders normally.",
+                    "play": "Teams share debt burden."
+                }
+            }
+        },
+        "zenith": {
+            "hero": {
+                "badge": "Ultimate Challenge",
+                "title": "Zenith: The Ultimate Setup",
+                "subtitle": "Experience all expansions combined: <strong>Leaders</strong>, <strong>Cities</strong>, <strong>Armada</strong>, and <strong>Edifice</strong>."
+            },
+            "setup": {
+                "title": "Ultimate Setup",
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "Each player starts with <strong>6 Coins</strong>."
+                },
+                "boards": {
+                    "title": "Dockyards",
+                    "text": "Each player receives a Naval board (Dockyard) and 4 ships."
+                },
+                "edifice": {
+                    "title": "Edifices",
+                    "text": "Place 1 Edifice card per Age. Distribute participation pawns."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Shuffle Cities cards into each Age deck (1 per player)."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "Shuffle Leaders and deal 4 to each player. Draft them at the start."
+                },
+                "islands": {
+                    "title": "Islands",
+                    "text": "Place the 3 Island decks near the board."
+                }
+            },
+            "phases": {
+                "draft": {
+                    "title": "Draft Phase",
+                    "subtitle": "Leader Selection",
+                    "text": "Before Age I, draft 4 Leaders.",
+                    "pick1": "Pick 1",
+                    "passRt": "Pass Rt",
+                    "keep4": "Keep 4"
+                },
+                "gameplay": {
+                    "title": "Gameplay Highlights",
+                    "recruitment": {
+                        "title": "Recruitment",
+                        "text": "Start of each Age: Play 1 Leader.",
+                        "recruit": {
+                            "title": "Recruit",
+                            "text": "Pay cost to play."
+                        },
+                        "wonder": {
+                            "title": "Wonder",
+                            "text": "Build stage with Leader."
+                        },
+                        "sell": {
+                            "title": "Sell",
+                            "text": "Discard for 3 coins."
+                        }
+                    },
+                    "turnsTitle": "Turns / Age",
+                    "cardsDealt": "9 cards dealt / player",
+                    "step1": {
+                        "title": "1. Pick Card",
+                        "text": "Choose 1 card from 9. Resolution is simultaneous."
+                    },
+                    "step2": {
+                        "title": "2. Action",
+                        "text": "Build, Wonder, or Discard. If building, you may take a Naval action."
+                    },
+                    "step3": {
+                        "title": "3. Pass",
+                        "text": "Pass the remaining cards (8 cards played per Age)."
+                    }
+                }
+            },
+            "actions": {
+                "title": "Actions",
+                "construct": {
+                    "title": "Construct Structure",
+                    "navalOpportunity": {
+                        "title": "Naval Construction",
+                        "text": "If card matches Dockyard color, pay cost to move matching ship."
+                    }
+                },
+                "buildWonder": {
+                    "title": "Build Wonder Stage",
+                    "participation": {
+                        "title": "Edifice Participation",
+                        "text": "When building a Wonder stage, you may pay to participate in the current Edifice."
+                    },
+                    "naval": {
+                        "title": "Naval Construction",
+                        "text": "Advance the ship corresponding to the color of the built stage."
+                    }
+                },
+                "discard": {
+                    "title": "Discard",
+                    "text": "Gain <strong>3 Coins</strong> and move your <strong>Yellow Ship</strong> 1 space (free)."
+                }
+            },
+            "mechanics": {
+                "title": "Key Mechanics",
+                "debtsDiplomacy": {
+                    "title": "Debts & Diplomacy",
+                    "text": "<strong>Cities:</strong> Manage monetary losses and skip conflicts with Diplomacy tokens."
+                },
+                "edificeResults": {
+                    "title": "Edifice Projects",
+                    "text": "<strong>Edifice:</strong> Collaborate to finish projects. Failure leads to penalties for non-participants."
+                },
+                "armadaFleets": {
+                    "title": "Naval Exploration",
+                    "text": "<strong>Armada:</strong> Advance your 4 ships to gain strength, gold, and explore islands."
+                }
+            },
+            "endOfAge": {
+                "title": "End of Age Resolution",
+                "order": "Strict resolution order: Edifice -> Ground War -> Naval War.",
+                "edificeCheck": {
+                    "title": "1. Edifice",
+                    "text": "Check project completion. Distribute rewards or penalties."
+                },
+                "groundWar": {
+                    "title": "2. Ground War",
+                    "text": "Compare Red shields with neighbors (unless Diplomacy is active)."
+                },
+                "navalWar": {
+                    "title": "3. Naval War",
+                    "text": "Compare Blue strength against all players."
+                }
+            },
+            "scoring": {
+                "title": "Final Scoring",
+                "military": {
+                    "title": "Military",
+                    "text": "Ground conflict points."
+                },
+                "naval": {
+                    "title": "Naval",
+                    "text": "Naval conflict points."
+                },
+                "treasury": {
+                    "title": "Treasury",
+                    "text": "1 VP per 3 coins."
+                },
+                "wonder": {
+                    "title": "Wonder",
+                    "text": "Points from Wonder stages."
+                },
+                "civil": {
+                    "title": "Civilian",
+                    "text": "Points from Blue cards."
+                },
+                "scientific": {
+                    "title": "Scientific",
+                    "text": "Score sets and identical symbols."
+                },
+                "commercial": {
+                    "title": "Commercial",
+                    "text": "Points from Yellow cards."
+                },
+                "guilds": {
+                    "title": "Guilds",
+                    "text": "Points from Purple cards."
+                },
+                "leaders": {
+                    "title": "Leaders",
+                    "text": "Points from Leader cards."
+                },
+                "cities": {
+                    "title": "Cities",
+                    "text": "Points from Black cards."
+                },
+                "edificeRewards": {
+                    "title": "Edifices",
+                    "text": "Points from project chips."
+                },
+                "islands": {
+                    "title": "Islands",
+                    "text": "Points from exploration cards."
+                },
+                "dockyard": {
+                    "title": "Dockyard",
+                    "text": "Points from ship positions."
+                },
+                "debt": {
+                    "title": "Debts",
+                    "text": "Subtract Debt penalty points."
+                }
+            }
+        },
+        "fallback": {
+            "title": "Select Expansions",
+            "text": "Select the expansions you are playing with above to see the specific rules and interactions for that combination."
+        }
+    }
+}
